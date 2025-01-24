@@ -1,0 +1,5 @@
+/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool/picotool
+/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool/picotoolTargets.cmake
+/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool/picotoolTargets-release.cmake
+/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool/picotoolConfig.cmake
+/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool/picotoolConfigVersion.cmake
