@@ -1,6 +1,6 @@
 lib/Config/CMakeFiles/Config.dir/DEV_Config.c.obj: \
- /home/oscar/pico/Touch-LCD-1.69-no/lib/Config/DEV_Config.c \
- /home/oscar/pico/Touch-LCD-1.69-no/lib/Config/DEV_Config.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Config/DEV_Config.c \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Config/DEV_Config.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -24,9 +24,9 @@ lib/Config/CMakeFiles/Config.dir/DEV_Config.c.obj: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/generated/pico_base/pico/version.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/generated/pico_base/pico/version.h \
  /home/oscar/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/generated/pico_base/pico/config_autogen.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/generated/pico_base/pico/config_autogen.h \
  /home/oscar/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/oscar/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

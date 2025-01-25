@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

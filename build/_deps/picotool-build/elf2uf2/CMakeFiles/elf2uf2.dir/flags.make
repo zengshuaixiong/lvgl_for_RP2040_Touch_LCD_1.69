@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf2uf2 -I/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf -I/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/errors -isystem /home/oscar/pico/pico-sdk/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf2uf2 -I/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf -I/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/errors -isystem /home/oscar/pico/pico-sdk/src/common/boot_uf2_headers/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/elf2uf2//CMakeFiles/progress.marks
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/elf2uf2//CMakeFiles/progress.marks
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/clean
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 elf2uf2/CMakeFiles/elf2uf2.dir/rule:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/CMakeFiles/elf2uf2.dir/rule
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 elf2uf2/CMakeFiles/elf2uf2.dir/rule
 .PHONY : elf2uf2/CMakeFiles/elf2uf2.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ elf2uf2: elf2uf2/CMakeFiles/elf2uf2.dir/rule
 
 # fast build rule for target.
 elf2uf2/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/build
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/build
 .PHONY : elf2uf2/fast
 
 elf2uf2.o: elf2uf2.cpp.o
@@ -180,7 +180,7 @@ elf2uf2.o: elf2uf2.cpp.o
 
 # target to build an object file
 elf2uf2.cpp.o:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
 .PHONY : elf2uf2.cpp.o
 
 elf2uf2.i: elf2uf2.cpp.i
@@ -188,7 +188,7 @@ elf2uf2.i: elf2uf2.cpp.i
 
 # target to preprocess a source file
 elf2uf2.cpp.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.i
 .PHONY : elf2uf2.cpp.i
 
 elf2uf2.s: elf2uf2.cpp.s
@@ -196,7 +196,7 @@ elf2uf2.s: elf2uf2.cpp.s
 
 # target to generate assembly for a file
 elf2uf2.cpp.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f elf2uf2/CMakeFiles/elf2uf2.dir/build.make elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.s
 .PHONY : elf2uf2.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 # Utility rule file for apidoc.
 
@@ -75,10 +75,10 @@ lib/mbedtls/CMakeFiles/apidoc.dir/build: apidoc
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/build
 
 lib/mbedtls/CMakeFiles/apidoc.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls && $(CMAKE_COMMAND) -P CMakeFiles/apidoc.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/clean
 
 lib/mbedtls/CMakeFiles/apidoc.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/CMakeFiles/apidoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/CMakeFiles/apidoc.dir/depend
 

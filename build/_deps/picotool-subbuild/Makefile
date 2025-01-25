@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

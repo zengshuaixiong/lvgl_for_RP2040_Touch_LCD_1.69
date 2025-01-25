@@ -1,8 +1,8 @@
-# Install script for directory: /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/picoboot_connection
+# Install script for directory: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/picoboot_connection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

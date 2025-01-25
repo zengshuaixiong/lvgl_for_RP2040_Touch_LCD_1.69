@@ -1,6 +1,7 @@
-CMakeFiles/main.dir/main.c.obj: /home/oscar/pico/Touch-LCD-1.69-no/main.c \
- /home/oscar/pico/Touch-LCD-1.69-no/./examples/LCD_Test.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lib/Config/DEV_Config.h \
+CMakeFiles/main.dir/main.c.obj: \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/main.c \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./examples/LCD_Test.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lib/Config/DEV_Config.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -24,9 +25,9 @@ CMakeFiles/main.dir/main.c.obj: /home/oscar/pico/Touch-LCD-1.69-no/main.c \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/generated/pico_base/pico/version.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/generated/pico_base/pico/version.h \
  /home/oscar/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/generated/pico_base/pico/config_autogen.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/generated/pico_base/pico/config_autogen.h \
  /home/oscar/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/oscar/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -78,9 +79,9 @@ CMakeFiles/main.dir/main.c.obj: /home/oscar/pico/Touch-LCD-1.69-no/main.c \
  /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/oscar/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/oscar/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lib/GUI/GUI_Paint.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lib/GUI/../Fonts/fonts.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./examples/ImageData.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lib/Config/Debug.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lib/GUI/GUI_Paint.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lib/GUI/../Fonts/fonts.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./examples/ImageData.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lib/Config/Debug.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h

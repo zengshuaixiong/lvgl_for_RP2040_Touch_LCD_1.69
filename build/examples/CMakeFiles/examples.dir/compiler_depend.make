@@ -340,6 +340,7 @@ examples/CMakeFiles/examples.dir/LCD_1in69_test.c.obj: ../examples/LCD_1in69_tes
   ../lvgl/src/lvgl.h \
   ../lib/porting/lv_port_disp.h \
   ../lvgl/lvgl.h \
+  ../lib/porting/lv_port_indev.h \
   ../lib/out/gui_guider.h \
   ../lib/out/events_init.h \
   ../lib/out/gui_guider.h
@@ -2689,6 +2690,8 @@ examples/CMakeFiles/examples.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_st
 
 /usr/include/newlib/machine/_time.h:
 
+/usr/include/newlib/sys/time.h:
+
 /usr/include/newlib/sys/_intsup.h:
 
 ../lvgl/src/draw/sw/lv_draw_sw_gradient.h:
@@ -3075,6 +3078,8 @@ generated/pico_base/pico/version.h:
 
 ../lvgl/src/misc/lv_style_gen.h:
 
+../lib/porting/lv_port_indev.h:
+
 /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
 /home/oscar/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
@@ -3274,5 +3279,3 @@ generated/pico_base/pico/version.h:
 /home/oscar/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 
 /usr/include/newlib/machine/time.h:
-
-/usr/include/newlib/sys/time.h:

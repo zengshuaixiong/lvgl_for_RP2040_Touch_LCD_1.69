@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles /home/oscar/pico/Touch-LCD-1.69-no/build/lib/Fonts//CMakeFiles/progress.marks
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts//CMakeFiles/progress.marks
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/clean
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Fonts/CMakeFiles/Fonts.dir/rule:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/CMakeFiles/Fonts.dir/rule
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/CMakeFiles/Fonts.dir/rule
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ Fonts: lib/Fonts/CMakeFiles/Fonts.dir/rule
 
 # fast build rule for target.
 Fonts/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/build
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/build
 .PHONY : Fonts/fast
 
 font12.obj: font12.c.obj
@@ -180,7 +180,7 @@ font12.obj: font12.c.obj
 
 # target to build an object file
 font12.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj
 .PHONY : font12.c.obj
 
 font12.i: font12.c.i
@@ -188,7 +188,7 @@ font12.i: font12.c.i
 
 # target to preprocess a source file
 font12.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.i
 .PHONY : font12.c.i
 
 font12.s: font12.c.s
@@ -196,7 +196,7 @@ font12.s: font12.c.s
 
 # target to generate assembly for a file
 font12.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.s
 .PHONY : font12.c.s
 
 font12CN.obj: font12CN.c.obj
@@ -204,7 +204,7 @@ font12CN.obj: font12CN.c.obj
 
 # target to build an object file
 font12CN.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj
 .PHONY : font12CN.c.obj
 
 font12CN.i: font12CN.c.i
@@ -212,7 +212,7 @@ font12CN.i: font12CN.c.i
 
 # target to preprocess a source file
 font12CN.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.i
 .PHONY : font12CN.c.i
 
 font12CN.s: font12CN.c.s
@@ -220,7 +220,7 @@ font12CN.s: font12CN.c.s
 
 # target to generate assembly for a file
 font12CN.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.s
 .PHONY : font12CN.c.s
 
 font16.obj: font16.c.obj
@@ -228,7 +228,7 @@ font16.obj: font16.c.obj
 
 # target to build an object file
 font16.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj
 .PHONY : font16.c.obj
 
 font16.i: font16.c.i
@@ -236,7 +236,7 @@ font16.i: font16.c.i
 
 # target to preprocess a source file
 font16.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.i
 .PHONY : font16.c.i
 
 font16.s: font16.c.s
@@ -244,7 +244,7 @@ font16.s: font16.c.s
 
 # target to generate assembly for a file
 font16.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.s
 .PHONY : font16.c.s
 
 font20.obj: font20.c.obj
@@ -252,7 +252,7 @@ font20.obj: font20.c.obj
 
 # target to build an object file
 font20.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj
 .PHONY : font20.c.obj
 
 font20.i: font20.c.i
@@ -260,7 +260,7 @@ font20.i: font20.c.i
 
 # target to preprocess a source file
 font20.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.i
 .PHONY : font20.c.i
 
 font20.s: font20.c.s
@@ -268,7 +268,7 @@ font20.s: font20.c.s
 
 # target to generate assembly for a file
 font20.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.s
 .PHONY : font20.c.s
 
 font24.obj: font24.c.obj
@@ -276,7 +276,7 @@ font24.obj: font24.c.obj
 
 # target to build an object file
 font24.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj
 .PHONY : font24.c.obj
 
 font24.i: font24.c.i
@@ -284,7 +284,7 @@ font24.i: font24.c.i
 
 # target to preprocess a source file
 font24.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.i
 .PHONY : font24.c.i
 
 font24.s: font24.c.s
@@ -292,7 +292,7 @@ font24.s: font24.c.s
 
 # target to generate assembly for a file
 font24.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.s
 .PHONY : font24.c.s
 
 font24CN.obj: font24CN.c.obj
@@ -300,7 +300,7 @@ font24CN.obj: font24CN.c.obj
 
 # target to build an object file
 font24CN.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj
 .PHONY : font24CN.c.obj
 
 font24CN.i: font24CN.c.i
@@ -308,7 +308,7 @@ font24CN.i: font24CN.c.i
 
 # target to preprocess a source file
 font24CN.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.i
 .PHONY : font24CN.c.i
 
 font24CN.s: font24CN.c.s
@@ -316,7 +316,7 @@ font24CN.s: font24CN.c.s
 
 # target to generate assembly for a file
 font24CN.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.s
 .PHONY : font24CN.c.s
 
 font8.obj: font8.c.obj
@@ -324,7 +324,7 @@ font8.obj: font8.c.obj
 
 # target to build an object file
 font8.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj
 .PHONY : font8.c.obj
 
 font8.i: font8.c.i
@@ -332,7 +332,7 @@ font8.i: font8.c.i
 
 # target to preprocess a source file
 font8.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.i
 .PHONY : font8.c.i
 
 font8.s: font8.c.s
@@ -340,7 +340,7 @@ font8.s: font8.c.s
 
 # target to generate assembly for a file
 font8.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.s
 .PHONY : font8.c.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

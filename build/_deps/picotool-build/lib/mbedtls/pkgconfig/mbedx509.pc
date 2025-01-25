@@ -1,4 +1,4 @@
-prefix=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps
+prefix=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

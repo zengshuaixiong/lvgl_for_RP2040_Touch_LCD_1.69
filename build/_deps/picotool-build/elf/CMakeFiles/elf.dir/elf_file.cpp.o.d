@@ -1,5 +1,5 @@
 elf/CMakeFiles/elf.dir/elf_file.cpp.o: \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf_file.cpp \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf_file.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -185,8 +185,8 @@ elf/CMakeFiles/elf.dir/elf_file.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf_file.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/addresses.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/errors/errors.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/portable_endian.h
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf_file.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/addresses.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/errors/errors.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/portable_endian.h

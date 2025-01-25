@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 # Include any dependencies generated for this target.
 include bintool/CMakeFiles/bintool.dir/depend.make
@@ -67,30 +67,30 @@ include bintool/CMakeFiles/bintool.dir/compiler_depend.make
 include bintool/CMakeFiles/bintool.dir/flags.make
 
 bintool/CMakeFiles/bintool.dir/bintool.cpp.o: bintool/CMakeFiles/bintool.dir/flags.make
-bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.cpp
+bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.cpp
 bintool/CMakeFiles/bintool.dir/bintool.cpp.o: bintool/CMakeFiles/bintool.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bintool/CMakeFiles/bintool.dir/bintool.cpp.o -MF CMakeFiles/bintool.dir/bintool.cpp.o.d -o CMakeFiles/bintool.dir/bintool.cpp.o -c /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.cpp
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT bintool/CMakeFiles/bintool.dir/bintool.cpp.o -MF CMakeFiles/bintool.dir/bintool.cpp.o.d -o CMakeFiles/bintool.dir/bintool.cpp.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.cpp
 
 bintool/CMakeFiles/bintool.dir/bintool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bintool.dir/bintool.cpp.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.cpp > CMakeFiles/bintool.dir/bintool.cpp.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.cpp > CMakeFiles/bintool.dir/bintool.cpp.i
 
 bintool/CMakeFiles/bintool.dir/bintool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bintool.dir/bintool.cpp.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.cpp -o CMakeFiles/bintool.dir/bintool.cpp.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.cpp -o CMakeFiles/bintool.dir/bintool.cpp.s
 
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: bintool/CMakeFiles/bintool.dir/flags.make
-bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.c
+bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.c
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: bintool/CMakeFiles/bintool.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o -MF CMakeFiles/bintool.dir/mbedtls_wrapper.c.o.d -o CMakeFiles/bintool.dir/mbedtls_wrapper.c.o -c /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o -MF CMakeFiles/bintool.dir/mbedtls_wrapper.c.o.d -o CMakeFiles/bintool.dir/mbedtls_wrapper.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.c
 
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bintool.dir/mbedtls_wrapper.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.c > CMakeFiles/bintool.dir/mbedtls_wrapper.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.c > CMakeFiles/bintool.dir/mbedtls_wrapper.c.i
 
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bintool.dir/mbedtls_wrapper.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.c -o CMakeFiles/bintool.dir/mbedtls_wrapper.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.c -o CMakeFiles/bintool.dir/mbedtls_wrapper.c.s
 
 # Object files for target bintool
 bintool_OBJECTS = \
@@ -104,18 +104,18 @@ bintool/libbintool.a: bintool/CMakeFiles/bintool.dir/bintool.cpp.o
 bintool/libbintool.a: bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o
 bintool/libbintool.a: bintool/CMakeFiles/bintool.dir/build.make
 bintool/libbintool.a: bintool/CMakeFiles/bintool.dir/link.txt
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -P CMakeFiles/bintool.dir/cmake_clean_target.cmake
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bintool.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -P CMakeFiles/bintool.dir/cmake_clean_target.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bintool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bintool/CMakeFiles/bintool.dir/build: bintool/libbintool.a
 .PHONY : bintool/CMakeFiles/bintool.dir/build
 
 bintool/CMakeFiles/bintool.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -P CMakeFiles/bintool.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool && $(CMAKE_COMMAND) -P CMakeFiles/bintool.dir/cmake_clean.cmake
 .PHONY : bintool/CMakeFiles/bintool.dir/clean
 
 bintool/CMakeFiles/bintool.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool/CMakeFiles/bintool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool/CMakeFiles/bintool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bintool/CMakeFiles/bintool.dir/depend
 

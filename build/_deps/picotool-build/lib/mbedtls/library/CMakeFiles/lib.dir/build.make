@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 # Utility rule file for lib.
 
@@ -76,10 +76,10 @@ lib/mbedtls/library/CMakeFiles/lib.dir/build: lib
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/build
 
 lib/mbedtls/library/CMakeFiles/lib.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/clean
 
 lib/mbedtls/library/CMakeFiles/lib.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls/library /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls/library /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/library/CMakeFiles/lib.dir/depend
 

@@ -1,14 +1,14 @@
 # Target labels
  picotoolBuild
 # Source files and their labels
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
-/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

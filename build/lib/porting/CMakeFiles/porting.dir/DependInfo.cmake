@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -187,16 +187,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "/home/oscar/pico/Touch-LCD-1.69-no/lib/porting/lv_port_disp.c" "lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/porting/lv_port_disp.c" "lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/porting/lv_port_indev.c" "lib/porting/CMakeFiles/porting.dir/lv_port_indev.c.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/lv_port_indev.c.obj.d"
   "/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" "gcc" "lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/Config/CMakeFiles/Config.dir/DependInfo.cmake"
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/GUI/CMakeFiles/GUI.dir/DependInfo.cmake"
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/lib/LCD/CMakeFiles/LCD.dir/DependInfo.cmake"
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Config/CMakeFiles/Config.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/GUI/CMakeFiles/GUI.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/LCD/CMakeFiles/LCD.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

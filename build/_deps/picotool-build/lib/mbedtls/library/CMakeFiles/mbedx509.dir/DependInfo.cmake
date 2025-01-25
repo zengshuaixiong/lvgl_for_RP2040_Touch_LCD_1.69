@@ -21,7 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

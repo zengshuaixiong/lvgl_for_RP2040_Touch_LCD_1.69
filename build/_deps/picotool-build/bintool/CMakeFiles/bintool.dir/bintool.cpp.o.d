@@ -1,5 +1,5 @@
 bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.cpp \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -198,15 +198,15 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf_file.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/11/cstdarg /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/addresses.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/addresses.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/11/stdlib.h /usr/include/assert.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
@@ -232,9 +232,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/metadata.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/metadata.h \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/cassert \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/errors/errors.h
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/errors/errors.h

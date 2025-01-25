@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build
 
 # Include any dependencies generated for this target.
 include lib/out/CMakeFiles/out.dir/depend.make
@@ -72,217 +72,217 @@ include lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/custom.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/custom.c.obj: ../lib/out/custom.c
 lib/out/CMakeFiles/out.dir/custom.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/out/CMakeFiles/out.dir/custom.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/custom.c.obj -MF CMakeFiles/out.dir/custom.c.obj.d -o CMakeFiles/out.dir/custom.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/custom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/out/CMakeFiles/out.dir/custom.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/custom.c.obj -MF CMakeFiles/out.dir/custom.c.obj.d -o CMakeFiles/out.dir/custom.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/custom.c
 
 lib/out/CMakeFiles/out.dir/custom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/custom.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/custom.c > CMakeFiles/out.dir/custom.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/custom.c > CMakeFiles/out.dir/custom.c.i
 
 lib/out/CMakeFiles/out.dir/custom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/custom.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/custom.c -o CMakeFiles/out.dir/custom.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/custom.c -o CMakeFiles/out.dir/custom.c.s
 
 lib/out/CMakeFiles/out.dir/gui_guider.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/gui_guider.c.obj: ../lib/out/gui_guider.c
 lib/out/CMakeFiles/out.dir/gui_guider.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/out/CMakeFiles/out.dir/gui_guider.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/gui_guider.c.obj -MF CMakeFiles/out.dir/gui_guider.c.obj.d -o CMakeFiles/out.dir/gui_guider.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/gui_guider.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/out/CMakeFiles/out.dir/gui_guider.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/gui_guider.c.obj -MF CMakeFiles/out.dir/gui_guider.c.obj.d -o CMakeFiles/out.dir/gui_guider.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/gui_guider.c
 
 lib/out/CMakeFiles/out.dir/gui_guider.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/gui_guider.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/gui_guider.c > CMakeFiles/out.dir/gui_guider.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/gui_guider.c > CMakeFiles/out.dir/gui_guider.c.i
 
 lib/out/CMakeFiles/out.dir/gui_guider.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/gui_guider.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/gui_guider.c -o CMakeFiles/out.dir/gui_guider.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/gui_guider.c -o CMakeFiles/out.dir/gui_guider.c.s
 
 lib/out/CMakeFiles/out.dir/events_init.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/events_init.c.obj: ../lib/out/events_init.c
 lib/out/CMakeFiles/out.dir/events_init.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/out/CMakeFiles/out.dir/events_init.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/events_init.c.obj -MF CMakeFiles/out.dir/events_init.c.obj.d -o CMakeFiles/out.dir/events_init.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/events_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/out/CMakeFiles/out.dir/events_init.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/events_init.c.obj -MF CMakeFiles/out.dir/events_init.c.obj.d -o CMakeFiles/out.dir/events_init.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/events_init.c
 
 lib/out/CMakeFiles/out.dir/events_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/events_init.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/events_init.c > CMakeFiles/out.dir/events_init.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/events_init.c > CMakeFiles/out.dir/events_init.c.i
 
 lib/out/CMakeFiles/out.dir/events_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/events_init.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/events_init.c -o CMakeFiles/out.dir/events_init.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/events_init.c -o CMakeFiles/out.dir/events_init.c.s
 
 lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj: ../lib/out/setup_scr_screen.c
 lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj -MF CMakeFiles/out.dir/setup_scr_screen.c.obj.d -o CMakeFiles/out.dir/setup_scr_screen.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/setup_scr_screen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/setup_scr_screen.c.obj -MF CMakeFiles/out.dir/setup_scr_screen.c.obj.d -o CMakeFiles/out.dir/setup_scr_screen.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/setup_scr_screen.c
 
 lib/out/CMakeFiles/out.dir/setup_scr_screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/setup_scr_screen.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/setup_scr_screen.c > CMakeFiles/out.dir/setup_scr_screen.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/setup_scr_screen.c > CMakeFiles/out.dir/setup_scr_screen.c.i
 
 lib/out/CMakeFiles/out.dir/setup_scr_screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/setup_scr_screen.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/setup_scr_screen.c -o CMakeFiles/out.dir/setup_scr_screen.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/setup_scr_screen.c -o CMakeFiles/out.dir/setup_scr_screen.c.s
 
 lib/out/CMakeFiles/out.dir/widgets_init.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/widgets_init.c.obj: ../lib/out/widgets_init.c
 lib/out/CMakeFiles/out.dir/widgets_init.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/out/CMakeFiles/out.dir/widgets_init.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/widgets_init.c.obj -MF CMakeFiles/out.dir/widgets_init.c.obj.d -o CMakeFiles/out.dir/widgets_init.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/widgets_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/out/CMakeFiles/out.dir/widgets_init.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/widgets_init.c.obj -MF CMakeFiles/out.dir/widgets_init.c.obj.d -o CMakeFiles/out.dir/widgets_init.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/widgets_init.c
 
 lib/out/CMakeFiles/out.dir/widgets_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/widgets_init.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/widgets_init.c > CMakeFiles/out.dir/widgets_init.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/widgets_init.c > CMakeFiles/out.dir/widgets_init.c.i
 
 lib/out/CMakeFiles/out.dir/widgets_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/widgets_init.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/widgets_init.c -o CMakeFiles/out.dir/widgets_init.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/widgets_init.c -o CMakeFiles/out.dir/widgets_init.c.s
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj: ../lib/out/lv_font_montserratMedium_16.c
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj -MF CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj.d -o CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj -MF CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj.d -o CMakeFiles/out.dir/lv_font_montserratMedium_16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_16.c
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/lv_font_montserratMedium_16.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_16.c > CMakeFiles/out.dir/lv_font_montserratMedium_16.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_16.c > CMakeFiles/out.dir/lv_font_montserratMedium_16.c.i
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/lv_font_montserratMedium_16.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_16.c -o CMakeFiles/out.dir/lv_font_montserratMedium_16.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_16.c -o CMakeFiles/out.dir/lv_font_montserratMedium_16.c.s
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj: ../lib/out/lv_font_montserratMedium_32.c
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj -MF CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj.d -o CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj -c /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj -MF CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj.d -o CMakeFiles/out.dir/lv_font_montserratMedium_32.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_32.c
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/lv_font_montserratMedium_32.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_32.c > CMakeFiles/out.dir/lv_font_montserratMedium_32.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_32.c > CMakeFiles/out.dir/lv_font_montserratMedium_32.c.i
 
 lib/out/CMakeFiles/out.dir/lv_font_montserratMedium_32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/lv_font_montserratMedium_32.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/Touch-LCD-1.69-no/lib/out/lv_font_montserratMedium_32.c -o CMakeFiles/out.dir/lv_font_montserratMedium_32.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out/lv_font_montserratMedium_32.c -o CMakeFiles/out.dir/lv_font_montserratMedium_32.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj -c /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -295,245 +295,245 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_time/time.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_time/time.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
@@ -546,63 +546,63 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divi
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
@@ -615,49 +615,49 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
@@ -669,8 +669,8 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
@@ -683,35 +683,35 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/d
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
@@ -723,8 +723,8 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/d
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -736,8 +736,8 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_op
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
@@ -750,35 +750,35 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/fl
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
@@ -791,21 +791,21 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/fl
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -818,63 +818,63 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building ASM object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
@@ -887,100 +887,100 @@ lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: lib/out/CMakeFiles/out.dir/flags.make
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: lib/out/CMakeFiles/out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target out
 out_OBJECTS = \
@@ -1123,19 +1123,19 @@ lib/out/libout.a: lib/out/CMakeFiles/out.dir/home/oscar/pico/pico-sdk/src/rp2_co
 lib/out/libout.a: lib/out/CMakeFiles/out.dir/build.make
 lib/out/libout.a: /home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 lib/out/libout.a: lib/out/CMakeFiles/out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX static library libout.a"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && $(CMAKE_COMMAND) -P CMakeFiles/out.dir/cmake_clean_target.cmake
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking CXX static library libout.a"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && $(CMAKE_COMMAND) -P CMakeFiles/out.dir/cmake_clean_target.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/out/CMakeFiles/out.dir/build: lib/out/libout.a
 .PHONY : lib/out/CMakeFiles/out.dir/build
 
 lib/out/CMakeFiles/out.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out && $(CMAKE_COMMAND) -P CMakeFiles/out.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out && $(CMAKE_COMMAND) -P CMakeFiles/out.dir/cmake_clean.cmake
 .PHONY : lib/out/CMakeFiles/out.dir/clean
 
 lib/out/CMakeFiles/out.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no /home/oscar/pico/Touch-LCD-1.69-no/lib/out /home/oscar/pico/Touch-LCD-1.69-no/build /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out /home/oscar/pico/Touch-LCD-1.69-no/build/lib/out/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69 /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/out /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out/CMakeFiles/out.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/out/CMakeFiles/out.dir/depend
 

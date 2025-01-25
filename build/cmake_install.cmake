@@ -1,4 +1,4 @@
-# Install script for directory: /home/oscar/pico/Touch-LCD-1.69-no
+# Install script for directory: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/Config/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/LCD/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/Fonts/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/GUI/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/examples/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lvgl/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/lib/out/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Config/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/LCD/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/GUI/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/examples/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/out/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oscar/pico/Touch-LCD-1.69-no/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

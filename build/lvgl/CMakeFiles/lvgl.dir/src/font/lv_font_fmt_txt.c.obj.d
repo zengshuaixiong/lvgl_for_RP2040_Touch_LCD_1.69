@@ -1,20 +1,20 @@
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj: \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/lv_font_fmt_txt.c \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/lv_font.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_fmt_txt.c \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../lv_conf_internal.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../lv_conf_kconfig.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lv_conf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../lv_conf_kconfig.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lv_conf.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/lv_symbol_def.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_area.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../lv_conf_internal.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/lv_font_fmt_txt.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_assert.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_log.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_types.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_mem.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_symbol_def.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_area.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_fmt_txt.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_assert.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_log.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_types.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_mem.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -25,28 +25,28 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj: \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_types.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_gc.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_ll.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_timer.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../hal/lv_hal_tick.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../hal/../lv_conf_internal.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/lv_img_cache.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/lv_img_decoder.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../lv_conf_internal.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/lv_img_buf.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_color.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/../lv_conf_internal.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_assert.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_math.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_types.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_area.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_fs.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_types.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/lv_draw_mask.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../draw/../misc/lv_math.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../core/lv_obj_pos.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/../core/../misc/lv_area.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_log.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_utils.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/font/../misc/lv_mem.h
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_types.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_gc.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_ll.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_timer.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../hal/lv_hal_tick.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../hal/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/lv_img_cache.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/lv_img_decoder.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/lv_img_buf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_color.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_assert.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_math.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_types.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_area.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_fs.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_types.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/lv_draw_mask.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../draw/../misc/lv_math.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../core/lv_obj_pos.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/../core/../misc/lv_area.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_log.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_utils.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/../misc/lv_mem.h

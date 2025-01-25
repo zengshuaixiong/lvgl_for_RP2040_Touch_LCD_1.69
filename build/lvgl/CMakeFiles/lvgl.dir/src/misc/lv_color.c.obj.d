@@ -1,14 +1,14 @@
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj: \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_color.c \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_color.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/../lv_conf_internal.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_color.c \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_color.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/../lv_conf_internal.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/../lv_conf_kconfig.h \
- /home/oscar/pico/Touch-LCD-1.69-no/./lv_conf.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_assert.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_log.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_types.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_mem.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/../lv_conf_kconfig.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/./lv_conf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_assert.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_log.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_types.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_mem.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -20,4 +20,4 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj: \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h \
- /home/oscar/pico/Touch-LCD-1.69-no/lvgl/src/misc/lv_math.h
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_math.h

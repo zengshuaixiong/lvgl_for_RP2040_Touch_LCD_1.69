@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
   )
 
 # Targets to which this target links.

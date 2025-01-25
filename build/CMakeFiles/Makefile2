@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -1899,14 +1899,14 @@ CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 CMakeFiles/main.dir/all: lib/out/CMakeFiles/out.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -1925,14 +1925,14 @@ CMakeFiles/main.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=21 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=21 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # Convenience name for target.
@@ -1951,14 +1951,14 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num= "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 
 # Convenience name for target.
@@ -1977,14 +1977,14 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num= "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num= "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
 
 # Convenience name for target.
@@ -2003,14 +2003,14 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.di
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=93 "Built target pioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=93 "Built target pioasmBuild"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/rule
 
 # Convenience name for target.
@@ -2029,14 +2029,14 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/clean:
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num= "Built target cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num= "Built target cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/rule
 
 # Convenience name for target.
@@ -2055,14 +2055,14 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 lib/Config/CMakeFiles/Config.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Config"
 .PHONY : lib/Config/CMakeFiles/Config.dir/all
 
 # Build rule for subdir invocation for target.
 lib/Config/CMakeFiles/Config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Config/CMakeFiles/Config.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/Config/CMakeFiles/Config.dir/rule
 
 # Convenience name for target.
@@ -2083,14 +2083,14 @@ lib/LCD/CMakeFiles/LCD.dir/all: lib/Config/CMakeFiles/Config.dir/all
 lib/LCD/CMakeFiles/LCD.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target LCD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target LCD"
 .PHONY : lib/LCD/CMakeFiles/LCD.dir/all
 
 # Build rule for subdir invocation for target.
 lib/LCD/CMakeFiles/LCD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/LCD/CMakeFiles/LCD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/LCD/CMakeFiles/LCD.dir/rule
 
 # Convenience name for target.
@@ -2109,14 +2109,14 @@ lib/LCD/CMakeFiles/LCD.dir/clean:
 lib/Fonts/CMakeFiles/Fonts.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=7 "Built target Fonts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=7 "Built target Fonts"
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/all
 
 # Build rule for subdir invocation for target.
 lib/Fonts/CMakeFiles/Fonts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/Fonts/CMakeFiles/Fonts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/Fonts/CMakeFiles/Fonts.dir/rule
 
 # Convenience name for target.
@@ -2136,14 +2136,14 @@ lib/GUI/CMakeFiles/GUI.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_d
 lib/GUI/CMakeFiles/GUI.dir/all: lib/Config/CMakeFiles/Config.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/GUI/CMakeFiles/GUI.dir/build.make lib/GUI/CMakeFiles/GUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/GUI/CMakeFiles/GUI.dir/build.make lib/GUI/CMakeFiles/GUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target GUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target GUI"
 .PHONY : lib/GUI/CMakeFiles/GUI.dir/all
 
 # Build rule for subdir invocation for target.
 lib/GUI/CMakeFiles/GUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/GUI/CMakeFiles/GUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/GUI/CMakeFiles/GUI.dir/rule
 
 # Convenience name for target.
@@ -2166,14 +2166,14 @@ lib/porting/CMakeFiles/porting.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
 lib/porting/CMakeFiles/porting.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target porting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target porting"
 .PHONY : lib/porting/CMakeFiles/porting.dir/all
 
 # Build rule for subdir invocation for target.
 lib/porting/CMakeFiles/porting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/CMakeFiles/porting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/porting/CMakeFiles/porting.dir/rule
 
 # Convenience name for target.
@@ -2197,14 +2197,14 @@ examples/CMakeFiles/examples.dir/all: lib/porting/CMakeFiles/porting.dir/all
 examples/CMakeFiles/examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/examples.dir/build.make examples/CMakeFiles/examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target examples"
 .PHONY : examples/CMakeFiles/examples.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/examples.dir/rule
 
 # Convenience name for target.
@@ -2223,14 +2223,14 @@ examples/CMakeFiles/examples.dir/clean:
 lvgl/CMakeFiles/lvgl.dir/all:
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target lvgl"
 .PHONY : lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl.dir/rule
 
 # Convenience name for target.
@@ -2249,14 +2249,14 @@ lvgl/CMakeFiles/lvgl.dir/clean:
 lvgl/CMakeFiles/lvgl_examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target lvgl_examples"
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/rule
 
 # Convenience name for target.
@@ -2275,14 +2275,14 @@ lvgl/CMakeFiles/lvgl_examples.dir/clean:
 lvgl/CMakeFiles/lvgl_demos.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=50,51,52,53,54,55,56 "Built target lvgl_demos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=50,51,52,53,54,55,56 "Built target lvgl_demos"
 .PHONY : lvgl/CMakeFiles/lvgl_demos.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_demos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_demos.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_demos.dir/rule
 
 # Convenience name for target.
@@ -2302,14 +2302,14 @@ lib/out/CMakeFiles/out.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_d
 lib/out/CMakeFiles/out.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/out/CMakeFiles/out.dir/build.make lib/out/CMakeFiles/out.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/out/CMakeFiles/out.dir/build.make lib/out/CMakeFiles/out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles --progress-num=86,87,88,89,90,91,92 "Built target out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=86,87,88,89,90,91,92 "Built target out"
 .PHONY : lib/out/CMakeFiles/out.dir/all
 
 # Build rule for subdir invocation for target.
 lib/out/CMakeFiles/out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/out/CMakeFiles/out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/out/CMakeFiles/out.dir/rule
 
 # Convenience name for target.

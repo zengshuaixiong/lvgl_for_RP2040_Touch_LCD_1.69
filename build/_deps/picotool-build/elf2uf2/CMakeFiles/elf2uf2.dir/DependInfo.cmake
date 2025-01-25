@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp" "elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o" "gcc" "elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp" "elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o" "gcc" "elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/elf/CMakeFiles/elf.dir/DependInfo.cmake"
-  "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/errors/CMakeFiles/errors.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/elf/CMakeFiles/elf.dir/DependInfo.cmake"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/errors/CMakeFiles/errors.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

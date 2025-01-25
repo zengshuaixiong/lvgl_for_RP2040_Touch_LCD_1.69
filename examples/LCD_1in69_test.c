@@ -35,6 +35,7 @@
 #include "hardware/adc.h"
 #include "lvgl/lvgl.h"
 #include "lv_port_disp.h"
+#include "lv_port_indev.h"
 #include "lib/out/gui_guider.h"
 #include "lib/out/events_init.h"
 
@@ -44,15 +45,30 @@ Touch_1IN69_XY XY;
 UBYTE flag = 0;
 UWORD *BlackImage;
 
+/* 按钮事件处理函数 */
+static void btn_event_cb(lv_event_t * e) {
+   lv_event_code_t code = lv_event_get_code(e);
+    lv_obj_t * btn = lv_event_get_target(e);
+    if(code == LV_EVENT_CLICKED) {
+        static uint8_t cnt = 0;
+        cnt++;
+
+        /*Get the first child of the button which is the label and change its text*/
+        lv_obj_t * label = lv_obj_get_child(btn, 0);
+        lv_label_set_text_fmt(label, "Button: %d", cnt);
+    }
+}
+
 void lv_example_get_started_1(void)
 {
     lv_obj_t * btn = lv_btn_create(lv_scr_act());     /*Add a button the current screen*/
-    lv_obj_set_pos(btn, 120-60, 10);                            /*Set its position*/
+    lv_obj_set_pos(btn, 100, 10);                            /*Set its position*/
     lv_obj_set_size(btn, 120, 50);                          /*Set its size*/
-    //lv_obj_add_event_cb(btn, btn_event_cb, LV_EVENT_ALL, NULL);           /*Assign a callback to the button*/
+    lv_obj_add_event_cb(btn, btn_event_cb, LV_EVENT_ALL, NULL);           /*Assign a callback to the button*/
     lv_obj_t * label = lv_label_create(btn);          /*Add a label to the button*/
-    lv_label_set_text(label, "Button");                     /*Set the labels text*/
+    lv_label_set_text(label, "temp");                     /*Set the labels text*/
     lv_obj_center(label); 
+    
 }
 
 int LCD_1in69_test(void)
@@ -75,32 +91,34 @@ int LCD_1in69_test(void)
         printf("Failed to apply for black memory...\r\n");
         exit(0);
     }
-    
     /*1.Create a new image cache named IMAGE_RGB and fill it with white*/
-    Paint_NewImage((UBYTE *)BlackImage, LCD_1IN69_WIDTH, LCD_1IN69_HEIGHT, 90, WHITE);
-    Paint_SetScale(65);
-    Paint_Clear(WHITE);
-    DEV_Delay_ms(1000);
-    
+    //Paint_NewImage((UBYTE *)BlackImage, LCD_1IN69_WIDTH, LCD_1IN69_HEIGHT, 90, WHITE);
+    //Paint_SetScale(65);
+    //Paint_Clear(WHITE);
     
     
     lv_init();
     lv_port_disp_init();
+    lv_port_indev_init();
+    
+
+    //Touch_HandWriting();
     lv_example_get_started_1();
     //lv_task_handler();
     //DEV_Delay_ms(10000);
     
     //setup_ui(&guider_ui); //using the NXP GUI_guider's ui
     //events_init(&guider_ui); //using the NXP GUI_guider's ui
-   
+    
     
     
    while (true)
     {
+    	
         DEV_Delay_ms(30);   /*Sleep for 5 millisecond*/
         lv_task_handler();
         lv_tick_inc(30);      /*Tell LVGL that 5 milliseconds were elapsed*/
-        //lv_example_get_started_1();
+       	
     }
     
     
@@ -139,7 +157,7 @@ int LCD_1in69_test(void)
     DEV_Delay_ms(1000);
 #endif
 
-#if 0
+#if 1
     Touch_Gesture();
     Touch_HandWriting();
 #endif

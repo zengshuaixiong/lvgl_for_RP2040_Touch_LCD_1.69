@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/main.cpp.o: \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/main.cpp \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/cli.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/cli.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -183,7 +183,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/limits \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/clipp/clipp.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/clipp/clipp.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -250,12 +250,12 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/oscar/pico/pico-sdk/src/host/pico_platform/include/pico/platform.h \
  /home/oscar/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
  /home/oscar/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
  /home/oscar/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/addresses.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/bintool.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/addresses.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/bintool.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/11/stdlib.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
@@ -280,15 +280,15 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
  /home/oscar/pico/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf_file.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/addresses.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bintool/metadata.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/addresses.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bintool/metadata.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
  /home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
  /home/oscar/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/oscar/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
@@ -296,9 +296,9 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/oscar/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
  /home/oscar/pico/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/elf/elf.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/otp.h \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/elf/elf.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/otp.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/forward_list \
  /usr/include/c++/11/bits/forward_list.h \
  /usr/include/c++/11/bits/forward_list.tcc \
@@ -325,7 +325,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h /usr/include/c++/11/version \
- /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/errors/errors.h \
+ /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/errors/errors.h \
  /home/oscar/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \

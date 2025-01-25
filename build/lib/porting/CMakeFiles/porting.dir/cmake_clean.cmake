@@ -106,6 +106,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/porting.dir/lv_port_disp.c.obj"
   "CMakeFiles/porting.dir/lv_port_disp.c.obj.d"
+  "CMakeFiles/porting.dir/lv_port_indev.c.obj"
+  "CMakeFiles/porting.dir/lv_port_indev.c.obj.d"
   "libporting.a"
   "libporting.pdb"
 )

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/
 include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/oscar/pico/Touch-LCD-1.69-no/CMakeLists.txt
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/cmake -E touch_nocreate /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/CMakeLists.txt
 
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -78,10 +78,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build: p
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolForceReconfigure.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no /home/oscar/pico/pico-sdk/src/rp2040/boot_stage2 /home/oscar/pico/Touch-LCD-1.69-no/build /home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2 /home/oscar/pico/Touch-LCD-1.69-no/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69 /home/oscar/pico/pico-sdk/src/rp2040/boot_stage2 /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2 /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
 

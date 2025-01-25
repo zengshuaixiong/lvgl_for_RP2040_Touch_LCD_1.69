@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 # Utility rule file for binary_data.
 
@@ -67,10 +67,10 @@ CMakeFiles/binary_data: rp2350.rom.h
 CMakeFiles/binary_data: xip_ram_perms_elf.h
 
 rp2350.rom.h:
-	/usr/bin/cmake -D BINARY_FILE=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/bootrom.end.bin -D OUTPUT_NAME=rp2350.rom -P /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/cmake/binh.cmake
+	/usr/bin/cmake -D BINARY_FILE=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/bootrom.end.bin -D OUTPUT_NAME=rp2350.rom -P /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/cmake/binh.cmake
 
-xip_ram_perms_elf.h: /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/xip_ram_perms
-	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src/cmake/binh.cmake
+xip_ram_perms_elf.h: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/xip_ram_perms
+	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src/cmake/binh.cmake
 
 binary_data: CMakeFiles/binary_data
 binary_data: rp2350.rom.h
@@ -87,6 +87,6 @@ CMakeFiles/binary_data.dir/clean:
 .PHONY : CMakeFiles/binary_data.dir/clean
 
 CMakeFiles/binary_data.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles/binary_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles/binary_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/binary_data.dir/depend
 

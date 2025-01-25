@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild
 
 # Utility rule file for picotool-populate.
 
@@ -77,63 +77,63 @@ CMakeFiles/picotool-populate-complete: picotool-populate-prefix/src/picotool-pop
 CMakeFiles/picotool-populate-complete: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build
 CMakeFiles/picotool-populate-complete: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install
 CMakeFiles/picotool-populate-complete: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotool-populate'"
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate-complete
-	/usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotool-populate'"
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate-complete
+	/usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-done
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update:
 .PHONY : picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure: picotool-populate-prefix/tmp/picotool-populate-cfgcmd.txt
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-configure
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps && /usr/bin/cmake -P /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps && /usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps && /usr/bin/cmake -P /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps && /usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotool-populate'"
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src
-	/usr/bin/cmake -E make_directory /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp
-	/usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotool-populate'"
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src
+	/usr/bin/cmake -E make_directory /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp
+	/usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-mkdir
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotool-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotool-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch
+	/usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-patch
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update:
 .PHONY : picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E echo_append
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && /usr/bin/cmake -E touch /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-test
 
 picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-update: picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'picotool-populate'"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src && /usr/bin/cmake -P /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'picotool-populate'"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src && /usr/bin/cmake -P /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/picotool-populate-prefix/tmp/picotool-populate-gitupdate.cmake
 
 picotool-populate: CMakeFiles/picotool-populate
 picotool-populate: CMakeFiles/picotool-populate-complete
@@ -157,6 +157,6 @@ CMakeFiles/picotool-populate.dir/clean:
 .PHONY : CMakeFiles/picotool-populate.dir/clean
 
 CMakeFiles/picotool-populate.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/picotool-populate.dir/depend
 

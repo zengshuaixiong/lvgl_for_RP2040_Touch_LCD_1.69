@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles /home/oscar/pico/Touch-LCD-1.69-no/build/lib/porting//CMakeFiles/progress.marks
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/Touch-LCD-1.69-no/build/CMakeFiles 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/porting//CMakeFiles/progress.marks
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/clean
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/preinstall
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/porting/CMakeFiles/porting.dir/rule:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/CMakeFiles/porting.dir/rule
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/porting/CMakeFiles/porting.dir/rule
 .PHONY : lib/porting/CMakeFiles/porting.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ porting: lib/porting/CMakeFiles/porting.dir/rule
 
 # fast build rule for target.
 porting/fast:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/build
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/build
 .PHONY : porting/fast
 
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
@@ -180,7 +180,7 @@ home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
 
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.i: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -188,7 +188,7 @@ home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.s: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -196,7 +196,7 @@ home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -204,7 +204,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/oscar/p
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -212,7 +212,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/oscar/pic
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -220,7 +220,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/oscar/pic
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -228,7 +228,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/oscar/pico/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -236,7 +236,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/oscar/pico/pico-
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -244,7 +244,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/oscar/pico/pico-
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -252,7 +252,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/oscar/pico/pico-sd
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.i: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -260,7 +260,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.i: home/oscar/pico/pico-sdk/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.s: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -268,7 +268,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.s: home/oscar/pico/pico-sdk/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -276,7 +276,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/sem.obj: home/oscar/pico/pico-sdk/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.i: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -284,7 +284,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/sem.i: home/oscar/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.s: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -292,7 +292,7 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/sem.s: home/oscar/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_time/time.obj: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -300,7 +300,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/time.obj: home/oscar/pico/pico-sdk
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_time/time.i: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -308,7 +308,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/time.i: home/oscar/pico/pico-sdk/s
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_time/time.s: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -316,7 +316,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/time.s: home/oscar/pico/pico-sdk/s
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -324,7 +324,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/oscar/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -332,7 +332,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/oscar/pico/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -340,7 +340,7 @@ home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/oscar/pico/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.obj: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -348,7 +348,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/datetime.obj: home/oscar/pico/pico
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.i: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -356,7 +356,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/datetime.i: home/oscar/pico/pico-s
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.s: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -364,7 +364,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/datetime.s: home/oscar/pico/pico-s
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.obj: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -372,7 +372,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/pheap.obj: home/oscar/pico/pico-sd
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.i: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -380,7 +380,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/pheap.i: home/oscar/pico/pico-sdk/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.s: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -388,7 +388,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/pheap.s: home/oscar/pico/pico-sdk/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.obj: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -396,7 +396,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/queue.obj: home/oscar/pico/pico-sd
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.i: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -404,7 +404,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/queue.i: home/oscar/pico/pico-sdk/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.s: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -412,7 +412,7 @@ home/oscar/pico/pico-sdk/src/common/pico_util/queue.s: home/oscar/pico/pico-sdk/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
@@ -420,7 +420,7 @@ home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
@@ -428,7 +428,7 @@ home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
@@ -436,7 +436,7 @@ home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -444,7 +444,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -452,7 +452,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -460,7 +460,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
@@ -468,7 +468,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/o
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -476,7 +476,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/osc
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -484,7 +484,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/osc
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -492,7 +492,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/oscar/p
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -500,7 +500,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/oscar/pic
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -508,7 +508,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/oscar/pic
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -516,7 +516,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/oscar
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -524,7 +524,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -532,7 +532,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -540,7 +540,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -548,7 +548,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -556,7 +556,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -564,7 +564,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -572,7 +572,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -580,7 +580,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -588,7 +588,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -596,7 +596,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -604,7 +604,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -612,7 +612,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -620,7 +620,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
@@ -628,7 +628,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
@@ -636,7 +636,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
@@ -644,7 +644,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -652,7 +652,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -660,7 +660,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -668,7 +668,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
@@ -676,7 +676,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -684,7 +684,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -692,7 +692,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
@@ -700,7 +700,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/oscar/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -708,7 +708,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/oscar/pico/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -716,7 +716,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/oscar/pico/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -724,7 +724,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/oscar/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -732,7 +732,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/oscar/pico/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -740,7 +740,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/oscar/pico/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -748,7 +748,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -756,7 +756,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -764,7 +764,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -772,7 +772,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -780,7 +780,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -788,7 +788,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -796,7 +796,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/osc
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -804,7 +804,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/oscar
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -812,7 +812,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/oscar
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -820,7 +820,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -828,7 +828,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -836,7 +836,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
@@ -844,7 +844,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -852,7 +852,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -860,7 +860,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -868,7 +868,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/osc
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -876,7 +876,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/oscar/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -884,7 +884,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/oscar/pico/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -892,7 +892,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/oscar/pico/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
@@ -900,7 +900,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/osca
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -908,7 +908,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/oscar/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -916,7 +916,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/oscar/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
@@ -924,7 +924,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -932,7 +932,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: 
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -940,7 +940,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: 
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
@@ -948,7 +948,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/oscar/pico/pico
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
@@ -956,7 +956,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/os
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -964,7 +964,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/osca
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -972,7 +972,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/osca
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
@@ -980,7 +980,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
@@ -988,7 +988,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: hom
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
@@ -996,7 +996,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: 
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1004,7 +1004,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: ho
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1012,7 +1012,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: ho
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1020,7 +1020,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/oscar/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1028,7 +1028,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/oscar/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1036,7 +1036,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/oscar/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
@@ -1044,7 +1044,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.ob
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
@@ -1052,7 +1052,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
@@ -1060,7 +1060,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: ho
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1068,7 +1068,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1076,7 +1076,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1084,7 +1084,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/oscar/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1092,7 +1092,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/oscar/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1100,7 +1100,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/oscar/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
@@ -1108,7 +1108,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj:
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1116,7 +1116,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj:
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
@@ -1124,7 +1124,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1132,7 +1132,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1140,7 +1140,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1148,7 +1148,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/osc
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
@@ -1156,7 +1156,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/osca
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1164,7 +1164,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/oscar/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1172,7 +1172,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/oscar/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1180,7 +1180,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1188,7 +1188,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1196,7 +1196,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1204,7 +1204,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/oscar/pic
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1212,7 +1212,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/oscar/pico/
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1220,7 +1220,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/oscar/pico/
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
@@ -1228,7 +1228,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1236,7 +1236,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/o
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1244,7 +1244,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/o
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
@@ -1252,7 +1252,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.ob
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1260,7 +1260,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i:
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1268,7 +1268,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s:
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
@@ -1276,7 +1276,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gua
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1284,7 +1284,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gua
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1292,7 +1292,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gua
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
@@ -1300,7 +1300,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binar
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1308,7 +1308,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binar
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1316,7 +1316,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binar
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1324,7 +1324,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/oscar/pico/pi
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1332,7 +1332,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/oscar/pico/pico
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1340,7 +1340,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/oscar/pico/pico
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1348,7 +1348,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/osc
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1356,7 +1356,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/oscar
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1364,7 +1364,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/oscar
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1372,7 +1372,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/oscar/pico/
 
 # target to build an object file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1380,7 +1380,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/oscar/pico/pi
 
 # target to preprocess a source file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1388,7 +1388,7 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/oscar/pico/pi
 
 # target to generate assembly for a file
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 lv_port_disp.obj: lv_port_disp.c.obj
@@ -1396,7 +1396,7 @@ lv_port_disp.obj: lv_port_disp.c.obj
 
 # target to build an object file
 lv_port_disp.c.obj:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.obj
 .PHONY : lv_port_disp.c.obj
 
 lv_port_disp.i: lv_port_disp.c.i
@@ -1404,7 +1404,7 @@ lv_port_disp.i: lv_port_disp.c.i
 
 # target to preprocess a source file
 lv_port_disp.c.i:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.i
 .PHONY : lv_port_disp.c.i
 
 lv_port_disp.s: lv_port_disp.c.s
@@ -1412,8 +1412,32 @@ lv_port_disp.s: lv_port_disp.c.s
 
 # target to generate assembly for a file
 lv_port_disp.c.s:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_disp.c.s
 .PHONY : lv_port_disp.c.s
+
+lv_port_indev.obj: lv_port_indev.c.obj
+.PHONY : lv_port_indev.obj
+
+# target to build an object file
+lv_port_indev.c.obj:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_indev.c.obj
+.PHONY : lv_port_indev.c.obj
+
+lv_port_indev.i: lv_port_indev.c.i
+.PHONY : lv_port_indev.i
+
+# target to preprocess a source file
+lv_port_indev.c.i:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_indev.c.i
+.PHONY : lv_port_indev.c.i
+
+lv_port_indev.s: lv_port_indev.c.s
+.PHONY : lv_port_indev.s
+
+# target to generate assembly for a file
+lv_port_indev.c.s:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/porting/CMakeFiles/porting.dir/build.make lib/porting/CMakeFiles/porting.dir/lv_port_indev.c.s
+.PHONY : lv_port_indev.c.s
 
 # Help Target
 help:
@@ -1583,6 +1607,9 @@ help:
 	@echo "... lv_port_disp.obj"
 	@echo "... lv_port_disp.i"
 	@echo "... lv_port_disp.s"
+	@echo "... lv_port_indev.obj"
+	@echo "... lv_port_indev.i"
+	@echo "... lv_port_indev.s"
 .PHONY : help
 
 
@@ -1594,6 +1621,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

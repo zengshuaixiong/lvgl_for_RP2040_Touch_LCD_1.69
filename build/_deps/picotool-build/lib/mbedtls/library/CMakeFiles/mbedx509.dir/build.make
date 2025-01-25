@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build
 
 # Include any dependencies generated for this target.
 include lib/mbedtls/library/CMakeFiles/mbedx509.dir/depend.make
@@ -69,119 +69,119 @@ include lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o -MF CMakeFiles/mbedx509.dir/certs.c.o.d -o CMakeFiles/mbedx509.dir/certs.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.o -MF CMakeFiles/mbedx509.dir/certs.c.o.d -o CMakeFiles/mbedx509.dir/certs.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/certs.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c > CMakeFiles/mbedx509.dir/certs.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c > CMakeFiles/mbedx509.dir/certs.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/certs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/certs.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c -o CMakeFiles/mbedx509.dir/certs.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/certs.c -o CMakeFiles/mbedx509.dir/certs.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o -MF CMakeFiles/mbedx509.dir/pkcs11.c.o.d -o CMakeFiles/mbedx509.dir/pkcs11.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.o -MF CMakeFiles/mbedx509.dir/pkcs11.c.o.d -o CMakeFiles/mbedx509.dir/pkcs11.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/pkcs11.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c > CMakeFiles/mbedx509.dir/pkcs11.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c > CMakeFiles/mbedx509.dir/pkcs11.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/pkcs11.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c -o CMakeFiles/mbedx509.dir/pkcs11.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/pkcs11.c -o CMakeFiles/mbedx509.dir/pkcs11.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.o -MF CMakeFiles/mbedx509.dir/x509.c.o.d -o CMakeFiles/mbedx509.dir/x509.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.o -MF CMakeFiles/mbedx509.dir/x509.c.o.d -o CMakeFiles/mbedx509.dir/x509.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c > CMakeFiles/mbedx509.dir/x509.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c > CMakeFiles/mbedx509.dir/x509.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c -o CMakeFiles/mbedx509.dir/x509.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509.c -o CMakeFiles/mbedx509.dir/x509.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.o -MF CMakeFiles/mbedx509.dir/x509_create.c.o.d -o CMakeFiles/mbedx509.dir/x509_create.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.o -MF CMakeFiles/mbedx509.dir/x509_create.c.o.d -o CMakeFiles/mbedx509.dir/x509_create.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509_create.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c > CMakeFiles/mbedx509.dir/x509_create.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c > CMakeFiles/mbedx509.dir/x509_create.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509_create.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c -o CMakeFiles/mbedx509.dir/x509_create.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_create.c -o CMakeFiles/mbedx509.dir/x509_create.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.o -MF CMakeFiles/mbedx509.dir/x509_crl.c.o.d -o CMakeFiles/mbedx509.dir/x509_crl.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.o -MF CMakeFiles/mbedx509.dir/x509_crl.c.o.d -o CMakeFiles/mbedx509.dir/x509_crl.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509_crl.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c > CMakeFiles/mbedx509.dir/x509_crl.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c > CMakeFiles/mbedx509.dir/x509_crl.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509_crl.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c -o CMakeFiles/mbedx509.dir/x509_crl.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crl.c -o CMakeFiles/mbedx509.dir/x509_crl.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.o -MF CMakeFiles/mbedx509.dir/x509_crt.c.o.d -o CMakeFiles/mbedx509.dir/x509_crt.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.o -MF CMakeFiles/mbedx509.dir/x509_crt.c.o.d -o CMakeFiles/mbedx509.dir/x509_crt.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509_crt.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c > CMakeFiles/mbedx509.dir/x509_crt.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c > CMakeFiles/mbedx509.dir/x509_crt.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509_crt.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c -o CMakeFiles/mbedx509.dir/x509_crt.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_crt.c -o CMakeFiles/mbedx509.dir/x509_crt.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.o -MF CMakeFiles/mbedx509.dir/x509_csr.c.o.d -o CMakeFiles/mbedx509.dir/x509_csr.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.o -MF CMakeFiles/mbedx509.dir/x509_csr.c.o.d -o CMakeFiles/mbedx509.dir/x509_csr.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509_csr.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c > CMakeFiles/mbedx509.dir/x509_csr.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c > CMakeFiles/mbedx509.dir/x509_csr.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509_csr.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c -o CMakeFiles/mbedx509.dir/x509_csr.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509_csr.c -o CMakeFiles/mbedx509.dir/x509_csr.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.o -MF CMakeFiles/mbedx509.dir/x509write_crt.c.o.d -o CMakeFiles/mbedx509.dir/x509write_crt.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.o -MF CMakeFiles/mbedx509.dir/x509write_crt.c.o.d -o CMakeFiles/mbedx509.dir/x509write_crt.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509write_crt.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c > CMakeFiles/mbedx509.dir/x509write_crt.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c > CMakeFiles/mbedx509.dir/x509write_crt.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509write_crt.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c -o CMakeFiles/mbedx509.dir/x509write_crt.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c -o CMakeFiles/mbedx509.dir/x509write_crt.c.s
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/flags.make
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o: /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o: lib/mbedtls/library/CMakeFiles/mbedx509.dir/compiler_depend.ts
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o -MF CMakeFiles/mbedx509.dir/x509write_csr.c.o.d -o CMakeFiles/mbedx509.dir/x509write_csr.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o -MF CMakeFiles/mbedx509.dir/x509write_csr.c.o.d -o CMakeFiles/mbedx509.dir/x509write_csr.c.o -c /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mbedx509.dir/x509write_csr.c.i"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c > CMakeFiles/mbedx509.dir/x509write_csr.c.i
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c > CMakeFiles/mbedx509.dir/x509write_csr.c.i
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mbedx509.dir/x509write_csr.c.s"
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c -o CMakeFiles/mbedx509.dir/x509write_csr.c.s
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c -o CMakeFiles/mbedx509.dir/x509write_csr.c.s
 
 # Object files for target mbedx509
 mbedx509_OBJECTS = \
@@ -209,18 +209,18 @@ lib/mbedtls/library/libmbedx509.a: lib/mbedtls/library/CMakeFiles/mbedx509.dir/x
 lib/mbedtls/library/libmbedx509.a: lib/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.o
 lib/mbedtls/library/libmbedx509.a: lib/mbedtls/library/CMakeFiles/mbedx509.dir/build.make
 lib/mbedtls/library/libmbedx509.a: lib/mbedtls/library/CMakeFiles/mbedx509.dir/link.txt
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedx509.dir/cmake_clean_target.cmake
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedx509.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedx509.dir/cmake_clean_target.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mbedx509.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/build: lib/mbedtls/library/libmbedx509.a
 .PHONY : lib/mbedtls/library/CMakeFiles/mbedx509.dir/build
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/clean:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedx509.dir/cmake_clean.cmake
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library && $(CMAKE_COMMAND) -P CMakeFiles/mbedx509.dir/cmake_clean.cmake
 .PHONY : lib/mbedtls/library/CMakeFiles/mbedx509.dir/clean
 
 lib/mbedtls/library/CMakeFiles/mbedx509.dir/depend:
-	cd /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls/library /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src /home/oscar/pico/pico-sdk/lib/mbedtls/library /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/mbedtls/library/CMakeFiles/mbedx509.dir/depend
 

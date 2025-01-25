@@ -1,8 +1,8 @@
-# Install script for directory: /home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-src
+# Install script for directory: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotool"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE EXECUTABLE MESSAGE_NEVER FILES "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/picotool")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE EXECUTABLE MESSAGE_NEVER FILES "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/picotool")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotool" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotool")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -62,7 +62,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets.cmake"
-         "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets.cmake")
+         "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -71,33 +71,33 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/CMakeFiles/Export/picotool/picotoolTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES
-    "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/picotoolConfig.cmake"
-    "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/picotoolConfigVersion.cmake"
+    "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/picotoolConfig.cmake"
+    "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/picotoolConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/errors/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/picoboot_connection/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/elf/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/elf2uf2/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/lib/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/bintool/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/pico_binary_info/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/boot_uf2_headers/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/boot_picoboot_headers/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/boot_picobin_headers/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/pico_usb_reset_interface_headers/cmake_install.cmake")
-  include("/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/pico_platform/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/errors/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/picoboot_connection/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/elf/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/elf2uf2/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/lib/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/bintool/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/pico_binary_info/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/boot_uf2_headers/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/boot_picoboot_headers/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/boot_picobin_headers/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/pico_usb_reset_interface_headers/cmake_install.cmake")
+  include("/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/pico_platform/cmake_install.cmake")
 
 endif()
 
@@ -109,5 +109,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oscar/pico/Touch-LCD-1.69-no/build/_deps/picotool-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/_deps/picotool-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

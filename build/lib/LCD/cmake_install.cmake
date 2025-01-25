@@ -1,4 +1,4 @@
-# Install script for directory: /home/oscar/pico/Touch-LCD-1.69-no/lib/LCD
+# Install script for directory: /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/LCD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

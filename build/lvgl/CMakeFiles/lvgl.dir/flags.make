@@ -4,7 +4,7 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/home/oscar/pico/Touch-LCD-1.69-no/. -isystem /home/oscar/pico/Touch-LCD-1.69-no/lvgl
+C_INCLUDES = -I/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/. -isystem /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl
 
 C_FLAGS = -mcpu=cortex-m0plus -mthumb -g -O3 -DNDEBUG -std=gnu11
 
