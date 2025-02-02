@@ -306,12 +306,14 @@ pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_timer/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_uart/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_vreg/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_watchdog/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_xip_cache/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_xosc/all
-pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootrom/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/boot_bootrom_headers/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_compiler/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_sections/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_panic/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_aon_timer/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootrom/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_multicore/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_unique_id/all
@@ -395,12 +397,14 @@ pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_timer/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_uart/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_vreg/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_watchdog/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_xip_cache/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_xosc/preinstall
-pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootrom/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_compiler/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_sections/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_panic/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_aon_timer/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootrom/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_multicore/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_unique_id/preinstall
@@ -484,12 +488,14 @@ pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_timer/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_uart/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_vreg/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_watchdog/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_xip_cache/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_xosc/clean
-pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootrom/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/boot_bootrom_headers/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_compiler/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_sections/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_panic/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_aon_timer/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootrom/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_multicore/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_unique_id/clean
@@ -730,6 +736,7 @@ pico-sdk/src/common/pico_util/clean:
 
 # Recursive "all" directory target.
 pico-sdk/src/rp2040/boot_stage2/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
+pico-sdk/src/rp2040/boot_stage2/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 .PHONY : pico-sdk/src/rp2040/boot_stage2/all
 
 # Recursive "preinstall" directory target.
@@ -739,7 +746,7 @@ pico-sdk/src/rp2040/boot_stage2/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
-pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
+pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 .PHONY : pico-sdk/src/rp2040/boot_stage2/clean
 
 #=============================================================================
@@ -786,6 +793,21 @@ pico-sdk/src/rp2040/pico_platform/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2040/pico_platform/clean:
 .PHONY : pico-sdk/src/rp2040/pico_platform/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/rp2_common/boot_bootrom_headers
+
+# Recursive "all" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/all:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/clean:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/rp2_common/cmsis
@@ -1176,6 +1198,21 @@ pico-sdk/src/rp2_common/hardware_watchdog/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2_common/hardware_watchdog/clean:
 .PHONY : pico-sdk/src/rp2_common/hardware_watchdog/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/rp2_common/hardware_xip_cache
+
+# Recursive "all" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/all:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/preinstall:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/clean:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/rp2_common/hardware_xosc
@@ -1888,7 +1925,7 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+CMakeFiles/main.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 CMakeFiles/main.dir/all: lib/Config/CMakeFiles/Config.dir/all
 CMakeFiles/main.dir/all: lib/LCD/CMakeFiles/LCD.dir/all
 CMakeFiles/main.dir/all: lib/Fonts/CMakeFiles/Fonts.dir/all
@@ -1899,7 +1936,7 @@ CMakeFiles/main.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 CMakeFiles/main.dir/all: lib/out/CMakeFiles/out.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1971,30 +2008,30 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 #=============================================================================
-# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
+# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir
 
 # All Build rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num= "Built target bs2_default_padded_checksummed_asm"
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num= "Built target bs2_default_library"
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 
 # Build rule for subdir invocation for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
 
 # Convenience name for target.
-bs2_default_padded_checksummed_asm: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
-.PHONY : bs2_default_padded_checksummed_asm
+bs2_default_library: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
+.PHONY : bs2_default_library
 
 # clean rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 
 #=============================================================================
 # Target rules for target pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir
@@ -2052,7 +2089,7 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 # Target rules for target lib/Config/CMakeFiles/Config.dir
 
 # All Build rule for target.
-lib/Config/CMakeFiles/Config.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+lib/Config/CMakeFiles/Config.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/Config/CMakeFiles/Config.dir/build.make lib/Config/CMakeFiles/Config.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Config"
@@ -2078,7 +2115,7 @@ lib/Config/CMakeFiles/Config.dir/clean:
 # Target rules for target lib/LCD/CMakeFiles/LCD.dir
 
 # All Build rule for target.
-lib/LCD/CMakeFiles/LCD.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+lib/LCD/CMakeFiles/LCD.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 lib/LCD/CMakeFiles/LCD.dir/all: lib/Config/CMakeFiles/Config.dir/all
 lib/LCD/CMakeFiles/LCD.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/LCD/CMakeFiles/LCD.dir/build.make lib/LCD/CMakeFiles/LCD.dir/depend
@@ -2132,7 +2169,7 @@ lib/Fonts/CMakeFiles/Fonts.dir/clean:
 # Target rules for target lib/GUI/CMakeFiles/GUI.dir
 
 # All Build rule for target.
-lib/GUI/CMakeFiles/GUI.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+lib/GUI/CMakeFiles/GUI.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 lib/GUI/CMakeFiles/GUI.dir/all: lib/Config/CMakeFiles/Config.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/GUI/CMakeFiles/GUI.dir/build.make lib/GUI/CMakeFiles/GUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/GUI/CMakeFiles/GUI.dir/build.make lib/GUI/CMakeFiles/GUI.dir/build
@@ -2159,7 +2196,7 @@ lib/GUI/CMakeFiles/GUI.dir/clean:
 # Target rules for target lib/porting/CMakeFiles/porting.dir
 
 # All Build rule for target.
-lib/porting/CMakeFiles/porting.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+lib/porting/CMakeFiles/porting.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 lib/porting/CMakeFiles/porting.dir/all: lib/Config/CMakeFiles/Config.dir/all
 lib/porting/CMakeFiles/porting.dir/all: lib/LCD/CMakeFiles/LCD.dir/all
 lib/porting/CMakeFiles/porting.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
@@ -2189,7 +2226,7 @@ lib/porting/CMakeFiles/porting.dir/clean:
 # Target rules for target examples/CMakeFiles/examples.dir
 
 # All Build rule for target.
-examples/CMakeFiles/examples.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+examples/CMakeFiles/examples.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 examples/CMakeFiles/examples.dir/all: lib/Config/CMakeFiles/Config.dir/all
 examples/CMakeFiles/examples.dir/all: lib/LCD/CMakeFiles/LCD.dir/all
 examples/CMakeFiles/examples.dir/all: lib/GUI/CMakeFiles/GUI.dir/all
@@ -2298,16 +2335,16 @@ lvgl/CMakeFiles/lvgl_demos.dir/clean:
 # Target rules for target lib/out/CMakeFiles/out.dir
 
 # All Build rule for target.
-lib/out/CMakeFiles/out.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+lib/out/CMakeFiles/out.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 lib/out/CMakeFiles/out.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/out/CMakeFiles/out.dir/build.make lib/out/CMakeFiles/out.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/out/CMakeFiles/out.dir/build.make lib/out/CMakeFiles/out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=86,87,88,89,90,91,92 "Built target out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=85,86,87,88,89,90,91,92 "Built target out"
 .PHONY : lib/out/CMakeFiles/out.dir/all
 
 # Build rule for subdir invocation for target.
 lib/out/CMakeFiles/out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/out/CMakeFiles/out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles 0
 .PHONY : lib/out/CMakeFiles/out.dir/rule

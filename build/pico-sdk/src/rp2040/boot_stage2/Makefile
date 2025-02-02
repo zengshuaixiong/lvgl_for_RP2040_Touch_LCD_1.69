@@ -190,26 +190,34 @@ bs2_default_bin/fast:
 .PHONY : bs2_default_bin/fast
 
 # Convenience name for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
 
 # Convenience name for target.
-bs2_default_padded_checksummed_asm: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
-.PHONY : bs2_default_padded_checksummed_asm
+bs2_default_library: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
+.PHONY : bs2_default_library
 
 # fast build rule for target.
-bs2_default_padded_checksummed_asm/fast:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-.PHONY : bs2_default_padded_checksummed_asm/fast
+bs2_default_library/fast:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+.PHONY : bs2_default_library/fast
 
-compile_time_choice.obj: compile_time_choice.S.obj
-.PHONY : compile_time_choice.obj
+bs2_default_padded_checksummed.o: bs2_default_padded_checksummed.S.o
+.PHONY : bs2_default_padded_checksummed.o
 
 # target to build an object file
-compile_time_choice.S.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
-.PHONY : compile_time_choice.S.obj
+bs2_default_padded_checksummed.S.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+.PHONY : bs2_default_padded_checksummed.S.o
+
+compile_time_choice.o: compile_time_choice.S.o
+.PHONY : compile_time_choice.o
+
+# target to build an object file
+compile_time_choice.S.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
+.PHONY : compile_time_choice.S.o
 
 # Help Target
 help:
@@ -224,9 +232,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
-	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... bs2_default"
-	@echo "... compile_time_choice.obj"
+	@echo "... bs2_default_library"
+	@echo "... bs2_default_padded_checksummed.o"
+	@echo "... compile_time_choice.o"
 .PHONY : help
 
 

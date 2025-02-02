@@ -175,13 +175,13 @@ Fonts/fast:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/build
 .PHONY : Fonts/fast
 
-font12.obj: font12.c.obj
-.PHONY : font12.obj
+font12.o: font12.c.o
+.PHONY : font12.o
 
 # target to build an object file
-font12.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj
-.PHONY : font12.c.obj
+font12.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o
+.PHONY : font12.c.o
 
 font12.i: font12.c.i
 .PHONY : font12.i
@@ -199,13 +199,13 @@ font12.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12.c.s
 .PHONY : font12.c.s
 
-font12CN.obj: font12CN.c.obj
-.PHONY : font12CN.obj
+font12CN.o: font12CN.c.o
+.PHONY : font12CN.o
 
 # target to build an object file
-font12CN.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj
-.PHONY : font12CN.c.obj
+font12CN.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o
+.PHONY : font12CN.c.o
 
 font12CN.i: font12CN.c.i
 .PHONY : font12CN.i
@@ -223,13 +223,13 @@ font12CN.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.s
 .PHONY : font12CN.c.s
 
-font16.obj: font16.c.obj
-.PHONY : font16.obj
+font16.o: font16.c.o
+.PHONY : font16.o
 
 # target to build an object file
-font16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj
-.PHONY : font16.c.obj
+font16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o
+.PHONY : font16.c.o
 
 font16.i: font16.c.i
 .PHONY : font16.i
@@ -247,13 +247,13 @@ font16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font16.c.s
 .PHONY : font16.c.s
 
-font20.obj: font20.c.obj
-.PHONY : font20.obj
+font20.o: font20.c.o
+.PHONY : font20.o
 
 # target to build an object file
-font20.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj
-.PHONY : font20.c.obj
+font20.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o
+.PHONY : font20.c.o
 
 font20.i: font20.c.i
 .PHONY : font20.i
@@ -271,13 +271,13 @@ font20.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font20.c.s
 .PHONY : font20.c.s
 
-font24.obj: font24.c.obj
-.PHONY : font24.obj
+font24.o: font24.c.o
+.PHONY : font24.o
 
 # target to build an object file
-font24.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj
-.PHONY : font24.c.obj
+font24.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o
+.PHONY : font24.c.o
 
 font24.i: font24.c.i
 .PHONY : font24.i
@@ -295,13 +295,13 @@ font24.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24.c.s
 .PHONY : font24.c.s
 
-font24CN.obj: font24CN.c.obj
-.PHONY : font24CN.obj
+font24CN.o: font24CN.c.o
+.PHONY : font24CN.o
 
 # target to build an object file
-font24CN.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj
-.PHONY : font24CN.c.obj
+font24CN.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o
+.PHONY : font24CN.c.o
 
 font24CN.i: font24CN.c.i
 .PHONY : font24CN.i
@@ -319,13 +319,13 @@ font24CN.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.s
 .PHONY : font24CN.c.s
 
-font8.obj: font8.c.obj
-.PHONY : font8.obj
+font8.o: font8.c.o
+.PHONY : font8.o
 
 # target to build an object file
-font8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj
-.PHONY : font8.c.obj
+font8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lib/Fonts/CMakeFiles/Fonts.dir/build.make lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o
+.PHONY : font8.c.o
 
 font8.i: font8.c.i
 .PHONY : font8.i
@@ -356,25 +356,25 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Fonts"
-	@echo "... font12.obj"
+	@echo "... font12.o"
 	@echo "... font12.i"
 	@echo "... font12.s"
-	@echo "... font12CN.obj"
+	@echo "... font12CN.o"
 	@echo "... font12CN.i"
 	@echo "... font12CN.s"
-	@echo "... font16.obj"
+	@echo "... font16.o"
 	@echo "... font16.i"
 	@echo "... font16.s"
-	@echo "... font20.obj"
+	@echo "... font20.o"
 	@echo "... font20.i"
 	@echo "... font20.s"
-	@echo "... font24.obj"
+	@echo "... font24.o"
 	@echo "... font24.i"
 	@echo "... font24.s"
-	@echo "... font24CN.obj"
+	@echo "... font24CN.o"
 	@echo "... font24CN.i"
 	@echo "... font24CN.s"
-	@echo "... font8.obj"
+	@echo "... font8.o"
 	@echo "... font8.i"
 	@echo "... font8.s"
 .PHONY : help

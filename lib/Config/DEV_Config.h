@@ -62,6 +62,8 @@
 #define DEV_I2C_INT   (21)
 #define DEV_I2C_RST   (22)
 
+#define RTC_INT_PIN     (18)
+
 /*------------------------------------------------------------------------------------------------------*/
 
 void DEV_Digital_Write(uint16_t Pin, uint8_t Value);

@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12.c" "lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12CN.c" "lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font16.c" "lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font20.c" "lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24.c" "lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24CN.c" "lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj.d"
-  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font8.c" "lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12.c" "lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12CN.c" "lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font16.c" "lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font20.c" "lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24.c" "lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24CN.c" "lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o.d"
+  "/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font8.c" "lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o" "gcc" "lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o.d"
   )
 
 # Targets to which this target links.

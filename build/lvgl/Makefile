@@ -203,13 +203,13 @@ lvgl_demos/fast:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
 .PHONY : lvgl_demos/fast
 
-demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj: demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj
+demos/benchmark/assets/img_benchmark_cogwheel_alpha16.o: demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_alpha16.i: demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.i
@@ -227,13 +227,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.s
 
-demos/benchmark/assets/img_benchmark_cogwheel_argb.obj: demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.obj
+demos/benchmark/assets/img_benchmark_cogwheel_argb.o: demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_argb.i: demos/benchmark/assets/img_benchmark_cogwheel_argb.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.i
@@ -251,13 +251,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_argb.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_argb.c.s
 
-demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.obj: demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.obj
+demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.o: demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.i: demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.i
@@ -275,13 +275,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.s
 
-demos/benchmark/assets/img_benchmark_cogwheel_indexed16.obj: demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.obj
+demos/benchmark/assets/img_benchmark_cogwheel_indexed16.o: demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_indexed16.i: demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.i
@@ -299,13 +299,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.s
 
-demos/benchmark/assets/img_benchmark_cogwheel_rgb.obj: demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.obj
+demos/benchmark/assets/img_benchmark_cogwheel_rgb.o: demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_rgb.i: demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.i
@@ -323,13 +323,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.s
 
-demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.obj: demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.obj
+demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.o: demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.o
 
 # target to build an object file
-demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj
-.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj
+demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o
 
 demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.i: demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.i
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.i
@@ -347,13 +347,13 @@ demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.s
 .PHONY : demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.s
 
-demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.obj: demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.o: demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.o
 
 # target to build an object file
-demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o
 
 demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.i: demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.i
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.i
@@ -371,13 +371,13 @@ demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.s
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.s
 
-demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.obj: demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.o: demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.o
 
 # target to build an object file
-demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o
 
 demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.i: demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.i
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.i
@@ -395,13 +395,13 @@ demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.s
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.s
 
-demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.obj: demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.o: demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.o
 
 # target to build an object file
-demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj
-.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj
+demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o
+.PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o
 
 demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.i: demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.i
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.i
@@ -419,13 +419,13 @@ demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.s
 .PHONY : demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.s
 
-demos/benchmark/lv_demo_benchmark.obj: demos/benchmark/lv_demo_benchmark.c.obj
-.PHONY : demos/benchmark/lv_demo_benchmark.obj
+demos/benchmark/lv_demo_benchmark.o: demos/benchmark/lv_demo_benchmark.c.o
+.PHONY : demos/benchmark/lv_demo_benchmark.o
 
 # target to build an object file
-demos/benchmark/lv_demo_benchmark.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj
-.PHONY : demos/benchmark/lv_demo_benchmark.c.obj
+demos/benchmark/lv_demo_benchmark.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o
+.PHONY : demos/benchmark/lv_demo_benchmark.c.o
 
 demos/benchmark/lv_demo_benchmark.i: demos/benchmark/lv_demo_benchmark.c.i
 .PHONY : demos/benchmark/lv_demo_benchmark.i
@@ -443,13 +443,13 @@ demos/benchmark/lv_demo_benchmark.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.s
 .PHONY : demos/benchmark/lv_demo_benchmark.c.s
 
-demos/keypad_encoder/lv_demo_keypad_encoder.obj: demos/keypad_encoder/lv_demo_keypad_encoder.c.obj
-.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.obj
+demos/keypad_encoder/lv_demo_keypad_encoder.o: demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.o
 
 # target to build an object file
-demos/keypad_encoder/lv_demo_keypad_encoder.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj
-.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.obj
+demos/keypad_encoder/lv_demo_keypad_encoder.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.o
 
 demos/keypad_encoder/lv_demo_keypad_encoder.i: demos/keypad_encoder/lv_demo_keypad_encoder.c.i
 .PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.i
@@ -467,13 +467,13 @@ demos/keypad_encoder/lv_demo_keypad_encoder.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.s
 .PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.s
 
-demos/music/assets/img_lv_demo_music_btn_corner_large.obj: demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.obj
+demos/music/assets/img_lv_demo_music_btn_corner_large.o: demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_corner_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_corner_large.i: demos/music/assets/img_lv_demo_music_btn_corner_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.i
@@ -491,13 +491,13 @@ demos/music/assets/img_lv_demo_music_btn_corner_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_list_pause.obj: demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.obj
+demos/music/assets/img_lv_demo_music_btn_list_pause.o: demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj
+demos/music/assets/img_lv_demo_music_btn_list_pause.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
 
 demos/music/assets/img_lv_demo_music_btn_list_pause.i: demos/music/assets/img_lv_demo_music_btn_list_pause.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.i
@@ -515,13 +515,13 @@ demos/music/assets/img_lv_demo_music_btn_list_pause.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
 
-demos/music/assets/img_lv_demo_music_btn_list_pause_large.obj: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.obj
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.o: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_list_pause_large.i: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.i
@@ -539,13 +539,13 @@ demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_list_play.obj: demos/music/assets/img_lv_demo_music_btn_list_play.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.obj
+demos/music/assets/img_lv_demo_music_btn_list_play.o: demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_list_play.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.obj
+demos/music/assets/img_lv_demo_music_btn_list_play.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.o
 
 demos/music/assets/img_lv_demo_music_btn_list_play.i: demos/music/assets/img_lv_demo_music_btn_list_play.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.i
@@ -563,13 +563,13 @@ demos/music/assets/img_lv_demo_music_btn_list_play.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.s
 
-demos/music/assets/img_lv_demo_music_btn_list_play_large.obj: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.obj
+demos/music/assets/img_lv_demo_music_btn_list_play_large.o: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_list_play_large.i: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.i
@@ -587,13 +587,13 @@ demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_loop.obj: demos/music/assets/img_lv_demo_music_btn_loop.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.obj
+demos/music/assets/img_lv_demo_music_btn_loop.o: demos/music/assets/img_lv_demo_music_btn_loop.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_loop.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.obj
+demos/music/assets/img_lv_demo_music_btn_loop.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.o
 
 demos/music/assets/img_lv_demo_music_btn_loop.i: demos/music/assets/img_lv_demo_music_btn_loop.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_loop.i
@@ -611,13 +611,13 @@ demos/music/assets/img_lv_demo_music_btn_loop.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.s
 
-demos/music/assets/img_lv_demo_music_btn_loop_large.obj: demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.obj
+demos/music/assets/img_lv_demo_music_btn_loop_large.o: demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_loop_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_loop_large.i: demos/music/assets/img_lv_demo_music_btn_loop_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.i
@@ -635,13 +635,13 @@ demos/music/assets/img_lv_demo_music_btn_loop_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_next.obj: demos/music/assets/img_lv_demo_music_btn_next.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_next.obj
+demos/music/assets/img_lv_demo_music_btn_next.o: demos/music/assets/img_lv_demo_music_btn_next.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_next.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.obj
+demos/music/assets/img_lv_demo_music_btn_next.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.o
 
 demos/music/assets/img_lv_demo_music_btn_next.i: demos/music/assets/img_lv_demo_music_btn_next.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_next.i
@@ -659,13 +659,13 @@ demos/music/assets/img_lv_demo_music_btn_next.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.s
 
-demos/music/assets/img_lv_demo_music_btn_next_large.obj: demos/music/assets/img_lv_demo_music_btn_next_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.obj
+demos/music/assets/img_lv_demo_music_btn_next_large.o: demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_next_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_next_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_next_large.i: demos/music/assets/img_lv_demo_music_btn_next_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.i
@@ -683,13 +683,13 @@ demos/music/assets/img_lv_demo_music_btn_next_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_pause.obj: demos/music/assets/img_lv_demo_music_btn_pause.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.obj
+demos/music/assets/img_lv_demo_music_btn_pause.o: demos/music/assets/img_lv_demo_music_btn_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_pause.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.obj
+demos/music/assets/img_lv_demo_music_btn_pause.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.o
 
 demos/music/assets/img_lv_demo_music_btn_pause.i: demos/music/assets/img_lv_demo_music_btn_pause.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_pause.i
@@ -707,13 +707,13 @@ demos/music/assets/img_lv_demo_music_btn_pause.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.s
 
-demos/music/assets/img_lv_demo_music_btn_pause_large.obj: demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.obj
+demos/music/assets/img_lv_demo_music_btn_pause_large.o: demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_pause_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_pause_large.i: demos/music/assets/img_lv_demo_music_btn_pause_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.i
@@ -731,13 +731,13 @@ demos/music/assets/img_lv_demo_music_btn_pause_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_play.obj: demos/music/assets/img_lv_demo_music_btn_play.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_play.obj
+demos/music/assets/img_lv_demo_music_btn_play.o: demos/music/assets/img_lv_demo_music_btn_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_play.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.obj
+demos/music/assets/img_lv_demo_music_btn_play.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.o
 
 demos/music/assets/img_lv_demo_music_btn_play.i: demos/music/assets/img_lv_demo_music_btn_play.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_play.i
@@ -755,13 +755,13 @@ demos/music/assets/img_lv_demo_music_btn_play.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.s
 
-demos/music/assets/img_lv_demo_music_btn_play_large.obj: demos/music/assets/img_lv_demo_music_btn_play_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.obj
+demos/music/assets/img_lv_demo_music_btn_play_large.o: demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_play_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_play_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_play_large.i: demos/music/assets/img_lv_demo_music_btn_play_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.i
@@ -779,13 +779,13 @@ demos/music/assets/img_lv_demo_music_btn_play_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_prev.obj: demos/music/assets/img_lv_demo_music_btn_prev.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.obj
+demos/music/assets/img_lv_demo_music_btn_prev.o: demos/music/assets/img_lv_demo_music_btn_prev.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_prev.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.obj
+demos/music/assets/img_lv_demo_music_btn_prev.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.o
 
 demos/music/assets/img_lv_demo_music_btn_prev.i: demos/music/assets/img_lv_demo_music_btn_prev.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_prev.i
@@ -803,13 +803,13 @@ demos/music/assets/img_lv_demo_music_btn_prev.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.s
 
-demos/music/assets/img_lv_demo_music_btn_prev_large.obj: demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.obj
+demos/music/assets/img_lv_demo_music_btn_prev_large.o: demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_prev_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_prev_large.i: demos/music/assets/img_lv_demo_music_btn_prev_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.i
@@ -827,13 +827,13 @@ demos/music/assets/img_lv_demo_music_btn_prev_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
 
-demos/music/assets/img_lv_demo_music_btn_rnd.obj: demos/music/assets/img_lv_demo_music_btn_rnd.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.obj
+demos/music/assets/img_lv_demo_music_btn_rnd.o: demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_rnd.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.obj
+demos/music/assets/img_lv_demo_music_btn_rnd.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.o
 
 demos/music/assets/img_lv_demo_music_btn_rnd.i: demos/music/assets/img_lv_demo_music_btn_rnd.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.i
@@ -851,13 +851,13 @@ demos/music/assets/img_lv_demo_music_btn_rnd.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.s
 
-demos/music/assets/img_lv_demo_music_btn_rnd_large.obj: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.obj
+demos/music/assets/img_lv_demo_music_btn_rnd_large.o: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj
+demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
 
 demos/music/assets/img_lv_demo_music_btn_rnd_large.i: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.i
@@ -875,13 +875,13 @@ demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
 
-demos/music/assets/img_lv_demo_music_corner_left.obj: demos/music/assets/img_lv_demo_music_corner_left.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_left.obj
+demos/music/assets/img_lv_demo_music_corner_left.o: demos/music/assets/img_lv_demo_music_corner_left.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_corner_left.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.obj
+demos/music/assets/img_lv_demo_music_corner_left.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.o
 
 demos/music/assets/img_lv_demo_music_corner_left.i: demos/music/assets/img_lv_demo_music_corner_left.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_corner_left.i
@@ -899,13 +899,13 @@ demos/music/assets/img_lv_demo_music_corner_left.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.s
 
-demos/music/assets/img_lv_demo_music_corner_left_large.obj: demos/music/assets/img_lv_demo_music_corner_left_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.obj
+demos/music/assets/img_lv_demo_music_corner_left_large.o: demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_corner_left_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.obj
+demos/music/assets/img_lv_demo_music_corner_left_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.o
 
 demos/music/assets/img_lv_demo_music_corner_left_large.i: demos/music/assets/img_lv_demo_music_corner_left_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.i
@@ -923,13 +923,13 @@ demos/music/assets/img_lv_demo_music_corner_left_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.s
 
-demos/music/assets/img_lv_demo_music_corner_right.obj: demos/music/assets/img_lv_demo_music_corner_right.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_right.obj
+demos/music/assets/img_lv_demo_music_corner_right.o: demos/music/assets/img_lv_demo_music_corner_right.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_corner_right.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.obj
+demos/music/assets/img_lv_demo_music_corner_right.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.o
 
 demos/music/assets/img_lv_demo_music_corner_right.i: demos/music/assets/img_lv_demo_music_corner_right.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_corner_right.i
@@ -947,13 +947,13 @@ demos/music/assets/img_lv_demo_music_corner_right.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.s
 
-demos/music/assets/img_lv_demo_music_corner_right_large.obj: demos/music/assets/img_lv_demo_music_corner_right_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.obj
+demos/music/assets/img_lv_demo_music_corner_right_large.o: demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_corner_right_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.obj
+demos/music/assets/img_lv_demo_music_corner_right_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.o
 
 demos/music/assets/img_lv_demo_music_corner_right_large.i: demos/music/assets/img_lv_demo_music_corner_right_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.i
@@ -971,13 +971,13 @@ demos/music/assets/img_lv_demo_music_corner_right_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.s
 
-demos/music/assets/img_lv_demo_music_cover_1.obj: demos/music/assets/img_lv_demo_music_cover_1.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_1.obj
+demos/music/assets/img_lv_demo_music_cover_1.o: demos/music/assets/img_lv_demo_music_cover_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.obj
+demos/music/assets/img_lv_demo_music_cover_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.o
 
 demos/music/assets/img_lv_demo_music_cover_1.i: demos/music/assets/img_lv_demo_music_cover_1.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_1.i
@@ -995,13 +995,13 @@ demos/music/assets/img_lv_demo_music_cover_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.s
 
-demos/music/assets/img_lv_demo_music_cover_1_large.obj: demos/music/assets/img_lv_demo_music_cover_1_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.obj
+demos/music/assets/img_lv_demo_music_cover_1_large.o: demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_1_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.obj
+demos/music/assets/img_lv_demo_music_cover_1_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.o
 
 demos/music/assets/img_lv_demo_music_cover_1_large.i: demos/music/assets/img_lv_demo_music_cover_1_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.i
@@ -1019,13 +1019,13 @@ demos/music/assets/img_lv_demo_music_cover_1_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.s
 
-demos/music/assets/img_lv_demo_music_cover_2.obj: demos/music/assets/img_lv_demo_music_cover_2.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_2.obj
+demos/music/assets/img_lv_demo_music_cover_2.o: demos/music/assets/img_lv_demo_music_cover_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.obj
+demos/music/assets/img_lv_demo_music_cover_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.o
 
 demos/music/assets/img_lv_demo_music_cover_2.i: demos/music/assets/img_lv_demo_music_cover_2.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_2.i
@@ -1043,13 +1043,13 @@ demos/music/assets/img_lv_demo_music_cover_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.s
 
-demos/music/assets/img_lv_demo_music_cover_2_large.obj: demos/music/assets/img_lv_demo_music_cover_2_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.obj
+demos/music/assets/img_lv_demo_music_cover_2_large.o: demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_2_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.obj
+demos/music/assets/img_lv_demo_music_cover_2_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.o
 
 demos/music/assets/img_lv_demo_music_cover_2_large.i: demos/music/assets/img_lv_demo_music_cover_2_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.i
@@ -1067,13 +1067,13 @@ demos/music/assets/img_lv_demo_music_cover_2_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.s
 
-demos/music/assets/img_lv_demo_music_cover_3.obj: demos/music/assets/img_lv_demo_music_cover_3.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_3.obj
+demos/music/assets/img_lv_demo_music_cover_3.o: demos/music/assets/img_lv_demo_music_cover_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.obj
+demos/music/assets/img_lv_demo_music_cover_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.o
 
 demos/music/assets/img_lv_demo_music_cover_3.i: demos/music/assets/img_lv_demo_music_cover_3.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_3.i
@@ -1091,13 +1091,13 @@ demos/music/assets/img_lv_demo_music_cover_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.s
 
-demos/music/assets/img_lv_demo_music_cover_3_large.obj: demos/music/assets/img_lv_demo_music_cover_3_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.obj
+demos/music/assets/img_lv_demo_music_cover_3_large.o: demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_cover_3_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.obj
+demos/music/assets/img_lv_demo_music_cover_3_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.o
 
 demos/music/assets/img_lv_demo_music_cover_3_large.i: demos/music/assets/img_lv_demo_music_cover_3_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.i
@@ -1115,13 +1115,13 @@ demos/music/assets/img_lv_demo_music_cover_3_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.s
 
-demos/music/assets/img_lv_demo_music_icon_1.obj: demos/music/assets/img_lv_demo_music_icon_1.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_1.obj
+demos/music/assets/img_lv_demo_music_icon_1.o: demos/music/assets/img_lv_demo_music_icon_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.obj
+demos/music/assets/img_lv_demo_music_icon_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.o
 
 demos/music/assets/img_lv_demo_music_icon_1.i: demos/music/assets/img_lv_demo_music_icon_1.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_1.i
@@ -1139,13 +1139,13 @@ demos/music/assets/img_lv_demo_music_icon_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.s
 
-demos/music/assets/img_lv_demo_music_icon_1_large.obj: demos/music/assets/img_lv_demo_music_icon_1_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.obj
+demos/music/assets/img_lv_demo_music_icon_1_large.o: demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_1_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.obj
+demos/music/assets/img_lv_demo_music_icon_1_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.o
 
 demos/music/assets/img_lv_demo_music_icon_1_large.i: demos/music/assets/img_lv_demo_music_icon_1_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.i
@@ -1163,13 +1163,13 @@ demos/music/assets/img_lv_demo_music_icon_1_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.s
 
-demos/music/assets/img_lv_demo_music_icon_2.obj: demos/music/assets/img_lv_demo_music_icon_2.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_2.obj
+demos/music/assets/img_lv_demo_music_icon_2.o: demos/music/assets/img_lv_demo_music_icon_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.obj
+demos/music/assets/img_lv_demo_music_icon_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.o
 
 demos/music/assets/img_lv_demo_music_icon_2.i: demos/music/assets/img_lv_demo_music_icon_2.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_2.i
@@ -1187,13 +1187,13 @@ demos/music/assets/img_lv_demo_music_icon_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.s
 
-demos/music/assets/img_lv_demo_music_icon_2_large.obj: demos/music/assets/img_lv_demo_music_icon_2_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.obj
+demos/music/assets/img_lv_demo_music_icon_2_large.o: demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_2_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.obj
+demos/music/assets/img_lv_demo_music_icon_2_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.o
 
 demos/music/assets/img_lv_demo_music_icon_2_large.i: demos/music/assets/img_lv_demo_music_icon_2_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.i
@@ -1211,13 +1211,13 @@ demos/music/assets/img_lv_demo_music_icon_2_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.s
 
-demos/music/assets/img_lv_demo_music_icon_3.obj: demos/music/assets/img_lv_demo_music_icon_3.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_3.obj
+demos/music/assets/img_lv_demo_music_icon_3.o: demos/music/assets/img_lv_demo_music_icon_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.obj
+demos/music/assets/img_lv_demo_music_icon_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.o
 
 demos/music/assets/img_lv_demo_music_icon_3.i: demos/music/assets/img_lv_demo_music_icon_3.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_3.i
@@ -1235,13 +1235,13 @@ demos/music/assets/img_lv_demo_music_icon_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.s
 
-demos/music/assets/img_lv_demo_music_icon_3_large.obj: demos/music/assets/img_lv_demo_music_icon_3_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.obj
+demos/music/assets/img_lv_demo_music_icon_3_large.o: demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_3_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.obj
+demos/music/assets/img_lv_demo_music_icon_3_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.o
 
 demos/music/assets/img_lv_demo_music_icon_3_large.i: demos/music/assets/img_lv_demo_music_icon_3_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.i
@@ -1259,13 +1259,13 @@ demos/music/assets/img_lv_demo_music_icon_3_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.s
 
-demos/music/assets/img_lv_demo_music_icon_4.obj: demos/music/assets/img_lv_demo_music_icon_4.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_4.obj
+demos/music/assets/img_lv_demo_music_icon_4.o: demos/music/assets/img_lv_demo_music_icon_4.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.obj
+demos/music/assets/img_lv_demo_music_icon_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.o
 
 demos/music/assets/img_lv_demo_music_icon_4.i: demos/music/assets/img_lv_demo_music_icon_4.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_4.i
@@ -1283,13 +1283,13 @@ demos/music/assets/img_lv_demo_music_icon_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.s
 
-demos/music/assets/img_lv_demo_music_icon_4_large.obj: demos/music/assets/img_lv_demo_music_icon_4_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.obj
+demos/music/assets/img_lv_demo_music_icon_4_large.o: demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_icon_4_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.obj
+demos/music/assets/img_lv_demo_music_icon_4_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.o
 
 demos/music/assets/img_lv_demo_music_icon_4_large.i: demos/music/assets/img_lv_demo_music_icon_4_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.i
@@ -1307,13 +1307,13 @@ demos/music/assets/img_lv_demo_music_icon_4_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.s
 
-demos/music/assets/img_lv_demo_music_list_border.obj: demos/music/assets/img_lv_demo_music_list_border.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_list_border.obj
+demos/music/assets/img_lv_demo_music_list_border.o: demos/music/assets/img_lv_demo_music_list_border.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_list_border.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_list_border.c.obj
+demos/music/assets/img_lv_demo_music_list_border.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.c.o
 
 demos/music/assets/img_lv_demo_music_list_border.i: demos/music/assets/img_lv_demo_music_list_border.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_list_border.i
@@ -1331,13 +1331,13 @@ demos/music/assets/img_lv_demo_music_list_border.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_list_border.c.s
 
-demos/music/assets/img_lv_demo_music_list_border_large.obj: demos/music/assets/img_lv_demo_music_list_border_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.obj
+demos/music/assets/img_lv_demo_music_list_border_large.o: demos/music/assets/img_lv_demo_music_list_border_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_list_border_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.obj
+demos/music/assets/img_lv_demo_music_list_border_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.o
 
 demos/music/assets/img_lv_demo_music_list_border_large.i: demos/music/assets/img_lv_demo_music_list_border_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_list_border_large.i
@@ -1355,13 +1355,13 @@ demos/music/assets/img_lv_demo_music_list_border_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.s
 
-demos/music/assets/img_lv_demo_music_logo.obj: demos/music/assets/img_lv_demo_music_logo.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_logo.obj
+demos/music/assets/img_lv_demo_music_logo.o: demos/music/assets/img_lv_demo_music_logo.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_logo.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_logo.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_logo.c.obj
+demos/music/assets/img_lv_demo_music_logo.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_logo.c.o
 
 demos/music/assets/img_lv_demo_music_logo.i: demos/music/assets/img_lv_demo_music_logo.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_logo.i
@@ -1379,13 +1379,13 @@ demos/music/assets/img_lv_demo_music_logo.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_logo.c.s
 
-demos/music/assets/img_lv_demo_music_slider_knob.obj: demos/music/assets/img_lv_demo_music_slider_knob.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.obj
+demos/music/assets/img_lv_demo_music_slider_knob.o: demos/music/assets/img_lv_demo_music_slider_knob.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_slider_knob.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.obj
+demos/music/assets/img_lv_demo_music_slider_knob.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.o
 
 demos/music/assets/img_lv_demo_music_slider_knob.i: demos/music/assets/img_lv_demo_music_slider_knob.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_slider_knob.i
@@ -1403,13 +1403,13 @@ demos/music/assets/img_lv_demo_music_slider_knob.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.s
 
-demos/music/assets/img_lv_demo_music_slider_knob_large.obj: demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.obj
+demos/music/assets/img_lv_demo_music_slider_knob_large.o: demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj
+demos/music/assets/img_lv_demo_music_slider_knob_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
 
 demos/music/assets/img_lv_demo_music_slider_knob_large.i: demos/music/assets/img_lv_demo_music_slider_knob_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.i
@@ -1427,13 +1427,13 @@ demos/music/assets/img_lv_demo_music_slider_knob_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
 
-demos/music/assets/img_lv_demo_music_wave_bottom.obj: demos/music/assets/img_lv_demo_music_wave_bottom.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.obj
+demos/music/assets/img_lv_demo_music_wave_bottom.o: demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_wave_bottom.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.obj
+demos/music/assets/img_lv_demo_music_wave_bottom.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.o
 
 demos/music/assets/img_lv_demo_music_wave_bottom.i: demos/music/assets/img_lv_demo_music_wave_bottom.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.i
@@ -1451,13 +1451,13 @@ demos/music/assets/img_lv_demo_music_wave_bottom.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.s
 
-demos/music/assets/img_lv_demo_music_wave_bottom_large.obj: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.obj
+demos/music/assets/img_lv_demo_music_wave_bottom_large.o: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj
+demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
 
 demos/music/assets/img_lv_demo_music_wave_bottom_large.i: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.i
@@ -1475,13 +1475,13 @@ demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
 
-demos/music/assets/img_lv_demo_music_wave_top.obj: demos/music/assets/img_lv_demo_music_wave_top.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_top.obj
+demos/music/assets/img_lv_demo_music_wave_top.o: demos/music/assets/img_lv_demo_music_wave_top.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_wave_top.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.obj
+demos/music/assets/img_lv_demo_music_wave_top.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.o
 
 demos/music/assets/img_lv_demo_music_wave_top.i: demos/music/assets/img_lv_demo_music_wave_top.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_wave_top.i
@@ -1499,13 +1499,13 @@ demos/music/assets/img_lv_demo_music_wave_top.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.s
 
-demos/music/assets/img_lv_demo_music_wave_top_large.obj: demos/music/assets/img_lv_demo_music_wave_top_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.obj
+demos/music/assets/img_lv_demo_music_wave_top_large.o: demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.o
 
 # target to build an object file
-demos/music/assets/img_lv_demo_music_wave_top_large.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj
-.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.obj
+demos/music/assets/img_lv_demo_music_wave_top_large.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.o
 
 demos/music/assets/img_lv_demo_music_wave_top_large.i: demos/music/assets/img_lv_demo_music_wave_top_large.c.i
 .PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.i
@@ -1523,13 +1523,13 @@ demos/music/assets/img_lv_demo_music_wave_top_large.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.s
 .PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.s
 
-demos/music/lv_demo_music.obj: demos/music/lv_demo_music.c.obj
-.PHONY : demos/music/lv_demo_music.obj
+demos/music/lv_demo_music.o: demos/music/lv_demo_music.c.o
+.PHONY : demos/music/lv_demo_music.o
 
 # target to build an object file
-demos/music/lv_demo_music.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj
-.PHONY : demos/music/lv_demo_music.c.obj
+demos/music/lv_demo_music.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o
+.PHONY : demos/music/lv_demo_music.c.o
 
 demos/music/lv_demo_music.i: demos/music/lv_demo_music.c.i
 .PHONY : demos/music/lv_demo_music.i
@@ -1547,13 +1547,13 @@ demos/music/lv_demo_music.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.s
 .PHONY : demos/music/lv_demo_music.c.s
 
-demos/music/lv_demo_music_list.obj: demos/music/lv_demo_music_list.c.obj
-.PHONY : demos/music/lv_demo_music_list.obj
+demos/music/lv_demo_music_list.o: demos/music/lv_demo_music_list.c.o
+.PHONY : demos/music/lv_demo_music_list.o
 
 # target to build an object file
-demos/music/lv_demo_music_list.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj
-.PHONY : demos/music/lv_demo_music_list.c.obj
+demos/music/lv_demo_music_list.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o
+.PHONY : demos/music/lv_demo_music_list.c.o
 
 demos/music/lv_demo_music_list.i: demos/music/lv_demo_music_list.c.i
 .PHONY : demos/music/lv_demo_music_list.i
@@ -1571,13 +1571,13 @@ demos/music/lv_demo_music_list.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.s
 .PHONY : demos/music/lv_demo_music_list.c.s
 
-demos/music/lv_demo_music_main.obj: demos/music/lv_demo_music_main.c.obj
-.PHONY : demos/music/lv_demo_music_main.obj
+demos/music/lv_demo_music_main.o: demos/music/lv_demo_music_main.c.o
+.PHONY : demos/music/lv_demo_music_main.o
 
 # target to build an object file
-demos/music/lv_demo_music_main.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj
-.PHONY : demos/music/lv_demo_music_main.c.obj
+demos/music/lv_demo_music_main.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o
+.PHONY : demos/music/lv_demo_music_main.c.o
 
 demos/music/lv_demo_music_main.i: demos/music/lv_demo_music_main.c.i
 .PHONY : demos/music/lv_demo_music_main.i
@@ -1595,13 +1595,13 @@ demos/music/lv_demo_music_main.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.s
 .PHONY : demos/music/lv_demo_music_main.c.s
 
-demos/stress/lv_demo_stress.obj: demos/stress/lv_demo_stress.c.obj
-.PHONY : demos/stress/lv_demo_stress.obj
+demos/stress/lv_demo_stress.o: demos/stress/lv_demo_stress.c.o
+.PHONY : demos/stress/lv_demo_stress.o
 
 # target to build an object file
-demos/stress/lv_demo_stress.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj
-.PHONY : demos/stress/lv_demo_stress.c.obj
+demos/stress/lv_demo_stress.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o
+.PHONY : demos/stress/lv_demo_stress.c.o
 
 demos/stress/lv_demo_stress.i: demos/stress/lv_demo_stress.c.i
 .PHONY : demos/stress/lv_demo_stress.i
@@ -1619,13 +1619,13 @@ demos/stress/lv_demo_stress.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.s
 .PHONY : demos/stress/lv_demo_stress.c.s
 
-demos/widgets/assets/img_clothes.obj: demos/widgets/assets/img_clothes.c.obj
-.PHONY : demos/widgets/assets/img_clothes.obj
+demos/widgets/assets/img_clothes.o: demos/widgets/assets/img_clothes.c.o
+.PHONY : demos/widgets/assets/img_clothes.o
 
 # target to build an object file
-demos/widgets/assets/img_clothes.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj
-.PHONY : demos/widgets/assets/img_clothes.c.obj
+demos/widgets/assets/img_clothes.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o
+.PHONY : demos/widgets/assets/img_clothes.c.o
 
 demos/widgets/assets/img_clothes.i: demos/widgets/assets/img_clothes.c.i
 .PHONY : demos/widgets/assets/img_clothes.i
@@ -1643,13 +1643,13 @@ demos/widgets/assets/img_clothes.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.s
 .PHONY : demos/widgets/assets/img_clothes.c.s
 
-demos/widgets/assets/img_demo_widgets_avatar.obj: demos/widgets/assets/img_demo_widgets_avatar.c.obj
-.PHONY : demos/widgets/assets/img_demo_widgets_avatar.obj
+demos/widgets/assets/img_demo_widgets_avatar.o: demos/widgets/assets/img_demo_widgets_avatar.c.o
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.o
 
 # target to build an object file
-demos/widgets/assets/img_demo_widgets_avatar.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj
-.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.obj
+demos/widgets/assets/img_demo_widgets_avatar.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.o
 
 demos/widgets/assets/img_demo_widgets_avatar.i: demos/widgets/assets/img_demo_widgets_avatar.c.i
 .PHONY : demos/widgets/assets/img_demo_widgets_avatar.i
@@ -1667,13 +1667,13 @@ demos/widgets/assets/img_demo_widgets_avatar.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s
 .PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.s
 
-demos/widgets/assets/img_lvgl_logo.obj: demos/widgets/assets/img_lvgl_logo.c.obj
-.PHONY : demos/widgets/assets/img_lvgl_logo.obj
+demos/widgets/assets/img_lvgl_logo.o: demos/widgets/assets/img_lvgl_logo.c.o
+.PHONY : demos/widgets/assets/img_lvgl_logo.o
 
 # target to build an object file
-demos/widgets/assets/img_lvgl_logo.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj
-.PHONY : demos/widgets/assets/img_lvgl_logo.c.obj
+demos/widgets/assets/img_lvgl_logo.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.o
 
 demos/widgets/assets/img_lvgl_logo.i: demos/widgets/assets/img_lvgl_logo.c.i
 .PHONY : demos/widgets/assets/img_lvgl_logo.i
@@ -1691,13 +1691,13 @@ demos/widgets/assets/img_lvgl_logo.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.s
 .PHONY : demos/widgets/assets/img_lvgl_logo.c.s
 
-demos/widgets/lv_demo_widgets.obj: demos/widgets/lv_demo_widgets.c.obj
-.PHONY : demos/widgets/lv_demo_widgets.obj
+demos/widgets/lv_demo_widgets.o: demos/widgets/lv_demo_widgets.c.o
+.PHONY : demos/widgets/lv_demo_widgets.o
 
 # target to build an object file
-demos/widgets/lv_demo_widgets.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj
-.PHONY : demos/widgets/lv_demo_widgets.c.obj
+demos/widgets/lv_demo_widgets.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o
+.PHONY : demos/widgets/lv_demo_widgets.c.o
 
 demos/widgets/lv_demo_widgets.i: demos/widgets/lv_demo_widgets.c.i
 .PHONY : demos/widgets/lv_demo_widgets.i
@@ -1715,13 +1715,13 @@ demos/widgets/lv_demo_widgets.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.s
 .PHONY : demos/widgets/lv_demo_widgets.c.s
 
-examples/anim/lv_example_anim_1.obj: examples/anim/lv_example_anim_1.c.obj
-.PHONY : examples/anim/lv_example_anim_1.obj
+examples/anim/lv_example_anim_1.o: examples/anim/lv_example_anim_1.c.o
+.PHONY : examples/anim/lv_example_anim_1.o
 
 # target to build an object file
-examples/anim/lv_example_anim_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.obj
-.PHONY : examples/anim/lv_example_anim_1.c.obj
+examples/anim/lv_example_anim_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.o
+.PHONY : examples/anim/lv_example_anim_1.c.o
 
 examples/anim/lv_example_anim_1.i: examples/anim/lv_example_anim_1.c.i
 .PHONY : examples/anim/lv_example_anim_1.i
@@ -1739,13 +1739,13 @@ examples/anim/lv_example_anim_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.s
 .PHONY : examples/anim/lv_example_anim_1.c.s
 
-examples/anim/lv_example_anim_2.obj: examples/anim/lv_example_anim_2.c.obj
-.PHONY : examples/anim/lv_example_anim_2.obj
+examples/anim/lv_example_anim_2.o: examples/anim/lv_example_anim_2.c.o
+.PHONY : examples/anim/lv_example_anim_2.o
 
 # target to build an object file
-examples/anim/lv_example_anim_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.obj
-.PHONY : examples/anim/lv_example_anim_2.c.obj
+examples/anim/lv_example_anim_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.o
+.PHONY : examples/anim/lv_example_anim_2.c.o
 
 examples/anim/lv_example_anim_2.i: examples/anim/lv_example_anim_2.c.i
 .PHONY : examples/anim/lv_example_anim_2.i
@@ -1763,13 +1763,13 @@ examples/anim/lv_example_anim_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.s
 .PHONY : examples/anim/lv_example_anim_2.c.s
 
-examples/anim/lv_example_anim_3.obj: examples/anim/lv_example_anim_3.c.obj
-.PHONY : examples/anim/lv_example_anim_3.obj
+examples/anim/lv_example_anim_3.o: examples/anim/lv_example_anim_3.c.o
+.PHONY : examples/anim/lv_example_anim_3.o
 
 # target to build an object file
-examples/anim/lv_example_anim_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.obj
-.PHONY : examples/anim/lv_example_anim_3.c.obj
+examples/anim/lv_example_anim_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.o
+.PHONY : examples/anim/lv_example_anim_3.c.o
 
 examples/anim/lv_example_anim_3.i: examples/anim/lv_example_anim_3.c.i
 .PHONY : examples/anim/lv_example_anim_3.i
@@ -1787,13 +1787,13 @@ examples/anim/lv_example_anim_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.s
 .PHONY : examples/anim/lv_example_anim_3.c.s
 
-examples/anim/lv_example_anim_timeline_1.obj: examples/anim/lv_example_anim_timeline_1.c.obj
-.PHONY : examples/anim/lv_example_anim_timeline_1.obj
+examples/anim/lv_example_anim_timeline_1.o: examples/anim/lv_example_anim_timeline_1.c.o
+.PHONY : examples/anim/lv_example_anim_timeline_1.o
 
 # target to build an object file
-examples/anim/lv_example_anim_timeline_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.obj
-.PHONY : examples/anim/lv_example_anim_timeline_1.c.obj
+examples/anim/lv_example_anim_timeline_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.o
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.o
 
 examples/anim/lv_example_anim_timeline_1.i: examples/anim/lv_example_anim_timeline_1.c.i
 .PHONY : examples/anim/lv_example_anim_timeline_1.i
@@ -1811,13 +1811,13 @@ examples/anim/lv_example_anim_timeline_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.s
 .PHONY : examples/anim/lv_example_anim_timeline_1.c.s
 
-examples/assets/animimg001.obj: examples/assets/animimg001.c.obj
-.PHONY : examples/assets/animimg001.obj
+examples/assets/animimg001.o: examples/assets/animimg001.c.o
+.PHONY : examples/assets/animimg001.o
 
 # target to build an object file
-examples/assets/animimg001.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.obj
-.PHONY : examples/assets/animimg001.c.obj
+examples/assets/animimg001.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.o
+.PHONY : examples/assets/animimg001.c.o
 
 examples/assets/animimg001.i: examples/assets/animimg001.c.i
 .PHONY : examples/assets/animimg001.i
@@ -1835,13 +1835,13 @@ examples/assets/animimg001.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.s
 .PHONY : examples/assets/animimg001.c.s
 
-examples/assets/animimg002.obj: examples/assets/animimg002.c.obj
-.PHONY : examples/assets/animimg002.obj
+examples/assets/animimg002.o: examples/assets/animimg002.c.o
+.PHONY : examples/assets/animimg002.o
 
 # target to build an object file
-examples/assets/animimg002.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.obj
-.PHONY : examples/assets/animimg002.c.obj
+examples/assets/animimg002.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.o
+.PHONY : examples/assets/animimg002.c.o
 
 examples/assets/animimg002.i: examples/assets/animimg002.c.i
 .PHONY : examples/assets/animimg002.i
@@ -1859,13 +1859,13 @@ examples/assets/animimg002.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.s
 .PHONY : examples/assets/animimg002.c.s
 
-examples/assets/animimg003.obj: examples/assets/animimg003.c.obj
-.PHONY : examples/assets/animimg003.obj
+examples/assets/animimg003.o: examples/assets/animimg003.c.o
+.PHONY : examples/assets/animimg003.o
 
 # target to build an object file
-examples/assets/animimg003.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.obj
-.PHONY : examples/assets/animimg003.c.obj
+examples/assets/animimg003.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.o
+.PHONY : examples/assets/animimg003.c.o
 
 examples/assets/animimg003.i: examples/assets/animimg003.c.i
 .PHONY : examples/assets/animimg003.i
@@ -1883,13 +1883,13 @@ examples/assets/animimg003.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.s
 .PHONY : examples/assets/animimg003.c.s
 
-examples/assets/emoji/img_emoji_F617.obj: examples/assets/emoji/img_emoji_F617.c.obj
-.PHONY : examples/assets/emoji/img_emoji_F617.obj
+examples/assets/emoji/img_emoji_F617.o: examples/assets/emoji/img_emoji_F617.c.o
+.PHONY : examples/assets/emoji/img_emoji_F617.o
 
 # target to build an object file
-examples/assets/emoji/img_emoji_F617.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.obj
-.PHONY : examples/assets/emoji/img_emoji_F617.c.obj
+examples/assets/emoji/img_emoji_F617.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.o
+.PHONY : examples/assets/emoji/img_emoji_F617.c.o
 
 examples/assets/emoji/img_emoji_F617.i: examples/assets/emoji/img_emoji_F617.c.i
 .PHONY : examples/assets/emoji/img_emoji_F617.i
@@ -1907,13 +1907,13 @@ examples/assets/emoji/img_emoji_F617.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.s
 .PHONY : examples/assets/emoji/img_emoji_F617.c.s
 
-examples/assets/img_caret_down.obj: examples/assets/img_caret_down.c.obj
-.PHONY : examples/assets/img_caret_down.obj
+examples/assets/img_caret_down.o: examples/assets/img_caret_down.c.o
+.PHONY : examples/assets/img_caret_down.o
 
 # target to build an object file
-examples/assets/img_caret_down.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.obj
-.PHONY : examples/assets/img_caret_down.c.obj
+examples/assets/img_caret_down.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.o
+.PHONY : examples/assets/img_caret_down.c.o
 
 examples/assets/img_caret_down.i: examples/assets/img_caret_down.c.i
 .PHONY : examples/assets/img_caret_down.i
@@ -1931,13 +1931,13 @@ examples/assets/img_caret_down.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.s
 .PHONY : examples/assets/img_caret_down.c.s
 
-examples/assets/img_cogwheel_alpha16.obj: examples/assets/img_cogwheel_alpha16.c.obj
-.PHONY : examples/assets/img_cogwheel_alpha16.obj
+examples/assets/img_cogwheel_alpha16.o: examples/assets/img_cogwheel_alpha16.c.o
+.PHONY : examples/assets/img_cogwheel_alpha16.o
 
 # target to build an object file
-examples/assets/img_cogwheel_alpha16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_alpha16.c.obj
-.PHONY : examples/assets/img_cogwheel_alpha16.c.obj
+examples/assets/img_cogwheel_alpha16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_alpha16.c.o
+.PHONY : examples/assets/img_cogwheel_alpha16.c.o
 
 examples/assets/img_cogwheel_alpha16.i: examples/assets/img_cogwheel_alpha16.c.i
 .PHONY : examples/assets/img_cogwheel_alpha16.i
@@ -1955,13 +1955,13 @@ examples/assets/img_cogwheel_alpha16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_alpha16.c.s
 .PHONY : examples/assets/img_cogwheel_alpha16.c.s
 
-examples/assets/img_cogwheel_argb.obj: examples/assets/img_cogwheel_argb.c.obj
-.PHONY : examples/assets/img_cogwheel_argb.obj
+examples/assets/img_cogwheel_argb.o: examples/assets/img_cogwheel_argb.c.o
+.PHONY : examples/assets/img_cogwheel_argb.o
 
 # target to build an object file
-examples/assets/img_cogwheel_argb.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.obj
-.PHONY : examples/assets/img_cogwheel_argb.c.obj
+examples/assets/img_cogwheel_argb.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.o
+.PHONY : examples/assets/img_cogwheel_argb.c.o
 
 examples/assets/img_cogwheel_argb.i: examples/assets/img_cogwheel_argb.c.i
 .PHONY : examples/assets/img_cogwheel_argb.i
@@ -1979,13 +1979,13 @@ examples/assets/img_cogwheel_argb.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.s
 .PHONY : examples/assets/img_cogwheel_argb.c.s
 
-examples/assets/img_cogwheel_chroma_keyed.obj: examples/assets/img_cogwheel_chroma_keyed.c.obj
-.PHONY : examples/assets/img_cogwheel_chroma_keyed.obj
+examples/assets/img_cogwheel_chroma_keyed.o: examples/assets/img_cogwheel_chroma_keyed.c.o
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.o
 
 # target to build an object file
-examples/assets/img_cogwheel_chroma_keyed.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_chroma_keyed.c.obj
-.PHONY : examples/assets/img_cogwheel_chroma_keyed.c.obj
+examples/assets/img_cogwheel_chroma_keyed.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_chroma_keyed.c.o
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.c.o
 
 examples/assets/img_cogwheel_chroma_keyed.i: examples/assets/img_cogwheel_chroma_keyed.c.i
 .PHONY : examples/assets/img_cogwheel_chroma_keyed.i
@@ -2003,13 +2003,13 @@ examples/assets/img_cogwheel_chroma_keyed.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_chroma_keyed.c.s
 .PHONY : examples/assets/img_cogwheel_chroma_keyed.c.s
 
-examples/assets/img_cogwheel_indexed16.obj: examples/assets/img_cogwheel_indexed16.c.obj
-.PHONY : examples/assets/img_cogwheel_indexed16.obj
+examples/assets/img_cogwheel_indexed16.o: examples/assets/img_cogwheel_indexed16.c.o
+.PHONY : examples/assets/img_cogwheel_indexed16.o
 
 # target to build an object file
-examples/assets/img_cogwheel_indexed16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.obj
-.PHONY : examples/assets/img_cogwheel_indexed16.c.obj
+examples/assets/img_cogwheel_indexed16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.o
+.PHONY : examples/assets/img_cogwheel_indexed16.c.o
 
 examples/assets/img_cogwheel_indexed16.i: examples/assets/img_cogwheel_indexed16.c.i
 .PHONY : examples/assets/img_cogwheel_indexed16.i
@@ -2027,13 +2027,13 @@ examples/assets/img_cogwheel_indexed16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.s
 .PHONY : examples/assets/img_cogwheel_indexed16.c.s
 
-examples/assets/img_cogwheel_rgb.obj: examples/assets/img_cogwheel_rgb.c.obj
-.PHONY : examples/assets/img_cogwheel_rgb.obj
+examples/assets/img_cogwheel_rgb.o: examples/assets/img_cogwheel_rgb.c.o
+.PHONY : examples/assets/img_cogwheel_rgb.o
 
 # target to build an object file
-examples/assets/img_cogwheel_rgb.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.obj
-.PHONY : examples/assets/img_cogwheel_rgb.c.obj
+examples/assets/img_cogwheel_rgb.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.o
+.PHONY : examples/assets/img_cogwheel_rgb.c.o
 
 examples/assets/img_cogwheel_rgb.i: examples/assets/img_cogwheel_rgb.c.i
 .PHONY : examples/assets/img_cogwheel_rgb.i
@@ -2051,13 +2051,13 @@ examples/assets/img_cogwheel_rgb.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.s
 .PHONY : examples/assets/img_cogwheel_rgb.c.s
 
-examples/assets/img_hand.obj: examples/assets/img_hand.c.obj
-.PHONY : examples/assets/img_hand.obj
+examples/assets/img_hand.o: examples/assets/img_hand.c.o
+.PHONY : examples/assets/img_hand.o
 
 # target to build an object file
-examples/assets/img_hand.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.obj
-.PHONY : examples/assets/img_hand.c.obj
+examples/assets/img_hand.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.o
+.PHONY : examples/assets/img_hand.c.o
 
 examples/assets/img_hand.i: examples/assets/img_hand.c.i
 .PHONY : examples/assets/img_hand.i
@@ -2075,13 +2075,13 @@ examples/assets/img_hand.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.s
 .PHONY : examples/assets/img_hand.c.s
 
-examples/assets/img_skew_strip.obj: examples/assets/img_skew_strip.c.obj
-.PHONY : examples/assets/img_skew_strip.obj
+examples/assets/img_skew_strip.o: examples/assets/img_skew_strip.c.o
+.PHONY : examples/assets/img_skew_strip.o
 
 # target to build an object file
-examples/assets/img_skew_strip.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.obj
-.PHONY : examples/assets/img_skew_strip.c.obj
+examples/assets/img_skew_strip.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.o
+.PHONY : examples/assets/img_skew_strip.c.o
 
 examples/assets/img_skew_strip.i: examples/assets/img_skew_strip.c.i
 .PHONY : examples/assets/img_skew_strip.i
@@ -2099,13 +2099,13 @@ examples/assets/img_skew_strip.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.s
 .PHONY : examples/assets/img_skew_strip.c.s
 
-examples/assets/img_star.obj: examples/assets/img_star.c.obj
-.PHONY : examples/assets/img_star.obj
+examples/assets/img_star.o: examples/assets/img_star.c.o
+.PHONY : examples/assets/img_star.o
 
 # target to build an object file
-examples/assets/img_star.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.obj
-.PHONY : examples/assets/img_star.c.obj
+examples/assets/img_star.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.o
+.PHONY : examples/assets/img_star.c.o
 
 examples/assets/img_star.i: examples/assets/img_star.c.i
 .PHONY : examples/assets/img_star.i
@@ -2123,13 +2123,13 @@ examples/assets/img_star.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.s
 .PHONY : examples/assets/img_star.c.s
 
-examples/assets/imgbtn_left.obj: examples/assets/imgbtn_left.c.obj
-.PHONY : examples/assets/imgbtn_left.obj
+examples/assets/imgbtn_left.o: examples/assets/imgbtn_left.c.o
+.PHONY : examples/assets/imgbtn_left.o
 
 # target to build an object file
-examples/assets/imgbtn_left.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.obj
-.PHONY : examples/assets/imgbtn_left.c.obj
+examples/assets/imgbtn_left.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.o
+.PHONY : examples/assets/imgbtn_left.c.o
 
 examples/assets/imgbtn_left.i: examples/assets/imgbtn_left.c.i
 .PHONY : examples/assets/imgbtn_left.i
@@ -2147,13 +2147,13 @@ examples/assets/imgbtn_left.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.s
 .PHONY : examples/assets/imgbtn_left.c.s
 
-examples/assets/imgbtn_mid.obj: examples/assets/imgbtn_mid.c.obj
-.PHONY : examples/assets/imgbtn_mid.obj
+examples/assets/imgbtn_mid.o: examples/assets/imgbtn_mid.c.o
+.PHONY : examples/assets/imgbtn_mid.o
 
 # target to build an object file
-examples/assets/imgbtn_mid.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.obj
-.PHONY : examples/assets/imgbtn_mid.c.obj
+examples/assets/imgbtn_mid.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.o
+.PHONY : examples/assets/imgbtn_mid.c.o
 
 examples/assets/imgbtn_mid.i: examples/assets/imgbtn_mid.c.i
 .PHONY : examples/assets/imgbtn_mid.i
@@ -2171,13 +2171,13 @@ examples/assets/imgbtn_mid.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.s
 .PHONY : examples/assets/imgbtn_mid.c.s
 
-examples/assets/imgbtn_right.obj: examples/assets/imgbtn_right.c.obj
-.PHONY : examples/assets/imgbtn_right.obj
+examples/assets/imgbtn_right.o: examples/assets/imgbtn_right.c.o
+.PHONY : examples/assets/imgbtn_right.o
 
 # target to build an object file
-examples/assets/imgbtn_right.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.obj
-.PHONY : examples/assets/imgbtn_right.c.obj
+examples/assets/imgbtn_right.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.o
+.PHONY : examples/assets/imgbtn_right.c.o
 
 examples/assets/imgbtn_right.i: examples/assets/imgbtn_right.c.i
 .PHONY : examples/assets/imgbtn_right.i
@@ -2195,13 +2195,13 @@ examples/assets/imgbtn_right.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.s
 .PHONY : examples/assets/imgbtn_right.c.s
 
-examples/event/lv_example_event_1.obj: examples/event/lv_example_event_1.c.obj
-.PHONY : examples/event/lv_example_event_1.obj
+examples/event/lv_example_event_1.o: examples/event/lv_example_event_1.c.o
+.PHONY : examples/event/lv_example_event_1.o
 
 # target to build an object file
-examples/event/lv_example_event_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_1.c.obj
-.PHONY : examples/event/lv_example_event_1.c.obj
+examples/event/lv_example_event_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_1.c.o
+.PHONY : examples/event/lv_example_event_1.c.o
 
 examples/event/lv_example_event_1.i: examples/event/lv_example_event_1.c.i
 .PHONY : examples/event/lv_example_event_1.i
@@ -2219,13 +2219,13 @@ examples/event/lv_example_event_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_1.c.s
 .PHONY : examples/event/lv_example_event_1.c.s
 
-examples/event/lv_example_event_2.obj: examples/event/lv_example_event_2.c.obj
-.PHONY : examples/event/lv_example_event_2.obj
+examples/event/lv_example_event_2.o: examples/event/lv_example_event_2.c.o
+.PHONY : examples/event/lv_example_event_2.o
 
 # target to build an object file
-examples/event/lv_example_event_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_2.c.obj
-.PHONY : examples/event/lv_example_event_2.c.obj
+examples/event/lv_example_event_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_2.c.o
+.PHONY : examples/event/lv_example_event_2.c.o
 
 examples/event/lv_example_event_2.i: examples/event/lv_example_event_2.c.i
 .PHONY : examples/event/lv_example_event_2.i
@@ -2243,13 +2243,13 @@ examples/event/lv_example_event_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_2.c.s
 .PHONY : examples/event/lv_example_event_2.c.s
 
-examples/event/lv_example_event_3.obj: examples/event/lv_example_event_3.c.obj
-.PHONY : examples/event/lv_example_event_3.obj
+examples/event/lv_example_event_3.o: examples/event/lv_example_event_3.c.o
+.PHONY : examples/event/lv_example_event_3.o
 
 # target to build an object file
-examples/event/lv_example_event_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_3.c.obj
-.PHONY : examples/event/lv_example_event_3.c.obj
+examples/event/lv_example_event_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_3.c.o
+.PHONY : examples/event/lv_example_event_3.c.o
 
 examples/event/lv_example_event_3.i: examples/event/lv_example_event_3.c.i
 .PHONY : examples/event/lv_example_event_3.i
@@ -2267,13 +2267,13 @@ examples/event/lv_example_event_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_3.c.s
 .PHONY : examples/event/lv_example_event_3.c.s
 
-examples/event/lv_example_event_4.obj: examples/event/lv_example_event_4.c.obj
-.PHONY : examples/event/lv_example_event_4.obj
+examples/event/lv_example_event_4.o: examples/event/lv_example_event_4.c.o
+.PHONY : examples/event/lv_example_event_4.o
 
 # target to build an object file
-examples/event/lv_example_event_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_4.c.obj
-.PHONY : examples/event/lv_example_event_4.c.obj
+examples/event/lv_example_event_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_4.c.o
+.PHONY : examples/event/lv_example_event_4.c.o
 
 examples/event/lv_example_event_4.i: examples/event/lv_example_event_4.c.i
 .PHONY : examples/event/lv_example_event_4.i
@@ -2291,13 +2291,13 @@ examples/event/lv_example_event_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_4.c.s
 .PHONY : examples/event/lv_example_event_4.c.s
 
-examples/get_started/lv_example_get_started_1.obj: examples/get_started/lv_example_get_started_1.c.obj
-.PHONY : examples/get_started/lv_example_get_started_1.obj
+examples/get_started/lv_example_get_started_1.o: examples/get_started/lv_example_get_started_1.c.o
+.PHONY : examples/get_started/lv_example_get_started_1.o
 
 # target to build an object file
-examples/get_started/lv_example_get_started_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.obj
-.PHONY : examples/get_started/lv_example_get_started_1.c.obj
+examples/get_started/lv_example_get_started_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.o
+.PHONY : examples/get_started/lv_example_get_started_1.c.o
 
 examples/get_started/lv_example_get_started_1.i: examples/get_started/lv_example_get_started_1.c.i
 .PHONY : examples/get_started/lv_example_get_started_1.i
@@ -2315,13 +2315,13 @@ examples/get_started/lv_example_get_started_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.s
 .PHONY : examples/get_started/lv_example_get_started_1.c.s
 
-examples/get_started/lv_example_get_started_2.obj: examples/get_started/lv_example_get_started_2.c.obj
-.PHONY : examples/get_started/lv_example_get_started_2.obj
+examples/get_started/lv_example_get_started_2.o: examples/get_started/lv_example_get_started_2.c.o
+.PHONY : examples/get_started/lv_example_get_started_2.o
 
 # target to build an object file
-examples/get_started/lv_example_get_started_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.obj
-.PHONY : examples/get_started/lv_example_get_started_2.c.obj
+examples/get_started/lv_example_get_started_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.o
+.PHONY : examples/get_started/lv_example_get_started_2.c.o
 
 examples/get_started/lv_example_get_started_2.i: examples/get_started/lv_example_get_started_2.c.i
 .PHONY : examples/get_started/lv_example_get_started_2.i
@@ -2339,13 +2339,13 @@ examples/get_started/lv_example_get_started_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.s
 .PHONY : examples/get_started/lv_example_get_started_2.c.s
 
-examples/get_started/lv_example_get_started_3.obj: examples/get_started/lv_example_get_started_3.c.obj
-.PHONY : examples/get_started/lv_example_get_started_3.obj
+examples/get_started/lv_example_get_started_3.o: examples/get_started/lv_example_get_started_3.c.o
+.PHONY : examples/get_started/lv_example_get_started_3.o
 
 # target to build an object file
-examples/get_started/lv_example_get_started_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.obj
-.PHONY : examples/get_started/lv_example_get_started_3.c.obj
+examples/get_started/lv_example_get_started_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.o
+.PHONY : examples/get_started/lv_example_get_started_3.c.o
 
 examples/get_started/lv_example_get_started_3.i: examples/get_started/lv_example_get_started_3.c.i
 .PHONY : examples/get_started/lv_example_get_started_3.i
@@ -2363,13 +2363,13 @@ examples/get_started/lv_example_get_started_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.s
 .PHONY : examples/get_started/lv_example_get_started_3.c.s
 
-examples/layouts/flex/lv_example_flex_1.obj: examples/layouts/flex/lv_example_flex_1.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_1.obj
+examples/layouts/flex/lv_example_flex_1.o: examples/layouts/flex/lv_example_flex_1.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_1.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_1.c.obj
+examples/layouts/flex/lv_example_flex_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.o
 
 examples/layouts/flex/lv_example_flex_1.i: examples/layouts/flex/lv_example_flex_1.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_1.i
@@ -2387,13 +2387,13 @@ examples/layouts/flex/lv_example_flex_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_1.c.s
 
-examples/layouts/flex/lv_example_flex_2.obj: examples/layouts/flex/lv_example_flex_2.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_2.obj
+examples/layouts/flex/lv_example_flex_2.o: examples/layouts/flex/lv_example_flex_2.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_2.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_2.c.obj
+examples/layouts/flex/lv_example_flex_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.o
 
 examples/layouts/flex/lv_example_flex_2.i: examples/layouts/flex/lv_example_flex_2.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_2.i
@@ -2411,13 +2411,13 @@ examples/layouts/flex/lv_example_flex_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_2.c.s
 
-examples/layouts/flex/lv_example_flex_3.obj: examples/layouts/flex/lv_example_flex_3.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_3.obj
+examples/layouts/flex/lv_example_flex_3.o: examples/layouts/flex/lv_example_flex_3.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_3.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_3.c.obj
+examples/layouts/flex/lv_example_flex_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.o
 
 examples/layouts/flex/lv_example_flex_3.i: examples/layouts/flex/lv_example_flex_3.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_3.i
@@ -2435,13 +2435,13 @@ examples/layouts/flex/lv_example_flex_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_3.c.s
 
-examples/layouts/flex/lv_example_flex_4.obj: examples/layouts/flex/lv_example_flex_4.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_4.obj
+examples/layouts/flex/lv_example_flex_4.o: examples/layouts/flex/lv_example_flex_4.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_4.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_4.c.obj
+examples/layouts/flex/lv_example_flex_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.o
 
 examples/layouts/flex/lv_example_flex_4.i: examples/layouts/flex/lv_example_flex_4.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_4.i
@@ -2459,13 +2459,13 @@ examples/layouts/flex/lv_example_flex_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_4.c.s
 
-examples/layouts/flex/lv_example_flex_5.obj: examples/layouts/flex/lv_example_flex_5.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_5.obj
+examples/layouts/flex/lv_example_flex_5.o: examples/layouts/flex/lv_example_flex_5.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_5.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_5.c.obj
+examples/layouts/flex/lv_example_flex_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.o
 
 examples/layouts/flex/lv_example_flex_5.i: examples/layouts/flex/lv_example_flex_5.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_5.i
@@ -2483,13 +2483,13 @@ examples/layouts/flex/lv_example_flex_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_5.c.s
 
-examples/layouts/flex/lv_example_flex_6.obj: examples/layouts/flex/lv_example_flex_6.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_6.obj
+examples/layouts/flex/lv_example_flex_6.o: examples/layouts/flex/lv_example_flex_6.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_6.o
 
 # target to build an object file
-examples/layouts/flex/lv_example_flex_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.obj
-.PHONY : examples/layouts/flex/lv_example_flex_6.c.obj
+examples/layouts/flex/lv_example_flex_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.o
 
 examples/layouts/flex/lv_example_flex_6.i: examples/layouts/flex/lv_example_flex_6.c.i
 .PHONY : examples/layouts/flex/lv_example_flex_6.i
@@ -2507,13 +2507,13 @@ examples/layouts/flex/lv_example_flex_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.s
 .PHONY : examples/layouts/flex/lv_example_flex_6.c.s
 
-examples/layouts/grid/lv_example_grid_1.obj: examples/layouts/grid/lv_example_grid_1.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_1.obj
+examples/layouts/grid/lv_example_grid_1.o: examples/layouts/grid/lv_example_grid_1.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_1.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_1.c.obj
+examples/layouts/grid/lv_example_grid_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.o
 
 examples/layouts/grid/lv_example_grid_1.i: examples/layouts/grid/lv_example_grid_1.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_1.i
@@ -2531,13 +2531,13 @@ examples/layouts/grid/lv_example_grid_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_1.c.s
 
-examples/layouts/grid/lv_example_grid_2.obj: examples/layouts/grid/lv_example_grid_2.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_2.obj
+examples/layouts/grid/lv_example_grid_2.o: examples/layouts/grid/lv_example_grid_2.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_2.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_2.c.obj
+examples/layouts/grid/lv_example_grid_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.o
 
 examples/layouts/grid/lv_example_grid_2.i: examples/layouts/grid/lv_example_grid_2.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_2.i
@@ -2555,13 +2555,13 @@ examples/layouts/grid/lv_example_grid_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_2.c.s
 
-examples/layouts/grid/lv_example_grid_3.obj: examples/layouts/grid/lv_example_grid_3.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_3.obj
+examples/layouts/grid/lv_example_grid_3.o: examples/layouts/grid/lv_example_grid_3.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_3.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_3.c.obj
+examples/layouts/grid/lv_example_grid_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.o
 
 examples/layouts/grid/lv_example_grid_3.i: examples/layouts/grid/lv_example_grid_3.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_3.i
@@ -2579,13 +2579,13 @@ examples/layouts/grid/lv_example_grid_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_3.c.s
 
-examples/layouts/grid/lv_example_grid_4.obj: examples/layouts/grid/lv_example_grid_4.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_4.obj
+examples/layouts/grid/lv_example_grid_4.o: examples/layouts/grid/lv_example_grid_4.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_4.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_4.c.obj
+examples/layouts/grid/lv_example_grid_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.o
 
 examples/layouts/grid/lv_example_grid_4.i: examples/layouts/grid/lv_example_grid_4.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_4.i
@@ -2603,13 +2603,13 @@ examples/layouts/grid/lv_example_grid_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_4.c.s
 
-examples/layouts/grid/lv_example_grid_5.obj: examples/layouts/grid/lv_example_grid_5.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_5.obj
+examples/layouts/grid/lv_example_grid_5.o: examples/layouts/grid/lv_example_grid_5.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_5.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_5.c.obj
+examples/layouts/grid/lv_example_grid_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.o
 
 examples/layouts/grid/lv_example_grid_5.i: examples/layouts/grid/lv_example_grid_5.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_5.i
@@ -2627,13 +2627,13 @@ examples/layouts/grid/lv_example_grid_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_5.c.s
 
-examples/layouts/grid/lv_example_grid_6.obj: examples/layouts/grid/lv_example_grid_6.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_6.obj
+examples/layouts/grid/lv_example_grid_6.o: examples/layouts/grid/lv_example_grid_6.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_6.o
 
 # target to build an object file
-examples/layouts/grid/lv_example_grid_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.obj
-.PHONY : examples/layouts/grid/lv_example_grid_6.c.obj
+examples/layouts/grid/lv_example_grid_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.o
 
 examples/layouts/grid/lv_example_grid_6.i: examples/layouts/grid/lv_example_grid_6.c.i
 .PHONY : examples/layouts/grid/lv_example_grid_6.i
@@ -2651,13 +2651,13 @@ examples/layouts/grid/lv_example_grid_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.s
 .PHONY : examples/layouts/grid/lv_example_grid_6.c.s
 
-examples/libs/bmp/lv_example_bmp_1.obj: examples/libs/bmp/lv_example_bmp_1.c.obj
-.PHONY : examples/libs/bmp/lv_example_bmp_1.obj
+examples/libs/bmp/lv_example_bmp_1.o: examples/libs/bmp/lv_example_bmp_1.c.o
+.PHONY : examples/libs/bmp/lv_example_bmp_1.o
 
 # target to build an object file
-examples/libs/bmp/lv_example_bmp_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.obj
-.PHONY : examples/libs/bmp/lv_example_bmp_1.c.obj
+examples/libs/bmp/lv_example_bmp_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.o
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.o
 
 examples/libs/bmp/lv_example_bmp_1.i: examples/libs/bmp/lv_example_bmp_1.c.i
 .PHONY : examples/libs/bmp/lv_example_bmp_1.i
@@ -2675,13 +2675,13 @@ examples/libs/bmp/lv_example_bmp_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.s
 .PHONY : examples/libs/bmp/lv_example_bmp_1.c.s
 
-examples/libs/ffmpeg/lv_example_ffmpeg_1.obj: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
-.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.obj
+examples/libs/ffmpeg/lv_example_ffmpeg_1.o: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.o
 
 # target to build an object file
-examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
-.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
 
 examples/libs/ffmpeg/lv_example_ffmpeg_1.i: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
 .PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.i
@@ -2699,13 +2699,13 @@ examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
 .PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
 
-examples/libs/ffmpeg/lv_example_ffmpeg_2.obj: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
-.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.obj
+examples/libs/ffmpeg/lv_example_ffmpeg_2.o: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.o
 
 # target to build an object file
-examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
-.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
 
 examples/libs/ffmpeg/lv_example_ffmpeg_2.i: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
 .PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.i
@@ -2723,13 +2723,13 @@ examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
 .PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
 
-examples/libs/freetype/lv_example_freetype_1.obj: examples/libs/freetype/lv_example_freetype_1.c.obj
-.PHONY : examples/libs/freetype/lv_example_freetype_1.obj
+examples/libs/freetype/lv_example_freetype_1.o: examples/libs/freetype/lv_example_freetype_1.c.o
+.PHONY : examples/libs/freetype/lv_example_freetype_1.o
 
 # target to build an object file
-examples/libs/freetype/lv_example_freetype_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.obj
-.PHONY : examples/libs/freetype/lv_example_freetype_1.c.obj
+examples/libs/freetype/lv_example_freetype_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.o
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.o
 
 examples/libs/freetype/lv_example_freetype_1.i: examples/libs/freetype/lv_example_freetype_1.c.i
 .PHONY : examples/libs/freetype/lv_example_freetype_1.i
@@ -2747,13 +2747,13 @@ examples/libs/freetype/lv_example_freetype_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.s
 .PHONY : examples/libs/freetype/lv_example_freetype_1.c.s
 
-examples/libs/gif/img_bulb_gif.obj: examples/libs/gif/img_bulb_gif.c.obj
-.PHONY : examples/libs/gif/img_bulb_gif.obj
+examples/libs/gif/img_bulb_gif.o: examples/libs/gif/img_bulb_gif.c.o
+.PHONY : examples/libs/gif/img_bulb_gif.o
 
 # target to build an object file
-examples/libs/gif/img_bulb_gif.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.obj
-.PHONY : examples/libs/gif/img_bulb_gif.c.obj
+examples/libs/gif/img_bulb_gif.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.o
+.PHONY : examples/libs/gif/img_bulb_gif.c.o
 
 examples/libs/gif/img_bulb_gif.i: examples/libs/gif/img_bulb_gif.c.i
 .PHONY : examples/libs/gif/img_bulb_gif.i
@@ -2771,13 +2771,13 @@ examples/libs/gif/img_bulb_gif.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.s
 .PHONY : examples/libs/gif/img_bulb_gif.c.s
 
-examples/libs/gif/lv_example_gif_1.obj: examples/libs/gif/lv_example_gif_1.c.obj
-.PHONY : examples/libs/gif/lv_example_gif_1.obj
+examples/libs/gif/lv_example_gif_1.o: examples/libs/gif/lv_example_gif_1.c.o
+.PHONY : examples/libs/gif/lv_example_gif_1.o
 
 # target to build an object file
-examples/libs/gif/lv_example_gif_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.obj
-.PHONY : examples/libs/gif/lv_example_gif_1.c.obj
+examples/libs/gif/lv_example_gif_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.o
+.PHONY : examples/libs/gif/lv_example_gif_1.c.o
 
 examples/libs/gif/lv_example_gif_1.i: examples/libs/gif/lv_example_gif_1.c.i
 .PHONY : examples/libs/gif/lv_example_gif_1.i
@@ -2795,13 +2795,13 @@ examples/libs/gif/lv_example_gif_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.s
 .PHONY : examples/libs/gif/lv_example_gif_1.c.s
 
-examples/libs/png/img_wink_png.obj: examples/libs/png/img_wink_png.c.obj
-.PHONY : examples/libs/png/img_wink_png.obj
+examples/libs/png/img_wink_png.o: examples/libs/png/img_wink_png.c.o
+.PHONY : examples/libs/png/img_wink_png.o
 
 # target to build an object file
-examples/libs/png/img_wink_png.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/img_wink_png.c.obj
-.PHONY : examples/libs/png/img_wink_png.c.obj
+examples/libs/png/img_wink_png.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/img_wink_png.c.o
+.PHONY : examples/libs/png/img_wink_png.c.o
 
 examples/libs/png/img_wink_png.i: examples/libs/png/img_wink_png.c.i
 .PHONY : examples/libs/png/img_wink_png.i
@@ -2819,13 +2819,13 @@ examples/libs/png/img_wink_png.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/img_wink_png.c.s
 .PHONY : examples/libs/png/img_wink_png.c.s
 
-examples/libs/png/lv_example_png_1.obj: examples/libs/png/lv_example_png_1.c.obj
-.PHONY : examples/libs/png/lv_example_png_1.obj
+examples/libs/png/lv_example_png_1.o: examples/libs/png/lv_example_png_1.c.o
+.PHONY : examples/libs/png/lv_example_png_1.o
 
 # target to build an object file
-examples/libs/png/lv_example_png_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/lv_example_png_1.c.obj
-.PHONY : examples/libs/png/lv_example_png_1.c.obj
+examples/libs/png/lv_example_png_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/lv_example_png_1.c.o
+.PHONY : examples/libs/png/lv_example_png_1.c.o
 
 examples/libs/png/lv_example_png_1.i: examples/libs/png/lv_example_png_1.c.i
 .PHONY : examples/libs/png/lv_example_png_1.i
@@ -2843,13 +2843,13 @@ examples/libs/png/lv_example_png_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/png/lv_example_png_1.c.s
 .PHONY : examples/libs/png/lv_example_png_1.c.s
 
-examples/libs/qrcode/lv_example_qrcode_1.obj: examples/libs/qrcode/lv_example_qrcode_1.c.obj
-.PHONY : examples/libs/qrcode/lv_example_qrcode_1.obj
+examples/libs/qrcode/lv_example_qrcode_1.o: examples/libs/qrcode/lv_example_qrcode_1.c.o
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.o
 
 # target to build an object file
-examples/libs/qrcode/lv_example_qrcode_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.obj
-.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.obj
+examples/libs/qrcode/lv_example_qrcode_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.o
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.o
 
 examples/libs/qrcode/lv_example_qrcode_1.i: examples/libs/qrcode/lv_example_qrcode_1.c.i
 .PHONY : examples/libs/qrcode/lv_example_qrcode_1.i
@@ -2867,13 +2867,13 @@ examples/libs/qrcode/lv_example_qrcode_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.s
 .PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.s
 
-examples/libs/rlottie/lv_example_rlottie_1.obj: examples/libs/rlottie/lv_example_rlottie_1.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_1.obj
+examples/libs/rlottie/lv_example_rlottie_1.o: examples/libs/rlottie/lv_example_rlottie_1.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.o
 
 # target to build an object file
-examples/libs/rlottie/lv_example_rlottie_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.obj
+examples/libs/rlottie/lv_example_rlottie_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.o
 
 examples/libs/rlottie/lv_example_rlottie_1.i: examples/libs/rlottie/lv_example_rlottie_1.c.i
 .PHONY : examples/libs/rlottie/lv_example_rlottie_1.i
@@ -2891,13 +2891,13 @@ examples/libs/rlottie/lv_example_rlottie_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.s
 .PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.s
 
-examples/libs/rlottie/lv_example_rlottie_2.obj: examples/libs/rlottie/lv_example_rlottie_2.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_2.obj
+examples/libs/rlottie/lv_example_rlottie_2.o: examples/libs/rlottie/lv_example_rlottie_2.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.o
 
 # target to build an object file
-examples/libs/rlottie/lv_example_rlottie_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.obj
+examples/libs/rlottie/lv_example_rlottie_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.o
 
 examples/libs/rlottie/lv_example_rlottie_2.i: examples/libs/rlottie/lv_example_rlottie_2.c.i
 .PHONY : examples/libs/rlottie/lv_example_rlottie_2.i
@@ -2915,13 +2915,13 @@ examples/libs/rlottie/lv_example_rlottie_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.s
 .PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.s
 
-examples/libs/rlottie/lv_example_rlottie_approve.obj: examples/libs/rlottie/lv_example_rlottie_approve.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.obj
+examples/libs/rlottie/lv_example_rlottie_approve.o: examples/libs/rlottie/lv_example_rlottie_approve.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.o
 
 # target to build an object file
-examples/libs/rlottie/lv_example_rlottie_approve.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.obj
-.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.obj
+examples/libs/rlottie/lv_example_rlottie_approve.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.o
 
 examples/libs/rlottie/lv_example_rlottie_approve.i: examples/libs/rlottie/lv_example_rlottie_approve.c.i
 .PHONY : examples/libs/rlottie/lv_example_rlottie_approve.i
@@ -2939,13 +2939,13 @@ examples/libs/rlottie/lv_example_rlottie_approve.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.s
 .PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.s
 
-examples/libs/sjpg/lv_example_sjpg_1.obj: examples/libs/sjpg/lv_example_sjpg_1.c.obj
-.PHONY : examples/libs/sjpg/lv_example_sjpg_1.obj
+examples/libs/sjpg/lv_example_sjpg_1.o: examples/libs/sjpg/lv_example_sjpg_1.c.o
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.o
 
 # target to build an object file
-examples/libs/sjpg/lv_example_sjpg_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/sjpg/lv_example_sjpg_1.c.obj
-.PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.obj
+examples/libs/sjpg/lv_example_sjpg_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/sjpg/lv_example_sjpg_1.c.o
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.o
 
 examples/libs/sjpg/lv_example_sjpg_1.i: examples/libs/sjpg/lv_example_sjpg_1.c.i
 .PHONY : examples/libs/sjpg/lv_example_sjpg_1.i
@@ -2963,13 +2963,13 @@ examples/libs/sjpg/lv_example_sjpg_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/sjpg/lv_example_sjpg_1.c.s
 .PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.s
 
-examples/others/fragment/lv_example_fragment_1.obj: examples/others/fragment/lv_example_fragment_1.c.obj
-.PHONY : examples/others/fragment/lv_example_fragment_1.obj
+examples/others/fragment/lv_example_fragment_1.o: examples/others/fragment/lv_example_fragment_1.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_1.o
 
 # target to build an object file
-examples/others/fragment/lv_example_fragment_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.obj
-.PHONY : examples/others/fragment/lv_example_fragment_1.c.obj
+examples/others/fragment/lv_example_fragment_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.o
 
 examples/others/fragment/lv_example_fragment_1.i: examples/others/fragment/lv_example_fragment_1.c.i
 .PHONY : examples/others/fragment/lv_example_fragment_1.i
@@ -2987,13 +2987,13 @@ examples/others/fragment/lv_example_fragment_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.s
 .PHONY : examples/others/fragment/lv_example_fragment_1.c.s
 
-examples/others/fragment/lv_example_fragment_2.obj: examples/others/fragment/lv_example_fragment_2.c.obj
-.PHONY : examples/others/fragment/lv_example_fragment_2.obj
+examples/others/fragment/lv_example_fragment_2.o: examples/others/fragment/lv_example_fragment_2.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_2.o
 
 # target to build an object file
-examples/others/fragment/lv_example_fragment_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.obj
-.PHONY : examples/others/fragment/lv_example_fragment_2.c.obj
+examples/others/fragment/lv_example_fragment_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.o
 
 examples/others/fragment/lv_example_fragment_2.i: examples/others/fragment/lv_example_fragment_2.c.i
 .PHONY : examples/others/fragment/lv_example_fragment_2.i
@@ -3011,13 +3011,13 @@ examples/others/fragment/lv_example_fragment_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.s
 .PHONY : examples/others/fragment/lv_example_fragment_2.c.s
 
-examples/others/gridnav/lv_example_gridnav_1.obj: examples/others/gridnav/lv_example_gridnav_1.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_1.obj
+examples/others/gridnav/lv_example_gridnav_1.o: examples/others/gridnav/lv_example_gridnav_1.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.o
 
 # target to build an object file
-examples/others/gridnav/lv_example_gridnav_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.obj
+examples/others/gridnav/lv_example_gridnav_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.o
 
 examples/others/gridnav/lv_example_gridnav_1.i: examples/others/gridnav/lv_example_gridnav_1.c.i
 .PHONY : examples/others/gridnav/lv_example_gridnav_1.i
@@ -3035,13 +3035,13 @@ examples/others/gridnav/lv_example_gridnav_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.s
 .PHONY : examples/others/gridnav/lv_example_gridnav_1.c.s
 
-examples/others/gridnav/lv_example_gridnav_2.obj: examples/others/gridnav/lv_example_gridnav_2.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_2.obj
+examples/others/gridnav/lv_example_gridnav_2.o: examples/others/gridnav/lv_example_gridnav_2.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.o
 
 # target to build an object file
-examples/others/gridnav/lv_example_gridnav_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.obj
+examples/others/gridnav/lv_example_gridnav_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.o
 
 examples/others/gridnav/lv_example_gridnav_2.i: examples/others/gridnav/lv_example_gridnav_2.c.i
 .PHONY : examples/others/gridnav/lv_example_gridnav_2.i
@@ -3059,13 +3059,13 @@ examples/others/gridnav/lv_example_gridnav_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.s
 .PHONY : examples/others/gridnav/lv_example_gridnav_2.c.s
 
-examples/others/gridnav/lv_example_gridnav_3.obj: examples/others/gridnav/lv_example_gridnav_3.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_3.obj
+examples/others/gridnav/lv_example_gridnav_3.o: examples/others/gridnav/lv_example_gridnav_3.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.o
 
 # target to build an object file
-examples/others/gridnav/lv_example_gridnav_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.obj
+examples/others/gridnav/lv_example_gridnav_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.o
 
 examples/others/gridnav/lv_example_gridnav_3.i: examples/others/gridnav/lv_example_gridnav_3.c.i
 .PHONY : examples/others/gridnav/lv_example_gridnav_3.i
@@ -3083,13 +3083,13 @@ examples/others/gridnav/lv_example_gridnav_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.s
 .PHONY : examples/others/gridnav/lv_example_gridnav_3.c.s
 
-examples/others/gridnav/lv_example_gridnav_4.obj: examples/others/gridnav/lv_example_gridnav_4.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_4.obj
+examples/others/gridnav/lv_example_gridnav_4.o: examples/others/gridnav/lv_example_gridnav_4.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.o
 
 # target to build an object file
-examples/others/gridnav/lv_example_gridnav_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.obj
-.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.obj
+examples/others/gridnav/lv_example_gridnav_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.o
 
 examples/others/gridnav/lv_example_gridnav_4.i: examples/others/gridnav/lv_example_gridnav_4.c.i
 .PHONY : examples/others/gridnav/lv_example_gridnav_4.i
@@ -3107,13 +3107,13 @@ examples/others/gridnav/lv_example_gridnav_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.s
 .PHONY : examples/others/gridnav/lv_example_gridnav_4.c.s
 
-examples/others/ime/lv_example_ime_pinyin_1.obj: examples/others/ime/lv_example_ime_pinyin_1.c.obj
-.PHONY : examples/others/ime/lv_example_ime_pinyin_1.obj
+examples/others/ime/lv_example_ime_pinyin_1.o: examples/others/ime/lv_example_ime_pinyin_1.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.o
 
 # target to build an object file
-examples/others/ime/lv_example_ime_pinyin_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.obj
-.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.obj
+examples/others/ime/lv_example_ime_pinyin_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.o
 
 examples/others/ime/lv_example_ime_pinyin_1.i: examples/others/ime/lv_example_ime_pinyin_1.c.i
 .PHONY : examples/others/ime/lv_example_ime_pinyin_1.i
@@ -3131,13 +3131,13 @@ examples/others/ime/lv_example_ime_pinyin_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.s
 .PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.s
 
-examples/others/ime/lv_example_ime_pinyin_2.obj: examples/others/ime/lv_example_ime_pinyin_2.c.obj
-.PHONY : examples/others/ime/lv_example_ime_pinyin_2.obj
+examples/others/ime/lv_example_ime_pinyin_2.o: examples/others/ime/lv_example_ime_pinyin_2.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.o
 
 # target to build an object file
-examples/others/ime/lv_example_ime_pinyin_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.obj
-.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.obj
+examples/others/ime/lv_example_ime_pinyin_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.o
 
 examples/others/ime/lv_example_ime_pinyin_2.i: examples/others/ime/lv_example_ime_pinyin_2.c.i
 .PHONY : examples/others/ime/lv_example_ime_pinyin_2.i
@@ -3155,13 +3155,13 @@ examples/others/ime/lv_example_ime_pinyin_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.s
 .PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.s
 
-examples/others/imgfont/lv_example_imgfont_1.obj: examples/others/imgfont/lv_example_imgfont_1.c.obj
-.PHONY : examples/others/imgfont/lv_example_imgfont_1.obj
+examples/others/imgfont/lv_example_imgfont_1.o: examples/others/imgfont/lv_example_imgfont_1.c.o
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.o
 
 # target to build an object file
-examples/others/imgfont/lv_example_imgfont_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.obj
-.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.obj
+examples/others/imgfont/lv_example_imgfont_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.o
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.o
 
 examples/others/imgfont/lv_example_imgfont_1.i: examples/others/imgfont/lv_example_imgfont_1.c.i
 .PHONY : examples/others/imgfont/lv_example_imgfont_1.i
@@ -3179,13 +3179,13 @@ examples/others/imgfont/lv_example_imgfont_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.s
 .PHONY : examples/others/imgfont/lv_example_imgfont_1.c.s
 
-examples/others/monkey/lv_example_monkey_1.obj: examples/others/monkey/lv_example_monkey_1.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_1.obj
+examples/others/monkey/lv_example_monkey_1.o: examples/others/monkey/lv_example_monkey_1.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_1.o
 
 # target to build an object file
-examples/others/monkey/lv_example_monkey_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_1.c.obj
+examples/others/monkey/lv_example_monkey_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.o
 
 examples/others/monkey/lv_example_monkey_1.i: examples/others/monkey/lv_example_monkey_1.c.i
 .PHONY : examples/others/monkey/lv_example_monkey_1.i
@@ -3203,13 +3203,13 @@ examples/others/monkey/lv_example_monkey_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.s
 .PHONY : examples/others/monkey/lv_example_monkey_1.c.s
 
-examples/others/monkey/lv_example_monkey_2.obj: examples/others/monkey/lv_example_monkey_2.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_2.obj
+examples/others/monkey/lv_example_monkey_2.o: examples/others/monkey/lv_example_monkey_2.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_2.o
 
 # target to build an object file
-examples/others/monkey/lv_example_monkey_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_2.c.obj
+examples/others/monkey/lv_example_monkey_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.o
 
 examples/others/monkey/lv_example_monkey_2.i: examples/others/monkey/lv_example_monkey_2.c.i
 .PHONY : examples/others/monkey/lv_example_monkey_2.i
@@ -3227,13 +3227,13 @@ examples/others/monkey/lv_example_monkey_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.s
 .PHONY : examples/others/monkey/lv_example_monkey_2.c.s
 
-examples/others/monkey/lv_example_monkey_3.obj: examples/others/monkey/lv_example_monkey_3.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_3.obj
+examples/others/monkey/lv_example_monkey_3.o: examples/others/monkey/lv_example_monkey_3.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_3.o
 
 # target to build an object file
-examples/others/monkey/lv_example_monkey_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.obj
-.PHONY : examples/others/monkey/lv_example_monkey_3.c.obj
+examples/others/monkey/lv_example_monkey_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.o
 
 examples/others/monkey/lv_example_monkey_3.i: examples/others/monkey/lv_example_monkey_3.c.i
 .PHONY : examples/others/monkey/lv_example_monkey_3.i
@@ -3251,13 +3251,13 @@ examples/others/monkey/lv_example_monkey_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.s
 .PHONY : examples/others/monkey/lv_example_monkey_3.c.s
 
-examples/others/msg/lv_example_msg_1.obj: examples/others/msg/lv_example_msg_1.c.obj
-.PHONY : examples/others/msg/lv_example_msg_1.obj
+examples/others/msg/lv_example_msg_1.o: examples/others/msg/lv_example_msg_1.c.o
+.PHONY : examples/others/msg/lv_example_msg_1.o
 
 # target to build an object file
-examples/others/msg/lv_example_msg_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_1.c.obj
-.PHONY : examples/others/msg/lv_example_msg_1.c.obj
+examples/others/msg/lv_example_msg_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_1.c.o
+.PHONY : examples/others/msg/lv_example_msg_1.c.o
 
 examples/others/msg/lv_example_msg_1.i: examples/others/msg/lv_example_msg_1.c.i
 .PHONY : examples/others/msg/lv_example_msg_1.i
@@ -3275,13 +3275,13 @@ examples/others/msg/lv_example_msg_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_1.c.s
 .PHONY : examples/others/msg/lv_example_msg_1.c.s
 
-examples/others/msg/lv_example_msg_2.obj: examples/others/msg/lv_example_msg_2.c.obj
-.PHONY : examples/others/msg/lv_example_msg_2.obj
+examples/others/msg/lv_example_msg_2.o: examples/others/msg/lv_example_msg_2.c.o
+.PHONY : examples/others/msg/lv_example_msg_2.o
 
 # target to build an object file
-examples/others/msg/lv_example_msg_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_2.c.obj
-.PHONY : examples/others/msg/lv_example_msg_2.c.obj
+examples/others/msg/lv_example_msg_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_2.c.o
+.PHONY : examples/others/msg/lv_example_msg_2.c.o
 
 examples/others/msg/lv_example_msg_2.i: examples/others/msg/lv_example_msg_2.c.i
 .PHONY : examples/others/msg/lv_example_msg_2.i
@@ -3299,13 +3299,13 @@ examples/others/msg/lv_example_msg_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_2.c.s
 .PHONY : examples/others/msg/lv_example_msg_2.c.s
 
-examples/others/msg/lv_example_msg_3.obj: examples/others/msg/lv_example_msg_3.c.obj
-.PHONY : examples/others/msg/lv_example_msg_3.obj
+examples/others/msg/lv_example_msg_3.o: examples/others/msg/lv_example_msg_3.c.o
+.PHONY : examples/others/msg/lv_example_msg_3.o
 
 # target to build an object file
-examples/others/msg/lv_example_msg_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_3.c.obj
-.PHONY : examples/others/msg/lv_example_msg_3.c.obj
+examples/others/msg/lv_example_msg_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_3.c.o
+.PHONY : examples/others/msg/lv_example_msg_3.c.o
 
 examples/others/msg/lv_example_msg_3.i: examples/others/msg/lv_example_msg_3.c.i
 .PHONY : examples/others/msg/lv_example_msg_3.i
@@ -3323,13 +3323,13 @@ examples/others/msg/lv_example_msg_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/msg/lv_example_msg_3.c.s
 .PHONY : examples/others/msg/lv_example_msg_3.c.s
 
-examples/others/snapshot/lv_example_snapshot_1.obj: examples/others/snapshot/lv_example_snapshot_1.c.obj
-.PHONY : examples/others/snapshot/lv_example_snapshot_1.obj
+examples/others/snapshot/lv_example_snapshot_1.o: examples/others/snapshot/lv_example_snapshot_1.c.o
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.o
 
 # target to build an object file
-examples/others/snapshot/lv_example_snapshot_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.obj
-.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.obj
+examples/others/snapshot/lv_example_snapshot_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.o
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.o
 
 examples/others/snapshot/lv_example_snapshot_1.i: examples/others/snapshot/lv_example_snapshot_1.c.i
 .PHONY : examples/others/snapshot/lv_example_snapshot_1.i
@@ -3347,13 +3347,13 @@ examples/others/snapshot/lv_example_snapshot_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.s
 .PHONY : examples/others/snapshot/lv_example_snapshot_1.c.s
 
-examples/porting/lv_port_disp_template.obj: examples/porting/lv_port_disp_template.c.obj
-.PHONY : examples/porting/lv_port_disp_template.obj
+examples/porting/lv_port_disp_template.o: examples/porting/lv_port_disp_template.c.o
+.PHONY : examples/porting/lv_port_disp_template.o
 
 # target to build an object file
-examples/porting/lv_port_disp_template.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.obj
-.PHONY : examples/porting/lv_port_disp_template.c.obj
+examples/porting/lv_port_disp_template.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.o
+.PHONY : examples/porting/lv_port_disp_template.c.o
 
 examples/porting/lv_port_disp_template.i: examples/porting/lv_port_disp_template.c.i
 .PHONY : examples/porting/lv_port_disp_template.i
@@ -3371,13 +3371,13 @@ examples/porting/lv_port_disp_template.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.s
 .PHONY : examples/porting/lv_port_disp_template.c.s
 
-examples/porting/lv_port_fs_template.obj: examples/porting/lv_port_fs_template.c.obj
-.PHONY : examples/porting/lv_port_fs_template.obj
+examples/porting/lv_port_fs_template.o: examples/porting/lv_port_fs_template.c.o
+.PHONY : examples/porting/lv_port_fs_template.o
 
 # target to build an object file
-examples/porting/lv_port_fs_template.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.obj
-.PHONY : examples/porting/lv_port_fs_template.c.obj
+examples/porting/lv_port_fs_template.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.o
+.PHONY : examples/porting/lv_port_fs_template.c.o
 
 examples/porting/lv_port_fs_template.i: examples/porting/lv_port_fs_template.c.i
 .PHONY : examples/porting/lv_port_fs_template.i
@@ -3395,13 +3395,13 @@ examples/porting/lv_port_fs_template.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.s
 .PHONY : examples/porting/lv_port_fs_template.c.s
 
-examples/porting/lv_port_indev_template.obj: examples/porting/lv_port_indev_template.c.obj
-.PHONY : examples/porting/lv_port_indev_template.obj
+examples/porting/lv_port_indev_template.o: examples/porting/lv_port_indev_template.c.o
+.PHONY : examples/porting/lv_port_indev_template.o
 
 # target to build an object file
-examples/porting/lv_port_indev_template.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.obj
-.PHONY : examples/porting/lv_port_indev_template.c.obj
+examples/porting/lv_port_indev_template.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.o
+.PHONY : examples/porting/lv_port_indev_template.c.o
 
 examples/porting/lv_port_indev_template.i: examples/porting/lv_port_indev_template.c.i
 .PHONY : examples/porting/lv_port_indev_template.i
@@ -3419,13 +3419,13 @@ examples/porting/lv_port_indev_template.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.s
 .PHONY : examples/porting/lv_port_indev_template.c.s
 
-examples/scroll/lv_example_scroll_1.obj: examples/scroll/lv_example_scroll_1.c.obj
-.PHONY : examples/scroll/lv_example_scroll_1.obj
+examples/scroll/lv_example_scroll_1.o: examples/scroll/lv_example_scroll_1.c.o
+.PHONY : examples/scroll/lv_example_scroll_1.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.obj
-.PHONY : examples/scroll/lv_example_scroll_1.c.obj
+examples/scroll/lv_example_scroll_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.o
+.PHONY : examples/scroll/lv_example_scroll_1.c.o
 
 examples/scroll/lv_example_scroll_1.i: examples/scroll/lv_example_scroll_1.c.i
 .PHONY : examples/scroll/lv_example_scroll_1.i
@@ -3443,13 +3443,13 @@ examples/scroll/lv_example_scroll_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.s
 .PHONY : examples/scroll/lv_example_scroll_1.c.s
 
-examples/scroll/lv_example_scroll_2.obj: examples/scroll/lv_example_scroll_2.c.obj
-.PHONY : examples/scroll/lv_example_scroll_2.obj
+examples/scroll/lv_example_scroll_2.o: examples/scroll/lv_example_scroll_2.c.o
+.PHONY : examples/scroll/lv_example_scroll_2.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.obj
-.PHONY : examples/scroll/lv_example_scroll_2.c.obj
+examples/scroll/lv_example_scroll_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.o
+.PHONY : examples/scroll/lv_example_scroll_2.c.o
 
 examples/scroll/lv_example_scroll_2.i: examples/scroll/lv_example_scroll_2.c.i
 .PHONY : examples/scroll/lv_example_scroll_2.i
@@ -3467,13 +3467,13 @@ examples/scroll/lv_example_scroll_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.s
 .PHONY : examples/scroll/lv_example_scroll_2.c.s
 
-examples/scroll/lv_example_scroll_3.obj: examples/scroll/lv_example_scroll_3.c.obj
-.PHONY : examples/scroll/lv_example_scroll_3.obj
+examples/scroll/lv_example_scroll_3.o: examples/scroll/lv_example_scroll_3.c.o
+.PHONY : examples/scroll/lv_example_scroll_3.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.obj
-.PHONY : examples/scroll/lv_example_scroll_3.c.obj
+examples/scroll/lv_example_scroll_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.o
+.PHONY : examples/scroll/lv_example_scroll_3.c.o
 
 examples/scroll/lv_example_scroll_3.i: examples/scroll/lv_example_scroll_3.c.i
 .PHONY : examples/scroll/lv_example_scroll_3.i
@@ -3491,13 +3491,13 @@ examples/scroll/lv_example_scroll_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.s
 .PHONY : examples/scroll/lv_example_scroll_3.c.s
 
-examples/scroll/lv_example_scroll_4.obj: examples/scroll/lv_example_scroll_4.c.obj
-.PHONY : examples/scroll/lv_example_scroll_4.obj
+examples/scroll/lv_example_scroll_4.o: examples/scroll/lv_example_scroll_4.c.o
+.PHONY : examples/scroll/lv_example_scroll_4.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.obj
-.PHONY : examples/scroll/lv_example_scroll_4.c.obj
+examples/scroll/lv_example_scroll_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.o
+.PHONY : examples/scroll/lv_example_scroll_4.c.o
 
 examples/scroll/lv_example_scroll_4.i: examples/scroll/lv_example_scroll_4.c.i
 .PHONY : examples/scroll/lv_example_scroll_4.i
@@ -3515,13 +3515,13 @@ examples/scroll/lv_example_scroll_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.s
 .PHONY : examples/scroll/lv_example_scroll_4.c.s
 
-examples/scroll/lv_example_scroll_5.obj: examples/scroll/lv_example_scroll_5.c.obj
-.PHONY : examples/scroll/lv_example_scroll_5.obj
+examples/scroll/lv_example_scroll_5.o: examples/scroll/lv_example_scroll_5.c.o
+.PHONY : examples/scroll/lv_example_scroll_5.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.obj
-.PHONY : examples/scroll/lv_example_scroll_5.c.obj
+examples/scroll/lv_example_scroll_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.o
+.PHONY : examples/scroll/lv_example_scroll_5.c.o
 
 examples/scroll/lv_example_scroll_5.i: examples/scroll/lv_example_scroll_5.c.i
 .PHONY : examples/scroll/lv_example_scroll_5.i
@@ -3539,13 +3539,13 @@ examples/scroll/lv_example_scroll_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.s
 .PHONY : examples/scroll/lv_example_scroll_5.c.s
 
-examples/scroll/lv_example_scroll_6.obj: examples/scroll/lv_example_scroll_6.c.obj
-.PHONY : examples/scroll/lv_example_scroll_6.obj
+examples/scroll/lv_example_scroll_6.o: examples/scroll/lv_example_scroll_6.c.o
+.PHONY : examples/scroll/lv_example_scroll_6.o
 
 # target to build an object file
-examples/scroll/lv_example_scroll_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.obj
-.PHONY : examples/scroll/lv_example_scroll_6.c.obj
+examples/scroll/lv_example_scroll_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.o
+.PHONY : examples/scroll/lv_example_scroll_6.c.o
 
 examples/scroll/lv_example_scroll_6.i: examples/scroll/lv_example_scroll_6.c.i
 .PHONY : examples/scroll/lv_example_scroll_6.i
@@ -3563,13 +3563,13 @@ examples/scroll/lv_example_scroll_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.s
 .PHONY : examples/scroll/lv_example_scroll_6.c.s
 
-examples/styles/lv_example_style_1.obj: examples/styles/lv_example_style_1.c.obj
-.PHONY : examples/styles/lv_example_style_1.obj
+examples/styles/lv_example_style_1.o: examples/styles/lv_example_style_1.c.o
+.PHONY : examples/styles/lv_example_style_1.o
 
 # target to build an object file
-examples/styles/lv_example_style_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.obj
-.PHONY : examples/styles/lv_example_style_1.c.obj
+examples/styles/lv_example_style_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.o
+.PHONY : examples/styles/lv_example_style_1.c.o
 
 examples/styles/lv_example_style_1.i: examples/styles/lv_example_style_1.c.i
 .PHONY : examples/styles/lv_example_style_1.i
@@ -3587,13 +3587,13 @@ examples/styles/lv_example_style_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.s
 .PHONY : examples/styles/lv_example_style_1.c.s
 
-examples/styles/lv_example_style_10.obj: examples/styles/lv_example_style_10.c.obj
-.PHONY : examples/styles/lv_example_style_10.obj
+examples/styles/lv_example_style_10.o: examples/styles/lv_example_style_10.c.o
+.PHONY : examples/styles/lv_example_style_10.o
 
 # target to build an object file
-examples/styles/lv_example_style_10.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.obj
-.PHONY : examples/styles/lv_example_style_10.c.obj
+examples/styles/lv_example_style_10.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.o
+.PHONY : examples/styles/lv_example_style_10.c.o
 
 examples/styles/lv_example_style_10.i: examples/styles/lv_example_style_10.c.i
 .PHONY : examples/styles/lv_example_style_10.i
@@ -3611,13 +3611,13 @@ examples/styles/lv_example_style_10.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.s
 .PHONY : examples/styles/lv_example_style_10.c.s
 
-examples/styles/lv_example_style_11.obj: examples/styles/lv_example_style_11.c.obj
-.PHONY : examples/styles/lv_example_style_11.obj
+examples/styles/lv_example_style_11.o: examples/styles/lv_example_style_11.c.o
+.PHONY : examples/styles/lv_example_style_11.o
 
 # target to build an object file
-examples/styles/lv_example_style_11.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.obj
-.PHONY : examples/styles/lv_example_style_11.c.obj
+examples/styles/lv_example_style_11.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.o
+.PHONY : examples/styles/lv_example_style_11.c.o
 
 examples/styles/lv_example_style_11.i: examples/styles/lv_example_style_11.c.i
 .PHONY : examples/styles/lv_example_style_11.i
@@ -3635,13 +3635,13 @@ examples/styles/lv_example_style_11.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.s
 .PHONY : examples/styles/lv_example_style_11.c.s
 
-examples/styles/lv_example_style_12.obj: examples/styles/lv_example_style_12.c.obj
-.PHONY : examples/styles/lv_example_style_12.obj
+examples/styles/lv_example_style_12.o: examples/styles/lv_example_style_12.c.o
+.PHONY : examples/styles/lv_example_style_12.o
 
 # target to build an object file
-examples/styles/lv_example_style_12.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.obj
-.PHONY : examples/styles/lv_example_style_12.c.obj
+examples/styles/lv_example_style_12.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.o
+.PHONY : examples/styles/lv_example_style_12.c.o
 
 examples/styles/lv_example_style_12.i: examples/styles/lv_example_style_12.c.i
 .PHONY : examples/styles/lv_example_style_12.i
@@ -3659,13 +3659,13 @@ examples/styles/lv_example_style_12.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.s
 .PHONY : examples/styles/lv_example_style_12.c.s
 
-examples/styles/lv_example_style_13.obj: examples/styles/lv_example_style_13.c.obj
-.PHONY : examples/styles/lv_example_style_13.obj
+examples/styles/lv_example_style_13.o: examples/styles/lv_example_style_13.c.o
+.PHONY : examples/styles/lv_example_style_13.o
 
 # target to build an object file
-examples/styles/lv_example_style_13.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.obj
-.PHONY : examples/styles/lv_example_style_13.c.obj
+examples/styles/lv_example_style_13.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.o
+.PHONY : examples/styles/lv_example_style_13.c.o
 
 examples/styles/lv_example_style_13.i: examples/styles/lv_example_style_13.c.i
 .PHONY : examples/styles/lv_example_style_13.i
@@ -3683,13 +3683,13 @@ examples/styles/lv_example_style_13.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.s
 .PHONY : examples/styles/lv_example_style_13.c.s
 
-examples/styles/lv_example_style_14.obj: examples/styles/lv_example_style_14.c.obj
-.PHONY : examples/styles/lv_example_style_14.obj
+examples/styles/lv_example_style_14.o: examples/styles/lv_example_style_14.c.o
+.PHONY : examples/styles/lv_example_style_14.o
 
 # target to build an object file
-examples/styles/lv_example_style_14.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.obj
-.PHONY : examples/styles/lv_example_style_14.c.obj
+examples/styles/lv_example_style_14.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.o
+.PHONY : examples/styles/lv_example_style_14.c.o
 
 examples/styles/lv_example_style_14.i: examples/styles/lv_example_style_14.c.i
 .PHONY : examples/styles/lv_example_style_14.i
@@ -3707,13 +3707,13 @@ examples/styles/lv_example_style_14.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.s
 .PHONY : examples/styles/lv_example_style_14.c.s
 
-examples/styles/lv_example_style_15.obj: examples/styles/lv_example_style_15.c.obj
-.PHONY : examples/styles/lv_example_style_15.obj
+examples/styles/lv_example_style_15.o: examples/styles/lv_example_style_15.c.o
+.PHONY : examples/styles/lv_example_style_15.o
 
 # target to build an object file
-examples/styles/lv_example_style_15.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.obj
-.PHONY : examples/styles/lv_example_style_15.c.obj
+examples/styles/lv_example_style_15.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.o
+.PHONY : examples/styles/lv_example_style_15.c.o
 
 examples/styles/lv_example_style_15.i: examples/styles/lv_example_style_15.c.i
 .PHONY : examples/styles/lv_example_style_15.i
@@ -3731,13 +3731,13 @@ examples/styles/lv_example_style_15.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.s
 .PHONY : examples/styles/lv_example_style_15.c.s
 
-examples/styles/lv_example_style_2.obj: examples/styles/lv_example_style_2.c.obj
-.PHONY : examples/styles/lv_example_style_2.obj
+examples/styles/lv_example_style_2.o: examples/styles/lv_example_style_2.c.o
+.PHONY : examples/styles/lv_example_style_2.o
 
 # target to build an object file
-examples/styles/lv_example_style_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.obj
-.PHONY : examples/styles/lv_example_style_2.c.obj
+examples/styles/lv_example_style_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.o
+.PHONY : examples/styles/lv_example_style_2.c.o
 
 examples/styles/lv_example_style_2.i: examples/styles/lv_example_style_2.c.i
 .PHONY : examples/styles/lv_example_style_2.i
@@ -3755,13 +3755,13 @@ examples/styles/lv_example_style_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.s
 .PHONY : examples/styles/lv_example_style_2.c.s
 
-examples/styles/lv_example_style_3.obj: examples/styles/lv_example_style_3.c.obj
-.PHONY : examples/styles/lv_example_style_3.obj
+examples/styles/lv_example_style_3.o: examples/styles/lv_example_style_3.c.o
+.PHONY : examples/styles/lv_example_style_3.o
 
 # target to build an object file
-examples/styles/lv_example_style_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.obj
-.PHONY : examples/styles/lv_example_style_3.c.obj
+examples/styles/lv_example_style_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.o
+.PHONY : examples/styles/lv_example_style_3.c.o
 
 examples/styles/lv_example_style_3.i: examples/styles/lv_example_style_3.c.i
 .PHONY : examples/styles/lv_example_style_3.i
@@ -3779,13 +3779,13 @@ examples/styles/lv_example_style_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.s
 .PHONY : examples/styles/lv_example_style_3.c.s
 
-examples/styles/lv_example_style_4.obj: examples/styles/lv_example_style_4.c.obj
-.PHONY : examples/styles/lv_example_style_4.obj
+examples/styles/lv_example_style_4.o: examples/styles/lv_example_style_4.c.o
+.PHONY : examples/styles/lv_example_style_4.o
 
 # target to build an object file
-examples/styles/lv_example_style_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.obj
-.PHONY : examples/styles/lv_example_style_4.c.obj
+examples/styles/lv_example_style_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.o
+.PHONY : examples/styles/lv_example_style_4.c.o
 
 examples/styles/lv_example_style_4.i: examples/styles/lv_example_style_4.c.i
 .PHONY : examples/styles/lv_example_style_4.i
@@ -3803,13 +3803,13 @@ examples/styles/lv_example_style_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.s
 .PHONY : examples/styles/lv_example_style_4.c.s
 
-examples/styles/lv_example_style_5.obj: examples/styles/lv_example_style_5.c.obj
-.PHONY : examples/styles/lv_example_style_5.obj
+examples/styles/lv_example_style_5.o: examples/styles/lv_example_style_5.c.o
+.PHONY : examples/styles/lv_example_style_5.o
 
 # target to build an object file
-examples/styles/lv_example_style_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.obj
-.PHONY : examples/styles/lv_example_style_5.c.obj
+examples/styles/lv_example_style_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.o
+.PHONY : examples/styles/lv_example_style_5.c.o
 
 examples/styles/lv_example_style_5.i: examples/styles/lv_example_style_5.c.i
 .PHONY : examples/styles/lv_example_style_5.i
@@ -3827,13 +3827,13 @@ examples/styles/lv_example_style_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.s
 .PHONY : examples/styles/lv_example_style_5.c.s
 
-examples/styles/lv_example_style_6.obj: examples/styles/lv_example_style_6.c.obj
-.PHONY : examples/styles/lv_example_style_6.obj
+examples/styles/lv_example_style_6.o: examples/styles/lv_example_style_6.c.o
+.PHONY : examples/styles/lv_example_style_6.o
 
 # target to build an object file
-examples/styles/lv_example_style_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.obj
-.PHONY : examples/styles/lv_example_style_6.c.obj
+examples/styles/lv_example_style_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.o
+.PHONY : examples/styles/lv_example_style_6.c.o
 
 examples/styles/lv_example_style_6.i: examples/styles/lv_example_style_6.c.i
 .PHONY : examples/styles/lv_example_style_6.i
@@ -3851,13 +3851,13 @@ examples/styles/lv_example_style_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.s
 .PHONY : examples/styles/lv_example_style_6.c.s
 
-examples/styles/lv_example_style_7.obj: examples/styles/lv_example_style_7.c.obj
-.PHONY : examples/styles/lv_example_style_7.obj
+examples/styles/lv_example_style_7.o: examples/styles/lv_example_style_7.c.o
+.PHONY : examples/styles/lv_example_style_7.o
 
 # target to build an object file
-examples/styles/lv_example_style_7.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.obj
-.PHONY : examples/styles/lv_example_style_7.c.obj
+examples/styles/lv_example_style_7.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.o
+.PHONY : examples/styles/lv_example_style_7.c.o
 
 examples/styles/lv_example_style_7.i: examples/styles/lv_example_style_7.c.i
 .PHONY : examples/styles/lv_example_style_7.i
@@ -3875,13 +3875,13 @@ examples/styles/lv_example_style_7.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.s
 .PHONY : examples/styles/lv_example_style_7.c.s
 
-examples/styles/lv_example_style_8.obj: examples/styles/lv_example_style_8.c.obj
-.PHONY : examples/styles/lv_example_style_8.obj
+examples/styles/lv_example_style_8.o: examples/styles/lv_example_style_8.c.o
+.PHONY : examples/styles/lv_example_style_8.o
 
 # target to build an object file
-examples/styles/lv_example_style_8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.obj
-.PHONY : examples/styles/lv_example_style_8.c.obj
+examples/styles/lv_example_style_8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.o
+.PHONY : examples/styles/lv_example_style_8.c.o
 
 examples/styles/lv_example_style_8.i: examples/styles/lv_example_style_8.c.i
 .PHONY : examples/styles/lv_example_style_8.i
@@ -3899,13 +3899,13 @@ examples/styles/lv_example_style_8.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.s
 .PHONY : examples/styles/lv_example_style_8.c.s
 
-examples/styles/lv_example_style_9.obj: examples/styles/lv_example_style_9.c.obj
-.PHONY : examples/styles/lv_example_style_9.obj
+examples/styles/lv_example_style_9.o: examples/styles/lv_example_style_9.c.o
+.PHONY : examples/styles/lv_example_style_9.o
 
 # target to build an object file
-examples/styles/lv_example_style_9.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.obj
-.PHONY : examples/styles/lv_example_style_9.c.obj
+examples/styles/lv_example_style_9.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.o
+.PHONY : examples/styles/lv_example_style_9.c.o
 
 examples/styles/lv_example_style_9.i: examples/styles/lv_example_style_9.c.i
 .PHONY : examples/styles/lv_example_style_9.i
@@ -3923,13 +3923,13 @@ examples/styles/lv_example_style_9.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.s
 .PHONY : examples/styles/lv_example_style_9.c.s
 
-examples/widgets/animimg/lv_example_animimg_1.obj: examples/widgets/animimg/lv_example_animimg_1.c.obj
-.PHONY : examples/widgets/animimg/lv_example_animimg_1.obj
+examples/widgets/animimg/lv_example_animimg_1.o: examples/widgets/animimg/lv_example_animimg_1.c.o
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.o
 
 # target to build an object file
-examples/widgets/animimg/lv_example_animimg_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.obj
-.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.obj
+examples/widgets/animimg/lv_example_animimg_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.o
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.o
 
 examples/widgets/animimg/lv_example_animimg_1.i: examples/widgets/animimg/lv_example_animimg_1.c.i
 .PHONY : examples/widgets/animimg/lv_example_animimg_1.i
@@ -3947,13 +3947,13 @@ examples/widgets/animimg/lv_example_animimg_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.s
 .PHONY : examples/widgets/animimg/lv_example_animimg_1.c.s
 
-examples/widgets/arc/lv_example_arc_1.obj: examples/widgets/arc/lv_example_arc_1.c.obj
-.PHONY : examples/widgets/arc/lv_example_arc_1.obj
+examples/widgets/arc/lv_example_arc_1.o: examples/widgets/arc/lv_example_arc_1.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_1.o
 
 # target to build an object file
-examples/widgets/arc/lv_example_arc_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.obj
-.PHONY : examples/widgets/arc/lv_example_arc_1.c.obj
+examples/widgets/arc/lv_example_arc_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.o
 
 examples/widgets/arc/lv_example_arc_1.i: examples/widgets/arc/lv_example_arc_1.c.i
 .PHONY : examples/widgets/arc/lv_example_arc_1.i
@@ -3971,13 +3971,13 @@ examples/widgets/arc/lv_example_arc_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.s
 .PHONY : examples/widgets/arc/lv_example_arc_1.c.s
 
-examples/widgets/arc/lv_example_arc_2.obj: examples/widgets/arc/lv_example_arc_2.c.obj
-.PHONY : examples/widgets/arc/lv_example_arc_2.obj
+examples/widgets/arc/lv_example_arc_2.o: examples/widgets/arc/lv_example_arc_2.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_2.o
 
 # target to build an object file
-examples/widgets/arc/lv_example_arc_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.obj
-.PHONY : examples/widgets/arc/lv_example_arc_2.c.obj
+examples/widgets/arc/lv_example_arc_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.o
 
 examples/widgets/arc/lv_example_arc_2.i: examples/widgets/arc/lv_example_arc_2.c.i
 .PHONY : examples/widgets/arc/lv_example_arc_2.i
@@ -3995,13 +3995,13 @@ examples/widgets/arc/lv_example_arc_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.s
 .PHONY : examples/widgets/arc/lv_example_arc_2.c.s
 
-examples/widgets/bar/lv_example_bar_1.obj: examples/widgets/bar/lv_example_bar_1.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_1.obj
+examples/widgets/bar/lv_example_bar_1.o: examples/widgets/bar/lv_example_bar_1.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_1.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_1.c.obj
+examples/widgets/bar/lv_example_bar_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.o
 
 examples/widgets/bar/lv_example_bar_1.i: examples/widgets/bar/lv_example_bar_1.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_1.i
@@ -4019,13 +4019,13 @@ examples/widgets/bar/lv_example_bar_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_1.c.s
 
-examples/widgets/bar/lv_example_bar_2.obj: examples/widgets/bar/lv_example_bar_2.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_2.obj
+examples/widgets/bar/lv_example_bar_2.o: examples/widgets/bar/lv_example_bar_2.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_2.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_2.c.obj
+examples/widgets/bar/lv_example_bar_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.o
 
 examples/widgets/bar/lv_example_bar_2.i: examples/widgets/bar/lv_example_bar_2.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_2.i
@@ -4043,13 +4043,13 @@ examples/widgets/bar/lv_example_bar_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_2.c.s
 
-examples/widgets/bar/lv_example_bar_3.obj: examples/widgets/bar/lv_example_bar_3.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_3.obj
+examples/widgets/bar/lv_example_bar_3.o: examples/widgets/bar/lv_example_bar_3.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_3.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_3.c.obj
+examples/widgets/bar/lv_example_bar_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.o
 
 examples/widgets/bar/lv_example_bar_3.i: examples/widgets/bar/lv_example_bar_3.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_3.i
@@ -4067,13 +4067,13 @@ examples/widgets/bar/lv_example_bar_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_3.c.s
 
-examples/widgets/bar/lv_example_bar_4.obj: examples/widgets/bar/lv_example_bar_4.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_4.obj
+examples/widgets/bar/lv_example_bar_4.o: examples/widgets/bar/lv_example_bar_4.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_4.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_4.c.obj
+examples/widgets/bar/lv_example_bar_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.o
 
 examples/widgets/bar/lv_example_bar_4.i: examples/widgets/bar/lv_example_bar_4.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_4.i
@@ -4091,13 +4091,13 @@ examples/widgets/bar/lv_example_bar_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_4.c.s
 
-examples/widgets/bar/lv_example_bar_5.obj: examples/widgets/bar/lv_example_bar_5.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_5.obj
+examples/widgets/bar/lv_example_bar_5.o: examples/widgets/bar/lv_example_bar_5.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_5.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_5.c.obj
+examples/widgets/bar/lv_example_bar_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.o
 
 examples/widgets/bar/lv_example_bar_5.i: examples/widgets/bar/lv_example_bar_5.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_5.i
@@ -4115,13 +4115,13 @@ examples/widgets/bar/lv_example_bar_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_5.c.s
 
-examples/widgets/bar/lv_example_bar_6.obj: examples/widgets/bar/lv_example_bar_6.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_6.obj
+examples/widgets/bar/lv_example_bar_6.o: examples/widgets/bar/lv_example_bar_6.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_6.o
 
 # target to build an object file
-examples/widgets/bar/lv_example_bar_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.obj
-.PHONY : examples/widgets/bar/lv_example_bar_6.c.obj
+examples/widgets/bar/lv_example_bar_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.o
 
 examples/widgets/bar/lv_example_bar_6.i: examples/widgets/bar/lv_example_bar_6.c.i
 .PHONY : examples/widgets/bar/lv_example_bar_6.i
@@ -4139,13 +4139,13 @@ examples/widgets/bar/lv_example_bar_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.s
 .PHONY : examples/widgets/bar/lv_example_bar_6.c.s
 
-examples/widgets/btn/lv_example_btn_1.obj: examples/widgets/btn/lv_example_btn_1.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_1.obj
+examples/widgets/btn/lv_example_btn_1.o: examples/widgets/btn/lv_example_btn_1.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_1.o
 
 # target to build an object file
-examples/widgets/btn/lv_example_btn_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_1.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_1.c.obj
+examples/widgets/btn/lv_example_btn_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_1.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_1.c.o
 
 examples/widgets/btn/lv_example_btn_1.i: examples/widgets/btn/lv_example_btn_1.c.i
 .PHONY : examples/widgets/btn/lv_example_btn_1.i
@@ -4163,13 +4163,13 @@ examples/widgets/btn/lv_example_btn_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_1.c.s
 .PHONY : examples/widgets/btn/lv_example_btn_1.c.s
 
-examples/widgets/btn/lv_example_btn_2.obj: examples/widgets/btn/lv_example_btn_2.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_2.obj
+examples/widgets/btn/lv_example_btn_2.o: examples/widgets/btn/lv_example_btn_2.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_2.o
 
 # target to build an object file
-examples/widgets/btn/lv_example_btn_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_2.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_2.c.obj
+examples/widgets/btn/lv_example_btn_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_2.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_2.c.o
 
 examples/widgets/btn/lv_example_btn_2.i: examples/widgets/btn/lv_example_btn_2.c.i
 .PHONY : examples/widgets/btn/lv_example_btn_2.i
@@ -4187,13 +4187,13 @@ examples/widgets/btn/lv_example_btn_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_2.c.s
 .PHONY : examples/widgets/btn/lv_example_btn_2.c.s
 
-examples/widgets/btn/lv_example_btn_3.obj: examples/widgets/btn/lv_example_btn_3.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_3.obj
+examples/widgets/btn/lv_example_btn_3.o: examples/widgets/btn/lv_example_btn_3.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_3.o
 
 # target to build an object file
-examples/widgets/btn/lv_example_btn_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_3.c.obj
-.PHONY : examples/widgets/btn/lv_example_btn_3.c.obj
+examples/widgets/btn/lv_example_btn_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_3.c.o
+.PHONY : examples/widgets/btn/lv_example_btn_3.c.o
 
 examples/widgets/btn/lv_example_btn_3.i: examples/widgets/btn/lv_example_btn_3.c.i
 .PHONY : examples/widgets/btn/lv_example_btn_3.i
@@ -4211,13 +4211,13 @@ examples/widgets/btn/lv_example_btn_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btn/lv_example_btn_3.c.s
 .PHONY : examples/widgets/btn/lv_example_btn_3.c.s
 
-examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.o: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.o
 
 # target to build an object file
-examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.o
 
 examples/widgets/btnmatrix/lv_example_btnmatrix_1.i: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.i
@@ -4235,13 +4235,13 @@ examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s
 
-examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.o: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.o
 
 # target to build an object file
-examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.o
 
 examples/widgets/btnmatrix/lv_example_btnmatrix_2.i: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.i
@@ -4259,13 +4259,13 @@ examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s
 
-examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.o: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.o
 
 # target to build an object file
-examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
-.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.o
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.o
 
 examples/widgets/btnmatrix/lv_example_btnmatrix_3.i: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.i
@@ -4283,13 +4283,13 @@ examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s
 .PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s
 
-examples/widgets/calendar/lv_example_calendar_1.obj: examples/widgets/calendar/lv_example_calendar_1.c.obj
-.PHONY : examples/widgets/calendar/lv_example_calendar_1.obj
+examples/widgets/calendar/lv_example_calendar_1.o: examples/widgets/calendar/lv_example_calendar_1.c.o
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.o
 
 # target to build an object file
-examples/widgets/calendar/lv_example_calendar_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.obj
-.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.obj
+examples/widgets/calendar/lv_example_calendar_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.o
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.o
 
 examples/widgets/calendar/lv_example_calendar_1.i: examples/widgets/calendar/lv_example_calendar_1.c.i
 .PHONY : examples/widgets/calendar/lv_example_calendar_1.i
@@ -4307,13 +4307,13 @@ examples/widgets/calendar/lv_example_calendar_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.s
 .PHONY : examples/widgets/calendar/lv_example_calendar_1.c.s
 
-examples/widgets/canvas/lv_example_canvas_1.obj: examples/widgets/canvas/lv_example_canvas_1.c.obj
-.PHONY : examples/widgets/canvas/lv_example_canvas_1.obj
+examples/widgets/canvas/lv_example_canvas_1.o: examples/widgets/canvas/lv_example_canvas_1.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.o
 
 # target to build an object file
-examples/widgets/canvas/lv_example_canvas_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.obj
-.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.obj
+examples/widgets/canvas/lv_example_canvas_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.o
 
 examples/widgets/canvas/lv_example_canvas_1.i: examples/widgets/canvas/lv_example_canvas_1.c.i
 .PHONY : examples/widgets/canvas/lv_example_canvas_1.i
@@ -4331,13 +4331,13 @@ examples/widgets/canvas/lv_example_canvas_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.s
 .PHONY : examples/widgets/canvas/lv_example_canvas_1.c.s
 
-examples/widgets/canvas/lv_example_canvas_2.obj: examples/widgets/canvas/lv_example_canvas_2.c.obj
-.PHONY : examples/widgets/canvas/lv_example_canvas_2.obj
+examples/widgets/canvas/lv_example_canvas_2.o: examples/widgets/canvas/lv_example_canvas_2.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.o
 
 # target to build an object file
-examples/widgets/canvas/lv_example_canvas_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.obj
-.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.obj
+examples/widgets/canvas/lv_example_canvas_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.o
 
 examples/widgets/canvas/lv_example_canvas_2.i: examples/widgets/canvas/lv_example_canvas_2.c.i
 .PHONY : examples/widgets/canvas/lv_example_canvas_2.i
@@ -4355,13 +4355,13 @@ examples/widgets/canvas/lv_example_canvas_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.s
 .PHONY : examples/widgets/canvas/lv_example_canvas_2.c.s
 
-examples/widgets/chart/lv_example_chart_1.obj: examples/widgets/chart/lv_example_chart_1.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_1.obj
+examples/widgets/chart/lv_example_chart_1.o: examples/widgets/chart/lv_example_chart_1.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_1.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_1.c.obj
+examples/widgets/chart/lv_example_chart_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.o
 
 examples/widgets/chart/lv_example_chart_1.i: examples/widgets/chart/lv_example_chart_1.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_1.i
@@ -4379,13 +4379,13 @@ examples/widgets/chart/lv_example_chart_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_1.c.s
 
-examples/widgets/chart/lv_example_chart_2.obj: examples/widgets/chart/lv_example_chart_2.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_2.obj
+examples/widgets/chart/lv_example_chart_2.o: examples/widgets/chart/lv_example_chart_2.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_2.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_2.c.obj
+examples/widgets/chart/lv_example_chart_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.o
 
 examples/widgets/chart/lv_example_chart_2.i: examples/widgets/chart/lv_example_chart_2.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_2.i
@@ -4403,13 +4403,13 @@ examples/widgets/chart/lv_example_chart_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_2.c.s
 
-examples/widgets/chart/lv_example_chart_3.obj: examples/widgets/chart/lv_example_chart_3.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_3.obj
+examples/widgets/chart/lv_example_chart_3.o: examples/widgets/chart/lv_example_chart_3.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_3.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_3.c.obj
+examples/widgets/chart/lv_example_chart_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.o
 
 examples/widgets/chart/lv_example_chart_3.i: examples/widgets/chart/lv_example_chart_3.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_3.i
@@ -4427,13 +4427,13 @@ examples/widgets/chart/lv_example_chart_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_3.c.s
 
-examples/widgets/chart/lv_example_chart_4.obj: examples/widgets/chart/lv_example_chart_4.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_4.obj
+examples/widgets/chart/lv_example_chart_4.o: examples/widgets/chart/lv_example_chart_4.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_4.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_4.c.obj
+examples/widgets/chart/lv_example_chart_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.o
 
 examples/widgets/chart/lv_example_chart_4.i: examples/widgets/chart/lv_example_chart_4.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_4.i
@@ -4451,13 +4451,13 @@ examples/widgets/chart/lv_example_chart_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_4.c.s
 
-examples/widgets/chart/lv_example_chart_5.obj: examples/widgets/chart/lv_example_chart_5.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_5.obj
+examples/widgets/chart/lv_example_chart_5.o: examples/widgets/chart/lv_example_chart_5.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_5.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_5.c.obj
+examples/widgets/chart/lv_example_chart_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.o
 
 examples/widgets/chart/lv_example_chart_5.i: examples/widgets/chart/lv_example_chart_5.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_5.i
@@ -4475,13 +4475,13 @@ examples/widgets/chart/lv_example_chart_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_5.c.s
 
-examples/widgets/chart/lv_example_chart_6.obj: examples/widgets/chart/lv_example_chart_6.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_6.obj
+examples/widgets/chart/lv_example_chart_6.o: examples/widgets/chart/lv_example_chart_6.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_6.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_6.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_6.c.obj
+examples/widgets/chart/lv_example_chart_6.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.o
 
 examples/widgets/chart/lv_example_chart_6.i: examples/widgets/chart/lv_example_chart_6.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_6.i
@@ -4499,13 +4499,13 @@ examples/widgets/chart/lv_example_chart_6.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_6.c.s
 
-examples/widgets/chart/lv_example_chart_7.obj: examples/widgets/chart/lv_example_chart_7.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_7.obj
+examples/widgets/chart/lv_example_chart_7.o: examples/widgets/chart/lv_example_chart_7.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_7.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_7.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_7.c.obj
+examples/widgets/chart/lv_example_chart_7.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.o
 
 examples/widgets/chart/lv_example_chart_7.i: examples/widgets/chart/lv_example_chart_7.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_7.i
@@ -4523,13 +4523,13 @@ examples/widgets/chart/lv_example_chart_7.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_7.c.s
 
-examples/widgets/chart/lv_example_chart_8.obj: examples/widgets/chart/lv_example_chart_8.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_8.obj
+examples/widgets/chart/lv_example_chart_8.o: examples/widgets/chart/lv_example_chart_8.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_8.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_8.c.obj
+examples/widgets/chart/lv_example_chart_8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.o
 
 examples/widgets/chart/lv_example_chart_8.i: examples/widgets/chart/lv_example_chart_8.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_8.i
@@ -4547,13 +4547,13 @@ examples/widgets/chart/lv_example_chart_8.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_8.c.s
 
-examples/widgets/chart/lv_example_chart_9.obj: examples/widgets/chart/lv_example_chart_9.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_9.obj
+examples/widgets/chart/lv_example_chart_9.o: examples/widgets/chart/lv_example_chart_9.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_9.o
 
 # target to build an object file
-examples/widgets/chart/lv_example_chart_9.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_9.c.obj
-.PHONY : examples/widgets/chart/lv_example_chart_9.c.obj
+examples/widgets/chart/lv_example_chart_9.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_9.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_9.c.o
 
 examples/widgets/chart/lv_example_chart_9.i: examples/widgets/chart/lv_example_chart_9.c.i
 .PHONY : examples/widgets/chart/lv_example_chart_9.i
@@ -4571,13 +4571,13 @@ examples/widgets/chart/lv_example_chart_9.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_9.c.s
 .PHONY : examples/widgets/chart/lv_example_chart_9.c.s
 
-examples/widgets/checkbox/lv_example_checkbox_1.obj: examples/widgets/checkbox/lv_example_checkbox_1.c.obj
-.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.obj
+examples/widgets/checkbox/lv_example_checkbox_1.o: examples/widgets/checkbox/lv_example_checkbox_1.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.o
 
 # target to build an object file
-examples/widgets/checkbox/lv_example_checkbox_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.obj
-.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.obj
+examples/widgets/checkbox/lv_example_checkbox_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.o
 
 examples/widgets/checkbox/lv_example_checkbox_1.i: examples/widgets/checkbox/lv_example_checkbox_1.c.i
 .PHONY : examples/widgets/checkbox/lv_example_checkbox_1.i
@@ -4595,13 +4595,13 @@ examples/widgets/checkbox/lv_example_checkbox_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.s
 .PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.s
 
-examples/widgets/checkbox/lv_example_checkbox_2.obj: examples/widgets/checkbox/lv_example_checkbox_2.c.obj
-.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.obj
+examples/widgets/checkbox/lv_example_checkbox_2.o: examples/widgets/checkbox/lv_example_checkbox_2.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.o
 
 # target to build an object file
-examples/widgets/checkbox/lv_example_checkbox_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.obj
-.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.obj
+examples/widgets/checkbox/lv_example_checkbox_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.o
 
 examples/widgets/checkbox/lv_example_checkbox_2.i: examples/widgets/checkbox/lv_example_checkbox_2.c.i
 .PHONY : examples/widgets/checkbox/lv_example_checkbox_2.i
@@ -4619,13 +4619,13 @@ examples/widgets/checkbox/lv_example_checkbox_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.s
 .PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.s
 
-examples/widgets/colorwheel/lv_example_colorwheel_1.obj: examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
-.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.obj
+examples/widgets/colorwheel/lv_example_colorwheel_1.o: examples/widgets/colorwheel/lv_example_colorwheel_1.c.o
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.o
 
 # target to build an object file
-examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
-.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
+examples/widgets/colorwheel/lv_example_colorwheel_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.o
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.o
 
 examples/widgets/colorwheel/lv_example_colorwheel_1.i: examples/widgets/colorwheel/lv_example_colorwheel_1.c.i
 .PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.i
@@ -4643,13 +4643,13 @@ examples/widgets/colorwheel/lv_example_colorwheel_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.s
 .PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.s
 
-examples/widgets/dropdown/lv_example_dropdown_1.obj: examples/widgets/dropdown/lv_example_dropdown_1.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.obj
+examples/widgets/dropdown/lv_example_dropdown_1.o: examples/widgets/dropdown/lv_example_dropdown_1.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.o
 
 # target to build an object file
-examples/widgets/dropdown/lv_example_dropdown_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.obj
+examples/widgets/dropdown/lv_example_dropdown_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.o
 
 examples/widgets/dropdown/lv_example_dropdown_1.i: examples/widgets/dropdown/lv_example_dropdown_1.c.i
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_1.i
@@ -4667,13 +4667,13 @@ examples/widgets/dropdown/lv_example_dropdown_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.s
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.s
 
-examples/widgets/dropdown/lv_example_dropdown_2.obj: examples/widgets/dropdown/lv_example_dropdown_2.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.obj
+examples/widgets/dropdown/lv_example_dropdown_2.o: examples/widgets/dropdown/lv_example_dropdown_2.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.o
 
 # target to build an object file
-examples/widgets/dropdown/lv_example_dropdown_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.obj
+examples/widgets/dropdown/lv_example_dropdown_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.o
 
 examples/widgets/dropdown/lv_example_dropdown_2.i: examples/widgets/dropdown/lv_example_dropdown_2.c.i
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_2.i
@@ -4691,13 +4691,13 @@ examples/widgets/dropdown/lv_example_dropdown_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.s
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.s
 
-examples/widgets/dropdown/lv_example_dropdown_3.obj: examples/widgets/dropdown/lv_example_dropdown_3.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.obj
+examples/widgets/dropdown/lv_example_dropdown_3.o: examples/widgets/dropdown/lv_example_dropdown_3.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.o
 
 # target to build an object file
-examples/widgets/dropdown/lv_example_dropdown_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.obj
-.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.obj
+examples/widgets/dropdown/lv_example_dropdown_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.o
 
 examples/widgets/dropdown/lv_example_dropdown_3.i: examples/widgets/dropdown/lv_example_dropdown_3.c.i
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_3.i
@@ -4715,13 +4715,13 @@ examples/widgets/dropdown/lv_example_dropdown_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.s
 .PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.s
 
-examples/widgets/img/lv_example_img_1.obj: examples/widgets/img/lv_example_img_1.c.obj
-.PHONY : examples/widgets/img/lv_example_img_1.obj
+examples/widgets/img/lv_example_img_1.o: examples/widgets/img/lv_example_img_1.c.o
+.PHONY : examples/widgets/img/lv_example_img_1.o
 
 # target to build an object file
-examples/widgets/img/lv_example_img_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_1.c.obj
-.PHONY : examples/widgets/img/lv_example_img_1.c.obj
+examples/widgets/img/lv_example_img_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_1.c.o
+.PHONY : examples/widgets/img/lv_example_img_1.c.o
 
 examples/widgets/img/lv_example_img_1.i: examples/widgets/img/lv_example_img_1.c.i
 .PHONY : examples/widgets/img/lv_example_img_1.i
@@ -4739,13 +4739,13 @@ examples/widgets/img/lv_example_img_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_1.c.s
 .PHONY : examples/widgets/img/lv_example_img_1.c.s
 
-examples/widgets/img/lv_example_img_2.obj: examples/widgets/img/lv_example_img_2.c.obj
-.PHONY : examples/widgets/img/lv_example_img_2.obj
+examples/widgets/img/lv_example_img_2.o: examples/widgets/img/lv_example_img_2.c.o
+.PHONY : examples/widgets/img/lv_example_img_2.o
 
 # target to build an object file
-examples/widgets/img/lv_example_img_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_2.c.obj
-.PHONY : examples/widgets/img/lv_example_img_2.c.obj
+examples/widgets/img/lv_example_img_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_2.c.o
+.PHONY : examples/widgets/img/lv_example_img_2.c.o
 
 examples/widgets/img/lv_example_img_2.i: examples/widgets/img/lv_example_img_2.c.i
 .PHONY : examples/widgets/img/lv_example_img_2.i
@@ -4763,13 +4763,13 @@ examples/widgets/img/lv_example_img_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_2.c.s
 .PHONY : examples/widgets/img/lv_example_img_2.c.s
 
-examples/widgets/img/lv_example_img_3.obj: examples/widgets/img/lv_example_img_3.c.obj
-.PHONY : examples/widgets/img/lv_example_img_3.obj
+examples/widgets/img/lv_example_img_3.o: examples/widgets/img/lv_example_img_3.c.o
+.PHONY : examples/widgets/img/lv_example_img_3.o
 
 # target to build an object file
-examples/widgets/img/lv_example_img_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_3.c.obj
-.PHONY : examples/widgets/img/lv_example_img_3.c.obj
+examples/widgets/img/lv_example_img_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_3.c.o
+.PHONY : examples/widgets/img/lv_example_img_3.c.o
 
 examples/widgets/img/lv_example_img_3.i: examples/widgets/img/lv_example_img_3.c.i
 .PHONY : examples/widgets/img/lv_example_img_3.i
@@ -4787,13 +4787,13 @@ examples/widgets/img/lv_example_img_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_3.c.s
 .PHONY : examples/widgets/img/lv_example_img_3.c.s
 
-examples/widgets/img/lv_example_img_4.obj: examples/widgets/img/lv_example_img_4.c.obj
-.PHONY : examples/widgets/img/lv_example_img_4.obj
+examples/widgets/img/lv_example_img_4.o: examples/widgets/img/lv_example_img_4.c.o
+.PHONY : examples/widgets/img/lv_example_img_4.o
 
 # target to build an object file
-examples/widgets/img/lv_example_img_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_4.c.obj
-.PHONY : examples/widgets/img/lv_example_img_4.c.obj
+examples/widgets/img/lv_example_img_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_4.c.o
+.PHONY : examples/widgets/img/lv_example_img_4.c.o
 
 examples/widgets/img/lv_example_img_4.i: examples/widgets/img/lv_example_img_4.c.i
 .PHONY : examples/widgets/img/lv_example_img_4.i
@@ -4811,13 +4811,13 @@ examples/widgets/img/lv_example_img_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/img/lv_example_img_4.c.s
 .PHONY : examples/widgets/img/lv_example_img_4.c.s
 
-examples/widgets/imgbtn/lv_example_imgbtn_1.obj: examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
-.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.obj
+examples/widgets/imgbtn/lv_example_imgbtn_1.o: examples/widgets/imgbtn/lv_example_imgbtn_1.c.o
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.o
 
 # target to build an object file
-examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
-.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
+examples/widgets/imgbtn/lv_example_imgbtn_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.o
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.o
 
 examples/widgets/imgbtn/lv_example_imgbtn_1.i: examples/widgets/imgbtn/lv_example_imgbtn_1.c.i
 .PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.i
@@ -4835,13 +4835,13 @@ examples/widgets/imgbtn/lv_example_imgbtn_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.s
 .PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.s
 
-examples/widgets/keyboard/lv_example_keyboard_1.obj: examples/widgets/keyboard/lv_example_keyboard_1.c.obj
-.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.obj
+examples/widgets/keyboard/lv_example_keyboard_1.o: examples/widgets/keyboard/lv_example_keyboard_1.c.o
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.o
 
 # target to build an object file
-examples/widgets/keyboard/lv_example_keyboard_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.obj
-.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.obj
+examples/widgets/keyboard/lv_example_keyboard_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.o
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.o
 
 examples/widgets/keyboard/lv_example_keyboard_1.i: examples/widgets/keyboard/lv_example_keyboard_1.c.i
 .PHONY : examples/widgets/keyboard/lv_example_keyboard_1.i
@@ -4859,13 +4859,13 @@ examples/widgets/keyboard/lv_example_keyboard_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.s
 .PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.s
 
-examples/widgets/label/lv_example_label_1.obj: examples/widgets/label/lv_example_label_1.c.obj
-.PHONY : examples/widgets/label/lv_example_label_1.obj
+examples/widgets/label/lv_example_label_1.o: examples/widgets/label/lv_example_label_1.c.o
+.PHONY : examples/widgets/label/lv_example_label_1.o
 
 # target to build an object file
-examples/widgets/label/lv_example_label_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.obj
-.PHONY : examples/widgets/label/lv_example_label_1.c.obj
+examples/widgets/label/lv_example_label_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.o
+.PHONY : examples/widgets/label/lv_example_label_1.c.o
 
 examples/widgets/label/lv_example_label_1.i: examples/widgets/label/lv_example_label_1.c.i
 .PHONY : examples/widgets/label/lv_example_label_1.i
@@ -4883,13 +4883,13 @@ examples/widgets/label/lv_example_label_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.s
 .PHONY : examples/widgets/label/lv_example_label_1.c.s
 
-examples/widgets/label/lv_example_label_2.obj: examples/widgets/label/lv_example_label_2.c.obj
-.PHONY : examples/widgets/label/lv_example_label_2.obj
+examples/widgets/label/lv_example_label_2.o: examples/widgets/label/lv_example_label_2.c.o
+.PHONY : examples/widgets/label/lv_example_label_2.o
 
 # target to build an object file
-examples/widgets/label/lv_example_label_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.obj
-.PHONY : examples/widgets/label/lv_example_label_2.c.obj
+examples/widgets/label/lv_example_label_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.o
+.PHONY : examples/widgets/label/lv_example_label_2.c.o
 
 examples/widgets/label/lv_example_label_2.i: examples/widgets/label/lv_example_label_2.c.i
 .PHONY : examples/widgets/label/lv_example_label_2.i
@@ -4907,13 +4907,13 @@ examples/widgets/label/lv_example_label_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.s
 .PHONY : examples/widgets/label/lv_example_label_2.c.s
 
-examples/widgets/label/lv_example_label_3.obj: examples/widgets/label/lv_example_label_3.c.obj
-.PHONY : examples/widgets/label/lv_example_label_3.obj
+examples/widgets/label/lv_example_label_3.o: examples/widgets/label/lv_example_label_3.c.o
+.PHONY : examples/widgets/label/lv_example_label_3.o
 
 # target to build an object file
-examples/widgets/label/lv_example_label_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.obj
-.PHONY : examples/widgets/label/lv_example_label_3.c.obj
+examples/widgets/label/lv_example_label_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.o
+.PHONY : examples/widgets/label/lv_example_label_3.c.o
 
 examples/widgets/label/lv_example_label_3.i: examples/widgets/label/lv_example_label_3.c.i
 .PHONY : examples/widgets/label/lv_example_label_3.i
@@ -4931,13 +4931,13 @@ examples/widgets/label/lv_example_label_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.s
 .PHONY : examples/widgets/label/lv_example_label_3.c.s
 
-examples/widgets/label/lv_example_label_4.obj: examples/widgets/label/lv_example_label_4.c.obj
-.PHONY : examples/widgets/label/lv_example_label_4.obj
+examples/widgets/label/lv_example_label_4.o: examples/widgets/label/lv_example_label_4.c.o
+.PHONY : examples/widgets/label/lv_example_label_4.o
 
 # target to build an object file
-examples/widgets/label/lv_example_label_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.obj
-.PHONY : examples/widgets/label/lv_example_label_4.c.obj
+examples/widgets/label/lv_example_label_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.o
+.PHONY : examples/widgets/label/lv_example_label_4.c.o
 
 examples/widgets/label/lv_example_label_4.i: examples/widgets/label/lv_example_label_4.c.i
 .PHONY : examples/widgets/label/lv_example_label_4.i
@@ -4955,13 +4955,13 @@ examples/widgets/label/lv_example_label_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.s
 .PHONY : examples/widgets/label/lv_example_label_4.c.s
 
-examples/widgets/label/lv_example_label_5.obj: examples/widgets/label/lv_example_label_5.c.obj
-.PHONY : examples/widgets/label/lv_example_label_5.obj
+examples/widgets/label/lv_example_label_5.o: examples/widgets/label/lv_example_label_5.c.o
+.PHONY : examples/widgets/label/lv_example_label_5.o
 
 # target to build an object file
-examples/widgets/label/lv_example_label_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.obj
-.PHONY : examples/widgets/label/lv_example_label_5.c.obj
+examples/widgets/label/lv_example_label_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.o
+.PHONY : examples/widgets/label/lv_example_label_5.c.o
 
 examples/widgets/label/lv_example_label_5.i: examples/widgets/label/lv_example_label_5.c.i
 .PHONY : examples/widgets/label/lv_example_label_5.i
@@ -4979,13 +4979,13 @@ examples/widgets/label/lv_example_label_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.s
 .PHONY : examples/widgets/label/lv_example_label_5.c.s
 
-examples/widgets/led/lv_example_led_1.obj: examples/widgets/led/lv_example_led_1.c.obj
-.PHONY : examples/widgets/led/lv_example_led_1.obj
+examples/widgets/led/lv_example_led_1.o: examples/widgets/led/lv_example_led_1.c.o
+.PHONY : examples/widgets/led/lv_example_led_1.o
 
 # target to build an object file
-examples/widgets/led/lv_example_led_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.obj
-.PHONY : examples/widgets/led/lv_example_led_1.c.obj
+examples/widgets/led/lv_example_led_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.o
+.PHONY : examples/widgets/led/lv_example_led_1.c.o
 
 examples/widgets/led/lv_example_led_1.i: examples/widgets/led/lv_example_led_1.c.i
 .PHONY : examples/widgets/led/lv_example_led_1.i
@@ -5003,13 +5003,13 @@ examples/widgets/led/lv_example_led_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.s
 .PHONY : examples/widgets/led/lv_example_led_1.c.s
 
-examples/widgets/line/lv_example_line_1.obj: examples/widgets/line/lv_example_line_1.c.obj
-.PHONY : examples/widgets/line/lv_example_line_1.obj
+examples/widgets/line/lv_example_line_1.o: examples/widgets/line/lv_example_line_1.c.o
+.PHONY : examples/widgets/line/lv_example_line_1.o
 
 # target to build an object file
-examples/widgets/line/lv_example_line_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.obj
-.PHONY : examples/widgets/line/lv_example_line_1.c.obj
+examples/widgets/line/lv_example_line_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.o
+.PHONY : examples/widgets/line/lv_example_line_1.c.o
 
 examples/widgets/line/lv_example_line_1.i: examples/widgets/line/lv_example_line_1.c.i
 .PHONY : examples/widgets/line/lv_example_line_1.i
@@ -5027,13 +5027,13 @@ examples/widgets/line/lv_example_line_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.s
 .PHONY : examples/widgets/line/lv_example_line_1.c.s
 
-examples/widgets/list/lv_example_list_1.obj: examples/widgets/list/lv_example_list_1.c.obj
-.PHONY : examples/widgets/list/lv_example_list_1.obj
+examples/widgets/list/lv_example_list_1.o: examples/widgets/list/lv_example_list_1.c.o
+.PHONY : examples/widgets/list/lv_example_list_1.o
 
 # target to build an object file
-examples/widgets/list/lv_example_list_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.obj
-.PHONY : examples/widgets/list/lv_example_list_1.c.obj
+examples/widgets/list/lv_example_list_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.o
+.PHONY : examples/widgets/list/lv_example_list_1.c.o
 
 examples/widgets/list/lv_example_list_1.i: examples/widgets/list/lv_example_list_1.c.i
 .PHONY : examples/widgets/list/lv_example_list_1.i
@@ -5051,13 +5051,13 @@ examples/widgets/list/lv_example_list_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.s
 .PHONY : examples/widgets/list/lv_example_list_1.c.s
 
-examples/widgets/list/lv_example_list_2.obj: examples/widgets/list/lv_example_list_2.c.obj
-.PHONY : examples/widgets/list/lv_example_list_2.obj
+examples/widgets/list/lv_example_list_2.o: examples/widgets/list/lv_example_list_2.c.o
+.PHONY : examples/widgets/list/lv_example_list_2.o
 
 # target to build an object file
-examples/widgets/list/lv_example_list_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.obj
-.PHONY : examples/widgets/list/lv_example_list_2.c.obj
+examples/widgets/list/lv_example_list_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.o
+.PHONY : examples/widgets/list/lv_example_list_2.c.o
 
 examples/widgets/list/lv_example_list_2.i: examples/widgets/list/lv_example_list_2.c.i
 .PHONY : examples/widgets/list/lv_example_list_2.i
@@ -5075,13 +5075,13 @@ examples/widgets/list/lv_example_list_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.s
 .PHONY : examples/widgets/list/lv_example_list_2.c.s
 
-examples/widgets/menu/lv_example_menu_1.obj: examples/widgets/menu/lv_example_menu_1.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_1.obj
+examples/widgets/menu/lv_example_menu_1.o: examples/widgets/menu/lv_example_menu_1.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_1.o
 
 # target to build an object file
-examples/widgets/menu/lv_example_menu_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_1.c.obj
+examples/widgets/menu/lv_example_menu_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.o
 
 examples/widgets/menu/lv_example_menu_1.i: examples/widgets/menu/lv_example_menu_1.c.i
 .PHONY : examples/widgets/menu/lv_example_menu_1.i
@@ -5099,13 +5099,13 @@ examples/widgets/menu/lv_example_menu_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.s
 .PHONY : examples/widgets/menu/lv_example_menu_1.c.s
 
-examples/widgets/menu/lv_example_menu_2.obj: examples/widgets/menu/lv_example_menu_2.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_2.obj
+examples/widgets/menu/lv_example_menu_2.o: examples/widgets/menu/lv_example_menu_2.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_2.o
 
 # target to build an object file
-examples/widgets/menu/lv_example_menu_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_2.c.obj
+examples/widgets/menu/lv_example_menu_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.o
 
 examples/widgets/menu/lv_example_menu_2.i: examples/widgets/menu/lv_example_menu_2.c.i
 .PHONY : examples/widgets/menu/lv_example_menu_2.i
@@ -5123,13 +5123,13 @@ examples/widgets/menu/lv_example_menu_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.s
 .PHONY : examples/widgets/menu/lv_example_menu_2.c.s
 
-examples/widgets/menu/lv_example_menu_3.obj: examples/widgets/menu/lv_example_menu_3.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_3.obj
+examples/widgets/menu/lv_example_menu_3.o: examples/widgets/menu/lv_example_menu_3.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_3.o
 
 # target to build an object file
-examples/widgets/menu/lv_example_menu_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_3.c.obj
+examples/widgets/menu/lv_example_menu_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.o
 
 examples/widgets/menu/lv_example_menu_3.i: examples/widgets/menu/lv_example_menu_3.c.i
 .PHONY : examples/widgets/menu/lv_example_menu_3.i
@@ -5147,13 +5147,13 @@ examples/widgets/menu/lv_example_menu_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.s
 .PHONY : examples/widgets/menu/lv_example_menu_3.c.s
 
-examples/widgets/menu/lv_example_menu_4.obj: examples/widgets/menu/lv_example_menu_4.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_4.obj
+examples/widgets/menu/lv_example_menu_4.o: examples/widgets/menu/lv_example_menu_4.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_4.o
 
 # target to build an object file
-examples/widgets/menu/lv_example_menu_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_4.c.obj
+examples/widgets/menu/lv_example_menu_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.o
 
 examples/widgets/menu/lv_example_menu_4.i: examples/widgets/menu/lv_example_menu_4.c.i
 .PHONY : examples/widgets/menu/lv_example_menu_4.i
@@ -5171,13 +5171,13 @@ examples/widgets/menu/lv_example_menu_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.s
 .PHONY : examples/widgets/menu/lv_example_menu_4.c.s
 
-examples/widgets/menu/lv_example_menu_5.obj: examples/widgets/menu/lv_example_menu_5.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_5.obj
+examples/widgets/menu/lv_example_menu_5.o: examples/widgets/menu/lv_example_menu_5.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_5.o
 
 # target to build an object file
-examples/widgets/menu/lv_example_menu_5.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.obj
-.PHONY : examples/widgets/menu/lv_example_menu_5.c.obj
+examples/widgets/menu/lv_example_menu_5.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.o
 
 examples/widgets/menu/lv_example_menu_5.i: examples/widgets/menu/lv_example_menu_5.c.i
 .PHONY : examples/widgets/menu/lv_example_menu_5.i
@@ -5195,13 +5195,13 @@ examples/widgets/menu/lv_example_menu_5.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.s
 .PHONY : examples/widgets/menu/lv_example_menu_5.c.s
 
-examples/widgets/meter/lv_example_meter_1.obj: examples/widgets/meter/lv_example_meter_1.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_1.obj
+examples/widgets/meter/lv_example_meter_1.o: examples/widgets/meter/lv_example_meter_1.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_1.o
 
 # target to build an object file
-examples/widgets/meter/lv_example_meter_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_1.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_1.c.obj
+examples/widgets/meter/lv_example_meter_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_1.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_1.c.o
 
 examples/widgets/meter/lv_example_meter_1.i: examples/widgets/meter/lv_example_meter_1.c.i
 .PHONY : examples/widgets/meter/lv_example_meter_1.i
@@ -5219,13 +5219,13 @@ examples/widgets/meter/lv_example_meter_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_1.c.s
 .PHONY : examples/widgets/meter/lv_example_meter_1.c.s
 
-examples/widgets/meter/lv_example_meter_2.obj: examples/widgets/meter/lv_example_meter_2.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_2.obj
+examples/widgets/meter/lv_example_meter_2.o: examples/widgets/meter/lv_example_meter_2.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_2.o
 
 # target to build an object file
-examples/widgets/meter/lv_example_meter_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_2.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_2.c.obj
+examples/widgets/meter/lv_example_meter_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_2.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_2.c.o
 
 examples/widgets/meter/lv_example_meter_2.i: examples/widgets/meter/lv_example_meter_2.c.i
 .PHONY : examples/widgets/meter/lv_example_meter_2.i
@@ -5243,13 +5243,13 @@ examples/widgets/meter/lv_example_meter_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_2.c.s
 .PHONY : examples/widgets/meter/lv_example_meter_2.c.s
 
-examples/widgets/meter/lv_example_meter_3.obj: examples/widgets/meter/lv_example_meter_3.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_3.obj
+examples/widgets/meter/lv_example_meter_3.o: examples/widgets/meter/lv_example_meter_3.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_3.o
 
 # target to build an object file
-examples/widgets/meter/lv_example_meter_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_3.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_3.c.obj
+examples/widgets/meter/lv_example_meter_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_3.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_3.c.o
 
 examples/widgets/meter/lv_example_meter_3.i: examples/widgets/meter/lv_example_meter_3.c.i
 .PHONY : examples/widgets/meter/lv_example_meter_3.i
@@ -5267,13 +5267,13 @@ examples/widgets/meter/lv_example_meter_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_3.c.s
 .PHONY : examples/widgets/meter/lv_example_meter_3.c.s
 
-examples/widgets/meter/lv_example_meter_4.obj: examples/widgets/meter/lv_example_meter_4.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_4.obj
+examples/widgets/meter/lv_example_meter_4.o: examples/widgets/meter/lv_example_meter_4.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_4.o
 
 # target to build an object file
-examples/widgets/meter/lv_example_meter_4.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_4.c.obj
-.PHONY : examples/widgets/meter/lv_example_meter_4.c.obj
+examples/widgets/meter/lv_example_meter_4.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_4.c.o
+.PHONY : examples/widgets/meter/lv_example_meter_4.c.o
 
 examples/widgets/meter/lv_example_meter_4.i: examples/widgets/meter/lv_example_meter_4.c.i
 .PHONY : examples/widgets/meter/lv_example_meter_4.i
@@ -5291,13 +5291,13 @@ examples/widgets/meter/lv_example_meter_4.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/meter/lv_example_meter_4.c.s
 .PHONY : examples/widgets/meter/lv_example_meter_4.c.s
 
-examples/widgets/msgbox/lv_example_msgbox_1.obj: examples/widgets/msgbox/lv_example_msgbox_1.c.obj
-.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.obj
+examples/widgets/msgbox/lv_example_msgbox_1.o: examples/widgets/msgbox/lv_example_msgbox_1.c.o
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.o
 
 # target to build an object file
-examples/widgets/msgbox/lv_example_msgbox_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.obj
-.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.obj
+examples/widgets/msgbox/lv_example_msgbox_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.o
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.o
 
 examples/widgets/msgbox/lv_example_msgbox_1.i: examples/widgets/msgbox/lv_example_msgbox_1.c.i
 .PHONY : examples/widgets/msgbox/lv_example_msgbox_1.i
@@ -5315,13 +5315,13 @@ examples/widgets/msgbox/lv_example_msgbox_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.s
 .PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.s
 
-examples/widgets/obj/lv_example_obj_1.obj: examples/widgets/obj/lv_example_obj_1.c.obj
-.PHONY : examples/widgets/obj/lv_example_obj_1.obj
+examples/widgets/obj/lv_example_obj_1.o: examples/widgets/obj/lv_example_obj_1.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_1.o
 
 # target to build an object file
-examples/widgets/obj/lv_example_obj_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.obj
-.PHONY : examples/widgets/obj/lv_example_obj_1.c.obj
+examples/widgets/obj/lv_example_obj_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.o
 
 examples/widgets/obj/lv_example_obj_1.i: examples/widgets/obj/lv_example_obj_1.c.i
 .PHONY : examples/widgets/obj/lv_example_obj_1.i
@@ -5339,13 +5339,13 @@ examples/widgets/obj/lv_example_obj_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.s
 .PHONY : examples/widgets/obj/lv_example_obj_1.c.s
 
-examples/widgets/obj/lv_example_obj_2.obj: examples/widgets/obj/lv_example_obj_2.c.obj
-.PHONY : examples/widgets/obj/lv_example_obj_2.obj
+examples/widgets/obj/lv_example_obj_2.o: examples/widgets/obj/lv_example_obj_2.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_2.o
 
 # target to build an object file
-examples/widgets/obj/lv_example_obj_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.obj
-.PHONY : examples/widgets/obj/lv_example_obj_2.c.obj
+examples/widgets/obj/lv_example_obj_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.o
 
 examples/widgets/obj/lv_example_obj_2.i: examples/widgets/obj/lv_example_obj_2.c.i
 .PHONY : examples/widgets/obj/lv_example_obj_2.i
@@ -5363,13 +5363,13 @@ examples/widgets/obj/lv_example_obj_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.s
 .PHONY : examples/widgets/obj/lv_example_obj_2.c.s
 
-examples/widgets/roller/lv_example_roller_1.obj: examples/widgets/roller/lv_example_roller_1.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_1.obj
+examples/widgets/roller/lv_example_roller_1.o: examples/widgets/roller/lv_example_roller_1.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_1.o
 
 # target to build an object file
-examples/widgets/roller/lv_example_roller_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_1.c.obj
+examples/widgets/roller/lv_example_roller_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.o
 
 examples/widgets/roller/lv_example_roller_1.i: examples/widgets/roller/lv_example_roller_1.c.i
 .PHONY : examples/widgets/roller/lv_example_roller_1.i
@@ -5387,13 +5387,13 @@ examples/widgets/roller/lv_example_roller_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.s
 .PHONY : examples/widgets/roller/lv_example_roller_1.c.s
 
-examples/widgets/roller/lv_example_roller_2.obj: examples/widgets/roller/lv_example_roller_2.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_2.obj
+examples/widgets/roller/lv_example_roller_2.o: examples/widgets/roller/lv_example_roller_2.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_2.o
 
 # target to build an object file
-examples/widgets/roller/lv_example_roller_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_2.c.obj
+examples/widgets/roller/lv_example_roller_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.o
 
 examples/widgets/roller/lv_example_roller_2.i: examples/widgets/roller/lv_example_roller_2.c.i
 .PHONY : examples/widgets/roller/lv_example_roller_2.i
@@ -5411,13 +5411,13 @@ examples/widgets/roller/lv_example_roller_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.s
 .PHONY : examples/widgets/roller/lv_example_roller_2.c.s
 
-examples/widgets/roller/lv_example_roller_3.obj: examples/widgets/roller/lv_example_roller_3.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_3.obj
+examples/widgets/roller/lv_example_roller_3.o: examples/widgets/roller/lv_example_roller_3.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_3.o
 
 # target to build an object file
-examples/widgets/roller/lv_example_roller_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.obj
-.PHONY : examples/widgets/roller/lv_example_roller_3.c.obj
+examples/widgets/roller/lv_example_roller_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.o
 
 examples/widgets/roller/lv_example_roller_3.i: examples/widgets/roller/lv_example_roller_3.c.i
 .PHONY : examples/widgets/roller/lv_example_roller_3.i
@@ -5435,13 +5435,13 @@ examples/widgets/roller/lv_example_roller_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.s
 .PHONY : examples/widgets/roller/lv_example_roller_3.c.s
 
-examples/widgets/slider/lv_example_slider_1.obj: examples/widgets/slider/lv_example_slider_1.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_1.obj
+examples/widgets/slider/lv_example_slider_1.o: examples/widgets/slider/lv_example_slider_1.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_1.o
 
 # target to build an object file
-examples/widgets/slider/lv_example_slider_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_1.c.obj
+examples/widgets/slider/lv_example_slider_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.o
 
 examples/widgets/slider/lv_example_slider_1.i: examples/widgets/slider/lv_example_slider_1.c.i
 .PHONY : examples/widgets/slider/lv_example_slider_1.i
@@ -5459,13 +5459,13 @@ examples/widgets/slider/lv_example_slider_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.s
 .PHONY : examples/widgets/slider/lv_example_slider_1.c.s
 
-examples/widgets/slider/lv_example_slider_2.obj: examples/widgets/slider/lv_example_slider_2.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_2.obj
+examples/widgets/slider/lv_example_slider_2.o: examples/widgets/slider/lv_example_slider_2.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_2.o
 
 # target to build an object file
-examples/widgets/slider/lv_example_slider_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_2.c.obj
+examples/widgets/slider/lv_example_slider_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.o
 
 examples/widgets/slider/lv_example_slider_2.i: examples/widgets/slider/lv_example_slider_2.c.i
 .PHONY : examples/widgets/slider/lv_example_slider_2.i
@@ -5483,13 +5483,13 @@ examples/widgets/slider/lv_example_slider_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.s
 .PHONY : examples/widgets/slider/lv_example_slider_2.c.s
 
-examples/widgets/slider/lv_example_slider_3.obj: examples/widgets/slider/lv_example_slider_3.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_3.obj
+examples/widgets/slider/lv_example_slider_3.o: examples/widgets/slider/lv_example_slider_3.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_3.o
 
 # target to build an object file
-examples/widgets/slider/lv_example_slider_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.obj
-.PHONY : examples/widgets/slider/lv_example_slider_3.c.obj
+examples/widgets/slider/lv_example_slider_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.o
 
 examples/widgets/slider/lv_example_slider_3.i: examples/widgets/slider/lv_example_slider_3.c.i
 .PHONY : examples/widgets/slider/lv_example_slider_3.i
@@ -5507,13 +5507,13 @@ examples/widgets/slider/lv_example_slider_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.s
 .PHONY : examples/widgets/slider/lv_example_slider_3.c.s
 
-examples/widgets/span/lv_example_span_1.obj: examples/widgets/span/lv_example_span_1.c.obj
-.PHONY : examples/widgets/span/lv_example_span_1.obj
+examples/widgets/span/lv_example_span_1.o: examples/widgets/span/lv_example_span_1.c.o
+.PHONY : examples/widgets/span/lv_example_span_1.o
 
 # target to build an object file
-examples/widgets/span/lv_example_span_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.obj
-.PHONY : examples/widgets/span/lv_example_span_1.c.obj
+examples/widgets/span/lv_example_span_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.o
+.PHONY : examples/widgets/span/lv_example_span_1.c.o
 
 examples/widgets/span/lv_example_span_1.i: examples/widgets/span/lv_example_span_1.c.i
 .PHONY : examples/widgets/span/lv_example_span_1.i
@@ -5531,13 +5531,13 @@ examples/widgets/span/lv_example_span_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.s
 .PHONY : examples/widgets/span/lv_example_span_1.c.s
 
-examples/widgets/spinbox/lv_example_spinbox_1.obj: examples/widgets/spinbox/lv_example_spinbox_1.c.obj
-.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.obj
+examples/widgets/spinbox/lv_example_spinbox_1.o: examples/widgets/spinbox/lv_example_spinbox_1.c.o
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.o
 
 # target to build an object file
-examples/widgets/spinbox/lv_example_spinbox_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.obj
-.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.obj
+examples/widgets/spinbox/lv_example_spinbox_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.o
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.o
 
 examples/widgets/spinbox/lv_example_spinbox_1.i: examples/widgets/spinbox/lv_example_spinbox_1.c.i
 .PHONY : examples/widgets/spinbox/lv_example_spinbox_1.i
@@ -5555,13 +5555,13 @@ examples/widgets/spinbox/lv_example_spinbox_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.s
 .PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.s
 
-examples/widgets/spinner/lv_example_spinner_1.obj: examples/widgets/spinner/lv_example_spinner_1.c.obj
-.PHONY : examples/widgets/spinner/lv_example_spinner_1.obj
+examples/widgets/spinner/lv_example_spinner_1.o: examples/widgets/spinner/lv_example_spinner_1.c.o
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.o
 
 # target to build an object file
-examples/widgets/spinner/lv_example_spinner_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.obj
-.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.obj
+examples/widgets/spinner/lv_example_spinner_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.o
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.o
 
 examples/widgets/spinner/lv_example_spinner_1.i: examples/widgets/spinner/lv_example_spinner_1.c.i
 .PHONY : examples/widgets/spinner/lv_example_spinner_1.i
@@ -5579,13 +5579,13 @@ examples/widgets/spinner/lv_example_spinner_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.s
 .PHONY : examples/widgets/spinner/lv_example_spinner_1.c.s
 
-examples/widgets/switch/lv_example_switch_1.obj: examples/widgets/switch/lv_example_switch_1.c.obj
-.PHONY : examples/widgets/switch/lv_example_switch_1.obj
+examples/widgets/switch/lv_example_switch_1.o: examples/widgets/switch/lv_example_switch_1.c.o
+.PHONY : examples/widgets/switch/lv_example_switch_1.o
 
 # target to build an object file
-examples/widgets/switch/lv_example_switch_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.obj
-.PHONY : examples/widgets/switch/lv_example_switch_1.c.obj
+examples/widgets/switch/lv_example_switch_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.o
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.o
 
 examples/widgets/switch/lv_example_switch_1.i: examples/widgets/switch/lv_example_switch_1.c.i
 .PHONY : examples/widgets/switch/lv_example_switch_1.i
@@ -5603,13 +5603,13 @@ examples/widgets/switch/lv_example_switch_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.s
 .PHONY : examples/widgets/switch/lv_example_switch_1.c.s
 
-examples/widgets/table/lv_example_table_1.obj: examples/widgets/table/lv_example_table_1.c.obj
-.PHONY : examples/widgets/table/lv_example_table_1.obj
+examples/widgets/table/lv_example_table_1.o: examples/widgets/table/lv_example_table_1.c.o
+.PHONY : examples/widgets/table/lv_example_table_1.o
 
 # target to build an object file
-examples/widgets/table/lv_example_table_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.obj
-.PHONY : examples/widgets/table/lv_example_table_1.c.obj
+examples/widgets/table/lv_example_table_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.o
+.PHONY : examples/widgets/table/lv_example_table_1.c.o
 
 examples/widgets/table/lv_example_table_1.i: examples/widgets/table/lv_example_table_1.c.i
 .PHONY : examples/widgets/table/lv_example_table_1.i
@@ -5627,13 +5627,13 @@ examples/widgets/table/lv_example_table_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.s
 .PHONY : examples/widgets/table/lv_example_table_1.c.s
 
-examples/widgets/table/lv_example_table_2.obj: examples/widgets/table/lv_example_table_2.c.obj
-.PHONY : examples/widgets/table/lv_example_table_2.obj
+examples/widgets/table/lv_example_table_2.o: examples/widgets/table/lv_example_table_2.c.o
+.PHONY : examples/widgets/table/lv_example_table_2.o
 
 # target to build an object file
-examples/widgets/table/lv_example_table_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.obj
-.PHONY : examples/widgets/table/lv_example_table_2.c.obj
+examples/widgets/table/lv_example_table_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.o
+.PHONY : examples/widgets/table/lv_example_table_2.c.o
 
 examples/widgets/table/lv_example_table_2.i: examples/widgets/table/lv_example_table_2.c.i
 .PHONY : examples/widgets/table/lv_example_table_2.i
@@ -5651,13 +5651,13 @@ examples/widgets/table/lv_example_table_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.s
 .PHONY : examples/widgets/table/lv_example_table_2.c.s
 
-examples/widgets/tabview/lv_example_tabview_1.obj: examples/widgets/tabview/lv_example_tabview_1.c.obj
-.PHONY : examples/widgets/tabview/lv_example_tabview_1.obj
+examples/widgets/tabview/lv_example_tabview_1.o: examples/widgets/tabview/lv_example_tabview_1.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.o
 
 # target to build an object file
-examples/widgets/tabview/lv_example_tabview_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.obj
-.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.obj
+examples/widgets/tabview/lv_example_tabview_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.o
 
 examples/widgets/tabview/lv_example_tabview_1.i: examples/widgets/tabview/lv_example_tabview_1.c.i
 .PHONY : examples/widgets/tabview/lv_example_tabview_1.i
@@ -5675,13 +5675,13 @@ examples/widgets/tabview/lv_example_tabview_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.s
 .PHONY : examples/widgets/tabview/lv_example_tabview_1.c.s
 
-examples/widgets/tabview/lv_example_tabview_2.obj: examples/widgets/tabview/lv_example_tabview_2.c.obj
-.PHONY : examples/widgets/tabview/lv_example_tabview_2.obj
+examples/widgets/tabview/lv_example_tabview_2.o: examples/widgets/tabview/lv_example_tabview_2.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.o
 
 # target to build an object file
-examples/widgets/tabview/lv_example_tabview_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.obj
-.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.obj
+examples/widgets/tabview/lv_example_tabview_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.o
 
 examples/widgets/tabview/lv_example_tabview_2.i: examples/widgets/tabview/lv_example_tabview_2.c.i
 .PHONY : examples/widgets/tabview/lv_example_tabview_2.i
@@ -5699,13 +5699,13 @@ examples/widgets/tabview/lv_example_tabview_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.s
 .PHONY : examples/widgets/tabview/lv_example_tabview_2.c.s
 
-examples/widgets/textarea/lv_example_textarea_1.obj: examples/widgets/textarea/lv_example_textarea_1.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_1.obj
+examples/widgets/textarea/lv_example_textarea_1.o: examples/widgets/textarea/lv_example_textarea_1.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.o
 
 # target to build an object file
-examples/widgets/textarea/lv_example_textarea_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.obj
+examples/widgets/textarea/lv_example_textarea_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.o
 
 examples/widgets/textarea/lv_example_textarea_1.i: examples/widgets/textarea/lv_example_textarea_1.c.i
 .PHONY : examples/widgets/textarea/lv_example_textarea_1.i
@@ -5723,13 +5723,13 @@ examples/widgets/textarea/lv_example_textarea_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.s
 .PHONY : examples/widgets/textarea/lv_example_textarea_1.c.s
 
-examples/widgets/textarea/lv_example_textarea_2.obj: examples/widgets/textarea/lv_example_textarea_2.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_2.obj
+examples/widgets/textarea/lv_example_textarea_2.o: examples/widgets/textarea/lv_example_textarea_2.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.o
 
 # target to build an object file
-examples/widgets/textarea/lv_example_textarea_2.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.obj
+examples/widgets/textarea/lv_example_textarea_2.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.o
 
 examples/widgets/textarea/lv_example_textarea_2.i: examples/widgets/textarea/lv_example_textarea_2.c.i
 .PHONY : examples/widgets/textarea/lv_example_textarea_2.i
@@ -5747,13 +5747,13 @@ examples/widgets/textarea/lv_example_textarea_2.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.s
 .PHONY : examples/widgets/textarea/lv_example_textarea_2.c.s
 
-examples/widgets/textarea/lv_example_textarea_3.obj: examples/widgets/textarea/lv_example_textarea_3.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_3.obj
+examples/widgets/textarea/lv_example_textarea_3.o: examples/widgets/textarea/lv_example_textarea_3.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.o
 
 # target to build an object file
-examples/widgets/textarea/lv_example_textarea_3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.obj
-.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.obj
+examples/widgets/textarea/lv_example_textarea_3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.o
 
 examples/widgets/textarea/lv_example_textarea_3.i: examples/widgets/textarea/lv_example_textarea_3.c.i
 .PHONY : examples/widgets/textarea/lv_example_textarea_3.i
@@ -5771,13 +5771,13 @@ examples/widgets/textarea/lv_example_textarea_3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.s
 .PHONY : examples/widgets/textarea/lv_example_textarea_3.c.s
 
-examples/widgets/tileview/lv_example_tileview_1.obj: examples/widgets/tileview/lv_example_tileview_1.c.obj
-.PHONY : examples/widgets/tileview/lv_example_tileview_1.obj
+examples/widgets/tileview/lv_example_tileview_1.o: examples/widgets/tileview/lv_example_tileview_1.c.o
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.o
 
 # target to build an object file
-examples/widgets/tileview/lv_example_tileview_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.obj
-.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.obj
+examples/widgets/tileview/lv_example_tileview_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.o
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.o
 
 examples/widgets/tileview/lv_example_tileview_1.i: examples/widgets/tileview/lv_example_tileview_1.c.i
 .PHONY : examples/widgets/tileview/lv_example_tileview_1.i
@@ -5795,13 +5795,13 @@ examples/widgets/tileview/lv_example_tileview_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.s
 .PHONY : examples/widgets/tileview/lv_example_tileview_1.c.s
 
-examples/widgets/win/lv_example_win_1.obj: examples/widgets/win/lv_example_win_1.c.obj
-.PHONY : examples/widgets/win/lv_example_win_1.obj
+examples/widgets/win/lv_example_win_1.o: examples/widgets/win/lv_example_win_1.c.o
+.PHONY : examples/widgets/win/lv_example_win_1.o
 
 # target to build an object file
-examples/widgets/win/lv_example_win_1.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.obj
-.PHONY : examples/widgets/win/lv_example_win_1.c.obj
+examples/widgets/win/lv_example_win_1.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.o
+.PHONY : examples/widgets/win/lv_example_win_1.c.o
 
 examples/widgets/win/lv_example_win_1.i: examples/widgets/win/lv_example_win_1.c.i
 .PHONY : examples/widgets/win/lv_example_win_1.i
@@ -5819,13 +5819,13 @@ examples/widgets/win/lv_example_win_1.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.s
 .PHONY : examples/widgets/win/lv_example_win_1.c.s
 
-src/core/lv_disp.obj: src/core/lv_disp.c.obj
-.PHONY : src/core/lv_disp.obj
+src/core/lv_disp.o: src/core/lv_disp.c.o
+.PHONY : src/core/lv_disp.o
 
 # target to build an object file
-src/core/lv_disp.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj
-.PHONY : src/core/lv_disp.c.obj
+src/core/lv_disp.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o
+.PHONY : src/core/lv_disp.c.o
 
 src/core/lv_disp.i: src/core/lv_disp.c.i
 .PHONY : src/core/lv_disp.i
@@ -5843,13 +5843,13 @@ src/core/lv_disp.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.s
 .PHONY : src/core/lv_disp.c.s
 
-src/core/lv_event.obj: src/core/lv_event.c.obj
-.PHONY : src/core/lv_event.obj
+src/core/lv_event.o: src/core/lv_event.c.o
+.PHONY : src/core/lv_event.o
 
 # target to build an object file
-src/core/lv_event.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj
-.PHONY : src/core/lv_event.c.obj
+src/core/lv_event.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o
+.PHONY : src/core/lv_event.c.o
 
 src/core/lv_event.i: src/core/lv_event.c.i
 .PHONY : src/core/lv_event.i
@@ -5867,13 +5867,13 @@ src/core/lv_event.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.s
 .PHONY : src/core/lv_event.c.s
 
-src/core/lv_group.obj: src/core/lv_group.c.obj
-.PHONY : src/core/lv_group.obj
+src/core/lv_group.o: src/core/lv_group.c.o
+.PHONY : src/core/lv_group.o
 
 # target to build an object file
-src/core/lv_group.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj
-.PHONY : src/core/lv_group.c.obj
+src/core/lv_group.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o
+.PHONY : src/core/lv_group.c.o
 
 src/core/lv_group.i: src/core/lv_group.c.i
 .PHONY : src/core/lv_group.i
@@ -5891,13 +5891,13 @@ src/core/lv_group.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.s
 .PHONY : src/core/lv_group.c.s
 
-src/core/lv_indev.obj: src/core/lv_indev.c.obj
-.PHONY : src/core/lv_indev.obj
+src/core/lv_indev.o: src/core/lv_indev.c.o
+.PHONY : src/core/lv_indev.o
 
 # target to build an object file
-src/core/lv_indev.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj
-.PHONY : src/core/lv_indev.c.obj
+src/core/lv_indev.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o
+.PHONY : src/core/lv_indev.c.o
 
 src/core/lv_indev.i: src/core/lv_indev.c.i
 .PHONY : src/core/lv_indev.i
@@ -5915,13 +5915,13 @@ src/core/lv_indev.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.s
 .PHONY : src/core/lv_indev.c.s
 
-src/core/lv_indev_scroll.obj: src/core/lv_indev_scroll.c.obj
-.PHONY : src/core/lv_indev_scroll.obj
+src/core/lv_indev_scroll.o: src/core/lv_indev_scroll.c.o
+.PHONY : src/core/lv_indev_scroll.o
 
 # target to build an object file
-src/core/lv_indev_scroll.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj
-.PHONY : src/core/lv_indev_scroll.c.obj
+src/core/lv_indev_scroll.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o
+.PHONY : src/core/lv_indev_scroll.c.o
 
 src/core/lv_indev_scroll.i: src/core/lv_indev_scroll.c.i
 .PHONY : src/core/lv_indev_scroll.i
@@ -5939,13 +5939,13 @@ src/core/lv_indev_scroll.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.s
 .PHONY : src/core/lv_indev_scroll.c.s
 
-src/core/lv_obj.obj: src/core/lv_obj.c.obj
-.PHONY : src/core/lv_obj.obj
+src/core/lv_obj.o: src/core/lv_obj.c.o
+.PHONY : src/core/lv_obj.o
 
 # target to build an object file
-src/core/lv_obj.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj
-.PHONY : src/core/lv_obj.c.obj
+src/core/lv_obj.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o
+.PHONY : src/core/lv_obj.c.o
 
 src/core/lv_obj.i: src/core/lv_obj.c.i
 .PHONY : src/core/lv_obj.i
@@ -5963,13 +5963,13 @@ src/core/lv_obj.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.s
 .PHONY : src/core/lv_obj.c.s
 
-src/core/lv_obj_class.obj: src/core/lv_obj_class.c.obj
-.PHONY : src/core/lv_obj_class.obj
+src/core/lv_obj_class.o: src/core/lv_obj_class.c.o
+.PHONY : src/core/lv_obj_class.o
 
 # target to build an object file
-src/core/lv_obj_class.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj
-.PHONY : src/core/lv_obj_class.c.obj
+src/core/lv_obj_class.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o
+.PHONY : src/core/lv_obj_class.c.o
 
 src/core/lv_obj_class.i: src/core/lv_obj_class.c.i
 .PHONY : src/core/lv_obj_class.i
@@ -5987,13 +5987,13 @@ src/core/lv_obj_class.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.s
 .PHONY : src/core/lv_obj_class.c.s
 
-src/core/lv_obj_draw.obj: src/core/lv_obj_draw.c.obj
-.PHONY : src/core/lv_obj_draw.obj
+src/core/lv_obj_draw.o: src/core/lv_obj_draw.c.o
+.PHONY : src/core/lv_obj_draw.o
 
 # target to build an object file
-src/core/lv_obj_draw.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj
-.PHONY : src/core/lv_obj_draw.c.obj
+src/core/lv_obj_draw.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o
+.PHONY : src/core/lv_obj_draw.c.o
 
 src/core/lv_obj_draw.i: src/core/lv_obj_draw.c.i
 .PHONY : src/core/lv_obj_draw.i
@@ -6011,13 +6011,13 @@ src/core/lv_obj_draw.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.s
 .PHONY : src/core/lv_obj_draw.c.s
 
-src/core/lv_obj_pos.obj: src/core/lv_obj_pos.c.obj
-.PHONY : src/core/lv_obj_pos.obj
+src/core/lv_obj_pos.o: src/core/lv_obj_pos.c.o
+.PHONY : src/core/lv_obj_pos.o
 
 # target to build an object file
-src/core/lv_obj_pos.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj
-.PHONY : src/core/lv_obj_pos.c.obj
+src/core/lv_obj_pos.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o
+.PHONY : src/core/lv_obj_pos.c.o
 
 src/core/lv_obj_pos.i: src/core/lv_obj_pos.c.i
 .PHONY : src/core/lv_obj_pos.i
@@ -6035,13 +6035,13 @@ src/core/lv_obj_pos.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.s
 .PHONY : src/core/lv_obj_pos.c.s
 
-src/core/lv_obj_scroll.obj: src/core/lv_obj_scroll.c.obj
-.PHONY : src/core/lv_obj_scroll.obj
+src/core/lv_obj_scroll.o: src/core/lv_obj_scroll.c.o
+.PHONY : src/core/lv_obj_scroll.o
 
 # target to build an object file
-src/core/lv_obj_scroll.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj
-.PHONY : src/core/lv_obj_scroll.c.obj
+src/core/lv_obj_scroll.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o
+.PHONY : src/core/lv_obj_scroll.c.o
 
 src/core/lv_obj_scroll.i: src/core/lv_obj_scroll.c.i
 .PHONY : src/core/lv_obj_scroll.i
@@ -6059,13 +6059,13 @@ src/core/lv_obj_scroll.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.s
 .PHONY : src/core/lv_obj_scroll.c.s
 
-src/core/lv_obj_style.obj: src/core/lv_obj_style.c.obj
-.PHONY : src/core/lv_obj_style.obj
+src/core/lv_obj_style.o: src/core/lv_obj_style.c.o
+.PHONY : src/core/lv_obj_style.o
 
 # target to build an object file
-src/core/lv_obj_style.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj
-.PHONY : src/core/lv_obj_style.c.obj
+src/core/lv_obj_style.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o
+.PHONY : src/core/lv_obj_style.c.o
 
 src/core/lv_obj_style.i: src/core/lv_obj_style.c.i
 .PHONY : src/core/lv_obj_style.i
@@ -6083,13 +6083,13 @@ src/core/lv_obj_style.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.s
 .PHONY : src/core/lv_obj_style.c.s
 
-src/core/lv_obj_style_gen.obj: src/core/lv_obj_style_gen.c.obj
-.PHONY : src/core/lv_obj_style_gen.obj
+src/core/lv_obj_style_gen.o: src/core/lv_obj_style_gen.c.o
+.PHONY : src/core/lv_obj_style_gen.o
 
 # target to build an object file
-src/core/lv_obj_style_gen.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj
-.PHONY : src/core/lv_obj_style_gen.c.obj
+src/core/lv_obj_style_gen.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o
+.PHONY : src/core/lv_obj_style_gen.c.o
 
 src/core/lv_obj_style_gen.i: src/core/lv_obj_style_gen.c.i
 .PHONY : src/core/lv_obj_style_gen.i
@@ -6107,13 +6107,13 @@ src/core/lv_obj_style_gen.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.s
 .PHONY : src/core/lv_obj_style_gen.c.s
 
-src/core/lv_obj_tree.obj: src/core/lv_obj_tree.c.obj
-.PHONY : src/core/lv_obj_tree.obj
+src/core/lv_obj_tree.o: src/core/lv_obj_tree.c.o
+.PHONY : src/core/lv_obj_tree.o
 
 # target to build an object file
-src/core/lv_obj_tree.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj
-.PHONY : src/core/lv_obj_tree.c.obj
+src/core/lv_obj_tree.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o
+.PHONY : src/core/lv_obj_tree.c.o
 
 src/core/lv_obj_tree.i: src/core/lv_obj_tree.c.i
 .PHONY : src/core/lv_obj_tree.i
@@ -6131,13 +6131,13 @@ src/core/lv_obj_tree.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.s
 .PHONY : src/core/lv_obj_tree.c.s
 
-src/core/lv_refr.obj: src/core/lv_refr.c.obj
-.PHONY : src/core/lv_refr.obj
+src/core/lv_refr.o: src/core/lv_refr.c.o
+.PHONY : src/core/lv_refr.o
 
 # target to build an object file
-src/core/lv_refr.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj
-.PHONY : src/core/lv_refr.c.obj
+src/core/lv_refr.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o
+.PHONY : src/core/lv_refr.c.o
 
 src/core/lv_refr.i: src/core/lv_refr.c.i
 .PHONY : src/core/lv_refr.i
@@ -6155,13 +6155,13 @@ src/core/lv_refr.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.s
 .PHONY : src/core/lv_refr.c.s
 
-src/core/lv_theme.obj: src/core/lv_theme.c.obj
-.PHONY : src/core/lv_theme.obj
+src/core/lv_theme.o: src/core/lv_theme.c.o
+.PHONY : src/core/lv_theme.o
 
 # target to build an object file
-src/core/lv_theme.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj
-.PHONY : src/core/lv_theme.c.obj
+src/core/lv_theme.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o
+.PHONY : src/core/lv_theme.c.o
 
 src/core/lv_theme.i: src/core/lv_theme.c.i
 .PHONY : src/core/lv_theme.i
@@ -6179,13 +6179,13 @@ src/core/lv_theme.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.s
 .PHONY : src/core/lv_theme.c.s
 
-src/draw/arm2d/lv_gpu_arm2d.obj: src/draw/arm2d/lv_gpu_arm2d.c.obj
-.PHONY : src/draw/arm2d/lv_gpu_arm2d.obj
+src/draw/arm2d/lv_gpu_arm2d.o: src/draw/arm2d/lv_gpu_arm2d.c.o
+.PHONY : src/draw/arm2d/lv_gpu_arm2d.o
 
 # target to build an object file
-src/draw/arm2d/lv_gpu_arm2d.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj
-.PHONY : src/draw/arm2d/lv_gpu_arm2d.c.obj
+src/draw/arm2d/lv_gpu_arm2d.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o
+.PHONY : src/draw/arm2d/lv_gpu_arm2d.c.o
 
 src/draw/arm2d/lv_gpu_arm2d.i: src/draw/arm2d/lv_gpu_arm2d.c.i
 .PHONY : src/draw/arm2d/lv_gpu_arm2d.i
@@ -6203,13 +6203,13 @@ src/draw/arm2d/lv_gpu_arm2d.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.s
 .PHONY : src/draw/arm2d/lv_gpu_arm2d.c.s
 
-src/draw/lv_draw.obj: src/draw/lv_draw.c.obj
-.PHONY : src/draw/lv_draw.obj
+src/draw/lv_draw.o: src/draw/lv_draw.c.o
+.PHONY : src/draw/lv_draw.o
 
 # target to build an object file
-src/draw/lv_draw.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj
-.PHONY : src/draw/lv_draw.c.obj
+src/draw/lv_draw.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o
+.PHONY : src/draw/lv_draw.c.o
 
 src/draw/lv_draw.i: src/draw/lv_draw.c.i
 .PHONY : src/draw/lv_draw.i
@@ -6227,13 +6227,13 @@ src/draw/lv_draw.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s
 .PHONY : src/draw/lv_draw.c.s
 
-src/draw/lv_draw_arc.obj: src/draw/lv_draw_arc.c.obj
-.PHONY : src/draw/lv_draw_arc.obj
+src/draw/lv_draw_arc.o: src/draw/lv_draw_arc.c.o
+.PHONY : src/draw/lv_draw_arc.o
 
 # target to build an object file
-src/draw/lv_draw_arc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj
-.PHONY : src/draw/lv_draw_arc.c.obj
+src/draw/lv_draw_arc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o
+.PHONY : src/draw/lv_draw_arc.c.o
 
 src/draw/lv_draw_arc.i: src/draw/lv_draw_arc.c.i
 .PHONY : src/draw/lv_draw_arc.i
@@ -6251,13 +6251,13 @@ src/draw/lv_draw_arc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.s
 .PHONY : src/draw/lv_draw_arc.c.s
 
-src/draw/lv_draw_img.obj: src/draw/lv_draw_img.c.obj
-.PHONY : src/draw/lv_draw_img.obj
+src/draw/lv_draw_img.o: src/draw/lv_draw_img.c.o
+.PHONY : src/draw/lv_draw_img.o
 
 # target to build an object file
-src/draw/lv_draw_img.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj
-.PHONY : src/draw/lv_draw_img.c.obj
+src/draw/lv_draw_img.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o
+.PHONY : src/draw/lv_draw_img.c.o
 
 src/draw/lv_draw_img.i: src/draw/lv_draw_img.c.i
 .PHONY : src/draw/lv_draw_img.i
@@ -6275,13 +6275,13 @@ src/draw/lv_draw_img.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.s
 .PHONY : src/draw/lv_draw_img.c.s
 
-src/draw/lv_draw_label.obj: src/draw/lv_draw_label.c.obj
-.PHONY : src/draw/lv_draw_label.obj
+src/draw/lv_draw_label.o: src/draw/lv_draw_label.c.o
+.PHONY : src/draw/lv_draw_label.o
 
 # target to build an object file
-src/draw/lv_draw_label.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj
-.PHONY : src/draw/lv_draw_label.c.obj
+src/draw/lv_draw_label.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o
+.PHONY : src/draw/lv_draw_label.c.o
 
 src/draw/lv_draw_label.i: src/draw/lv_draw_label.c.i
 .PHONY : src/draw/lv_draw_label.i
@@ -6299,13 +6299,13 @@ src/draw/lv_draw_label.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.s
 .PHONY : src/draw/lv_draw_label.c.s
 
-src/draw/lv_draw_layer.obj: src/draw/lv_draw_layer.c.obj
-.PHONY : src/draw/lv_draw_layer.obj
+src/draw/lv_draw_layer.o: src/draw/lv_draw_layer.c.o
+.PHONY : src/draw/lv_draw_layer.o
 
 # target to build an object file
-src/draw/lv_draw_layer.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj
-.PHONY : src/draw/lv_draw_layer.c.obj
+src/draw/lv_draw_layer.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o
+.PHONY : src/draw/lv_draw_layer.c.o
 
 src/draw/lv_draw_layer.i: src/draw/lv_draw_layer.c.i
 .PHONY : src/draw/lv_draw_layer.i
@@ -6323,13 +6323,13 @@ src/draw/lv_draw_layer.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.s
 .PHONY : src/draw/lv_draw_layer.c.s
 
-src/draw/lv_draw_line.obj: src/draw/lv_draw_line.c.obj
-.PHONY : src/draw/lv_draw_line.obj
+src/draw/lv_draw_line.o: src/draw/lv_draw_line.c.o
+.PHONY : src/draw/lv_draw_line.o
 
 # target to build an object file
-src/draw/lv_draw_line.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj
-.PHONY : src/draw/lv_draw_line.c.obj
+src/draw/lv_draw_line.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o
+.PHONY : src/draw/lv_draw_line.c.o
 
 src/draw/lv_draw_line.i: src/draw/lv_draw_line.c.i
 .PHONY : src/draw/lv_draw_line.i
@@ -6347,13 +6347,13 @@ src/draw/lv_draw_line.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.s
 .PHONY : src/draw/lv_draw_line.c.s
 
-src/draw/lv_draw_mask.obj: src/draw/lv_draw_mask.c.obj
-.PHONY : src/draw/lv_draw_mask.obj
+src/draw/lv_draw_mask.o: src/draw/lv_draw_mask.c.o
+.PHONY : src/draw/lv_draw_mask.o
 
 # target to build an object file
-src/draw/lv_draw_mask.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj
-.PHONY : src/draw/lv_draw_mask.c.obj
+src/draw/lv_draw_mask.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o
+.PHONY : src/draw/lv_draw_mask.c.o
 
 src/draw/lv_draw_mask.i: src/draw/lv_draw_mask.c.i
 .PHONY : src/draw/lv_draw_mask.i
@@ -6371,13 +6371,13 @@ src/draw/lv_draw_mask.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.s
 .PHONY : src/draw/lv_draw_mask.c.s
 
-src/draw/lv_draw_rect.obj: src/draw/lv_draw_rect.c.obj
-.PHONY : src/draw/lv_draw_rect.obj
+src/draw/lv_draw_rect.o: src/draw/lv_draw_rect.c.o
+.PHONY : src/draw/lv_draw_rect.o
 
 # target to build an object file
-src/draw/lv_draw_rect.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj
-.PHONY : src/draw/lv_draw_rect.c.obj
+src/draw/lv_draw_rect.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o
+.PHONY : src/draw/lv_draw_rect.c.o
 
 src/draw/lv_draw_rect.i: src/draw/lv_draw_rect.c.i
 .PHONY : src/draw/lv_draw_rect.i
@@ -6395,13 +6395,13 @@ src/draw/lv_draw_rect.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.s
 .PHONY : src/draw/lv_draw_rect.c.s
 
-src/draw/lv_draw_transform.obj: src/draw/lv_draw_transform.c.obj
-.PHONY : src/draw/lv_draw_transform.obj
+src/draw/lv_draw_transform.o: src/draw/lv_draw_transform.c.o
+.PHONY : src/draw/lv_draw_transform.o
 
 # target to build an object file
-src/draw/lv_draw_transform.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj
-.PHONY : src/draw/lv_draw_transform.c.obj
+src/draw/lv_draw_transform.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o
+.PHONY : src/draw/lv_draw_transform.c.o
 
 src/draw/lv_draw_transform.i: src/draw/lv_draw_transform.c.i
 .PHONY : src/draw/lv_draw_transform.i
@@ -6419,13 +6419,13 @@ src/draw/lv_draw_transform.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.s
 .PHONY : src/draw/lv_draw_transform.c.s
 
-src/draw/lv_draw_triangle.obj: src/draw/lv_draw_triangle.c.obj
-.PHONY : src/draw/lv_draw_triangle.obj
+src/draw/lv_draw_triangle.o: src/draw/lv_draw_triangle.c.o
+.PHONY : src/draw/lv_draw_triangle.o
 
 # target to build an object file
-src/draw/lv_draw_triangle.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj
-.PHONY : src/draw/lv_draw_triangle.c.obj
+src/draw/lv_draw_triangle.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o
+.PHONY : src/draw/lv_draw_triangle.c.o
 
 src/draw/lv_draw_triangle.i: src/draw/lv_draw_triangle.c.i
 .PHONY : src/draw/lv_draw_triangle.i
@@ -6443,13 +6443,13 @@ src/draw/lv_draw_triangle.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.s
 .PHONY : src/draw/lv_draw_triangle.c.s
 
-src/draw/lv_img_buf.obj: src/draw/lv_img_buf.c.obj
-.PHONY : src/draw/lv_img_buf.obj
+src/draw/lv_img_buf.o: src/draw/lv_img_buf.c.o
+.PHONY : src/draw/lv_img_buf.o
 
 # target to build an object file
-src/draw/lv_img_buf.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj
-.PHONY : src/draw/lv_img_buf.c.obj
+src/draw/lv_img_buf.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o
+.PHONY : src/draw/lv_img_buf.c.o
 
 src/draw/lv_img_buf.i: src/draw/lv_img_buf.c.i
 .PHONY : src/draw/lv_img_buf.i
@@ -6467,13 +6467,13 @@ src/draw/lv_img_buf.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.s
 .PHONY : src/draw/lv_img_buf.c.s
 
-src/draw/lv_img_cache.obj: src/draw/lv_img_cache.c.obj
-.PHONY : src/draw/lv_img_cache.obj
+src/draw/lv_img_cache.o: src/draw/lv_img_cache.c.o
+.PHONY : src/draw/lv_img_cache.o
 
 # target to build an object file
-src/draw/lv_img_cache.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj
-.PHONY : src/draw/lv_img_cache.c.obj
+src/draw/lv_img_cache.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o
+.PHONY : src/draw/lv_img_cache.c.o
 
 src/draw/lv_img_cache.i: src/draw/lv_img_cache.c.i
 .PHONY : src/draw/lv_img_cache.i
@@ -6491,13 +6491,13 @@ src/draw/lv_img_cache.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.s
 .PHONY : src/draw/lv_img_cache.c.s
 
-src/draw/lv_img_decoder.obj: src/draw/lv_img_decoder.c.obj
-.PHONY : src/draw/lv_img_decoder.obj
+src/draw/lv_img_decoder.o: src/draw/lv_img_decoder.c.o
+.PHONY : src/draw/lv_img_decoder.o
 
 # target to build an object file
-src/draw/lv_img_decoder.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj
-.PHONY : src/draw/lv_img_decoder.c.obj
+src/draw/lv_img_decoder.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o
+.PHONY : src/draw/lv_img_decoder.c.o
 
 src/draw/lv_img_decoder.i: src/draw/lv_img_decoder.c.i
 .PHONY : src/draw/lv_img_decoder.i
@@ -6515,13 +6515,13 @@ src/draw/lv_img_decoder.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.s
 .PHONY : src/draw/lv_img_decoder.c.s
 
-src/draw/nxp/pxp/lv_draw_pxp.obj: src/draw/nxp/pxp/lv_draw_pxp.c.obj
-.PHONY : src/draw/nxp/pxp/lv_draw_pxp.obj
+src/draw/nxp/pxp/lv_draw_pxp.o: src/draw/nxp/pxp/lv_draw_pxp.c.o
+.PHONY : src/draw/nxp/pxp/lv_draw_pxp.o
 
 # target to build an object file
-src/draw/nxp/pxp/lv_draw_pxp.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj
-.PHONY : src/draw/nxp/pxp/lv_draw_pxp.c.obj
+src/draw/nxp/pxp/lv_draw_pxp.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o
+.PHONY : src/draw/nxp/pxp/lv_draw_pxp.c.o
 
 src/draw/nxp/pxp/lv_draw_pxp.i: src/draw/nxp/pxp/lv_draw_pxp.c.i
 .PHONY : src/draw/nxp/pxp/lv_draw_pxp.i
@@ -6539,13 +6539,13 @@ src/draw/nxp/pxp/lv_draw_pxp.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.s
 .PHONY : src/draw/nxp/pxp/lv_draw_pxp.c.s
 
-src/draw/nxp/pxp/lv_draw_pxp_blend.obj: src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj
-.PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.obj
+src/draw/nxp/pxp/lv_draw_pxp_blend.o: src/draw/nxp/pxp/lv_draw_pxp_blend.c.o
+.PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.o
 
 # target to build an object file
-src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj
-.PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj
+src/draw/nxp/pxp/lv_draw_pxp_blend.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o
+.PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.c.o
 
 src/draw/nxp/pxp/lv_draw_pxp_blend.i: src/draw/nxp/pxp/lv_draw_pxp_blend.c.i
 .PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.i
@@ -6563,13 +6563,13 @@ src/draw/nxp/pxp/lv_draw_pxp_blend.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s
 .PHONY : src/draw/nxp/pxp/lv_draw_pxp_blend.c.s
 
-src/draw/nxp/pxp/lv_gpu_nxp_pxp.obj: src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj
-.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.obj
+src/draw/nxp/pxp/lv_gpu_nxp_pxp.o: src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o
+.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.o
 
 # target to build an object file
-src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj
-.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj
+src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o
+.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o
 
 src/draw/nxp/pxp/lv_gpu_nxp_pxp.i: src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i
 .PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.i
@@ -6587,13 +6587,13 @@ src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s
 .PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s
 
-src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.obj: src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj
-.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.obj
+src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.o: src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o
+.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.o
 
 # target to build an object file
-src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj
-.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj
+src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o
+.PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o
 
 src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.i: src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i
 .PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.i
@@ -6611,13 +6611,13 @@ src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s
 .PHONY : src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s
 
-src/draw/nxp/vglite/lv_draw_vglite.obj: src/draw/nxp/vglite/lv_draw_vglite.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite.obj
+src/draw/nxp/vglite/lv_draw_vglite.o: src/draw/nxp/vglite/lv_draw_vglite.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_draw_vglite.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite.c.obj
+src/draw/nxp/vglite/lv_draw_vglite.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite.c.o
 
 src/draw/nxp/vglite/lv_draw_vglite.i: src/draw/nxp/vglite/lv_draw_vglite.c.i
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite.i
@@ -6635,13 +6635,13 @@ src/draw/nxp/vglite/lv_draw_vglite.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.s
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite.c.s
 
-src/draw/nxp/vglite/lv_draw_vglite_arc.obj: src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.obj
+src/draw/nxp/vglite/lv_draw_vglite_arc.o: src/draw/nxp/vglite/lv_draw_vglite_arc.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
+src/draw/nxp/vglite/lv_draw_vglite_arc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.c.o
 
 src/draw/nxp/vglite/lv_draw_vglite_arc.i: src/draw/nxp/vglite/lv_draw_vglite_arc.c.i
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.i
@@ -6659,13 +6659,13 @@ src/draw/nxp/vglite/lv_draw_vglite_arc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
 
-src/draw/nxp/vglite/lv_draw_vglite_blend.obj: src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.obj
+src/draw/nxp/vglite/lv_draw_vglite_blend.o: src/draw/nxp/vglite/lv_draw_vglite_blend.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj
+src/draw/nxp/vglite/lv_draw_vglite_blend.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.c.o
 
 src/draw/nxp/vglite/lv_draw_vglite_blend.i: src/draw/nxp/vglite/lv_draw_vglite_blend.c.i
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.i
@@ -6683,13 +6683,13 @@ src/draw/nxp/vglite/lv_draw_vglite_blend.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_blend.c.s
 
-src/draw/nxp/vglite/lv_draw_vglite_line.obj: src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.obj
+src/draw/nxp/vglite/lv_draw_vglite_line.o: src/draw/nxp/vglite/lv_draw_vglite_line.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_draw_vglite_line.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
+src/draw/nxp/vglite/lv_draw_vglite_line.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.c.o
 
 src/draw/nxp/vglite/lv_draw_vglite_line.i: src/draw/nxp/vglite/lv_draw_vglite_line.c.i
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.i
@@ -6707,13 +6707,13 @@ src/draw/nxp/vglite/lv_draw_vglite_line.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_line.c.s
 
-src/draw/nxp/vglite/lv_draw_vglite_rect.obj: src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.obj
+src/draw/nxp/vglite/lv_draw_vglite_rect.o: src/draw/nxp/vglite/lv_draw_vglite_rect.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj
-.PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj
+src/draw/nxp/vglite/lv_draw_vglite_rect.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o
+.PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.c.o
 
 src/draw/nxp/vglite/lv_draw_vglite_rect.i: src/draw/nxp/vglite/lv_draw_vglite_rect.c.i
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.i
@@ -6731,13 +6731,13 @@ src/draw/nxp/vglite/lv_draw_vglite_rect.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s
 .PHONY : src/draw/nxp/vglite/lv_draw_vglite_rect.c.s
 
-src/draw/nxp/vglite/lv_vglite_buf.obj: src/draw/nxp/vglite/lv_vglite_buf.c.obj
-.PHONY : src/draw/nxp/vglite/lv_vglite_buf.obj
+src/draw/nxp/vglite/lv_vglite_buf.o: src/draw/nxp/vglite/lv_vglite_buf.c.o
+.PHONY : src/draw/nxp/vglite/lv_vglite_buf.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_vglite_buf.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj
-.PHONY : src/draw/nxp/vglite/lv_vglite_buf.c.obj
+src/draw/nxp/vglite/lv_vglite_buf.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o
+.PHONY : src/draw/nxp/vglite/lv_vglite_buf.c.o
 
 src/draw/nxp/vglite/lv_vglite_buf.i: src/draw/nxp/vglite/lv_vglite_buf.c.i
 .PHONY : src/draw/nxp/vglite/lv_vglite_buf.i
@@ -6755,13 +6755,13 @@ src/draw/nxp/vglite/lv_vglite_buf.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.s
 .PHONY : src/draw/nxp/vglite/lv_vglite_buf.c.s
 
-src/draw/nxp/vglite/lv_vglite_utils.obj: src/draw/nxp/vglite/lv_vglite_utils.c.obj
-.PHONY : src/draw/nxp/vglite/lv_vglite_utils.obj
+src/draw/nxp/vglite/lv_vglite_utils.o: src/draw/nxp/vglite/lv_vglite_utils.c.o
+.PHONY : src/draw/nxp/vglite/lv_vglite_utils.o
 
 # target to build an object file
-src/draw/nxp/vglite/lv_vglite_utils.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj
-.PHONY : src/draw/nxp/vglite/lv_vglite_utils.c.obj
+src/draw/nxp/vglite/lv_vglite_utils.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o
+.PHONY : src/draw/nxp/vglite/lv_vglite_utils.c.o
 
 src/draw/nxp/vglite/lv_vglite_utils.i: src/draw/nxp/vglite/lv_vglite_utils.c.i
 .PHONY : src/draw/nxp/vglite/lv_vglite_utils.i
@@ -6779,13 +6779,13 @@ src/draw/nxp/vglite/lv_vglite_utils.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.s
 .PHONY : src/draw/nxp/vglite/lv_vglite_utils.c.s
 
-src/draw/renesas/lv_gpu_d2_draw_label.obj: src/draw/renesas/lv_gpu_d2_draw_label.c.obj
-.PHONY : src/draw/renesas/lv_gpu_d2_draw_label.obj
+src/draw/renesas/lv_gpu_d2_draw_label.o: src/draw/renesas/lv_gpu_d2_draw_label.c.o
+.PHONY : src/draw/renesas/lv_gpu_d2_draw_label.o
 
 # target to build an object file
-src/draw/renesas/lv_gpu_d2_draw_label.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj
-.PHONY : src/draw/renesas/lv_gpu_d2_draw_label.c.obj
+src/draw/renesas/lv_gpu_d2_draw_label.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o
+.PHONY : src/draw/renesas/lv_gpu_d2_draw_label.c.o
 
 src/draw/renesas/lv_gpu_d2_draw_label.i: src/draw/renesas/lv_gpu_d2_draw_label.c.i
 .PHONY : src/draw/renesas/lv_gpu_d2_draw_label.i
@@ -6803,13 +6803,13 @@ src/draw/renesas/lv_gpu_d2_draw_label.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.s
 .PHONY : src/draw/renesas/lv_gpu_d2_draw_label.c.s
 
-src/draw/renesas/lv_gpu_d2_ra6m3.obj: src/draw/renesas/lv_gpu_d2_ra6m3.c.obj
-.PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.obj
+src/draw/renesas/lv_gpu_d2_ra6m3.o: src/draw/renesas/lv_gpu_d2_ra6m3.c.o
+.PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.o
 
 # target to build an object file
-src/draw/renesas/lv_gpu_d2_ra6m3.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj
-.PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.c.obj
+src/draw/renesas/lv_gpu_d2_ra6m3.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o
+.PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.c.o
 
 src/draw/renesas/lv_gpu_d2_ra6m3.i: src/draw/renesas/lv_gpu_d2_ra6m3.c.i
 .PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.i
@@ -6827,13 +6827,13 @@ src/draw/renesas/lv_gpu_d2_ra6m3.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.s
 .PHONY : src/draw/renesas/lv_gpu_d2_ra6m3.c.s
 
-src/draw/sdl/lv_draw_sdl.obj: src/draw/sdl/lv_draw_sdl.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl.obj
+src/draw/sdl/lv_draw_sdl.o: src/draw/sdl/lv_draw_sdl.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl.c.obj
+src/draw/sdl/lv_draw_sdl.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl.c.o
 
 src/draw/sdl/lv_draw_sdl.i: src/draw/sdl/lv_draw_sdl.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl.i
@@ -6851,13 +6851,13 @@ src/draw/sdl/lv_draw_sdl.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl.c.s
 
-src/draw/sdl/lv_draw_sdl_arc.obj: src/draw/sdl/lv_draw_sdl_arc.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_arc.obj
+src/draw/sdl/lv_draw_sdl_arc.o: src/draw/sdl/lv_draw_sdl_arc.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_arc.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_arc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_arc.c.obj
+src/draw/sdl/lv_draw_sdl_arc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_arc.c.o
 
 src/draw/sdl/lv_draw_sdl_arc.i: src/draw/sdl/lv_draw_sdl_arc.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_arc.i
@@ -6875,13 +6875,13 @@ src/draw/sdl/lv_draw_sdl_arc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_arc.c.s
 
-src/draw/sdl/lv_draw_sdl_bg.obj: src/draw/sdl/lv_draw_sdl_bg.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_bg.obj
+src/draw/sdl/lv_draw_sdl_bg.o: src/draw/sdl/lv_draw_sdl_bg.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_bg.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_bg.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_bg.c.obj
+src/draw/sdl/lv_draw_sdl_bg.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_bg.c.o
 
 src/draw/sdl/lv_draw_sdl_bg.i: src/draw/sdl/lv_draw_sdl_bg.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_bg.i
@@ -6899,13 +6899,13 @@ src/draw/sdl/lv_draw_sdl_bg.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_bg.c.s
 
-src/draw/sdl/lv_draw_sdl_composite.obj: src/draw/sdl/lv_draw_sdl_composite.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_composite.obj
+src/draw/sdl/lv_draw_sdl_composite.o: src/draw/sdl/lv_draw_sdl_composite.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_composite.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_composite.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_composite.c.obj
+src/draw/sdl/lv_draw_sdl_composite.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_composite.c.o
 
 src/draw/sdl/lv_draw_sdl_composite.i: src/draw/sdl/lv_draw_sdl_composite.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_composite.i
@@ -6923,13 +6923,13 @@ src/draw/sdl/lv_draw_sdl_composite.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_composite.c.s
 
-src/draw/sdl/lv_draw_sdl_img.obj: src/draw/sdl/lv_draw_sdl_img.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_img.obj
+src/draw/sdl/lv_draw_sdl_img.o: src/draw/sdl/lv_draw_sdl_img.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_img.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_img.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_img.c.obj
+src/draw/sdl/lv_draw_sdl_img.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_img.c.o
 
 src/draw/sdl/lv_draw_sdl_img.i: src/draw/sdl/lv_draw_sdl_img.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_img.i
@@ -6947,13 +6947,13 @@ src/draw/sdl/lv_draw_sdl_img.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_img.c.s
 
-src/draw/sdl/lv_draw_sdl_label.obj: src/draw/sdl/lv_draw_sdl_label.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_label.obj
+src/draw/sdl/lv_draw_sdl_label.o: src/draw/sdl/lv_draw_sdl_label.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_label.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_label.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_label.c.obj
+src/draw/sdl/lv_draw_sdl_label.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_label.c.o
 
 src/draw/sdl/lv_draw_sdl_label.i: src/draw/sdl/lv_draw_sdl_label.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_label.i
@@ -6971,13 +6971,13 @@ src/draw/sdl/lv_draw_sdl_label.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_label.c.s
 
-src/draw/sdl/lv_draw_sdl_layer.obj: src/draw/sdl/lv_draw_sdl_layer.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_layer.obj
+src/draw/sdl/lv_draw_sdl_layer.o: src/draw/sdl/lv_draw_sdl_layer.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_layer.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_layer.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_layer.c.obj
+src/draw/sdl/lv_draw_sdl_layer.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_layer.c.o
 
 src/draw/sdl/lv_draw_sdl_layer.i: src/draw/sdl/lv_draw_sdl_layer.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_layer.i
@@ -6995,13 +6995,13 @@ src/draw/sdl/lv_draw_sdl_layer.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_layer.c.s
 
-src/draw/sdl/lv_draw_sdl_line.obj: src/draw/sdl/lv_draw_sdl_line.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_line.obj
+src/draw/sdl/lv_draw_sdl_line.o: src/draw/sdl/lv_draw_sdl_line.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_line.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_line.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_line.c.obj
+src/draw/sdl/lv_draw_sdl_line.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_line.c.o
 
 src/draw/sdl/lv_draw_sdl_line.i: src/draw/sdl/lv_draw_sdl_line.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_line.i
@@ -7019,13 +7019,13 @@ src/draw/sdl/lv_draw_sdl_line.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_line.c.s
 
-src/draw/sdl/lv_draw_sdl_mask.obj: src/draw/sdl/lv_draw_sdl_mask.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_mask.obj
+src/draw/sdl/lv_draw_sdl_mask.o: src/draw/sdl/lv_draw_sdl_mask.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_mask.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_mask.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_mask.c.obj
+src/draw/sdl/lv_draw_sdl_mask.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_mask.c.o
 
 src/draw/sdl/lv_draw_sdl_mask.i: src/draw/sdl/lv_draw_sdl_mask.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_mask.i
@@ -7043,13 +7043,13 @@ src/draw/sdl/lv_draw_sdl_mask.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_mask.c.s
 
-src/draw/sdl/lv_draw_sdl_polygon.obj: src/draw/sdl/lv_draw_sdl_polygon.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_polygon.obj
+src/draw/sdl/lv_draw_sdl_polygon.o: src/draw/sdl/lv_draw_sdl_polygon.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_polygon.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_polygon.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_polygon.c.obj
+src/draw/sdl/lv_draw_sdl_polygon.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_polygon.c.o
 
 src/draw/sdl/lv_draw_sdl_polygon.i: src/draw/sdl/lv_draw_sdl_polygon.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_polygon.i
@@ -7067,13 +7067,13 @@ src/draw/sdl/lv_draw_sdl_polygon.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_polygon.c.s
 
-src/draw/sdl/lv_draw_sdl_rect.obj: src/draw/sdl/lv_draw_sdl_rect.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_rect.obj
+src/draw/sdl/lv_draw_sdl_rect.o: src/draw/sdl/lv_draw_sdl_rect.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_rect.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_rect.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_rect.c.obj
+src/draw/sdl/lv_draw_sdl_rect.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_rect.c.o
 
 src/draw/sdl/lv_draw_sdl_rect.i: src/draw/sdl/lv_draw_sdl_rect.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_rect.i
@@ -7091,13 +7091,13 @@ src/draw/sdl/lv_draw_sdl_rect.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_rect.c.s
 
-src/draw/sdl/lv_draw_sdl_stack_blur.obj: src/draw/sdl/lv_draw_sdl_stack_blur.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.obj
+src/draw/sdl/lv_draw_sdl_stack_blur.o: src/draw/sdl/lv_draw_sdl_stack_blur.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_stack_blur.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.c.obj
+src/draw/sdl/lv_draw_sdl_stack_blur.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.c.o
 
 src/draw/sdl/lv_draw_sdl_stack_blur.i: src/draw/sdl/lv_draw_sdl_stack_blur.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.i
@@ -7115,13 +7115,13 @@ src/draw/sdl/lv_draw_sdl_stack_blur.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_stack_blur.c.s
 
-src/draw/sdl/lv_draw_sdl_texture_cache.obj: src/draw/sdl/lv_draw_sdl_texture_cache.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.obj
+src/draw/sdl/lv_draw_sdl_texture_cache.o: src/draw/sdl/lv_draw_sdl_texture_cache.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_texture_cache.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.c.obj
+src/draw/sdl/lv_draw_sdl_texture_cache.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.c.o
 
 src/draw/sdl/lv_draw_sdl_texture_cache.i: src/draw/sdl/lv_draw_sdl_texture_cache.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.i
@@ -7139,13 +7139,13 @@ src/draw/sdl/lv_draw_sdl_texture_cache.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_texture_cache.c.s
 
-src/draw/sdl/lv_draw_sdl_utils.obj: src/draw/sdl/lv_draw_sdl_utils.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_utils.obj
+src/draw/sdl/lv_draw_sdl_utils.o: src/draw/sdl/lv_draw_sdl_utils.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_utils.o
 
 # target to build an object file
-src/draw/sdl/lv_draw_sdl_utils.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj
-.PHONY : src/draw/sdl/lv_draw_sdl_utils.c.obj
+src/draw/sdl/lv_draw_sdl_utils.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o
+.PHONY : src/draw/sdl/lv_draw_sdl_utils.c.o
 
 src/draw/sdl/lv_draw_sdl_utils.i: src/draw/sdl/lv_draw_sdl_utils.c.i
 .PHONY : src/draw/sdl/lv_draw_sdl_utils.i
@@ -7163,13 +7163,13 @@ src/draw/sdl/lv_draw_sdl_utils.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.s
 .PHONY : src/draw/sdl/lv_draw_sdl_utils.c.s
 
-src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.obj: src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj
-.PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.obj
+src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.o: src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o
+.PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.o
 
 # target to build an object file
-src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj
-.PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj
+src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o
+.PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o
 
 src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.i: src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i
 .PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.i
@@ -7187,13 +7187,13 @@ src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
 .PHONY : src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
 
-src/draw/sw/lv_draw_sw.obj: src/draw/sw/lv_draw_sw.c.obj
-.PHONY : src/draw/sw/lv_draw_sw.obj
+src/draw/sw/lv_draw_sw.o: src/draw/sw/lv_draw_sw.c.o
+.PHONY : src/draw/sw/lv_draw_sw.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj
-.PHONY : src/draw/sw/lv_draw_sw.c.obj
+src/draw/sw/lv_draw_sw.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o
+.PHONY : src/draw/sw/lv_draw_sw.c.o
 
 src/draw/sw/lv_draw_sw.i: src/draw/sw/lv_draw_sw.c.i
 .PHONY : src/draw/sw/lv_draw_sw.i
@@ -7211,13 +7211,13 @@ src/draw/sw/lv_draw_sw.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.s
 .PHONY : src/draw/sw/lv_draw_sw.c.s
 
-src/draw/sw/lv_draw_sw_arc.obj: src/draw/sw/lv_draw_sw_arc.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_arc.obj
+src/draw/sw/lv_draw_sw_arc.o: src/draw/sw/lv_draw_sw_arc.c.o
+.PHONY : src/draw/sw/lv_draw_sw_arc.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_arc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_arc.c.obj
+src/draw/sw/lv_draw_sw_arc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o
+.PHONY : src/draw/sw/lv_draw_sw_arc.c.o
 
 src/draw/sw/lv_draw_sw_arc.i: src/draw/sw/lv_draw_sw_arc.c.i
 .PHONY : src/draw/sw/lv_draw_sw_arc.i
@@ -7235,13 +7235,13 @@ src/draw/sw/lv_draw_sw_arc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.s
 .PHONY : src/draw/sw/lv_draw_sw_arc.c.s
 
-src/draw/sw/lv_draw_sw_blend.obj: src/draw/sw/lv_draw_sw_blend.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_blend.obj
+src/draw/sw/lv_draw_sw_blend.o: src/draw/sw/lv_draw_sw_blend.c.o
+.PHONY : src/draw/sw/lv_draw_sw_blend.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_blend.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_blend.c.obj
+src/draw/sw/lv_draw_sw_blend.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o
+.PHONY : src/draw/sw/lv_draw_sw_blend.c.o
 
 src/draw/sw/lv_draw_sw_blend.i: src/draw/sw/lv_draw_sw_blend.c.i
 .PHONY : src/draw/sw/lv_draw_sw_blend.i
@@ -7259,13 +7259,13 @@ src/draw/sw/lv_draw_sw_blend.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.s
 .PHONY : src/draw/sw/lv_draw_sw_blend.c.s
 
-src/draw/sw/lv_draw_sw_dither.obj: src/draw/sw/lv_draw_sw_dither.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_dither.obj
+src/draw/sw/lv_draw_sw_dither.o: src/draw/sw/lv_draw_sw_dither.c.o
+.PHONY : src/draw/sw/lv_draw_sw_dither.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_dither.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_dither.c.obj
+src/draw/sw/lv_draw_sw_dither.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o
+.PHONY : src/draw/sw/lv_draw_sw_dither.c.o
 
 src/draw/sw/lv_draw_sw_dither.i: src/draw/sw/lv_draw_sw_dither.c.i
 .PHONY : src/draw/sw/lv_draw_sw_dither.i
@@ -7283,13 +7283,13 @@ src/draw/sw/lv_draw_sw_dither.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.s
 .PHONY : src/draw/sw/lv_draw_sw_dither.c.s
 
-src/draw/sw/lv_draw_sw_gradient.obj: src/draw/sw/lv_draw_sw_gradient.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_gradient.obj
+src/draw/sw/lv_draw_sw_gradient.o: src/draw/sw/lv_draw_sw_gradient.c.o
+.PHONY : src/draw/sw/lv_draw_sw_gradient.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_gradient.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_gradient.c.obj
+src/draw/sw/lv_draw_sw_gradient.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o
+.PHONY : src/draw/sw/lv_draw_sw_gradient.c.o
 
 src/draw/sw/lv_draw_sw_gradient.i: src/draw/sw/lv_draw_sw_gradient.c.i
 .PHONY : src/draw/sw/lv_draw_sw_gradient.i
@@ -7307,13 +7307,13 @@ src/draw/sw/lv_draw_sw_gradient.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.s
 .PHONY : src/draw/sw/lv_draw_sw_gradient.c.s
 
-src/draw/sw/lv_draw_sw_img.obj: src/draw/sw/lv_draw_sw_img.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_img.obj
+src/draw/sw/lv_draw_sw_img.o: src/draw/sw/lv_draw_sw_img.c.o
+.PHONY : src/draw/sw/lv_draw_sw_img.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_img.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_img.c.obj
+src/draw/sw/lv_draw_sw_img.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o
+.PHONY : src/draw/sw/lv_draw_sw_img.c.o
 
 src/draw/sw/lv_draw_sw_img.i: src/draw/sw/lv_draw_sw_img.c.i
 .PHONY : src/draw/sw/lv_draw_sw_img.i
@@ -7331,13 +7331,13 @@ src/draw/sw/lv_draw_sw_img.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.s
 .PHONY : src/draw/sw/lv_draw_sw_img.c.s
 
-src/draw/sw/lv_draw_sw_layer.obj: src/draw/sw/lv_draw_sw_layer.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_layer.obj
+src/draw/sw/lv_draw_sw_layer.o: src/draw/sw/lv_draw_sw_layer.c.o
+.PHONY : src/draw/sw/lv_draw_sw_layer.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_layer.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_layer.c.obj
+src/draw/sw/lv_draw_sw_layer.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o
+.PHONY : src/draw/sw/lv_draw_sw_layer.c.o
 
 src/draw/sw/lv_draw_sw_layer.i: src/draw/sw/lv_draw_sw_layer.c.i
 .PHONY : src/draw/sw/lv_draw_sw_layer.i
@@ -7355,13 +7355,13 @@ src/draw/sw/lv_draw_sw_layer.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.s
 .PHONY : src/draw/sw/lv_draw_sw_layer.c.s
 
-src/draw/sw/lv_draw_sw_letter.obj: src/draw/sw/lv_draw_sw_letter.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_letter.obj
+src/draw/sw/lv_draw_sw_letter.o: src/draw/sw/lv_draw_sw_letter.c.o
+.PHONY : src/draw/sw/lv_draw_sw_letter.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_letter.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_letter.c.obj
+src/draw/sw/lv_draw_sw_letter.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o
+.PHONY : src/draw/sw/lv_draw_sw_letter.c.o
 
 src/draw/sw/lv_draw_sw_letter.i: src/draw/sw/lv_draw_sw_letter.c.i
 .PHONY : src/draw/sw/lv_draw_sw_letter.i
@@ -7379,13 +7379,13 @@ src/draw/sw/lv_draw_sw_letter.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.s
 .PHONY : src/draw/sw/lv_draw_sw_letter.c.s
 
-src/draw/sw/lv_draw_sw_line.obj: src/draw/sw/lv_draw_sw_line.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_line.obj
+src/draw/sw/lv_draw_sw_line.o: src/draw/sw/lv_draw_sw_line.c.o
+.PHONY : src/draw/sw/lv_draw_sw_line.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_line.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_line.c.obj
+src/draw/sw/lv_draw_sw_line.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o
+.PHONY : src/draw/sw/lv_draw_sw_line.c.o
 
 src/draw/sw/lv_draw_sw_line.i: src/draw/sw/lv_draw_sw_line.c.i
 .PHONY : src/draw/sw/lv_draw_sw_line.i
@@ -7403,13 +7403,13 @@ src/draw/sw/lv_draw_sw_line.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.s
 .PHONY : src/draw/sw/lv_draw_sw_line.c.s
 
-src/draw/sw/lv_draw_sw_polygon.obj: src/draw/sw/lv_draw_sw_polygon.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_polygon.obj
+src/draw/sw/lv_draw_sw_polygon.o: src/draw/sw/lv_draw_sw_polygon.c.o
+.PHONY : src/draw/sw/lv_draw_sw_polygon.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_polygon.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_polygon.c.obj
+src/draw/sw/lv_draw_sw_polygon.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o
+.PHONY : src/draw/sw/lv_draw_sw_polygon.c.o
 
 src/draw/sw/lv_draw_sw_polygon.i: src/draw/sw/lv_draw_sw_polygon.c.i
 .PHONY : src/draw/sw/lv_draw_sw_polygon.i
@@ -7427,13 +7427,13 @@ src/draw/sw/lv_draw_sw_polygon.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.s
 .PHONY : src/draw/sw/lv_draw_sw_polygon.c.s
 
-src/draw/sw/lv_draw_sw_rect.obj: src/draw/sw/lv_draw_sw_rect.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_rect.obj
+src/draw/sw/lv_draw_sw_rect.o: src/draw/sw/lv_draw_sw_rect.c.o
+.PHONY : src/draw/sw/lv_draw_sw_rect.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_rect.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_rect.c.obj
+src/draw/sw/lv_draw_sw_rect.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o
+.PHONY : src/draw/sw/lv_draw_sw_rect.c.o
 
 src/draw/sw/lv_draw_sw_rect.i: src/draw/sw/lv_draw_sw_rect.c.i
 .PHONY : src/draw/sw/lv_draw_sw_rect.i
@@ -7451,13 +7451,13 @@ src/draw/sw/lv_draw_sw_rect.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.s
 .PHONY : src/draw/sw/lv_draw_sw_rect.c.s
 
-src/draw/sw/lv_draw_sw_transform.obj: src/draw/sw/lv_draw_sw_transform.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_transform.obj
+src/draw/sw/lv_draw_sw_transform.o: src/draw/sw/lv_draw_sw_transform.c.o
+.PHONY : src/draw/sw/lv_draw_sw_transform.o
 
 # target to build an object file
-src/draw/sw/lv_draw_sw_transform.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj
-.PHONY : src/draw/sw/lv_draw_sw_transform.c.obj
+src/draw/sw/lv_draw_sw_transform.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o
+.PHONY : src/draw/sw/lv_draw_sw_transform.c.o
 
 src/draw/sw/lv_draw_sw_transform.i: src/draw/sw/lv_draw_sw_transform.c.i
 .PHONY : src/draw/sw/lv_draw_sw_transform.i
@@ -7475,13 +7475,13 @@ src/draw/sw/lv_draw_sw_transform.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.s
 .PHONY : src/draw/sw/lv_draw_sw_transform.c.s
 
-src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.obj: src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj
-.PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.obj
+src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o: src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o
+.PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o
 
 # target to build an object file
-src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj
-.PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj
+src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o
+.PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o
 
 src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.i: src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i
 .PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.i
@@ -7499,13 +7499,13 @@ src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s
 .PHONY : src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s
 
-src/extra/layouts/flex/lv_flex.obj: src/extra/layouts/flex/lv_flex.c.obj
-.PHONY : src/extra/layouts/flex/lv_flex.obj
+src/extra/layouts/flex/lv_flex.o: src/extra/layouts/flex/lv_flex.c.o
+.PHONY : src/extra/layouts/flex/lv_flex.o
 
 # target to build an object file
-src/extra/layouts/flex/lv_flex.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj
-.PHONY : src/extra/layouts/flex/lv_flex.c.obj
+src/extra/layouts/flex/lv_flex.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o
+.PHONY : src/extra/layouts/flex/lv_flex.c.o
 
 src/extra/layouts/flex/lv_flex.i: src/extra/layouts/flex/lv_flex.c.i
 .PHONY : src/extra/layouts/flex/lv_flex.i
@@ -7523,13 +7523,13 @@ src/extra/layouts/flex/lv_flex.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.s
 .PHONY : src/extra/layouts/flex/lv_flex.c.s
 
-src/extra/layouts/grid/lv_grid.obj: src/extra/layouts/grid/lv_grid.c.obj
-.PHONY : src/extra/layouts/grid/lv_grid.obj
+src/extra/layouts/grid/lv_grid.o: src/extra/layouts/grid/lv_grid.c.o
+.PHONY : src/extra/layouts/grid/lv_grid.o
 
 # target to build an object file
-src/extra/layouts/grid/lv_grid.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj
-.PHONY : src/extra/layouts/grid/lv_grid.c.obj
+src/extra/layouts/grid/lv_grid.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o
+.PHONY : src/extra/layouts/grid/lv_grid.c.o
 
 src/extra/layouts/grid/lv_grid.i: src/extra/layouts/grid/lv_grid.c.i
 .PHONY : src/extra/layouts/grid/lv_grid.i
@@ -7547,13 +7547,13 @@ src/extra/layouts/grid/lv_grid.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.s
 .PHONY : src/extra/layouts/grid/lv_grid.c.s
 
-src/extra/libs/bmp/lv_bmp.obj: src/extra/libs/bmp/lv_bmp.c.obj
-.PHONY : src/extra/libs/bmp/lv_bmp.obj
+src/extra/libs/bmp/lv_bmp.o: src/extra/libs/bmp/lv_bmp.c.o
+.PHONY : src/extra/libs/bmp/lv_bmp.o
 
 # target to build an object file
-src/extra/libs/bmp/lv_bmp.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj
-.PHONY : src/extra/libs/bmp/lv_bmp.c.obj
+src/extra/libs/bmp/lv_bmp.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o
+.PHONY : src/extra/libs/bmp/lv_bmp.c.o
 
 src/extra/libs/bmp/lv_bmp.i: src/extra/libs/bmp/lv_bmp.c.i
 .PHONY : src/extra/libs/bmp/lv_bmp.i
@@ -7571,13 +7571,13 @@ src/extra/libs/bmp/lv_bmp.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.s
 .PHONY : src/extra/libs/bmp/lv_bmp.c.s
 
-src/extra/libs/ffmpeg/lv_ffmpeg.obj: src/extra/libs/ffmpeg/lv_ffmpeg.c.obj
-.PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.obj
+src/extra/libs/ffmpeg/lv_ffmpeg.o: src/extra/libs/ffmpeg/lv_ffmpeg.c.o
+.PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.o
 
 # target to build an object file
-src/extra/libs/ffmpeg/lv_ffmpeg.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj
-.PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.c.obj
+src/extra/libs/ffmpeg/lv_ffmpeg.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o
+.PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.c.o
 
 src/extra/libs/ffmpeg/lv_ffmpeg.i: src/extra/libs/ffmpeg/lv_ffmpeg.c.i
 .PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.i
@@ -7595,13 +7595,13 @@ src/extra/libs/ffmpeg/lv_ffmpeg.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
 .PHONY : src/extra/libs/ffmpeg/lv_ffmpeg.c.s
 
-src/extra/libs/freetype/lv_freetype.obj: src/extra/libs/freetype/lv_freetype.c.obj
-.PHONY : src/extra/libs/freetype/lv_freetype.obj
+src/extra/libs/freetype/lv_freetype.o: src/extra/libs/freetype/lv_freetype.c.o
+.PHONY : src/extra/libs/freetype/lv_freetype.o
 
 # target to build an object file
-src/extra/libs/freetype/lv_freetype.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj
-.PHONY : src/extra/libs/freetype/lv_freetype.c.obj
+src/extra/libs/freetype/lv_freetype.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o
+.PHONY : src/extra/libs/freetype/lv_freetype.c.o
 
 src/extra/libs/freetype/lv_freetype.i: src/extra/libs/freetype/lv_freetype.c.i
 .PHONY : src/extra/libs/freetype/lv_freetype.i
@@ -7619,13 +7619,13 @@ src/extra/libs/freetype/lv_freetype.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.s
 .PHONY : src/extra/libs/freetype/lv_freetype.c.s
 
-src/extra/libs/fsdrv/lv_fs_fatfs.obj: src/extra/libs/fsdrv/lv_fs_fatfs.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.obj
+src/extra/libs/fsdrv/lv_fs_fatfs.o: src/extra/libs/fsdrv/lv_fs_fatfs.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.o
 
 # target to build an object file
-src/extra/libs/fsdrv/lv_fs_fatfs.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.c.obj
+src/extra/libs/fsdrv/lv_fs_fatfs.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.c.o
 
 src/extra/libs/fsdrv/lv_fs_fatfs.i: src/extra/libs/fsdrv/lv_fs_fatfs.c.i
 .PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.i
@@ -7643,13 +7643,13 @@ src/extra/libs/fsdrv/lv_fs_fatfs.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.s
 .PHONY : src/extra/libs/fsdrv/lv_fs_fatfs.c.s
 
-src/extra/libs/fsdrv/lv_fs_littlefs.obj: src/extra/libs/fsdrv/lv_fs_littlefs.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.obj
+src/extra/libs/fsdrv/lv_fs_littlefs.o: src/extra/libs/fsdrv/lv_fs_littlefs.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.o
 
 # target to build an object file
-src/extra/libs/fsdrv/lv_fs_littlefs.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.c.obj
+src/extra/libs/fsdrv/lv_fs_littlefs.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.c.o
 
 src/extra/libs/fsdrv/lv_fs_littlefs.i: src/extra/libs/fsdrv/lv_fs_littlefs.c.i
 .PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.i
@@ -7667,13 +7667,13 @@ src/extra/libs/fsdrv/lv_fs_littlefs.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.s
 .PHONY : src/extra/libs/fsdrv/lv_fs_littlefs.c.s
 
-src/extra/libs/fsdrv/lv_fs_posix.obj: src/extra/libs/fsdrv/lv_fs_posix.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_posix.obj
+src/extra/libs/fsdrv/lv_fs_posix.o: src/extra/libs/fsdrv/lv_fs_posix.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_posix.o
 
 # target to build an object file
-src/extra/libs/fsdrv/lv_fs_posix.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_posix.c.obj
+src/extra/libs/fsdrv/lv_fs_posix.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_posix.c.o
 
 src/extra/libs/fsdrv/lv_fs_posix.i: src/extra/libs/fsdrv/lv_fs_posix.c.i
 .PHONY : src/extra/libs/fsdrv/lv_fs_posix.i
@@ -7691,13 +7691,13 @@ src/extra/libs/fsdrv/lv_fs_posix.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.s
 .PHONY : src/extra/libs/fsdrv/lv_fs_posix.c.s
 
-src/extra/libs/fsdrv/lv_fs_stdio.obj: src/extra/libs/fsdrv/lv_fs_stdio.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_stdio.obj
+src/extra/libs/fsdrv/lv_fs_stdio.o: src/extra/libs/fsdrv/lv_fs_stdio.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_stdio.o
 
 # target to build an object file
-src/extra/libs/fsdrv/lv_fs_stdio.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_stdio.c.obj
+src/extra/libs/fsdrv/lv_fs_stdio.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_stdio.c.o
 
 src/extra/libs/fsdrv/lv_fs_stdio.i: src/extra/libs/fsdrv/lv_fs_stdio.c.i
 .PHONY : src/extra/libs/fsdrv/lv_fs_stdio.i
@@ -7715,13 +7715,13 @@ src/extra/libs/fsdrv/lv_fs_stdio.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.s
 .PHONY : src/extra/libs/fsdrv/lv_fs_stdio.c.s
 
-src/extra/libs/fsdrv/lv_fs_win32.obj: src/extra/libs/fsdrv/lv_fs_win32.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_win32.obj
+src/extra/libs/fsdrv/lv_fs_win32.o: src/extra/libs/fsdrv/lv_fs_win32.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_win32.o
 
 # target to build an object file
-src/extra/libs/fsdrv/lv_fs_win32.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj
-.PHONY : src/extra/libs/fsdrv/lv_fs_win32.c.obj
+src/extra/libs/fsdrv/lv_fs_win32.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o
+.PHONY : src/extra/libs/fsdrv/lv_fs_win32.c.o
 
 src/extra/libs/fsdrv/lv_fs_win32.i: src/extra/libs/fsdrv/lv_fs_win32.c.i
 .PHONY : src/extra/libs/fsdrv/lv_fs_win32.i
@@ -7739,13 +7739,13 @@ src/extra/libs/fsdrv/lv_fs_win32.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.s
 .PHONY : src/extra/libs/fsdrv/lv_fs_win32.c.s
 
-src/extra/libs/gif/gifdec.obj: src/extra/libs/gif/gifdec.c.obj
-.PHONY : src/extra/libs/gif/gifdec.obj
+src/extra/libs/gif/gifdec.o: src/extra/libs/gif/gifdec.c.o
+.PHONY : src/extra/libs/gif/gifdec.o
 
 # target to build an object file
-src/extra/libs/gif/gifdec.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj
-.PHONY : src/extra/libs/gif/gifdec.c.obj
+src/extra/libs/gif/gifdec.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o
+.PHONY : src/extra/libs/gif/gifdec.c.o
 
 src/extra/libs/gif/gifdec.i: src/extra/libs/gif/gifdec.c.i
 .PHONY : src/extra/libs/gif/gifdec.i
@@ -7763,13 +7763,13 @@ src/extra/libs/gif/gifdec.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.s
 .PHONY : src/extra/libs/gif/gifdec.c.s
 
-src/extra/libs/gif/lv_gif.obj: src/extra/libs/gif/lv_gif.c.obj
-.PHONY : src/extra/libs/gif/lv_gif.obj
+src/extra/libs/gif/lv_gif.o: src/extra/libs/gif/lv_gif.c.o
+.PHONY : src/extra/libs/gif/lv_gif.o
 
 # target to build an object file
-src/extra/libs/gif/lv_gif.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj
-.PHONY : src/extra/libs/gif/lv_gif.c.obj
+src/extra/libs/gif/lv_gif.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o
+.PHONY : src/extra/libs/gif/lv_gif.c.o
 
 src/extra/libs/gif/lv_gif.i: src/extra/libs/gif/lv_gif.c.i
 .PHONY : src/extra/libs/gif/lv_gif.i
@@ -7787,13 +7787,13 @@ src/extra/libs/gif/lv_gif.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.s
 .PHONY : src/extra/libs/gif/lv_gif.c.s
 
-src/extra/libs/png/lodepng.obj: src/extra/libs/png/lodepng.c.obj
-.PHONY : src/extra/libs/png/lodepng.obj
+src/extra/libs/png/lodepng.o: src/extra/libs/png/lodepng.c.o
+.PHONY : src/extra/libs/png/lodepng.o
 
 # target to build an object file
-src/extra/libs/png/lodepng.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj
-.PHONY : src/extra/libs/png/lodepng.c.obj
+src/extra/libs/png/lodepng.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o
+.PHONY : src/extra/libs/png/lodepng.c.o
 
 src/extra/libs/png/lodepng.i: src/extra/libs/png/lodepng.c.i
 .PHONY : src/extra/libs/png/lodepng.i
@@ -7811,13 +7811,13 @@ src/extra/libs/png/lodepng.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.s
 .PHONY : src/extra/libs/png/lodepng.c.s
 
-src/extra/libs/png/lv_png.obj: src/extra/libs/png/lv_png.c.obj
-.PHONY : src/extra/libs/png/lv_png.obj
+src/extra/libs/png/lv_png.o: src/extra/libs/png/lv_png.c.o
+.PHONY : src/extra/libs/png/lv_png.o
 
 # target to build an object file
-src/extra/libs/png/lv_png.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj
-.PHONY : src/extra/libs/png/lv_png.c.obj
+src/extra/libs/png/lv_png.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o
+.PHONY : src/extra/libs/png/lv_png.c.o
 
 src/extra/libs/png/lv_png.i: src/extra/libs/png/lv_png.c.i
 .PHONY : src/extra/libs/png/lv_png.i
@@ -7835,13 +7835,13 @@ src/extra/libs/png/lv_png.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.s
 .PHONY : src/extra/libs/png/lv_png.c.s
 
-src/extra/libs/qrcode/lv_qrcode.obj: src/extra/libs/qrcode/lv_qrcode.c.obj
-.PHONY : src/extra/libs/qrcode/lv_qrcode.obj
+src/extra/libs/qrcode/lv_qrcode.o: src/extra/libs/qrcode/lv_qrcode.c.o
+.PHONY : src/extra/libs/qrcode/lv_qrcode.o
 
 # target to build an object file
-src/extra/libs/qrcode/lv_qrcode.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj
-.PHONY : src/extra/libs/qrcode/lv_qrcode.c.obj
+src/extra/libs/qrcode/lv_qrcode.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o
+.PHONY : src/extra/libs/qrcode/lv_qrcode.c.o
 
 src/extra/libs/qrcode/lv_qrcode.i: src/extra/libs/qrcode/lv_qrcode.c.i
 .PHONY : src/extra/libs/qrcode/lv_qrcode.i
@@ -7859,13 +7859,13 @@ src/extra/libs/qrcode/lv_qrcode.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.s
 .PHONY : src/extra/libs/qrcode/lv_qrcode.c.s
 
-src/extra/libs/qrcode/qrcodegen.obj: src/extra/libs/qrcode/qrcodegen.c.obj
-.PHONY : src/extra/libs/qrcode/qrcodegen.obj
+src/extra/libs/qrcode/qrcodegen.o: src/extra/libs/qrcode/qrcodegen.c.o
+.PHONY : src/extra/libs/qrcode/qrcodegen.o
 
 # target to build an object file
-src/extra/libs/qrcode/qrcodegen.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj
-.PHONY : src/extra/libs/qrcode/qrcodegen.c.obj
+src/extra/libs/qrcode/qrcodegen.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o
+.PHONY : src/extra/libs/qrcode/qrcodegen.c.o
 
 src/extra/libs/qrcode/qrcodegen.i: src/extra/libs/qrcode/qrcodegen.c.i
 .PHONY : src/extra/libs/qrcode/qrcodegen.i
@@ -7883,13 +7883,13 @@ src/extra/libs/qrcode/qrcodegen.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.s
 .PHONY : src/extra/libs/qrcode/qrcodegen.c.s
 
-src/extra/libs/rlottie/lv_rlottie.obj: src/extra/libs/rlottie/lv_rlottie.c.obj
-.PHONY : src/extra/libs/rlottie/lv_rlottie.obj
+src/extra/libs/rlottie/lv_rlottie.o: src/extra/libs/rlottie/lv_rlottie.c.o
+.PHONY : src/extra/libs/rlottie/lv_rlottie.o
 
 # target to build an object file
-src/extra/libs/rlottie/lv_rlottie.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj
-.PHONY : src/extra/libs/rlottie/lv_rlottie.c.obj
+src/extra/libs/rlottie/lv_rlottie.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o
+.PHONY : src/extra/libs/rlottie/lv_rlottie.c.o
 
 src/extra/libs/rlottie/lv_rlottie.i: src/extra/libs/rlottie/lv_rlottie.c.i
 .PHONY : src/extra/libs/rlottie/lv_rlottie.i
@@ -7907,13 +7907,13 @@ src/extra/libs/rlottie/lv_rlottie.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.s
 .PHONY : src/extra/libs/rlottie/lv_rlottie.c.s
 
-src/extra/libs/sjpg/lv_sjpg.obj: src/extra/libs/sjpg/lv_sjpg.c.obj
-.PHONY : src/extra/libs/sjpg/lv_sjpg.obj
+src/extra/libs/sjpg/lv_sjpg.o: src/extra/libs/sjpg/lv_sjpg.c.o
+.PHONY : src/extra/libs/sjpg/lv_sjpg.o
 
 # target to build an object file
-src/extra/libs/sjpg/lv_sjpg.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj
-.PHONY : src/extra/libs/sjpg/lv_sjpg.c.obj
+src/extra/libs/sjpg/lv_sjpg.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o
+.PHONY : src/extra/libs/sjpg/lv_sjpg.c.o
 
 src/extra/libs/sjpg/lv_sjpg.i: src/extra/libs/sjpg/lv_sjpg.c.i
 .PHONY : src/extra/libs/sjpg/lv_sjpg.i
@@ -7931,13 +7931,13 @@ src/extra/libs/sjpg/lv_sjpg.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.s
 .PHONY : src/extra/libs/sjpg/lv_sjpg.c.s
 
-src/extra/libs/sjpg/tjpgd.obj: src/extra/libs/sjpg/tjpgd.c.obj
-.PHONY : src/extra/libs/sjpg/tjpgd.obj
+src/extra/libs/sjpg/tjpgd.o: src/extra/libs/sjpg/tjpgd.c.o
+.PHONY : src/extra/libs/sjpg/tjpgd.o
 
 # target to build an object file
-src/extra/libs/sjpg/tjpgd.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj
-.PHONY : src/extra/libs/sjpg/tjpgd.c.obj
+src/extra/libs/sjpg/tjpgd.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o
+.PHONY : src/extra/libs/sjpg/tjpgd.c.o
 
 src/extra/libs/sjpg/tjpgd.i: src/extra/libs/sjpg/tjpgd.c.i
 .PHONY : src/extra/libs/sjpg/tjpgd.i
@@ -7955,13 +7955,13 @@ src/extra/libs/sjpg/tjpgd.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.s
 .PHONY : src/extra/libs/sjpg/tjpgd.c.s
 
-src/extra/libs/tiny_ttf/lv_tiny_ttf.obj: src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj
-.PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.obj
+src/extra/libs/tiny_ttf/lv_tiny_ttf.o: src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o
+.PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.o
 
 # target to build an object file
-src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj
-.PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj
+src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o
+.PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o
 
 src/extra/libs/tiny_ttf/lv_tiny_ttf.i: src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i
 .PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.i
@@ -7979,13 +7979,13 @@ src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s
 .PHONY : src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s
 
-src/extra/lv_extra.obj: src/extra/lv_extra.c.obj
-.PHONY : src/extra/lv_extra.obj
+src/extra/lv_extra.o: src/extra/lv_extra.c.o
+.PHONY : src/extra/lv_extra.o
 
 # target to build an object file
-src/extra/lv_extra.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj
-.PHONY : src/extra/lv_extra.c.obj
+src/extra/lv_extra.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o
+.PHONY : src/extra/lv_extra.c.o
 
 src/extra/lv_extra.i: src/extra/lv_extra.c.i
 .PHONY : src/extra/lv_extra.i
@@ -8003,13 +8003,13 @@ src/extra/lv_extra.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.s
 .PHONY : src/extra/lv_extra.c.s
 
-src/extra/others/fragment/lv_fragment.obj: src/extra/others/fragment/lv_fragment.c.obj
-.PHONY : src/extra/others/fragment/lv_fragment.obj
+src/extra/others/fragment/lv_fragment.o: src/extra/others/fragment/lv_fragment.c.o
+.PHONY : src/extra/others/fragment/lv_fragment.o
 
 # target to build an object file
-src/extra/others/fragment/lv_fragment.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj
-.PHONY : src/extra/others/fragment/lv_fragment.c.obj
+src/extra/others/fragment/lv_fragment.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o
+.PHONY : src/extra/others/fragment/lv_fragment.c.o
 
 src/extra/others/fragment/lv_fragment.i: src/extra/others/fragment/lv_fragment.c.i
 .PHONY : src/extra/others/fragment/lv_fragment.i
@@ -8027,13 +8027,13 @@ src/extra/others/fragment/lv_fragment.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.s
 .PHONY : src/extra/others/fragment/lv_fragment.c.s
 
-src/extra/others/fragment/lv_fragment_manager.obj: src/extra/others/fragment/lv_fragment_manager.c.obj
-.PHONY : src/extra/others/fragment/lv_fragment_manager.obj
+src/extra/others/fragment/lv_fragment_manager.o: src/extra/others/fragment/lv_fragment_manager.c.o
+.PHONY : src/extra/others/fragment/lv_fragment_manager.o
 
 # target to build an object file
-src/extra/others/fragment/lv_fragment_manager.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj
-.PHONY : src/extra/others/fragment/lv_fragment_manager.c.obj
+src/extra/others/fragment/lv_fragment_manager.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o
+.PHONY : src/extra/others/fragment/lv_fragment_manager.c.o
 
 src/extra/others/fragment/lv_fragment_manager.i: src/extra/others/fragment/lv_fragment_manager.c.i
 .PHONY : src/extra/others/fragment/lv_fragment_manager.i
@@ -8051,13 +8051,13 @@ src/extra/others/fragment/lv_fragment_manager.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.s
 .PHONY : src/extra/others/fragment/lv_fragment_manager.c.s
 
-src/extra/others/gridnav/lv_gridnav.obj: src/extra/others/gridnav/lv_gridnav.c.obj
-.PHONY : src/extra/others/gridnav/lv_gridnav.obj
+src/extra/others/gridnav/lv_gridnav.o: src/extra/others/gridnav/lv_gridnav.c.o
+.PHONY : src/extra/others/gridnav/lv_gridnav.o
 
 # target to build an object file
-src/extra/others/gridnav/lv_gridnav.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj
-.PHONY : src/extra/others/gridnav/lv_gridnav.c.obj
+src/extra/others/gridnav/lv_gridnav.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o
+.PHONY : src/extra/others/gridnav/lv_gridnav.c.o
 
 src/extra/others/gridnav/lv_gridnav.i: src/extra/others/gridnav/lv_gridnav.c.i
 .PHONY : src/extra/others/gridnav/lv_gridnav.i
@@ -8075,13 +8075,13 @@ src/extra/others/gridnav/lv_gridnav.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.s
 .PHONY : src/extra/others/gridnav/lv_gridnav.c.s
 
-src/extra/others/ime/lv_ime_pinyin.obj: src/extra/others/ime/lv_ime_pinyin.c.obj
-.PHONY : src/extra/others/ime/lv_ime_pinyin.obj
+src/extra/others/ime/lv_ime_pinyin.o: src/extra/others/ime/lv_ime_pinyin.c.o
+.PHONY : src/extra/others/ime/lv_ime_pinyin.o
 
 # target to build an object file
-src/extra/others/ime/lv_ime_pinyin.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj
-.PHONY : src/extra/others/ime/lv_ime_pinyin.c.obj
+src/extra/others/ime/lv_ime_pinyin.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o
+.PHONY : src/extra/others/ime/lv_ime_pinyin.c.o
 
 src/extra/others/ime/lv_ime_pinyin.i: src/extra/others/ime/lv_ime_pinyin.c.i
 .PHONY : src/extra/others/ime/lv_ime_pinyin.i
@@ -8099,13 +8099,13 @@ src/extra/others/ime/lv_ime_pinyin.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.s
 .PHONY : src/extra/others/ime/lv_ime_pinyin.c.s
 
-src/extra/others/imgfont/lv_imgfont.obj: src/extra/others/imgfont/lv_imgfont.c.obj
-.PHONY : src/extra/others/imgfont/lv_imgfont.obj
+src/extra/others/imgfont/lv_imgfont.o: src/extra/others/imgfont/lv_imgfont.c.o
+.PHONY : src/extra/others/imgfont/lv_imgfont.o
 
 # target to build an object file
-src/extra/others/imgfont/lv_imgfont.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj
-.PHONY : src/extra/others/imgfont/lv_imgfont.c.obj
+src/extra/others/imgfont/lv_imgfont.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o
+.PHONY : src/extra/others/imgfont/lv_imgfont.c.o
 
 src/extra/others/imgfont/lv_imgfont.i: src/extra/others/imgfont/lv_imgfont.c.i
 .PHONY : src/extra/others/imgfont/lv_imgfont.i
@@ -8123,13 +8123,13 @@ src/extra/others/imgfont/lv_imgfont.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.s
 .PHONY : src/extra/others/imgfont/lv_imgfont.c.s
 
-src/extra/others/monkey/lv_monkey.obj: src/extra/others/monkey/lv_monkey.c.obj
-.PHONY : src/extra/others/monkey/lv_monkey.obj
+src/extra/others/monkey/lv_monkey.o: src/extra/others/monkey/lv_monkey.c.o
+.PHONY : src/extra/others/monkey/lv_monkey.o
 
 # target to build an object file
-src/extra/others/monkey/lv_monkey.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj
-.PHONY : src/extra/others/monkey/lv_monkey.c.obj
+src/extra/others/monkey/lv_monkey.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o
+.PHONY : src/extra/others/monkey/lv_monkey.c.o
 
 src/extra/others/monkey/lv_monkey.i: src/extra/others/monkey/lv_monkey.c.i
 .PHONY : src/extra/others/monkey/lv_monkey.i
@@ -8147,13 +8147,13 @@ src/extra/others/monkey/lv_monkey.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.s
 .PHONY : src/extra/others/monkey/lv_monkey.c.s
 
-src/extra/others/msg/lv_msg.obj: src/extra/others/msg/lv_msg.c.obj
-.PHONY : src/extra/others/msg/lv_msg.obj
+src/extra/others/msg/lv_msg.o: src/extra/others/msg/lv_msg.c.o
+.PHONY : src/extra/others/msg/lv_msg.o
 
 # target to build an object file
-src/extra/others/msg/lv_msg.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj
-.PHONY : src/extra/others/msg/lv_msg.c.obj
+src/extra/others/msg/lv_msg.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o
+.PHONY : src/extra/others/msg/lv_msg.c.o
 
 src/extra/others/msg/lv_msg.i: src/extra/others/msg/lv_msg.c.i
 .PHONY : src/extra/others/msg/lv_msg.i
@@ -8171,13 +8171,13 @@ src/extra/others/msg/lv_msg.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.s
 .PHONY : src/extra/others/msg/lv_msg.c.s
 
-src/extra/others/snapshot/lv_snapshot.obj: src/extra/others/snapshot/lv_snapshot.c.obj
-.PHONY : src/extra/others/snapshot/lv_snapshot.obj
+src/extra/others/snapshot/lv_snapshot.o: src/extra/others/snapshot/lv_snapshot.c.o
+.PHONY : src/extra/others/snapshot/lv_snapshot.o
 
 # target to build an object file
-src/extra/others/snapshot/lv_snapshot.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj
-.PHONY : src/extra/others/snapshot/lv_snapshot.c.obj
+src/extra/others/snapshot/lv_snapshot.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o
+.PHONY : src/extra/others/snapshot/lv_snapshot.c.o
 
 src/extra/others/snapshot/lv_snapshot.i: src/extra/others/snapshot/lv_snapshot.c.i
 .PHONY : src/extra/others/snapshot/lv_snapshot.i
@@ -8195,13 +8195,13 @@ src/extra/others/snapshot/lv_snapshot.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.s
 .PHONY : src/extra/others/snapshot/lv_snapshot.c.s
 
-src/extra/themes/basic/lv_theme_basic.obj: src/extra/themes/basic/lv_theme_basic.c.obj
-.PHONY : src/extra/themes/basic/lv_theme_basic.obj
+src/extra/themes/basic/lv_theme_basic.o: src/extra/themes/basic/lv_theme_basic.c.o
+.PHONY : src/extra/themes/basic/lv_theme_basic.o
 
 # target to build an object file
-src/extra/themes/basic/lv_theme_basic.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj
-.PHONY : src/extra/themes/basic/lv_theme_basic.c.obj
+src/extra/themes/basic/lv_theme_basic.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o
+.PHONY : src/extra/themes/basic/lv_theme_basic.c.o
 
 src/extra/themes/basic/lv_theme_basic.i: src/extra/themes/basic/lv_theme_basic.c.i
 .PHONY : src/extra/themes/basic/lv_theme_basic.i
@@ -8219,13 +8219,13 @@ src/extra/themes/basic/lv_theme_basic.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.s
 .PHONY : src/extra/themes/basic/lv_theme_basic.c.s
 
-src/extra/themes/default/lv_theme_default.obj: src/extra/themes/default/lv_theme_default.c.obj
-.PHONY : src/extra/themes/default/lv_theme_default.obj
+src/extra/themes/default/lv_theme_default.o: src/extra/themes/default/lv_theme_default.c.o
+.PHONY : src/extra/themes/default/lv_theme_default.o
 
 # target to build an object file
-src/extra/themes/default/lv_theme_default.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj
-.PHONY : src/extra/themes/default/lv_theme_default.c.obj
+src/extra/themes/default/lv_theme_default.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o
+.PHONY : src/extra/themes/default/lv_theme_default.c.o
 
 src/extra/themes/default/lv_theme_default.i: src/extra/themes/default/lv_theme_default.c.i
 .PHONY : src/extra/themes/default/lv_theme_default.i
@@ -8243,13 +8243,13 @@ src/extra/themes/default/lv_theme_default.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.s
 .PHONY : src/extra/themes/default/lv_theme_default.c.s
 
-src/extra/themes/mono/lv_theme_mono.obj: src/extra/themes/mono/lv_theme_mono.c.obj
-.PHONY : src/extra/themes/mono/lv_theme_mono.obj
+src/extra/themes/mono/lv_theme_mono.o: src/extra/themes/mono/lv_theme_mono.c.o
+.PHONY : src/extra/themes/mono/lv_theme_mono.o
 
 # target to build an object file
-src/extra/themes/mono/lv_theme_mono.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj
-.PHONY : src/extra/themes/mono/lv_theme_mono.c.obj
+src/extra/themes/mono/lv_theme_mono.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o
+.PHONY : src/extra/themes/mono/lv_theme_mono.c.o
 
 src/extra/themes/mono/lv_theme_mono.i: src/extra/themes/mono/lv_theme_mono.c.i
 .PHONY : src/extra/themes/mono/lv_theme_mono.i
@@ -8267,13 +8267,13 @@ src/extra/themes/mono/lv_theme_mono.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.s
 .PHONY : src/extra/themes/mono/lv_theme_mono.c.s
 
-src/extra/widgets/animimg/lv_animimg.obj: src/extra/widgets/animimg/lv_animimg.c.obj
-.PHONY : src/extra/widgets/animimg/lv_animimg.obj
+src/extra/widgets/animimg/lv_animimg.o: src/extra/widgets/animimg/lv_animimg.c.o
+.PHONY : src/extra/widgets/animimg/lv_animimg.o
 
 # target to build an object file
-src/extra/widgets/animimg/lv_animimg.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj
-.PHONY : src/extra/widgets/animimg/lv_animimg.c.obj
+src/extra/widgets/animimg/lv_animimg.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o
+.PHONY : src/extra/widgets/animimg/lv_animimg.c.o
 
 src/extra/widgets/animimg/lv_animimg.i: src/extra/widgets/animimg/lv_animimg.c.i
 .PHONY : src/extra/widgets/animimg/lv_animimg.i
@@ -8291,13 +8291,13 @@ src/extra/widgets/animimg/lv_animimg.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.s
 .PHONY : src/extra/widgets/animimg/lv_animimg.c.s
 
-src/extra/widgets/calendar/lv_calendar.obj: src/extra/widgets/calendar/lv_calendar.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar.obj
+src/extra/widgets/calendar/lv_calendar.o: src/extra/widgets/calendar/lv_calendar.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar.o
 
 # target to build an object file
-src/extra/widgets/calendar/lv_calendar.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar.c.obj
+src/extra/widgets/calendar/lv_calendar.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar.c.o
 
 src/extra/widgets/calendar/lv_calendar.i: src/extra/widgets/calendar/lv_calendar.c.i
 .PHONY : src/extra/widgets/calendar/lv_calendar.i
@@ -8315,13 +8315,13 @@ src/extra/widgets/calendar/lv_calendar.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.s
 .PHONY : src/extra/widgets/calendar/lv_calendar.c.s
 
-src/extra/widgets/calendar/lv_calendar_header_arrow.obj: src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.obj
+src/extra/widgets/calendar/lv_calendar_header_arrow.o: src/extra/widgets/calendar/lv_calendar_header_arrow.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.o
 
 # target to build an object file
-src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+src/extra/widgets/calendar/lv_calendar_header_arrow.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.c.o
 
 src/extra/widgets/calendar/lv_calendar_header_arrow.i: src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
 .PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.i
@@ -8339,13 +8339,13 @@ src/extra/widgets/calendar/lv_calendar_header_arrow.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
 .PHONY : src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
 
-src/extra/widgets/calendar/lv_calendar_header_dropdown.obj: src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.obj
+src/extra/widgets/calendar/lv_calendar_header_dropdown.o: src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.o
 
 # target to build an object file
-src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
-.PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o
+.PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o
 
 src/extra/widgets/calendar/lv_calendar_header_dropdown.i: src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
 .PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.i
@@ -8363,13 +8363,13 @@ src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
 .PHONY : src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
 
-src/extra/widgets/chart/lv_chart.obj: src/extra/widgets/chart/lv_chart.c.obj
-.PHONY : src/extra/widgets/chart/lv_chart.obj
+src/extra/widgets/chart/lv_chart.o: src/extra/widgets/chart/lv_chart.c.o
+.PHONY : src/extra/widgets/chart/lv_chart.o
 
 # target to build an object file
-src/extra/widgets/chart/lv_chart.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj
-.PHONY : src/extra/widgets/chart/lv_chart.c.obj
+src/extra/widgets/chart/lv_chart.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o
+.PHONY : src/extra/widgets/chart/lv_chart.c.o
 
 src/extra/widgets/chart/lv_chart.i: src/extra/widgets/chart/lv_chart.c.i
 .PHONY : src/extra/widgets/chart/lv_chart.i
@@ -8387,13 +8387,13 @@ src/extra/widgets/chart/lv_chart.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.s
 .PHONY : src/extra/widgets/chart/lv_chart.c.s
 
-src/extra/widgets/colorwheel/lv_colorwheel.obj: src/extra/widgets/colorwheel/lv_colorwheel.c.obj
-.PHONY : src/extra/widgets/colorwheel/lv_colorwheel.obj
+src/extra/widgets/colorwheel/lv_colorwheel.o: src/extra/widgets/colorwheel/lv_colorwheel.c.o
+.PHONY : src/extra/widgets/colorwheel/lv_colorwheel.o
 
 # target to build an object file
-src/extra/widgets/colorwheel/lv_colorwheel.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
-.PHONY : src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+src/extra/widgets/colorwheel/lv_colorwheel.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o
+.PHONY : src/extra/widgets/colorwheel/lv_colorwheel.c.o
 
 src/extra/widgets/colorwheel/lv_colorwheel.i: src/extra/widgets/colorwheel/lv_colorwheel.c.i
 .PHONY : src/extra/widgets/colorwheel/lv_colorwheel.i
@@ -8411,13 +8411,13 @@ src/extra/widgets/colorwheel/lv_colorwheel.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.s
 .PHONY : src/extra/widgets/colorwheel/lv_colorwheel.c.s
 
-src/extra/widgets/imgbtn/lv_imgbtn.obj: src/extra/widgets/imgbtn/lv_imgbtn.c.obj
-.PHONY : src/extra/widgets/imgbtn/lv_imgbtn.obj
+src/extra/widgets/imgbtn/lv_imgbtn.o: src/extra/widgets/imgbtn/lv_imgbtn.c.o
+.PHONY : src/extra/widgets/imgbtn/lv_imgbtn.o
 
 # target to build an object file
-src/extra/widgets/imgbtn/lv_imgbtn.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
-.PHONY : src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+src/extra/widgets/imgbtn/lv_imgbtn.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o
+.PHONY : src/extra/widgets/imgbtn/lv_imgbtn.c.o
 
 src/extra/widgets/imgbtn/lv_imgbtn.i: src/extra/widgets/imgbtn/lv_imgbtn.c.i
 .PHONY : src/extra/widgets/imgbtn/lv_imgbtn.i
@@ -8435,13 +8435,13 @@ src/extra/widgets/imgbtn/lv_imgbtn.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.s
 .PHONY : src/extra/widgets/imgbtn/lv_imgbtn.c.s
 
-src/extra/widgets/keyboard/lv_keyboard.obj: src/extra/widgets/keyboard/lv_keyboard.c.obj
-.PHONY : src/extra/widgets/keyboard/lv_keyboard.obj
+src/extra/widgets/keyboard/lv_keyboard.o: src/extra/widgets/keyboard/lv_keyboard.c.o
+.PHONY : src/extra/widgets/keyboard/lv_keyboard.o
 
 # target to build an object file
-src/extra/widgets/keyboard/lv_keyboard.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj
-.PHONY : src/extra/widgets/keyboard/lv_keyboard.c.obj
+src/extra/widgets/keyboard/lv_keyboard.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o
+.PHONY : src/extra/widgets/keyboard/lv_keyboard.c.o
 
 src/extra/widgets/keyboard/lv_keyboard.i: src/extra/widgets/keyboard/lv_keyboard.c.i
 .PHONY : src/extra/widgets/keyboard/lv_keyboard.i
@@ -8459,13 +8459,13 @@ src/extra/widgets/keyboard/lv_keyboard.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.s
 .PHONY : src/extra/widgets/keyboard/lv_keyboard.c.s
 
-src/extra/widgets/led/lv_led.obj: src/extra/widgets/led/lv_led.c.obj
-.PHONY : src/extra/widgets/led/lv_led.obj
+src/extra/widgets/led/lv_led.o: src/extra/widgets/led/lv_led.c.o
+.PHONY : src/extra/widgets/led/lv_led.o
 
 # target to build an object file
-src/extra/widgets/led/lv_led.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj
-.PHONY : src/extra/widgets/led/lv_led.c.obj
+src/extra/widgets/led/lv_led.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o
+.PHONY : src/extra/widgets/led/lv_led.c.o
 
 src/extra/widgets/led/lv_led.i: src/extra/widgets/led/lv_led.c.i
 .PHONY : src/extra/widgets/led/lv_led.i
@@ -8483,13 +8483,13 @@ src/extra/widgets/led/lv_led.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.s
 .PHONY : src/extra/widgets/led/lv_led.c.s
 
-src/extra/widgets/list/lv_list.obj: src/extra/widgets/list/lv_list.c.obj
-.PHONY : src/extra/widgets/list/lv_list.obj
+src/extra/widgets/list/lv_list.o: src/extra/widgets/list/lv_list.c.o
+.PHONY : src/extra/widgets/list/lv_list.o
 
 # target to build an object file
-src/extra/widgets/list/lv_list.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj
-.PHONY : src/extra/widgets/list/lv_list.c.obj
+src/extra/widgets/list/lv_list.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o
+.PHONY : src/extra/widgets/list/lv_list.c.o
 
 src/extra/widgets/list/lv_list.i: src/extra/widgets/list/lv_list.c.i
 .PHONY : src/extra/widgets/list/lv_list.i
@@ -8507,13 +8507,13 @@ src/extra/widgets/list/lv_list.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.s
 .PHONY : src/extra/widgets/list/lv_list.c.s
 
-src/extra/widgets/menu/lv_menu.obj: src/extra/widgets/menu/lv_menu.c.obj
-.PHONY : src/extra/widgets/menu/lv_menu.obj
+src/extra/widgets/menu/lv_menu.o: src/extra/widgets/menu/lv_menu.c.o
+.PHONY : src/extra/widgets/menu/lv_menu.o
 
 # target to build an object file
-src/extra/widgets/menu/lv_menu.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj
-.PHONY : src/extra/widgets/menu/lv_menu.c.obj
+src/extra/widgets/menu/lv_menu.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o
+.PHONY : src/extra/widgets/menu/lv_menu.c.o
 
 src/extra/widgets/menu/lv_menu.i: src/extra/widgets/menu/lv_menu.c.i
 .PHONY : src/extra/widgets/menu/lv_menu.i
@@ -8531,13 +8531,13 @@ src/extra/widgets/menu/lv_menu.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.s
 .PHONY : src/extra/widgets/menu/lv_menu.c.s
 
-src/extra/widgets/meter/lv_meter.obj: src/extra/widgets/meter/lv_meter.c.obj
-.PHONY : src/extra/widgets/meter/lv_meter.obj
+src/extra/widgets/meter/lv_meter.o: src/extra/widgets/meter/lv_meter.c.o
+.PHONY : src/extra/widgets/meter/lv_meter.o
 
 # target to build an object file
-src/extra/widgets/meter/lv_meter.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj
-.PHONY : src/extra/widgets/meter/lv_meter.c.obj
+src/extra/widgets/meter/lv_meter.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o
+.PHONY : src/extra/widgets/meter/lv_meter.c.o
 
 src/extra/widgets/meter/lv_meter.i: src/extra/widgets/meter/lv_meter.c.i
 .PHONY : src/extra/widgets/meter/lv_meter.i
@@ -8555,13 +8555,13 @@ src/extra/widgets/meter/lv_meter.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.s
 .PHONY : src/extra/widgets/meter/lv_meter.c.s
 
-src/extra/widgets/msgbox/lv_msgbox.obj: src/extra/widgets/msgbox/lv_msgbox.c.obj
-.PHONY : src/extra/widgets/msgbox/lv_msgbox.obj
+src/extra/widgets/msgbox/lv_msgbox.o: src/extra/widgets/msgbox/lv_msgbox.c.o
+.PHONY : src/extra/widgets/msgbox/lv_msgbox.o
 
 # target to build an object file
-src/extra/widgets/msgbox/lv_msgbox.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj
-.PHONY : src/extra/widgets/msgbox/lv_msgbox.c.obj
+src/extra/widgets/msgbox/lv_msgbox.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o
+.PHONY : src/extra/widgets/msgbox/lv_msgbox.c.o
 
 src/extra/widgets/msgbox/lv_msgbox.i: src/extra/widgets/msgbox/lv_msgbox.c.i
 .PHONY : src/extra/widgets/msgbox/lv_msgbox.i
@@ -8579,13 +8579,13 @@ src/extra/widgets/msgbox/lv_msgbox.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.s
 .PHONY : src/extra/widgets/msgbox/lv_msgbox.c.s
 
-src/extra/widgets/span/lv_span.obj: src/extra/widgets/span/lv_span.c.obj
-.PHONY : src/extra/widgets/span/lv_span.obj
+src/extra/widgets/span/lv_span.o: src/extra/widgets/span/lv_span.c.o
+.PHONY : src/extra/widgets/span/lv_span.o
 
 # target to build an object file
-src/extra/widgets/span/lv_span.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj
-.PHONY : src/extra/widgets/span/lv_span.c.obj
+src/extra/widgets/span/lv_span.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o
+.PHONY : src/extra/widgets/span/lv_span.c.o
 
 src/extra/widgets/span/lv_span.i: src/extra/widgets/span/lv_span.c.i
 .PHONY : src/extra/widgets/span/lv_span.i
@@ -8603,13 +8603,13 @@ src/extra/widgets/span/lv_span.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.s
 .PHONY : src/extra/widgets/span/lv_span.c.s
 
-src/extra/widgets/spinbox/lv_spinbox.obj: src/extra/widgets/spinbox/lv_spinbox.c.obj
-.PHONY : src/extra/widgets/spinbox/lv_spinbox.obj
+src/extra/widgets/spinbox/lv_spinbox.o: src/extra/widgets/spinbox/lv_spinbox.c.o
+.PHONY : src/extra/widgets/spinbox/lv_spinbox.o
 
 # target to build an object file
-src/extra/widgets/spinbox/lv_spinbox.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj
-.PHONY : src/extra/widgets/spinbox/lv_spinbox.c.obj
+src/extra/widgets/spinbox/lv_spinbox.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o
+.PHONY : src/extra/widgets/spinbox/lv_spinbox.c.o
 
 src/extra/widgets/spinbox/lv_spinbox.i: src/extra/widgets/spinbox/lv_spinbox.c.i
 .PHONY : src/extra/widgets/spinbox/lv_spinbox.i
@@ -8627,13 +8627,13 @@ src/extra/widgets/spinbox/lv_spinbox.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.s
 .PHONY : src/extra/widgets/spinbox/lv_spinbox.c.s
 
-src/extra/widgets/spinner/lv_spinner.obj: src/extra/widgets/spinner/lv_spinner.c.obj
-.PHONY : src/extra/widgets/spinner/lv_spinner.obj
+src/extra/widgets/spinner/lv_spinner.o: src/extra/widgets/spinner/lv_spinner.c.o
+.PHONY : src/extra/widgets/spinner/lv_spinner.o
 
 # target to build an object file
-src/extra/widgets/spinner/lv_spinner.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj
-.PHONY : src/extra/widgets/spinner/lv_spinner.c.obj
+src/extra/widgets/spinner/lv_spinner.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o
+.PHONY : src/extra/widgets/spinner/lv_spinner.c.o
 
 src/extra/widgets/spinner/lv_spinner.i: src/extra/widgets/spinner/lv_spinner.c.i
 .PHONY : src/extra/widgets/spinner/lv_spinner.i
@@ -8651,13 +8651,13 @@ src/extra/widgets/spinner/lv_spinner.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.s
 .PHONY : src/extra/widgets/spinner/lv_spinner.c.s
 
-src/extra/widgets/tabview/lv_tabview.obj: src/extra/widgets/tabview/lv_tabview.c.obj
-.PHONY : src/extra/widgets/tabview/lv_tabview.obj
+src/extra/widgets/tabview/lv_tabview.o: src/extra/widgets/tabview/lv_tabview.c.o
+.PHONY : src/extra/widgets/tabview/lv_tabview.o
 
 # target to build an object file
-src/extra/widgets/tabview/lv_tabview.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj
-.PHONY : src/extra/widgets/tabview/lv_tabview.c.obj
+src/extra/widgets/tabview/lv_tabview.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o
+.PHONY : src/extra/widgets/tabview/lv_tabview.c.o
 
 src/extra/widgets/tabview/lv_tabview.i: src/extra/widgets/tabview/lv_tabview.c.i
 .PHONY : src/extra/widgets/tabview/lv_tabview.i
@@ -8675,13 +8675,13 @@ src/extra/widgets/tabview/lv_tabview.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.s
 .PHONY : src/extra/widgets/tabview/lv_tabview.c.s
 
-src/extra/widgets/tileview/lv_tileview.obj: src/extra/widgets/tileview/lv_tileview.c.obj
-.PHONY : src/extra/widgets/tileview/lv_tileview.obj
+src/extra/widgets/tileview/lv_tileview.o: src/extra/widgets/tileview/lv_tileview.c.o
+.PHONY : src/extra/widgets/tileview/lv_tileview.o
 
 # target to build an object file
-src/extra/widgets/tileview/lv_tileview.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj
-.PHONY : src/extra/widgets/tileview/lv_tileview.c.obj
+src/extra/widgets/tileview/lv_tileview.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o
+.PHONY : src/extra/widgets/tileview/lv_tileview.c.o
 
 src/extra/widgets/tileview/lv_tileview.i: src/extra/widgets/tileview/lv_tileview.c.i
 .PHONY : src/extra/widgets/tileview/lv_tileview.i
@@ -8699,13 +8699,13 @@ src/extra/widgets/tileview/lv_tileview.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.s
 .PHONY : src/extra/widgets/tileview/lv_tileview.c.s
 
-src/extra/widgets/win/lv_win.obj: src/extra/widgets/win/lv_win.c.obj
-.PHONY : src/extra/widgets/win/lv_win.obj
+src/extra/widgets/win/lv_win.o: src/extra/widgets/win/lv_win.c.o
+.PHONY : src/extra/widgets/win/lv_win.o
 
 # target to build an object file
-src/extra/widgets/win/lv_win.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj
-.PHONY : src/extra/widgets/win/lv_win.c.obj
+src/extra/widgets/win/lv_win.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o
+.PHONY : src/extra/widgets/win/lv_win.c.o
 
 src/extra/widgets/win/lv_win.i: src/extra/widgets/win/lv_win.c.i
 .PHONY : src/extra/widgets/win/lv_win.i
@@ -8723,13 +8723,13 @@ src/extra/widgets/win/lv_win.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.s
 .PHONY : src/extra/widgets/win/lv_win.c.s
 
-src/font/lv_font.obj: src/font/lv_font.c.obj
-.PHONY : src/font/lv_font.obj
+src/font/lv_font.o: src/font/lv_font.c.o
+.PHONY : src/font/lv_font.o
 
 # target to build an object file
-src/font/lv_font.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj
-.PHONY : src/font/lv_font.c.obj
+src/font/lv_font.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o
+.PHONY : src/font/lv_font.c.o
 
 src/font/lv_font.i: src/font/lv_font.c.i
 .PHONY : src/font/lv_font.i
@@ -8747,13 +8747,13 @@ src/font/lv_font.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.s
 .PHONY : src/font/lv_font.c.s
 
-src/font/lv_font_dejavu_16_persian_hebrew.obj: src/font/lv_font_dejavu_16_persian_hebrew.c.obj
-.PHONY : src/font/lv_font_dejavu_16_persian_hebrew.obj
+src/font/lv_font_dejavu_16_persian_hebrew.o: src/font/lv_font_dejavu_16_persian_hebrew.c.o
+.PHONY : src/font/lv_font_dejavu_16_persian_hebrew.o
 
 # target to build an object file
-src/font/lv_font_dejavu_16_persian_hebrew.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
-.PHONY : src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+src/font/lv_font_dejavu_16_persian_hebrew.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o
+.PHONY : src/font/lv_font_dejavu_16_persian_hebrew.c.o
 
 src/font/lv_font_dejavu_16_persian_hebrew.i: src/font/lv_font_dejavu_16_persian_hebrew.c.i
 .PHONY : src/font/lv_font_dejavu_16_persian_hebrew.i
@@ -8771,13 +8771,13 @@ src/font/lv_font_dejavu_16_persian_hebrew.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.s
 .PHONY : src/font/lv_font_dejavu_16_persian_hebrew.c.s
 
-src/font/lv_font_fmt_txt.obj: src/font/lv_font_fmt_txt.c.obj
-.PHONY : src/font/lv_font_fmt_txt.obj
+src/font/lv_font_fmt_txt.o: src/font/lv_font_fmt_txt.c.o
+.PHONY : src/font/lv_font_fmt_txt.o
 
 # target to build an object file
-src/font/lv_font_fmt_txt.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj
-.PHONY : src/font/lv_font_fmt_txt.c.obj
+src/font/lv_font_fmt_txt.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o
+.PHONY : src/font/lv_font_fmt_txt.c.o
 
 src/font/lv_font_fmt_txt.i: src/font/lv_font_fmt_txt.c.i
 .PHONY : src/font/lv_font_fmt_txt.i
@@ -8795,13 +8795,13 @@ src/font/lv_font_fmt_txt.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.s
 .PHONY : src/font/lv_font_fmt_txt.c.s
 
-src/font/lv_font_loader.obj: src/font/lv_font_loader.c.obj
-.PHONY : src/font/lv_font_loader.obj
+src/font/lv_font_loader.o: src/font/lv_font_loader.c.o
+.PHONY : src/font/lv_font_loader.o
 
 # target to build an object file
-src/font/lv_font_loader.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj
-.PHONY : src/font/lv_font_loader.c.obj
+src/font/lv_font_loader.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o
+.PHONY : src/font/lv_font_loader.c.o
 
 src/font/lv_font_loader.i: src/font/lv_font_loader.c.i
 .PHONY : src/font/lv_font_loader.i
@@ -8819,13 +8819,13 @@ src/font/lv_font_loader.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.s
 .PHONY : src/font/lv_font_loader.c.s
 
-src/font/lv_font_montserrat_10.obj: src/font/lv_font_montserrat_10.c.obj
-.PHONY : src/font/lv_font_montserrat_10.obj
+src/font/lv_font_montserrat_10.o: src/font/lv_font_montserrat_10.c.o
+.PHONY : src/font/lv_font_montserrat_10.o
 
 # target to build an object file
-src/font/lv_font_montserrat_10.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj
-.PHONY : src/font/lv_font_montserrat_10.c.obj
+src/font/lv_font_montserrat_10.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o
+.PHONY : src/font/lv_font_montserrat_10.c.o
 
 src/font/lv_font_montserrat_10.i: src/font/lv_font_montserrat_10.c.i
 .PHONY : src/font/lv_font_montserrat_10.i
@@ -8843,13 +8843,13 @@ src/font/lv_font_montserrat_10.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.s
 .PHONY : src/font/lv_font_montserrat_10.c.s
 
-src/font/lv_font_montserrat_12.obj: src/font/lv_font_montserrat_12.c.obj
-.PHONY : src/font/lv_font_montserrat_12.obj
+src/font/lv_font_montserrat_12.o: src/font/lv_font_montserrat_12.c.o
+.PHONY : src/font/lv_font_montserrat_12.o
 
 # target to build an object file
-src/font/lv_font_montserrat_12.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj
-.PHONY : src/font/lv_font_montserrat_12.c.obj
+src/font/lv_font_montserrat_12.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o
+.PHONY : src/font/lv_font_montserrat_12.c.o
 
 src/font/lv_font_montserrat_12.i: src/font/lv_font_montserrat_12.c.i
 .PHONY : src/font/lv_font_montserrat_12.i
@@ -8867,13 +8867,13 @@ src/font/lv_font_montserrat_12.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.s
 .PHONY : src/font/lv_font_montserrat_12.c.s
 
-src/font/lv_font_montserrat_12_subpx.obj: src/font/lv_font_montserrat_12_subpx.c.obj
-.PHONY : src/font/lv_font_montserrat_12_subpx.obj
+src/font/lv_font_montserrat_12_subpx.o: src/font/lv_font_montserrat_12_subpx.c.o
+.PHONY : src/font/lv_font_montserrat_12_subpx.o
 
 # target to build an object file
-src/font/lv_font_montserrat_12_subpx.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj
-.PHONY : src/font/lv_font_montserrat_12_subpx.c.obj
+src/font/lv_font_montserrat_12_subpx.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o
+.PHONY : src/font/lv_font_montserrat_12_subpx.c.o
 
 src/font/lv_font_montserrat_12_subpx.i: src/font/lv_font_montserrat_12_subpx.c.i
 .PHONY : src/font/lv_font_montserrat_12_subpx.i
@@ -8891,13 +8891,13 @@ src/font/lv_font_montserrat_12_subpx.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.s
 .PHONY : src/font/lv_font_montserrat_12_subpx.c.s
 
-src/font/lv_font_montserrat_14.obj: src/font/lv_font_montserrat_14.c.obj
-.PHONY : src/font/lv_font_montserrat_14.obj
+src/font/lv_font_montserrat_14.o: src/font/lv_font_montserrat_14.c.o
+.PHONY : src/font/lv_font_montserrat_14.o
 
 # target to build an object file
-src/font/lv_font_montserrat_14.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj
-.PHONY : src/font/lv_font_montserrat_14.c.obj
+src/font/lv_font_montserrat_14.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o
+.PHONY : src/font/lv_font_montserrat_14.c.o
 
 src/font/lv_font_montserrat_14.i: src/font/lv_font_montserrat_14.c.i
 .PHONY : src/font/lv_font_montserrat_14.i
@@ -8915,13 +8915,13 @@ src/font/lv_font_montserrat_14.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s
 .PHONY : src/font/lv_font_montserrat_14.c.s
 
-src/font/lv_font_montserrat_16.obj: src/font/lv_font_montserrat_16.c.obj
-.PHONY : src/font/lv_font_montserrat_16.obj
+src/font/lv_font_montserrat_16.o: src/font/lv_font_montserrat_16.c.o
+.PHONY : src/font/lv_font_montserrat_16.o
 
 # target to build an object file
-src/font/lv_font_montserrat_16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj
-.PHONY : src/font/lv_font_montserrat_16.c.obj
+src/font/lv_font_montserrat_16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o
+.PHONY : src/font/lv_font_montserrat_16.c.o
 
 src/font/lv_font_montserrat_16.i: src/font/lv_font_montserrat_16.c.i
 .PHONY : src/font/lv_font_montserrat_16.i
@@ -8939,13 +8939,13 @@ src/font/lv_font_montserrat_16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.s
 .PHONY : src/font/lv_font_montserrat_16.c.s
 
-src/font/lv_font_montserrat_18.obj: src/font/lv_font_montserrat_18.c.obj
-.PHONY : src/font/lv_font_montserrat_18.obj
+src/font/lv_font_montserrat_18.o: src/font/lv_font_montserrat_18.c.o
+.PHONY : src/font/lv_font_montserrat_18.o
 
 # target to build an object file
-src/font/lv_font_montserrat_18.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj
-.PHONY : src/font/lv_font_montserrat_18.c.obj
+src/font/lv_font_montserrat_18.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o
+.PHONY : src/font/lv_font_montserrat_18.c.o
 
 src/font/lv_font_montserrat_18.i: src/font/lv_font_montserrat_18.c.i
 .PHONY : src/font/lv_font_montserrat_18.i
@@ -8963,13 +8963,13 @@ src/font/lv_font_montserrat_18.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.s
 .PHONY : src/font/lv_font_montserrat_18.c.s
 
-src/font/lv_font_montserrat_20.obj: src/font/lv_font_montserrat_20.c.obj
-.PHONY : src/font/lv_font_montserrat_20.obj
+src/font/lv_font_montserrat_20.o: src/font/lv_font_montserrat_20.c.o
+.PHONY : src/font/lv_font_montserrat_20.o
 
 # target to build an object file
-src/font/lv_font_montserrat_20.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj
-.PHONY : src/font/lv_font_montserrat_20.c.obj
+src/font/lv_font_montserrat_20.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o
+.PHONY : src/font/lv_font_montserrat_20.c.o
 
 src/font/lv_font_montserrat_20.i: src/font/lv_font_montserrat_20.c.i
 .PHONY : src/font/lv_font_montserrat_20.i
@@ -8987,13 +8987,13 @@ src/font/lv_font_montserrat_20.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.s
 .PHONY : src/font/lv_font_montserrat_20.c.s
 
-src/font/lv_font_montserrat_22.obj: src/font/lv_font_montserrat_22.c.obj
-.PHONY : src/font/lv_font_montserrat_22.obj
+src/font/lv_font_montserrat_22.o: src/font/lv_font_montserrat_22.c.o
+.PHONY : src/font/lv_font_montserrat_22.o
 
 # target to build an object file
-src/font/lv_font_montserrat_22.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj
-.PHONY : src/font/lv_font_montserrat_22.c.obj
+src/font/lv_font_montserrat_22.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o
+.PHONY : src/font/lv_font_montserrat_22.c.o
 
 src/font/lv_font_montserrat_22.i: src/font/lv_font_montserrat_22.c.i
 .PHONY : src/font/lv_font_montserrat_22.i
@@ -9011,13 +9011,13 @@ src/font/lv_font_montserrat_22.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.s
 .PHONY : src/font/lv_font_montserrat_22.c.s
 
-src/font/lv_font_montserrat_24.obj: src/font/lv_font_montserrat_24.c.obj
-.PHONY : src/font/lv_font_montserrat_24.obj
+src/font/lv_font_montserrat_24.o: src/font/lv_font_montserrat_24.c.o
+.PHONY : src/font/lv_font_montserrat_24.o
 
 # target to build an object file
-src/font/lv_font_montserrat_24.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj
-.PHONY : src/font/lv_font_montserrat_24.c.obj
+src/font/lv_font_montserrat_24.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o
+.PHONY : src/font/lv_font_montserrat_24.c.o
 
 src/font/lv_font_montserrat_24.i: src/font/lv_font_montserrat_24.c.i
 .PHONY : src/font/lv_font_montserrat_24.i
@@ -9035,13 +9035,13 @@ src/font/lv_font_montserrat_24.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.s
 .PHONY : src/font/lv_font_montserrat_24.c.s
 
-src/font/lv_font_montserrat_26.obj: src/font/lv_font_montserrat_26.c.obj
-.PHONY : src/font/lv_font_montserrat_26.obj
+src/font/lv_font_montserrat_26.o: src/font/lv_font_montserrat_26.c.o
+.PHONY : src/font/lv_font_montserrat_26.o
 
 # target to build an object file
-src/font/lv_font_montserrat_26.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj
-.PHONY : src/font/lv_font_montserrat_26.c.obj
+src/font/lv_font_montserrat_26.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o
+.PHONY : src/font/lv_font_montserrat_26.c.o
 
 src/font/lv_font_montserrat_26.i: src/font/lv_font_montserrat_26.c.i
 .PHONY : src/font/lv_font_montserrat_26.i
@@ -9059,13 +9059,13 @@ src/font/lv_font_montserrat_26.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.s
 .PHONY : src/font/lv_font_montserrat_26.c.s
 
-src/font/lv_font_montserrat_28.obj: src/font/lv_font_montserrat_28.c.obj
-.PHONY : src/font/lv_font_montserrat_28.obj
+src/font/lv_font_montserrat_28.o: src/font/lv_font_montserrat_28.c.o
+.PHONY : src/font/lv_font_montserrat_28.o
 
 # target to build an object file
-src/font/lv_font_montserrat_28.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj
-.PHONY : src/font/lv_font_montserrat_28.c.obj
+src/font/lv_font_montserrat_28.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o
+.PHONY : src/font/lv_font_montserrat_28.c.o
 
 src/font/lv_font_montserrat_28.i: src/font/lv_font_montserrat_28.c.i
 .PHONY : src/font/lv_font_montserrat_28.i
@@ -9083,13 +9083,13 @@ src/font/lv_font_montserrat_28.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.s
 .PHONY : src/font/lv_font_montserrat_28.c.s
 
-src/font/lv_font_montserrat_28_compressed.obj: src/font/lv_font_montserrat_28_compressed.c.obj
-.PHONY : src/font/lv_font_montserrat_28_compressed.obj
+src/font/lv_font_montserrat_28_compressed.o: src/font/lv_font_montserrat_28_compressed.c.o
+.PHONY : src/font/lv_font_montserrat_28_compressed.o
 
 # target to build an object file
-src/font/lv_font_montserrat_28_compressed.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj
-.PHONY : src/font/lv_font_montserrat_28_compressed.c.obj
+src/font/lv_font_montserrat_28_compressed.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o
+.PHONY : src/font/lv_font_montserrat_28_compressed.c.o
 
 src/font/lv_font_montserrat_28_compressed.i: src/font/lv_font_montserrat_28_compressed.c.i
 .PHONY : src/font/lv_font_montserrat_28_compressed.i
@@ -9107,13 +9107,13 @@ src/font/lv_font_montserrat_28_compressed.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.s
 .PHONY : src/font/lv_font_montserrat_28_compressed.c.s
 
-src/font/lv_font_montserrat_30.obj: src/font/lv_font_montserrat_30.c.obj
-.PHONY : src/font/lv_font_montserrat_30.obj
+src/font/lv_font_montserrat_30.o: src/font/lv_font_montserrat_30.c.o
+.PHONY : src/font/lv_font_montserrat_30.o
 
 # target to build an object file
-src/font/lv_font_montserrat_30.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj
-.PHONY : src/font/lv_font_montserrat_30.c.obj
+src/font/lv_font_montserrat_30.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o
+.PHONY : src/font/lv_font_montserrat_30.c.o
 
 src/font/lv_font_montserrat_30.i: src/font/lv_font_montserrat_30.c.i
 .PHONY : src/font/lv_font_montserrat_30.i
@@ -9131,13 +9131,13 @@ src/font/lv_font_montserrat_30.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.s
 .PHONY : src/font/lv_font_montserrat_30.c.s
 
-src/font/lv_font_montserrat_32.obj: src/font/lv_font_montserrat_32.c.obj
-.PHONY : src/font/lv_font_montserrat_32.obj
+src/font/lv_font_montserrat_32.o: src/font/lv_font_montserrat_32.c.o
+.PHONY : src/font/lv_font_montserrat_32.o
 
 # target to build an object file
-src/font/lv_font_montserrat_32.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj
-.PHONY : src/font/lv_font_montserrat_32.c.obj
+src/font/lv_font_montserrat_32.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o
+.PHONY : src/font/lv_font_montserrat_32.c.o
 
 src/font/lv_font_montserrat_32.i: src/font/lv_font_montserrat_32.c.i
 .PHONY : src/font/lv_font_montserrat_32.i
@@ -9155,13 +9155,13 @@ src/font/lv_font_montserrat_32.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.s
 .PHONY : src/font/lv_font_montserrat_32.c.s
 
-src/font/lv_font_montserrat_34.obj: src/font/lv_font_montserrat_34.c.obj
-.PHONY : src/font/lv_font_montserrat_34.obj
+src/font/lv_font_montserrat_34.o: src/font/lv_font_montserrat_34.c.o
+.PHONY : src/font/lv_font_montserrat_34.o
 
 # target to build an object file
-src/font/lv_font_montserrat_34.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj
-.PHONY : src/font/lv_font_montserrat_34.c.obj
+src/font/lv_font_montserrat_34.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o
+.PHONY : src/font/lv_font_montserrat_34.c.o
 
 src/font/lv_font_montserrat_34.i: src/font/lv_font_montserrat_34.c.i
 .PHONY : src/font/lv_font_montserrat_34.i
@@ -9179,13 +9179,13 @@ src/font/lv_font_montserrat_34.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.s
 .PHONY : src/font/lv_font_montserrat_34.c.s
 
-src/font/lv_font_montserrat_36.obj: src/font/lv_font_montserrat_36.c.obj
-.PHONY : src/font/lv_font_montserrat_36.obj
+src/font/lv_font_montserrat_36.o: src/font/lv_font_montserrat_36.c.o
+.PHONY : src/font/lv_font_montserrat_36.o
 
 # target to build an object file
-src/font/lv_font_montserrat_36.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj
-.PHONY : src/font/lv_font_montserrat_36.c.obj
+src/font/lv_font_montserrat_36.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o
+.PHONY : src/font/lv_font_montserrat_36.c.o
 
 src/font/lv_font_montserrat_36.i: src/font/lv_font_montserrat_36.c.i
 .PHONY : src/font/lv_font_montserrat_36.i
@@ -9203,13 +9203,13 @@ src/font/lv_font_montserrat_36.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.s
 .PHONY : src/font/lv_font_montserrat_36.c.s
 
-src/font/lv_font_montserrat_38.obj: src/font/lv_font_montserrat_38.c.obj
-.PHONY : src/font/lv_font_montserrat_38.obj
+src/font/lv_font_montserrat_38.o: src/font/lv_font_montserrat_38.c.o
+.PHONY : src/font/lv_font_montserrat_38.o
 
 # target to build an object file
-src/font/lv_font_montserrat_38.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj
-.PHONY : src/font/lv_font_montserrat_38.c.obj
+src/font/lv_font_montserrat_38.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o
+.PHONY : src/font/lv_font_montserrat_38.c.o
 
 src/font/lv_font_montserrat_38.i: src/font/lv_font_montserrat_38.c.i
 .PHONY : src/font/lv_font_montserrat_38.i
@@ -9227,13 +9227,13 @@ src/font/lv_font_montserrat_38.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.s
 .PHONY : src/font/lv_font_montserrat_38.c.s
 
-src/font/lv_font_montserrat_40.obj: src/font/lv_font_montserrat_40.c.obj
-.PHONY : src/font/lv_font_montserrat_40.obj
+src/font/lv_font_montserrat_40.o: src/font/lv_font_montserrat_40.c.o
+.PHONY : src/font/lv_font_montserrat_40.o
 
 # target to build an object file
-src/font/lv_font_montserrat_40.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj
-.PHONY : src/font/lv_font_montserrat_40.c.obj
+src/font/lv_font_montserrat_40.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o
+.PHONY : src/font/lv_font_montserrat_40.c.o
 
 src/font/lv_font_montserrat_40.i: src/font/lv_font_montserrat_40.c.i
 .PHONY : src/font/lv_font_montserrat_40.i
@@ -9251,13 +9251,13 @@ src/font/lv_font_montserrat_40.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.s
 .PHONY : src/font/lv_font_montserrat_40.c.s
 
-src/font/lv_font_montserrat_42.obj: src/font/lv_font_montserrat_42.c.obj
-.PHONY : src/font/lv_font_montserrat_42.obj
+src/font/lv_font_montserrat_42.o: src/font/lv_font_montserrat_42.c.o
+.PHONY : src/font/lv_font_montserrat_42.o
 
 # target to build an object file
-src/font/lv_font_montserrat_42.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj
-.PHONY : src/font/lv_font_montserrat_42.c.obj
+src/font/lv_font_montserrat_42.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o
+.PHONY : src/font/lv_font_montserrat_42.c.o
 
 src/font/lv_font_montserrat_42.i: src/font/lv_font_montserrat_42.c.i
 .PHONY : src/font/lv_font_montserrat_42.i
@@ -9275,13 +9275,13 @@ src/font/lv_font_montserrat_42.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.s
 .PHONY : src/font/lv_font_montserrat_42.c.s
 
-src/font/lv_font_montserrat_44.obj: src/font/lv_font_montserrat_44.c.obj
-.PHONY : src/font/lv_font_montserrat_44.obj
+src/font/lv_font_montserrat_44.o: src/font/lv_font_montserrat_44.c.o
+.PHONY : src/font/lv_font_montserrat_44.o
 
 # target to build an object file
-src/font/lv_font_montserrat_44.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj
-.PHONY : src/font/lv_font_montserrat_44.c.obj
+src/font/lv_font_montserrat_44.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o
+.PHONY : src/font/lv_font_montserrat_44.c.o
 
 src/font/lv_font_montserrat_44.i: src/font/lv_font_montserrat_44.c.i
 .PHONY : src/font/lv_font_montserrat_44.i
@@ -9299,13 +9299,13 @@ src/font/lv_font_montserrat_44.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.s
 .PHONY : src/font/lv_font_montserrat_44.c.s
 
-src/font/lv_font_montserrat_46.obj: src/font/lv_font_montserrat_46.c.obj
-.PHONY : src/font/lv_font_montserrat_46.obj
+src/font/lv_font_montserrat_46.o: src/font/lv_font_montserrat_46.c.o
+.PHONY : src/font/lv_font_montserrat_46.o
 
 # target to build an object file
-src/font/lv_font_montserrat_46.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj
-.PHONY : src/font/lv_font_montserrat_46.c.obj
+src/font/lv_font_montserrat_46.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o
+.PHONY : src/font/lv_font_montserrat_46.c.o
 
 src/font/lv_font_montserrat_46.i: src/font/lv_font_montserrat_46.c.i
 .PHONY : src/font/lv_font_montserrat_46.i
@@ -9323,13 +9323,13 @@ src/font/lv_font_montserrat_46.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.s
 .PHONY : src/font/lv_font_montserrat_46.c.s
 
-src/font/lv_font_montserrat_48.obj: src/font/lv_font_montserrat_48.c.obj
-.PHONY : src/font/lv_font_montserrat_48.obj
+src/font/lv_font_montserrat_48.o: src/font/lv_font_montserrat_48.c.o
+.PHONY : src/font/lv_font_montserrat_48.o
 
 # target to build an object file
-src/font/lv_font_montserrat_48.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj
-.PHONY : src/font/lv_font_montserrat_48.c.obj
+src/font/lv_font_montserrat_48.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o
+.PHONY : src/font/lv_font_montserrat_48.c.o
 
 src/font/lv_font_montserrat_48.i: src/font/lv_font_montserrat_48.c.i
 .PHONY : src/font/lv_font_montserrat_48.i
@@ -9347,13 +9347,13 @@ src/font/lv_font_montserrat_48.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.s
 .PHONY : src/font/lv_font_montserrat_48.c.s
 
-src/font/lv_font_montserrat_8.obj: src/font/lv_font_montserrat_8.c.obj
-.PHONY : src/font/lv_font_montserrat_8.obj
+src/font/lv_font_montserrat_8.o: src/font/lv_font_montserrat_8.c.o
+.PHONY : src/font/lv_font_montserrat_8.o
 
 # target to build an object file
-src/font/lv_font_montserrat_8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj
-.PHONY : src/font/lv_font_montserrat_8.c.obj
+src/font/lv_font_montserrat_8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o
+.PHONY : src/font/lv_font_montserrat_8.c.o
 
 src/font/lv_font_montserrat_8.i: src/font/lv_font_montserrat_8.c.i
 .PHONY : src/font/lv_font_montserrat_8.i
@@ -9371,13 +9371,13 @@ src/font/lv_font_montserrat_8.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.s
 .PHONY : src/font/lv_font_montserrat_8.c.s
 
-src/font/lv_font_simsun_16_cjk.obj: src/font/lv_font_simsun_16_cjk.c.obj
-.PHONY : src/font/lv_font_simsun_16_cjk.obj
+src/font/lv_font_simsun_16_cjk.o: src/font/lv_font_simsun_16_cjk.c.o
+.PHONY : src/font/lv_font_simsun_16_cjk.o
 
 # target to build an object file
-src/font/lv_font_simsun_16_cjk.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj
-.PHONY : src/font/lv_font_simsun_16_cjk.c.obj
+src/font/lv_font_simsun_16_cjk.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o
+.PHONY : src/font/lv_font_simsun_16_cjk.c.o
 
 src/font/lv_font_simsun_16_cjk.i: src/font/lv_font_simsun_16_cjk.c.i
 .PHONY : src/font/lv_font_simsun_16_cjk.i
@@ -9395,13 +9395,13 @@ src/font/lv_font_simsun_16_cjk.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s
 .PHONY : src/font/lv_font_simsun_16_cjk.c.s
 
-src/font/lv_font_unscii_16.obj: src/font/lv_font_unscii_16.c.obj
-.PHONY : src/font/lv_font_unscii_16.obj
+src/font/lv_font_unscii_16.o: src/font/lv_font_unscii_16.c.o
+.PHONY : src/font/lv_font_unscii_16.o
 
 # target to build an object file
-src/font/lv_font_unscii_16.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj
-.PHONY : src/font/lv_font_unscii_16.c.obj
+src/font/lv_font_unscii_16.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o
+.PHONY : src/font/lv_font_unscii_16.c.o
 
 src/font/lv_font_unscii_16.i: src/font/lv_font_unscii_16.c.i
 .PHONY : src/font/lv_font_unscii_16.i
@@ -9419,13 +9419,13 @@ src/font/lv_font_unscii_16.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.s
 .PHONY : src/font/lv_font_unscii_16.c.s
 
-src/font/lv_font_unscii_8.obj: src/font/lv_font_unscii_8.c.obj
-.PHONY : src/font/lv_font_unscii_8.obj
+src/font/lv_font_unscii_8.o: src/font/lv_font_unscii_8.c.o
+.PHONY : src/font/lv_font_unscii_8.o
 
 # target to build an object file
-src/font/lv_font_unscii_8.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj
-.PHONY : src/font/lv_font_unscii_8.c.obj
+src/font/lv_font_unscii_8.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o
+.PHONY : src/font/lv_font_unscii_8.c.o
 
 src/font/lv_font_unscii_8.i: src/font/lv_font_unscii_8.c.i
 .PHONY : src/font/lv_font_unscii_8.i
@@ -9443,13 +9443,13 @@ src/font/lv_font_unscii_8.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.s
 .PHONY : src/font/lv_font_unscii_8.c.s
 
-src/hal/lv_hal_disp.obj: src/hal/lv_hal_disp.c.obj
-.PHONY : src/hal/lv_hal_disp.obj
+src/hal/lv_hal_disp.o: src/hal/lv_hal_disp.c.o
+.PHONY : src/hal/lv_hal_disp.o
 
 # target to build an object file
-src/hal/lv_hal_disp.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj
-.PHONY : src/hal/lv_hal_disp.c.obj
+src/hal/lv_hal_disp.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o
+.PHONY : src/hal/lv_hal_disp.c.o
 
 src/hal/lv_hal_disp.i: src/hal/lv_hal_disp.c.i
 .PHONY : src/hal/lv_hal_disp.i
@@ -9467,13 +9467,13 @@ src/hal/lv_hal_disp.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.s
 .PHONY : src/hal/lv_hal_disp.c.s
 
-src/hal/lv_hal_indev.obj: src/hal/lv_hal_indev.c.obj
-.PHONY : src/hal/lv_hal_indev.obj
+src/hal/lv_hal_indev.o: src/hal/lv_hal_indev.c.o
+.PHONY : src/hal/lv_hal_indev.o
 
 # target to build an object file
-src/hal/lv_hal_indev.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj
-.PHONY : src/hal/lv_hal_indev.c.obj
+src/hal/lv_hal_indev.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o
+.PHONY : src/hal/lv_hal_indev.c.o
 
 src/hal/lv_hal_indev.i: src/hal/lv_hal_indev.c.i
 .PHONY : src/hal/lv_hal_indev.i
@@ -9491,13 +9491,13 @@ src/hal/lv_hal_indev.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.s
 .PHONY : src/hal/lv_hal_indev.c.s
 
-src/hal/lv_hal_tick.obj: src/hal/lv_hal_tick.c.obj
-.PHONY : src/hal/lv_hal_tick.obj
+src/hal/lv_hal_tick.o: src/hal/lv_hal_tick.c.o
+.PHONY : src/hal/lv_hal_tick.o
 
 # target to build an object file
-src/hal/lv_hal_tick.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj
-.PHONY : src/hal/lv_hal_tick.c.obj
+src/hal/lv_hal_tick.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o
+.PHONY : src/hal/lv_hal_tick.c.o
 
 src/hal/lv_hal_tick.i: src/hal/lv_hal_tick.c.i
 .PHONY : src/hal/lv_hal_tick.i
@@ -9515,13 +9515,13 @@ src/hal/lv_hal_tick.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.s
 .PHONY : src/hal/lv_hal_tick.c.s
 
-src/misc/lv_anim.obj: src/misc/lv_anim.c.obj
-.PHONY : src/misc/lv_anim.obj
+src/misc/lv_anim.o: src/misc/lv_anim.c.o
+.PHONY : src/misc/lv_anim.o
 
 # target to build an object file
-src/misc/lv_anim.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj
-.PHONY : src/misc/lv_anim.c.obj
+src/misc/lv_anim.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o
+.PHONY : src/misc/lv_anim.c.o
 
 src/misc/lv_anim.i: src/misc/lv_anim.c.i
 .PHONY : src/misc/lv_anim.i
@@ -9539,13 +9539,13 @@ src/misc/lv_anim.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.s
 .PHONY : src/misc/lv_anim.c.s
 
-src/misc/lv_anim_timeline.obj: src/misc/lv_anim_timeline.c.obj
-.PHONY : src/misc/lv_anim_timeline.obj
+src/misc/lv_anim_timeline.o: src/misc/lv_anim_timeline.c.o
+.PHONY : src/misc/lv_anim_timeline.o
 
 # target to build an object file
-src/misc/lv_anim_timeline.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj
-.PHONY : src/misc/lv_anim_timeline.c.obj
+src/misc/lv_anim_timeline.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o
+.PHONY : src/misc/lv_anim_timeline.c.o
 
 src/misc/lv_anim_timeline.i: src/misc/lv_anim_timeline.c.i
 .PHONY : src/misc/lv_anim_timeline.i
@@ -9563,13 +9563,13 @@ src/misc/lv_anim_timeline.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.s
 .PHONY : src/misc/lv_anim_timeline.c.s
 
-src/misc/lv_area.obj: src/misc/lv_area.c.obj
-.PHONY : src/misc/lv_area.obj
+src/misc/lv_area.o: src/misc/lv_area.c.o
+.PHONY : src/misc/lv_area.o
 
 # target to build an object file
-src/misc/lv_area.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj
-.PHONY : src/misc/lv_area.c.obj
+src/misc/lv_area.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o
+.PHONY : src/misc/lv_area.c.o
 
 src/misc/lv_area.i: src/misc/lv_area.c.i
 .PHONY : src/misc/lv_area.i
@@ -9587,13 +9587,13 @@ src/misc/lv_area.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.s
 .PHONY : src/misc/lv_area.c.s
 
-src/misc/lv_async.obj: src/misc/lv_async.c.obj
-.PHONY : src/misc/lv_async.obj
+src/misc/lv_async.o: src/misc/lv_async.c.o
+.PHONY : src/misc/lv_async.o
 
 # target to build an object file
-src/misc/lv_async.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj
-.PHONY : src/misc/lv_async.c.obj
+src/misc/lv_async.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o
+.PHONY : src/misc/lv_async.c.o
 
 src/misc/lv_async.i: src/misc/lv_async.c.i
 .PHONY : src/misc/lv_async.i
@@ -9611,13 +9611,13 @@ src/misc/lv_async.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.s
 .PHONY : src/misc/lv_async.c.s
 
-src/misc/lv_bidi.obj: src/misc/lv_bidi.c.obj
-.PHONY : src/misc/lv_bidi.obj
+src/misc/lv_bidi.o: src/misc/lv_bidi.c.o
+.PHONY : src/misc/lv_bidi.o
 
 # target to build an object file
-src/misc/lv_bidi.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj
-.PHONY : src/misc/lv_bidi.c.obj
+src/misc/lv_bidi.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o
+.PHONY : src/misc/lv_bidi.c.o
 
 src/misc/lv_bidi.i: src/misc/lv_bidi.c.i
 .PHONY : src/misc/lv_bidi.i
@@ -9635,13 +9635,13 @@ src/misc/lv_bidi.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.s
 .PHONY : src/misc/lv_bidi.c.s
 
-src/misc/lv_color.obj: src/misc/lv_color.c.obj
-.PHONY : src/misc/lv_color.obj
+src/misc/lv_color.o: src/misc/lv_color.c.o
+.PHONY : src/misc/lv_color.o
 
 # target to build an object file
-src/misc/lv_color.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj
-.PHONY : src/misc/lv_color.c.obj
+src/misc/lv_color.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o
+.PHONY : src/misc/lv_color.c.o
 
 src/misc/lv_color.i: src/misc/lv_color.c.i
 .PHONY : src/misc/lv_color.i
@@ -9659,13 +9659,13 @@ src/misc/lv_color.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.s
 .PHONY : src/misc/lv_color.c.s
 
-src/misc/lv_fs.obj: src/misc/lv_fs.c.obj
-.PHONY : src/misc/lv_fs.obj
+src/misc/lv_fs.o: src/misc/lv_fs.c.o
+.PHONY : src/misc/lv_fs.o
 
 # target to build an object file
-src/misc/lv_fs.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj
-.PHONY : src/misc/lv_fs.c.obj
+src/misc/lv_fs.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o
+.PHONY : src/misc/lv_fs.c.o
 
 src/misc/lv_fs.i: src/misc/lv_fs.c.i
 .PHONY : src/misc/lv_fs.i
@@ -9683,13 +9683,13 @@ src/misc/lv_fs.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.s
 .PHONY : src/misc/lv_fs.c.s
 
-src/misc/lv_gc.obj: src/misc/lv_gc.c.obj
-.PHONY : src/misc/lv_gc.obj
+src/misc/lv_gc.o: src/misc/lv_gc.c.o
+.PHONY : src/misc/lv_gc.o
 
 # target to build an object file
-src/misc/lv_gc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj
-.PHONY : src/misc/lv_gc.c.obj
+src/misc/lv_gc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o
+.PHONY : src/misc/lv_gc.c.o
 
 src/misc/lv_gc.i: src/misc/lv_gc.c.i
 .PHONY : src/misc/lv_gc.i
@@ -9707,13 +9707,13 @@ src/misc/lv_gc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.s
 .PHONY : src/misc/lv_gc.c.s
 
-src/misc/lv_ll.obj: src/misc/lv_ll.c.obj
-.PHONY : src/misc/lv_ll.obj
+src/misc/lv_ll.o: src/misc/lv_ll.c.o
+.PHONY : src/misc/lv_ll.o
 
 # target to build an object file
-src/misc/lv_ll.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj
-.PHONY : src/misc/lv_ll.c.obj
+src/misc/lv_ll.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o
+.PHONY : src/misc/lv_ll.c.o
 
 src/misc/lv_ll.i: src/misc/lv_ll.c.i
 .PHONY : src/misc/lv_ll.i
@@ -9731,13 +9731,13 @@ src/misc/lv_ll.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.s
 .PHONY : src/misc/lv_ll.c.s
 
-src/misc/lv_log.obj: src/misc/lv_log.c.obj
-.PHONY : src/misc/lv_log.obj
+src/misc/lv_log.o: src/misc/lv_log.c.o
+.PHONY : src/misc/lv_log.o
 
 # target to build an object file
-src/misc/lv_log.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj
-.PHONY : src/misc/lv_log.c.obj
+src/misc/lv_log.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o
+.PHONY : src/misc/lv_log.c.o
 
 src/misc/lv_log.i: src/misc/lv_log.c.i
 .PHONY : src/misc/lv_log.i
@@ -9755,13 +9755,13 @@ src/misc/lv_log.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.s
 .PHONY : src/misc/lv_log.c.s
 
-src/misc/lv_lru.obj: src/misc/lv_lru.c.obj
-.PHONY : src/misc/lv_lru.obj
+src/misc/lv_lru.o: src/misc/lv_lru.c.o
+.PHONY : src/misc/lv_lru.o
 
 # target to build an object file
-src/misc/lv_lru.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj
-.PHONY : src/misc/lv_lru.c.obj
+src/misc/lv_lru.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o
+.PHONY : src/misc/lv_lru.c.o
 
 src/misc/lv_lru.i: src/misc/lv_lru.c.i
 .PHONY : src/misc/lv_lru.i
@@ -9779,13 +9779,13 @@ src/misc/lv_lru.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.s
 .PHONY : src/misc/lv_lru.c.s
 
-src/misc/lv_math.obj: src/misc/lv_math.c.obj
-.PHONY : src/misc/lv_math.obj
+src/misc/lv_math.o: src/misc/lv_math.c.o
+.PHONY : src/misc/lv_math.o
 
 # target to build an object file
-src/misc/lv_math.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj
-.PHONY : src/misc/lv_math.c.obj
+src/misc/lv_math.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o
+.PHONY : src/misc/lv_math.c.o
 
 src/misc/lv_math.i: src/misc/lv_math.c.i
 .PHONY : src/misc/lv_math.i
@@ -9803,13 +9803,13 @@ src/misc/lv_math.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.s
 .PHONY : src/misc/lv_math.c.s
 
-src/misc/lv_mem.obj: src/misc/lv_mem.c.obj
-.PHONY : src/misc/lv_mem.obj
+src/misc/lv_mem.o: src/misc/lv_mem.c.o
+.PHONY : src/misc/lv_mem.o
 
 # target to build an object file
-src/misc/lv_mem.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj
-.PHONY : src/misc/lv_mem.c.obj
+src/misc/lv_mem.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o
+.PHONY : src/misc/lv_mem.c.o
 
 src/misc/lv_mem.i: src/misc/lv_mem.c.i
 .PHONY : src/misc/lv_mem.i
@@ -9827,13 +9827,13 @@ src/misc/lv_mem.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.s
 .PHONY : src/misc/lv_mem.c.s
 
-src/misc/lv_printf.obj: src/misc/lv_printf.c.obj
-.PHONY : src/misc/lv_printf.obj
+src/misc/lv_printf.o: src/misc/lv_printf.c.o
+.PHONY : src/misc/lv_printf.o
 
 # target to build an object file
-src/misc/lv_printf.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj
-.PHONY : src/misc/lv_printf.c.obj
+src/misc/lv_printf.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o
+.PHONY : src/misc/lv_printf.c.o
 
 src/misc/lv_printf.i: src/misc/lv_printf.c.i
 .PHONY : src/misc/lv_printf.i
@@ -9851,13 +9851,13 @@ src/misc/lv_printf.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.s
 .PHONY : src/misc/lv_printf.c.s
 
-src/misc/lv_style.obj: src/misc/lv_style.c.obj
-.PHONY : src/misc/lv_style.obj
+src/misc/lv_style.o: src/misc/lv_style.c.o
+.PHONY : src/misc/lv_style.o
 
 # target to build an object file
-src/misc/lv_style.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj
-.PHONY : src/misc/lv_style.c.obj
+src/misc/lv_style.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o
+.PHONY : src/misc/lv_style.c.o
 
 src/misc/lv_style.i: src/misc/lv_style.c.i
 .PHONY : src/misc/lv_style.i
@@ -9875,13 +9875,13 @@ src/misc/lv_style.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.s
 .PHONY : src/misc/lv_style.c.s
 
-src/misc/lv_style_gen.obj: src/misc/lv_style_gen.c.obj
-.PHONY : src/misc/lv_style_gen.obj
+src/misc/lv_style_gen.o: src/misc/lv_style_gen.c.o
+.PHONY : src/misc/lv_style_gen.o
 
 # target to build an object file
-src/misc/lv_style_gen.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj
-.PHONY : src/misc/lv_style_gen.c.obj
+src/misc/lv_style_gen.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o
+.PHONY : src/misc/lv_style_gen.c.o
 
 src/misc/lv_style_gen.i: src/misc/lv_style_gen.c.i
 .PHONY : src/misc/lv_style_gen.i
@@ -9899,13 +9899,13 @@ src/misc/lv_style_gen.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.s
 .PHONY : src/misc/lv_style_gen.c.s
 
-src/misc/lv_templ.obj: src/misc/lv_templ.c.obj
-.PHONY : src/misc/lv_templ.obj
+src/misc/lv_templ.o: src/misc/lv_templ.c.o
+.PHONY : src/misc/lv_templ.o
 
 # target to build an object file
-src/misc/lv_templ.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj
-.PHONY : src/misc/lv_templ.c.obj
+src/misc/lv_templ.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o
+.PHONY : src/misc/lv_templ.c.o
 
 src/misc/lv_templ.i: src/misc/lv_templ.c.i
 .PHONY : src/misc/lv_templ.i
@@ -9923,13 +9923,13 @@ src/misc/lv_templ.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.s
 .PHONY : src/misc/lv_templ.c.s
 
-src/misc/lv_timer.obj: src/misc/lv_timer.c.obj
-.PHONY : src/misc/lv_timer.obj
+src/misc/lv_timer.o: src/misc/lv_timer.c.o
+.PHONY : src/misc/lv_timer.o
 
 # target to build an object file
-src/misc/lv_timer.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj
-.PHONY : src/misc/lv_timer.c.obj
+src/misc/lv_timer.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o
+.PHONY : src/misc/lv_timer.c.o
 
 src/misc/lv_timer.i: src/misc/lv_timer.c.i
 .PHONY : src/misc/lv_timer.i
@@ -9947,13 +9947,13 @@ src/misc/lv_timer.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.s
 .PHONY : src/misc/lv_timer.c.s
 
-src/misc/lv_tlsf.obj: src/misc/lv_tlsf.c.obj
-.PHONY : src/misc/lv_tlsf.obj
+src/misc/lv_tlsf.o: src/misc/lv_tlsf.c.o
+.PHONY : src/misc/lv_tlsf.o
 
 # target to build an object file
-src/misc/lv_tlsf.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj
-.PHONY : src/misc/lv_tlsf.c.obj
+src/misc/lv_tlsf.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o
+.PHONY : src/misc/lv_tlsf.c.o
 
 src/misc/lv_tlsf.i: src/misc/lv_tlsf.c.i
 .PHONY : src/misc/lv_tlsf.i
@@ -9971,13 +9971,13 @@ src/misc/lv_tlsf.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.s
 .PHONY : src/misc/lv_tlsf.c.s
 
-src/misc/lv_txt.obj: src/misc/lv_txt.c.obj
-.PHONY : src/misc/lv_txt.obj
+src/misc/lv_txt.o: src/misc/lv_txt.c.o
+.PHONY : src/misc/lv_txt.o
 
 # target to build an object file
-src/misc/lv_txt.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj
-.PHONY : src/misc/lv_txt.c.obj
+src/misc/lv_txt.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o
+.PHONY : src/misc/lv_txt.c.o
 
 src/misc/lv_txt.i: src/misc/lv_txt.c.i
 .PHONY : src/misc/lv_txt.i
@@ -9995,13 +9995,13 @@ src/misc/lv_txt.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.s
 .PHONY : src/misc/lv_txt.c.s
 
-src/misc/lv_txt_ap.obj: src/misc/lv_txt_ap.c.obj
-.PHONY : src/misc/lv_txt_ap.obj
+src/misc/lv_txt_ap.o: src/misc/lv_txt_ap.c.o
+.PHONY : src/misc/lv_txt_ap.o
 
 # target to build an object file
-src/misc/lv_txt_ap.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj
-.PHONY : src/misc/lv_txt_ap.c.obj
+src/misc/lv_txt_ap.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o
+.PHONY : src/misc/lv_txt_ap.c.o
 
 src/misc/lv_txt_ap.i: src/misc/lv_txt_ap.c.i
 .PHONY : src/misc/lv_txt_ap.i
@@ -10019,13 +10019,13 @@ src/misc/lv_txt_ap.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.s
 .PHONY : src/misc/lv_txt_ap.c.s
 
-src/misc/lv_utils.obj: src/misc/lv_utils.c.obj
-.PHONY : src/misc/lv_utils.obj
+src/misc/lv_utils.o: src/misc/lv_utils.c.o
+.PHONY : src/misc/lv_utils.o
 
 # target to build an object file
-src/misc/lv_utils.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj
-.PHONY : src/misc/lv_utils.c.obj
+src/misc/lv_utils.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o
+.PHONY : src/misc/lv_utils.c.o
 
 src/misc/lv_utils.i: src/misc/lv_utils.c.i
 .PHONY : src/misc/lv_utils.i
@@ -10043,13 +10043,13 @@ src/misc/lv_utils.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.s
 .PHONY : src/misc/lv_utils.c.s
 
-src/widgets/lv_arc.obj: src/widgets/lv_arc.c.obj
-.PHONY : src/widgets/lv_arc.obj
+src/widgets/lv_arc.o: src/widgets/lv_arc.c.o
+.PHONY : src/widgets/lv_arc.o
 
 # target to build an object file
-src/widgets/lv_arc.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj
-.PHONY : src/widgets/lv_arc.c.obj
+src/widgets/lv_arc.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o
+.PHONY : src/widgets/lv_arc.c.o
 
 src/widgets/lv_arc.i: src/widgets/lv_arc.c.i
 .PHONY : src/widgets/lv_arc.i
@@ -10067,13 +10067,13 @@ src/widgets/lv_arc.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.s
 .PHONY : src/widgets/lv_arc.c.s
 
-src/widgets/lv_bar.obj: src/widgets/lv_bar.c.obj
-.PHONY : src/widgets/lv_bar.obj
+src/widgets/lv_bar.o: src/widgets/lv_bar.c.o
+.PHONY : src/widgets/lv_bar.o
 
 # target to build an object file
-src/widgets/lv_bar.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj
-.PHONY : src/widgets/lv_bar.c.obj
+src/widgets/lv_bar.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o
+.PHONY : src/widgets/lv_bar.c.o
 
 src/widgets/lv_bar.i: src/widgets/lv_bar.c.i
 .PHONY : src/widgets/lv_bar.i
@@ -10091,13 +10091,13 @@ src/widgets/lv_bar.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.s
 .PHONY : src/widgets/lv_bar.c.s
 
-src/widgets/lv_btn.obj: src/widgets/lv_btn.c.obj
-.PHONY : src/widgets/lv_btn.obj
+src/widgets/lv_btn.o: src/widgets/lv_btn.c.o
+.PHONY : src/widgets/lv_btn.o
 
 # target to build an object file
-src/widgets/lv_btn.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj
-.PHONY : src/widgets/lv_btn.c.obj
+src/widgets/lv_btn.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o
+.PHONY : src/widgets/lv_btn.c.o
 
 src/widgets/lv_btn.i: src/widgets/lv_btn.c.i
 .PHONY : src/widgets/lv_btn.i
@@ -10115,13 +10115,13 @@ src/widgets/lv_btn.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.s
 .PHONY : src/widgets/lv_btn.c.s
 
-src/widgets/lv_btnmatrix.obj: src/widgets/lv_btnmatrix.c.obj
-.PHONY : src/widgets/lv_btnmatrix.obj
+src/widgets/lv_btnmatrix.o: src/widgets/lv_btnmatrix.c.o
+.PHONY : src/widgets/lv_btnmatrix.o
 
 # target to build an object file
-src/widgets/lv_btnmatrix.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj
-.PHONY : src/widgets/lv_btnmatrix.c.obj
+src/widgets/lv_btnmatrix.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o
+.PHONY : src/widgets/lv_btnmatrix.c.o
 
 src/widgets/lv_btnmatrix.i: src/widgets/lv_btnmatrix.c.i
 .PHONY : src/widgets/lv_btnmatrix.i
@@ -10139,13 +10139,13 @@ src/widgets/lv_btnmatrix.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.s
 .PHONY : src/widgets/lv_btnmatrix.c.s
 
-src/widgets/lv_canvas.obj: src/widgets/lv_canvas.c.obj
-.PHONY : src/widgets/lv_canvas.obj
+src/widgets/lv_canvas.o: src/widgets/lv_canvas.c.o
+.PHONY : src/widgets/lv_canvas.o
 
 # target to build an object file
-src/widgets/lv_canvas.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj
-.PHONY : src/widgets/lv_canvas.c.obj
+src/widgets/lv_canvas.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o
+.PHONY : src/widgets/lv_canvas.c.o
 
 src/widgets/lv_canvas.i: src/widgets/lv_canvas.c.i
 .PHONY : src/widgets/lv_canvas.i
@@ -10163,13 +10163,13 @@ src/widgets/lv_canvas.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.s
 .PHONY : src/widgets/lv_canvas.c.s
 
-src/widgets/lv_checkbox.obj: src/widgets/lv_checkbox.c.obj
-.PHONY : src/widgets/lv_checkbox.obj
+src/widgets/lv_checkbox.o: src/widgets/lv_checkbox.c.o
+.PHONY : src/widgets/lv_checkbox.o
 
 # target to build an object file
-src/widgets/lv_checkbox.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj
-.PHONY : src/widgets/lv_checkbox.c.obj
+src/widgets/lv_checkbox.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o
+.PHONY : src/widgets/lv_checkbox.c.o
 
 src/widgets/lv_checkbox.i: src/widgets/lv_checkbox.c.i
 .PHONY : src/widgets/lv_checkbox.i
@@ -10187,13 +10187,13 @@ src/widgets/lv_checkbox.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.s
 .PHONY : src/widgets/lv_checkbox.c.s
 
-src/widgets/lv_dropdown.obj: src/widgets/lv_dropdown.c.obj
-.PHONY : src/widgets/lv_dropdown.obj
+src/widgets/lv_dropdown.o: src/widgets/lv_dropdown.c.o
+.PHONY : src/widgets/lv_dropdown.o
 
 # target to build an object file
-src/widgets/lv_dropdown.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj
-.PHONY : src/widgets/lv_dropdown.c.obj
+src/widgets/lv_dropdown.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o
+.PHONY : src/widgets/lv_dropdown.c.o
 
 src/widgets/lv_dropdown.i: src/widgets/lv_dropdown.c.i
 .PHONY : src/widgets/lv_dropdown.i
@@ -10211,13 +10211,13 @@ src/widgets/lv_dropdown.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.s
 .PHONY : src/widgets/lv_dropdown.c.s
 
-src/widgets/lv_img.obj: src/widgets/lv_img.c.obj
-.PHONY : src/widgets/lv_img.obj
+src/widgets/lv_img.o: src/widgets/lv_img.c.o
+.PHONY : src/widgets/lv_img.o
 
 # target to build an object file
-src/widgets/lv_img.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj
-.PHONY : src/widgets/lv_img.c.obj
+src/widgets/lv_img.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o
+.PHONY : src/widgets/lv_img.c.o
 
 src/widgets/lv_img.i: src/widgets/lv_img.c.i
 .PHONY : src/widgets/lv_img.i
@@ -10235,13 +10235,13 @@ src/widgets/lv_img.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.s
 .PHONY : src/widgets/lv_img.c.s
 
-src/widgets/lv_label.obj: src/widgets/lv_label.c.obj
-.PHONY : src/widgets/lv_label.obj
+src/widgets/lv_label.o: src/widgets/lv_label.c.o
+.PHONY : src/widgets/lv_label.o
 
 # target to build an object file
-src/widgets/lv_label.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj
-.PHONY : src/widgets/lv_label.c.obj
+src/widgets/lv_label.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o
+.PHONY : src/widgets/lv_label.c.o
 
 src/widgets/lv_label.i: src/widgets/lv_label.c.i
 .PHONY : src/widgets/lv_label.i
@@ -10259,13 +10259,13 @@ src/widgets/lv_label.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.s
 .PHONY : src/widgets/lv_label.c.s
 
-src/widgets/lv_line.obj: src/widgets/lv_line.c.obj
-.PHONY : src/widgets/lv_line.obj
+src/widgets/lv_line.o: src/widgets/lv_line.c.o
+.PHONY : src/widgets/lv_line.o
 
 # target to build an object file
-src/widgets/lv_line.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj
-.PHONY : src/widgets/lv_line.c.obj
+src/widgets/lv_line.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o
+.PHONY : src/widgets/lv_line.c.o
 
 src/widgets/lv_line.i: src/widgets/lv_line.c.i
 .PHONY : src/widgets/lv_line.i
@@ -10283,13 +10283,13 @@ src/widgets/lv_line.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.s
 .PHONY : src/widgets/lv_line.c.s
 
-src/widgets/lv_objx_templ.obj: src/widgets/lv_objx_templ.c.obj
-.PHONY : src/widgets/lv_objx_templ.obj
+src/widgets/lv_objx_templ.o: src/widgets/lv_objx_templ.c.o
+.PHONY : src/widgets/lv_objx_templ.o
 
 # target to build an object file
-src/widgets/lv_objx_templ.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj
-.PHONY : src/widgets/lv_objx_templ.c.obj
+src/widgets/lv_objx_templ.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o
+.PHONY : src/widgets/lv_objx_templ.c.o
 
 src/widgets/lv_objx_templ.i: src/widgets/lv_objx_templ.c.i
 .PHONY : src/widgets/lv_objx_templ.i
@@ -10307,13 +10307,13 @@ src/widgets/lv_objx_templ.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.s
 .PHONY : src/widgets/lv_objx_templ.c.s
 
-src/widgets/lv_roller.obj: src/widgets/lv_roller.c.obj
-.PHONY : src/widgets/lv_roller.obj
+src/widgets/lv_roller.o: src/widgets/lv_roller.c.o
+.PHONY : src/widgets/lv_roller.o
 
 # target to build an object file
-src/widgets/lv_roller.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj
-.PHONY : src/widgets/lv_roller.c.obj
+src/widgets/lv_roller.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o
+.PHONY : src/widgets/lv_roller.c.o
 
 src/widgets/lv_roller.i: src/widgets/lv_roller.c.i
 .PHONY : src/widgets/lv_roller.i
@@ -10331,13 +10331,13 @@ src/widgets/lv_roller.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.s
 .PHONY : src/widgets/lv_roller.c.s
 
-src/widgets/lv_slider.obj: src/widgets/lv_slider.c.obj
-.PHONY : src/widgets/lv_slider.obj
+src/widgets/lv_slider.o: src/widgets/lv_slider.c.o
+.PHONY : src/widgets/lv_slider.o
 
 # target to build an object file
-src/widgets/lv_slider.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj
-.PHONY : src/widgets/lv_slider.c.obj
+src/widgets/lv_slider.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o
+.PHONY : src/widgets/lv_slider.c.o
 
 src/widgets/lv_slider.i: src/widgets/lv_slider.c.i
 .PHONY : src/widgets/lv_slider.i
@@ -10355,13 +10355,13 @@ src/widgets/lv_slider.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.s
 .PHONY : src/widgets/lv_slider.c.s
 
-src/widgets/lv_switch.obj: src/widgets/lv_switch.c.obj
-.PHONY : src/widgets/lv_switch.obj
+src/widgets/lv_switch.o: src/widgets/lv_switch.c.o
+.PHONY : src/widgets/lv_switch.o
 
 # target to build an object file
-src/widgets/lv_switch.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj
-.PHONY : src/widgets/lv_switch.c.obj
+src/widgets/lv_switch.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o
+.PHONY : src/widgets/lv_switch.c.o
 
 src/widgets/lv_switch.i: src/widgets/lv_switch.c.i
 .PHONY : src/widgets/lv_switch.i
@@ -10379,13 +10379,13 @@ src/widgets/lv_switch.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.s
 .PHONY : src/widgets/lv_switch.c.s
 
-src/widgets/lv_table.obj: src/widgets/lv_table.c.obj
-.PHONY : src/widgets/lv_table.obj
+src/widgets/lv_table.o: src/widgets/lv_table.c.o
+.PHONY : src/widgets/lv_table.o
 
 # target to build an object file
-src/widgets/lv_table.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj
-.PHONY : src/widgets/lv_table.c.obj
+src/widgets/lv_table.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o
+.PHONY : src/widgets/lv_table.c.o
 
 src/widgets/lv_table.i: src/widgets/lv_table.c.i
 .PHONY : src/widgets/lv_table.i
@@ -10403,13 +10403,13 @@ src/widgets/lv_table.c.s:
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.s
 .PHONY : src/widgets/lv_table.c.s
 
-src/widgets/lv_textarea.obj: src/widgets/lv_textarea.c.obj
-.PHONY : src/widgets/lv_textarea.obj
+src/widgets/lv_textarea.o: src/widgets/lv_textarea.c.o
+.PHONY : src/widgets/lv_textarea.o
 
 # target to build an object file
-src/widgets/lv_textarea.c.obj:
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj
-.PHONY : src/widgets/lv_textarea.c.obj
+src/widgets/lv_textarea.c.o:
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build && $(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o
+.PHONY : src/widgets/lv_textarea.c.o
 
 src/widgets/lv_textarea.i: src/widgets/lv_textarea.c.i
 .PHONY : src/widgets/lv_textarea.i
@@ -10442,1282 +10442,1282 @@ help:
 	@echo "... lvgl"
 	@echo "... lvgl_demos"
 	@echo "... lvgl_examples"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_alpha16.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_alpha16.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_alpha16.s"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_argb.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_argb.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_argb.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_argb.s"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.s"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_indexed16.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_indexed16.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_indexed16.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_indexed16.s"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb.s"
-	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.obj"
+	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.o"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.i"
 	@echo "... demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.s"
-	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.obj"
+	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.o"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.i"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.s"
-	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.obj"
+	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.o"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.i"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.s"
-	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.obj"
+	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.o"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.i"
 	@echo "... demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.s"
-	@echo "... demos/benchmark/lv_demo_benchmark.obj"
+	@echo "... demos/benchmark/lv_demo_benchmark.o"
 	@echo "... demos/benchmark/lv_demo_benchmark.i"
 	@echo "... demos/benchmark/lv_demo_benchmark.s"
-	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.obj"
+	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.o"
 	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.i"
 	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_next.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_next.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_next.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_play.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_play.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_play.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.s"
-	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_corner_left.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left.o"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_left.i"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_left.s"
-	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_corner_right.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right.o"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_right.i"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_right.s"
-	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_1.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_1.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_1.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_2.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_2.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_2.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_3.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_3.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_3.s"
-	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_1.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_1.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_1.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_2.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_2.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_2.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_3.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_3.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_3.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_4.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_4.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_4.s"
-	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_list_border.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border.o"
 	@echo "... demos/music/assets/img_lv_demo_music_list_border.i"
 	@echo "... demos/music/assets/img_lv_demo_music_list_border.s"
-	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_logo.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_logo.o"
 	@echo "... demos/music/assets/img_lv_demo_music_logo.i"
 	@echo "... demos/music/assets/img_lv_demo_music_logo.s"
-	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.o"
 	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.i"
 	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.s"
-	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.o"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.i"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.s"
-	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.s"
-	@echo "... demos/music/assets/img_lv_demo_music_wave_top.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top.o"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_top.i"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_top.s"
-	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.obj"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.o"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.i"
 	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.s"
-	@echo "... demos/music/lv_demo_music.obj"
+	@echo "... demos/music/lv_demo_music.o"
 	@echo "... demos/music/lv_demo_music.i"
 	@echo "... demos/music/lv_demo_music.s"
-	@echo "... demos/music/lv_demo_music_list.obj"
+	@echo "... demos/music/lv_demo_music_list.o"
 	@echo "... demos/music/lv_demo_music_list.i"
 	@echo "... demos/music/lv_demo_music_list.s"
-	@echo "... demos/music/lv_demo_music_main.obj"
+	@echo "... demos/music/lv_demo_music_main.o"
 	@echo "... demos/music/lv_demo_music_main.i"
 	@echo "... demos/music/lv_demo_music_main.s"
-	@echo "... demos/stress/lv_demo_stress.obj"
+	@echo "... demos/stress/lv_demo_stress.o"
 	@echo "... demos/stress/lv_demo_stress.i"
 	@echo "... demos/stress/lv_demo_stress.s"
-	@echo "... demos/widgets/assets/img_clothes.obj"
+	@echo "... demos/widgets/assets/img_clothes.o"
 	@echo "... demos/widgets/assets/img_clothes.i"
 	@echo "... demos/widgets/assets/img_clothes.s"
-	@echo "... demos/widgets/assets/img_demo_widgets_avatar.obj"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.o"
 	@echo "... demos/widgets/assets/img_demo_widgets_avatar.i"
 	@echo "... demos/widgets/assets/img_demo_widgets_avatar.s"
-	@echo "... demos/widgets/assets/img_lvgl_logo.obj"
+	@echo "... demos/widgets/assets/img_lvgl_logo.o"
 	@echo "... demos/widgets/assets/img_lvgl_logo.i"
 	@echo "... demos/widgets/assets/img_lvgl_logo.s"
-	@echo "... demos/widgets/lv_demo_widgets.obj"
+	@echo "... demos/widgets/lv_demo_widgets.o"
 	@echo "... demos/widgets/lv_demo_widgets.i"
 	@echo "... demos/widgets/lv_demo_widgets.s"
-	@echo "... examples/anim/lv_example_anim_1.obj"
+	@echo "... examples/anim/lv_example_anim_1.o"
 	@echo "... examples/anim/lv_example_anim_1.i"
 	@echo "... examples/anim/lv_example_anim_1.s"
-	@echo "... examples/anim/lv_example_anim_2.obj"
+	@echo "... examples/anim/lv_example_anim_2.o"
 	@echo "... examples/anim/lv_example_anim_2.i"
 	@echo "... examples/anim/lv_example_anim_2.s"
-	@echo "... examples/anim/lv_example_anim_3.obj"
+	@echo "... examples/anim/lv_example_anim_3.o"
 	@echo "... examples/anim/lv_example_anim_3.i"
 	@echo "... examples/anim/lv_example_anim_3.s"
-	@echo "... examples/anim/lv_example_anim_timeline_1.obj"
+	@echo "... examples/anim/lv_example_anim_timeline_1.o"
 	@echo "... examples/anim/lv_example_anim_timeline_1.i"
 	@echo "... examples/anim/lv_example_anim_timeline_1.s"
-	@echo "... examples/assets/animimg001.obj"
+	@echo "... examples/assets/animimg001.o"
 	@echo "... examples/assets/animimg001.i"
 	@echo "... examples/assets/animimg001.s"
-	@echo "... examples/assets/animimg002.obj"
+	@echo "... examples/assets/animimg002.o"
 	@echo "... examples/assets/animimg002.i"
 	@echo "... examples/assets/animimg002.s"
-	@echo "... examples/assets/animimg003.obj"
+	@echo "... examples/assets/animimg003.o"
 	@echo "... examples/assets/animimg003.i"
 	@echo "... examples/assets/animimg003.s"
-	@echo "... examples/assets/emoji/img_emoji_F617.obj"
+	@echo "... examples/assets/emoji/img_emoji_F617.o"
 	@echo "... examples/assets/emoji/img_emoji_F617.i"
 	@echo "... examples/assets/emoji/img_emoji_F617.s"
-	@echo "... examples/assets/img_caret_down.obj"
+	@echo "... examples/assets/img_caret_down.o"
 	@echo "... examples/assets/img_caret_down.i"
 	@echo "... examples/assets/img_caret_down.s"
-	@echo "... examples/assets/img_cogwheel_alpha16.obj"
+	@echo "... examples/assets/img_cogwheel_alpha16.o"
 	@echo "... examples/assets/img_cogwheel_alpha16.i"
 	@echo "... examples/assets/img_cogwheel_alpha16.s"
-	@echo "... examples/assets/img_cogwheel_argb.obj"
+	@echo "... examples/assets/img_cogwheel_argb.o"
 	@echo "... examples/assets/img_cogwheel_argb.i"
 	@echo "... examples/assets/img_cogwheel_argb.s"
-	@echo "... examples/assets/img_cogwheel_chroma_keyed.obj"
+	@echo "... examples/assets/img_cogwheel_chroma_keyed.o"
 	@echo "... examples/assets/img_cogwheel_chroma_keyed.i"
 	@echo "... examples/assets/img_cogwheel_chroma_keyed.s"
-	@echo "... examples/assets/img_cogwheel_indexed16.obj"
+	@echo "... examples/assets/img_cogwheel_indexed16.o"
 	@echo "... examples/assets/img_cogwheel_indexed16.i"
 	@echo "... examples/assets/img_cogwheel_indexed16.s"
-	@echo "... examples/assets/img_cogwheel_rgb.obj"
+	@echo "... examples/assets/img_cogwheel_rgb.o"
 	@echo "... examples/assets/img_cogwheel_rgb.i"
 	@echo "... examples/assets/img_cogwheel_rgb.s"
-	@echo "... examples/assets/img_hand.obj"
+	@echo "... examples/assets/img_hand.o"
 	@echo "... examples/assets/img_hand.i"
 	@echo "... examples/assets/img_hand.s"
-	@echo "... examples/assets/img_skew_strip.obj"
+	@echo "... examples/assets/img_skew_strip.o"
 	@echo "... examples/assets/img_skew_strip.i"
 	@echo "... examples/assets/img_skew_strip.s"
-	@echo "... examples/assets/img_star.obj"
+	@echo "... examples/assets/img_star.o"
 	@echo "... examples/assets/img_star.i"
 	@echo "... examples/assets/img_star.s"
-	@echo "... examples/assets/imgbtn_left.obj"
+	@echo "... examples/assets/imgbtn_left.o"
 	@echo "... examples/assets/imgbtn_left.i"
 	@echo "... examples/assets/imgbtn_left.s"
-	@echo "... examples/assets/imgbtn_mid.obj"
+	@echo "... examples/assets/imgbtn_mid.o"
 	@echo "... examples/assets/imgbtn_mid.i"
 	@echo "... examples/assets/imgbtn_mid.s"
-	@echo "... examples/assets/imgbtn_right.obj"
+	@echo "... examples/assets/imgbtn_right.o"
 	@echo "... examples/assets/imgbtn_right.i"
 	@echo "... examples/assets/imgbtn_right.s"
-	@echo "... examples/event/lv_example_event_1.obj"
+	@echo "... examples/event/lv_example_event_1.o"
 	@echo "... examples/event/lv_example_event_1.i"
 	@echo "... examples/event/lv_example_event_1.s"
-	@echo "... examples/event/lv_example_event_2.obj"
+	@echo "... examples/event/lv_example_event_2.o"
 	@echo "... examples/event/lv_example_event_2.i"
 	@echo "... examples/event/lv_example_event_2.s"
-	@echo "... examples/event/lv_example_event_3.obj"
+	@echo "... examples/event/lv_example_event_3.o"
 	@echo "... examples/event/lv_example_event_3.i"
 	@echo "... examples/event/lv_example_event_3.s"
-	@echo "... examples/event/lv_example_event_4.obj"
+	@echo "... examples/event/lv_example_event_4.o"
 	@echo "... examples/event/lv_example_event_4.i"
 	@echo "... examples/event/lv_example_event_4.s"
-	@echo "... examples/get_started/lv_example_get_started_1.obj"
+	@echo "... examples/get_started/lv_example_get_started_1.o"
 	@echo "... examples/get_started/lv_example_get_started_1.i"
 	@echo "... examples/get_started/lv_example_get_started_1.s"
-	@echo "... examples/get_started/lv_example_get_started_2.obj"
+	@echo "... examples/get_started/lv_example_get_started_2.o"
 	@echo "... examples/get_started/lv_example_get_started_2.i"
 	@echo "... examples/get_started/lv_example_get_started_2.s"
-	@echo "... examples/get_started/lv_example_get_started_3.obj"
+	@echo "... examples/get_started/lv_example_get_started_3.o"
 	@echo "... examples/get_started/lv_example_get_started_3.i"
 	@echo "... examples/get_started/lv_example_get_started_3.s"
-	@echo "... examples/layouts/flex/lv_example_flex_1.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_1.o"
 	@echo "... examples/layouts/flex/lv_example_flex_1.i"
 	@echo "... examples/layouts/flex/lv_example_flex_1.s"
-	@echo "... examples/layouts/flex/lv_example_flex_2.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_2.o"
 	@echo "... examples/layouts/flex/lv_example_flex_2.i"
 	@echo "... examples/layouts/flex/lv_example_flex_2.s"
-	@echo "... examples/layouts/flex/lv_example_flex_3.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_3.o"
 	@echo "... examples/layouts/flex/lv_example_flex_3.i"
 	@echo "... examples/layouts/flex/lv_example_flex_3.s"
-	@echo "... examples/layouts/flex/lv_example_flex_4.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_4.o"
 	@echo "... examples/layouts/flex/lv_example_flex_4.i"
 	@echo "... examples/layouts/flex/lv_example_flex_4.s"
-	@echo "... examples/layouts/flex/lv_example_flex_5.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_5.o"
 	@echo "... examples/layouts/flex/lv_example_flex_5.i"
 	@echo "... examples/layouts/flex/lv_example_flex_5.s"
-	@echo "... examples/layouts/flex/lv_example_flex_6.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_6.o"
 	@echo "... examples/layouts/flex/lv_example_flex_6.i"
 	@echo "... examples/layouts/flex/lv_example_flex_6.s"
-	@echo "... examples/layouts/grid/lv_example_grid_1.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_1.o"
 	@echo "... examples/layouts/grid/lv_example_grid_1.i"
 	@echo "... examples/layouts/grid/lv_example_grid_1.s"
-	@echo "... examples/layouts/grid/lv_example_grid_2.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_2.o"
 	@echo "... examples/layouts/grid/lv_example_grid_2.i"
 	@echo "... examples/layouts/grid/lv_example_grid_2.s"
-	@echo "... examples/layouts/grid/lv_example_grid_3.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_3.o"
 	@echo "... examples/layouts/grid/lv_example_grid_3.i"
 	@echo "... examples/layouts/grid/lv_example_grid_3.s"
-	@echo "... examples/layouts/grid/lv_example_grid_4.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_4.o"
 	@echo "... examples/layouts/grid/lv_example_grid_4.i"
 	@echo "... examples/layouts/grid/lv_example_grid_4.s"
-	@echo "... examples/layouts/grid/lv_example_grid_5.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_5.o"
 	@echo "... examples/layouts/grid/lv_example_grid_5.i"
 	@echo "... examples/layouts/grid/lv_example_grid_5.s"
-	@echo "... examples/layouts/grid/lv_example_grid_6.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_6.o"
 	@echo "... examples/layouts/grid/lv_example_grid_6.i"
 	@echo "... examples/layouts/grid/lv_example_grid_6.s"
-	@echo "... examples/libs/bmp/lv_example_bmp_1.obj"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.o"
 	@echo "... examples/libs/bmp/lv_example_bmp_1.i"
 	@echo "... examples/libs/bmp/lv_example_bmp_1.s"
-	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.obj"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.o"
 	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.i"
 	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.s"
-	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.obj"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.o"
 	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.i"
 	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.s"
-	@echo "... examples/libs/freetype/lv_example_freetype_1.obj"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.o"
 	@echo "... examples/libs/freetype/lv_example_freetype_1.i"
 	@echo "... examples/libs/freetype/lv_example_freetype_1.s"
-	@echo "... examples/libs/gif/img_bulb_gif.obj"
+	@echo "... examples/libs/gif/img_bulb_gif.o"
 	@echo "... examples/libs/gif/img_bulb_gif.i"
 	@echo "... examples/libs/gif/img_bulb_gif.s"
-	@echo "... examples/libs/gif/lv_example_gif_1.obj"
+	@echo "... examples/libs/gif/lv_example_gif_1.o"
 	@echo "... examples/libs/gif/lv_example_gif_1.i"
 	@echo "... examples/libs/gif/lv_example_gif_1.s"
-	@echo "... examples/libs/png/img_wink_png.obj"
+	@echo "... examples/libs/png/img_wink_png.o"
 	@echo "... examples/libs/png/img_wink_png.i"
 	@echo "... examples/libs/png/img_wink_png.s"
-	@echo "... examples/libs/png/lv_example_png_1.obj"
+	@echo "... examples/libs/png/lv_example_png_1.o"
 	@echo "... examples/libs/png/lv_example_png_1.i"
 	@echo "... examples/libs/png/lv_example_png_1.s"
-	@echo "... examples/libs/qrcode/lv_example_qrcode_1.obj"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.o"
 	@echo "... examples/libs/qrcode/lv_example_qrcode_1.i"
 	@echo "... examples/libs/qrcode/lv_example_qrcode_1.s"
-	@echo "... examples/libs/rlottie/lv_example_rlottie_1.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.o"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_1.i"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_1.s"
-	@echo "... examples/libs/rlottie/lv_example_rlottie_2.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.o"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_2.i"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_2.s"
-	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.o"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.i"
 	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.s"
-	@echo "... examples/libs/sjpg/lv_example_sjpg_1.obj"
+	@echo "... examples/libs/sjpg/lv_example_sjpg_1.o"
 	@echo "... examples/libs/sjpg/lv_example_sjpg_1.i"
 	@echo "... examples/libs/sjpg/lv_example_sjpg_1.s"
-	@echo "... examples/others/fragment/lv_example_fragment_1.obj"
+	@echo "... examples/others/fragment/lv_example_fragment_1.o"
 	@echo "... examples/others/fragment/lv_example_fragment_1.i"
 	@echo "... examples/others/fragment/lv_example_fragment_1.s"
-	@echo "... examples/others/fragment/lv_example_fragment_2.obj"
+	@echo "... examples/others/fragment/lv_example_fragment_2.o"
 	@echo "... examples/others/fragment/lv_example_fragment_2.i"
 	@echo "... examples/others/fragment/lv_example_fragment_2.s"
-	@echo "... examples/others/gridnav/lv_example_gridnav_1.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.o"
 	@echo "... examples/others/gridnav/lv_example_gridnav_1.i"
 	@echo "... examples/others/gridnav/lv_example_gridnav_1.s"
-	@echo "... examples/others/gridnav/lv_example_gridnav_2.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.o"
 	@echo "... examples/others/gridnav/lv_example_gridnav_2.i"
 	@echo "... examples/others/gridnav/lv_example_gridnav_2.s"
-	@echo "... examples/others/gridnav/lv_example_gridnav_3.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.o"
 	@echo "... examples/others/gridnav/lv_example_gridnav_3.i"
 	@echo "... examples/others/gridnav/lv_example_gridnav_3.s"
-	@echo "... examples/others/gridnav/lv_example_gridnav_4.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.o"
 	@echo "... examples/others/gridnav/lv_example_gridnav_4.i"
 	@echo "... examples/others/gridnav/lv_example_gridnav_4.s"
-	@echo "... examples/others/ime/lv_example_ime_pinyin_1.obj"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.o"
 	@echo "... examples/others/ime/lv_example_ime_pinyin_1.i"
 	@echo "... examples/others/ime/lv_example_ime_pinyin_1.s"
-	@echo "... examples/others/ime/lv_example_ime_pinyin_2.obj"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.o"
 	@echo "... examples/others/ime/lv_example_ime_pinyin_2.i"
 	@echo "... examples/others/ime/lv_example_ime_pinyin_2.s"
-	@echo "... examples/others/imgfont/lv_example_imgfont_1.obj"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.o"
 	@echo "... examples/others/imgfont/lv_example_imgfont_1.i"
 	@echo "... examples/others/imgfont/lv_example_imgfont_1.s"
-	@echo "... examples/others/monkey/lv_example_monkey_1.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_1.o"
 	@echo "... examples/others/monkey/lv_example_monkey_1.i"
 	@echo "... examples/others/monkey/lv_example_monkey_1.s"
-	@echo "... examples/others/monkey/lv_example_monkey_2.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_2.o"
 	@echo "... examples/others/monkey/lv_example_monkey_2.i"
 	@echo "... examples/others/monkey/lv_example_monkey_2.s"
-	@echo "... examples/others/monkey/lv_example_monkey_3.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_3.o"
 	@echo "... examples/others/monkey/lv_example_monkey_3.i"
 	@echo "... examples/others/monkey/lv_example_monkey_3.s"
-	@echo "... examples/others/msg/lv_example_msg_1.obj"
+	@echo "... examples/others/msg/lv_example_msg_1.o"
 	@echo "... examples/others/msg/lv_example_msg_1.i"
 	@echo "... examples/others/msg/lv_example_msg_1.s"
-	@echo "... examples/others/msg/lv_example_msg_2.obj"
+	@echo "... examples/others/msg/lv_example_msg_2.o"
 	@echo "... examples/others/msg/lv_example_msg_2.i"
 	@echo "... examples/others/msg/lv_example_msg_2.s"
-	@echo "... examples/others/msg/lv_example_msg_3.obj"
+	@echo "... examples/others/msg/lv_example_msg_3.o"
 	@echo "... examples/others/msg/lv_example_msg_3.i"
 	@echo "... examples/others/msg/lv_example_msg_3.s"
-	@echo "... examples/others/snapshot/lv_example_snapshot_1.obj"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.o"
 	@echo "... examples/others/snapshot/lv_example_snapshot_1.i"
 	@echo "... examples/others/snapshot/lv_example_snapshot_1.s"
-	@echo "... examples/porting/lv_port_disp_template.obj"
+	@echo "... examples/porting/lv_port_disp_template.o"
 	@echo "... examples/porting/lv_port_disp_template.i"
 	@echo "... examples/porting/lv_port_disp_template.s"
-	@echo "... examples/porting/lv_port_fs_template.obj"
+	@echo "... examples/porting/lv_port_fs_template.o"
 	@echo "... examples/porting/lv_port_fs_template.i"
 	@echo "... examples/porting/lv_port_fs_template.s"
-	@echo "... examples/porting/lv_port_indev_template.obj"
+	@echo "... examples/porting/lv_port_indev_template.o"
 	@echo "... examples/porting/lv_port_indev_template.i"
 	@echo "... examples/porting/lv_port_indev_template.s"
-	@echo "... examples/scroll/lv_example_scroll_1.obj"
+	@echo "... examples/scroll/lv_example_scroll_1.o"
 	@echo "... examples/scroll/lv_example_scroll_1.i"
 	@echo "... examples/scroll/lv_example_scroll_1.s"
-	@echo "... examples/scroll/lv_example_scroll_2.obj"
+	@echo "... examples/scroll/lv_example_scroll_2.o"
 	@echo "... examples/scroll/lv_example_scroll_2.i"
 	@echo "... examples/scroll/lv_example_scroll_2.s"
-	@echo "... examples/scroll/lv_example_scroll_3.obj"
+	@echo "... examples/scroll/lv_example_scroll_3.o"
 	@echo "... examples/scroll/lv_example_scroll_3.i"
 	@echo "... examples/scroll/lv_example_scroll_3.s"
-	@echo "... examples/scroll/lv_example_scroll_4.obj"
+	@echo "... examples/scroll/lv_example_scroll_4.o"
 	@echo "... examples/scroll/lv_example_scroll_4.i"
 	@echo "... examples/scroll/lv_example_scroll_4.s"
-	@echo "... examples/scroll/lv_example_scroll_5.obj"
+	@echo "... examples/scroll/lv_example_scroll_5.o"
 	@echo "... examples/scroll/lv_example_scroll_5.i"
 	@echo "... examples/scroll/lv_example_scroll_5.s"
-	@echo "... examples/scroll/lv_example_scroll_6.obj"
+	@echo "... examples/scroll/lv_example_scroll_6.o"
 	@echo "... examples/scroll/lv_example_scroll_6.i"
 	@echo "... examples/scroll/lv_example_scroll_6.s"
-	@echo "... examples/styles/lv_example_style_1.obj"
+	@echo "... examples/styles/lv_example_style_1.o"
 	@echo "... examples/styles/lv_example_style_1.i"
 	@echo "... examples/styles/lv_example_style_1.s"
-	@echo "... examples/styles/lv_example_style_10.obj"
+	@echo "... examples/styles/lv_example_style_10.o"
 	@echo "... examples/styles/lv_example_style_10.i"
 	@echo "... examples/styles/lv_example_style_10.s"
-	@echo "... examples/styles/lv_example_style_11.obj"
+	@echo "... examples/styles/lv_example_style_11.o"
 	@echo "... examples/styles/lv_example_style_11.i"
 	@echo "... examples/styles/lv_example_style_11.s"
-	@echo "... examples/styles/lv_example_style_12.obj"
+	@echo "... examples/styles/lv_example_style_12.o"
 	@echo "... examples/styles/lv_example_style_12.i"
 	@echo "... examples/styles/lv_example_style_12.s"
-	@echo "... examples/styles/lv_example_style_13.obj"
+	@echo "... examples/styles/lv_example_style_13.o"
 	@echo "... examples/styles/lv_example_style_13.i"
 	@echo "... examples/styles/lv_example_style_13.s"
-	@echo "... examples/styles/lv_example_style_14.obj"
+	@echo "... examples/styles/lv_example_style_14.o"
 	@echo "... examples/styles/lv_example_style_14.i"
 	@echo "... examples/styles/lv_example_style_14.s"
-	@echo "... examples/styles/lv_example_style_15.obj"
+	@echo "... examples/styles/lv_example_style_15.o"
 	@echo "... examples/styles/lv_example_style_15.i"
 	@echo "... examples/styles/lv_example_style_15.s"
-	@echo "... examples/styles/lv_example_style_2.obj"
+	@echo "... examples/styles/lv_example_style_2.o"
 	@echo "... examples/styles/lv_example_style_2.i"
 	@echo "... examples/styles/lv_example_style_2.s"
-	@echo "... examples/styles/lv_example_style_3.obj"
+	@echo "... examples/styles/lv_example_style_3.o"
 	@echo "... examples/styles/lv_example_style_3.i"
 	@echo "... examples/styles/lv_example_style_3.s"
-	@echo "... examples/styles/lv_example_style_4.obj"
+	@echo "... examples/styles/lv_example_style_4.o"
 	@echo "... examples/styles/lv_example_style_4.i"
 	@echo "... examples/styles/lv_example_style_4.s"
-	@echo "... examples/styles/lv_example_style_5.obj"
+	@echo "... examples/styles/lv_example_style_5.o"
 	@echo "... examples/styles/lv_example_style_5.i"
 	@echo "... examples/styles/lv_example_style_5.s"
-	@echo "... examples/styles/lv_example_style_6.obj"
+	@echo "... examples/styles/lv_example_style_6.o"
 	@echo "... examples/styles/lv_example_style_6.i"
 	@echo "... examples/styles/lv_example_style_6.s"
-	@echo "... examples/styles/lv_example_style_7.obj"
+	@echo "... examples/styles/lv_example_style_7.o"
 	@echo "... examples/styles/lv_example_style_7.i"
 	@echo "... examples/styles/lv_example_style_7.s"
-	@echo "... examples/styles/lv_example_style_8.obj"
+	@echo "... examples/styles/lv_example_style_8.o"
 	@echo "... examples/styles/lv_example_style_8.i"
 	@echo "... examples/styles/lv_example_style_8.s"
-	@echo "... examples/styles/lv_example_style_9.obj"
+	@echo "... examples/styles/lv_example_style_9.o"
 	@echo "... examples/styles/lv_example_style_9.i"
 	@echo "... examples/styles/lv_example_style_9.s"
-	@echo "... examples/widgets/animimg/lv_example_animimg_1.obj"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.o"
 	@echo "... examples/widgets/animimg/lv_example_animimg_1.i"
 	@echo "... examples/widgets/animimg/lv_example_animimg_1.s"
-	@echo "... examples/widgets/arc/lv_example_arc_1.obj"
+	@echo "... examples/widgets/arc/lv_example_arc_1.o"
 	@echo "... examples/widgets/arc/lv_example_arc_1.i"
 	@echo "... examples/widgets/arc/lv_example_arc_1.s"
-	@echo "... examples/widgets/arc/lv_example_arc_2.obj"
+	@echo "... examples/widgets/arc/lv_example_arc_2.o"
 	@echo "... examples/widgets/arc/lv_example_arc_2.i"
 	@echo "... examples/widgets/arc/lv_example_arc_2.s"
-	@echo "... examples/widgets/bar/lv_example_bar_1.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_1.o"
 	@echo "... examples/widgets/bar/lv_example_bar_1.i"
 	@echo "... examples/widgets/bar/lv_example_bar_1.s"
-	@echo "... examples/widgets/bar/lv_example_bar_2.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_2.o"
 	@echo "... examples/widgets/bar/lv_example_bar_2.i"
 	@echo "... examples/widgets/bar/lv_example_bar_2.s"
-	@echo "... examples/widgets/bar/lv_example_bar_3.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_3.o"
 	@echo "... examples/widgets/bar/lv_example_bar_3.i"
 	@echo "... examples/widgets/bar/lv_example_bar_3.s"
-	@echo "... examples/widgets/bar/lv_example_bar_4.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_4.o"
 	@echo "... examples/widgets/bar/lv_example_bar_4.i"
 	@echo "... examples/widgets/bar/lv_example_bar_4.s"
-	@echo "... examples/widgets/bar/lv_example_bar_5.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_5.o"
 	@echo "... examples/widgets/bar/lv_example_bar_5.i"
 	@echo "... examples/widgets/bar/lv_example_bar_5.s"
-	@echo "... examples/widgets/bar/lv_example_bar_6.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_6.o"
 	@echo "... examples/widgets/bar/lv_example_bar_6.i"
 	@echo "... examples/widgets/bar/lv_example_bar_6.s"
-	@echo "... examples/widgets/btn/lv_example_btn_1.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_1.o"
 	@echo "... examples/widgets/btn/lv_example_btn_1.i"
 	@echo "... examples/widgets/btn/lv_example_btn_1.s"
-	@echo "... examples/widgets/btn/lv_example_btn_2.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_2.o"
 	@echo "... examples/widgets/btn/lv_example_btn_2.i"
 	@echo "... examples/widgets/btn/lv_example_btn_2.s"
-	@echo "... examples/widgets/btn/lv_example_btn_3.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_3.o"
 	@echo "... examples/widgets/btn/lv_example_btn_3.i"
 	@echo "... examples/widgets/btn/lv_example_btn_3.s"
-	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.o"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.i"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.s"
-	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.o"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.i"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.s"
-	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.o"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.i"
 	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.s"
-	@echo "... examples/widgets/calendar/lv_example_calendar_1.obj"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.o"
 	@echo "... examples/widgets/calendar/lv_example_calendar_1.i"
 	@echo "... examples/widgets/calendar/lv_example_calendar_1.s"
-	@echo "... examples/widgets/canvas/lv_example_canvas_1.obj"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.o"
 	@echo "... examples/widgets/canvas/lv_example_canvas_1.i"
 	@echo "... examples/widgets/canvas/lv_example_canvas_1.s"
-	@echo "... examples/widgets/canvas/lv_example_canvas_2.obj"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.o"
 	@echo "... examples/widgets/canvas/lv_example_canvas_2.i"
 	@echo "... examples/widgets/canvas/lv_example_canvas_2.s"
-	@echo "... examples/widgets/chart/lv_example_chart_1.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_1.o"
 	@echo "... examples/widgets/chart/lv_example_chart_1.i"
 	@echo "... examples/widgets/chart/lv_example_chart_1.s"
-	@echo "... examples/widgets/chart/lv_example_chart_2.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_2.o"
 	@echo "... examples/widgets/chart/lv_example_chart_2.i"
 	@echo "... examples/widgets/chart/lv_example_chart_2.s"
-	@echo "... examples/widgets/chart/lv_example_chart_3.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_3.o"
 	@echo "... examples/widgets/chart/lv_example_chart_3.i"
 	@echo "... examples/widgets/chart/lv_example_chart_3.s"
-	@echo "... examples/widgets/chart/lv_example_chart_4.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_4.o"
 	@echo "... examples/widgets/chart/lv_example_chart_4.i"
 	@echo "... examples/widgets/chart/lv_example_chart_4.s"
-	@echo "... examples/widgets/chart/lv_example_chart_5.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_5.o"
 	@echo "... examples/widgets/chart/lv_example_chart_5.i"
 	@echo "... examples/widgets/chart/lv_example_chart_5.s"
-	@echo "... examples/widgets/chart/lv_example_chart_6.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_6.o"
 	@echo "... examples/widgets/chart/lv_example_chart_6.i"
 	@echo "... examples/widgets/chart/lv_example_chart_6.s"
-	@echo "... examples/widgets/chart/lv_example_chart_7.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_7.o"
 	@echo "... examples/widgets/chart/lv_example_chart_7.i"
 	@echo "... examples/widgets/chart/lv_example_chart_7.s"
-	@echo "... examples/widgets/chart/lv_example_chart_8.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_8.o"
 	@echo "... examples/widgets/chart/lv_example_chart_8.i"
 	@echo "... examples/widgets/chart/lv_example_chart_8.s"
-	@echo "... examples/widgets/chart/lv_example_chart_9.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_9.o"
 	@echo "... examples/widgets/chart/lv_example_chart_9.i"
 	@echo "... examples/widgets/chart/lv_example_chart_9.s"
-	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.obj"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.o"
 	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.i"
 	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.s"
-	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.obj"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.o"
 	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.i"
 	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.s"
-	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.obj"
+	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.o"
 	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.i"
 	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.s"
-	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.o"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.i"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.s"
-	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.o"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.i"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.s"
-	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.o"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.i"
 	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.s"
-	@echo "... examples/widgets/img/lv_example_img_1.obj"
+	@echo "... examples/widgets/img/lv_example_img_1.o"
 	@echo "... examples/widgets/img/lv_example_img_1.i"
 	@echo "... examples/widgets/img/lv_example_img_1.s"
-	@echo "... examples/widgets/img/lv_example_img_2.obj"
+	@echo "... examples/widgets/img/lv_example_img_2.o"
 	@echo "... examples/widgets/img/lv_example_img_2.i"
 	@echo "... examples/widgets/img/lv_example_img_2.s"
-	@echo "... examples/widgets/img/lv_example_img_3.obj"
+	@echo "... examples/widgets/img/lv_example_img_3.o"
 	@echo "... examples/widgets/img/lv_example_img_3.i"
 	@echo "... examples/widgets/img/lv_example_img_3.s"
-	@echo "... examples/widgets/img/lv_example_img_4.obj"
+	@echo "... examples/widgets/img/lv_example_img_4.o"
 	@echo "... examples/widgets/img/lv_example_img_4.i"
 	@echo "... examples/widgets/img/lv_example_img_4.s"
-	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.obj"
+	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.o"
 	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.i"
 	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.s"
-	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.obj"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.o"
 	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.i"
 	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.s"
-	@echo "... examples/widgets/label/lv_example_label_1.obj"
+	@echo "... examples/widgets/label/lv_example_label_1.o"
 	@echo "... examples/widgets/label/lv_example_label_1.i"
 	@echo "... examples/widgets/label/lv_example_label_1.s"
-	@echo "... examples/widgets/label/lv_example_label_2.obj"
+	@echo "... examples/widgets/label/lv_example_label_2.o"
 	@echo "... examples/widgets/label/lv_example_label_2.i"
 	@echo "... examples/widgets/label/lv_example_label_2.s"
-	@echo "... examples/widgets/label/lv_example_label_3.obj"
+	@echo "... examples/widgets/label/lv_example_label_3.o"
 	@echo "... examples/widgets/label/lv_example_label_3.i"
 	@echo "... examples/widgets/label/lv_example_label_3.s"
-	@echo "... examples/widgets/label/lv_example_label_4.obj"
+	@echo "... examples/widgets/label/lv_example_label_4.o"
 	@echo "... examples/widgets/label/lv_example_label_4.i"
 	@echo "... examples/widgets/label/lv_example_label_4.s"
-	@echo "... examples/widgets/label/lv_example_label_5.obj"
+	@echo "... examples/widgets/label/lv_example_label_5.o"
 	@echo "... examples/widgets/label/lv_example_label_5.i"
 	@echo "... examples/widgets/label/lv_example_label_5.s"
-	@echo "... examples/widgets/led/lv_example_led_1.obj"
+	@echo "... examples/widgets/led/lv_example_led_1.o"
 	@echo "... examples/widgets/led/lv_example_led_1.i"
 	@echo "... examples/widgets/led/lv_example_led_1.s"
-	@echo "... examples/widgets/line/lv_example_line_1.obj"
+	@echo "... examples/widgets/line/lv_example_line_1.o"
 	@echo "... examples/widgets/line/lv_example_line_1.i"
 	@echo "... examples/widgets/line/lv_example_line_1.s"
-	@echo "... examples/widgets/list/lv_example_list_1.obj"
+	@echo "... examples/widgets/list/lv_example_list_1.o"
 	@echo "... examples/widgets/list/lv_example_list_1.i"
 	@echo "... examples/widgets/list/lv_example_list_1.s"
-	@echo "... examples/widgets/list/lv_example_list_2.obj"
+	@echo "... examples/widgets/list/lv_example_list_2.o"
 	@echo "... examples/widgets/list/lv_example_list_2.i"
 	@echo "... examples/widgets/list/lv_example_list_2.s"
-	@echo "... examples/widgets/menu/lv_example_menu_1.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_1.o"
 	@echo "... examples/widgets/menu/lv_example_menu_1.i"
 	@echo "... examples/widgets/menu/lv_example_menu_1.s"
-	@echo "... examples/widgets/menu/lv_example_menu_2.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_2.o"
 	@echo "... examples/widgets/menu/lv_example_menu_2.i"
 	@echo "... examples/widgets/menu/lv_example_menu_2.s"
-	@echo "... examples/widgets/menu/lv_example_menu_3.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_3.o"
 	@echo "... examples/widgets/menu/lv_example_menu_3.i"
 	@echo "... examples/widgets/menu/lv_example_menu_3.s"
-	@echo "... examples/widgets/menu/lv_example_menu_4.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_4.o"
 	@echo "... examples/widgets/menu/lv_example_menu_4.i"
 	@echo "... examples/widgets/menu/lv_example_menu_4.s"
-	@echo "... examples/widgets/menu/lv_example_menu_5.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_5.o"
 	@echo "... examples/widgets/menu/lv_example_menu_5.i"
 	@echo "... examples/widgets/menu/lv_example_menu_5.s"
-	@echo "... examples/widgets/meter/lv_example_meter_1.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_1.o"
 	@echo "... examples/widgets/meter/lv_example_meter_1.i"
 	@echo "... examples/widgets/meter/lv_example_meter_1.s"
-	@echo "... examples/widgets/meter/lv_example_meter_2.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_2.o"
 	@echo "... examples/widgets/meter/lv_example_meter_2.i"
 	@echo "... examples/widgets/meter/lv_example_meter_2.s"
-	@echo "... examples/widgets/meter/lv_example_meter_3.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_3.o"
 	@echo "... examples/widgets/meter/lv_example_meter_3.i"
 	@echo "... examples/widgets/meter/lv_example_meter_3.s"
-	@echo "... examples/widgets/meter/lv_example_meter_4.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_4.o"
 	@echo "... examples/widgets/meter/lv_example_meter_4.i"
 	@echo "... examples/widgets/meter/lv_example_meter_4.s"
-	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.obj"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.o"
 	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.i"
 	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.s"
-	@echo "... examples/widgets/obj/lv_example_obj_1.obj"
+	@echo "... examples/widgets/obj/lv_example_obj_1.o"
 	@echo "... examples/widgets/obj/lv_example_obj_1.i"
 	@echo "... examples/widgets/obj/lv_example_obj_1.s"
-	@echo "... examples/widgets/obj/lv_example_obj_2.obj"
+	@echo "... examples/widgets/obj/lv_example_obj_2.o"
 	@echo "... examples/widgets/obj/lv_example_obj_2.i"
 	@echo "... examples/widgets/obj/lv_example_obj_2.s"
-	@echo "... examples/widgets/roller/lv_example_roller_1.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_1.o"
 	@echo "... examples/widgets/roller/lv_example_roller_1.i"
 	@echo "... examples/widgets/roller/lv_example_roller_1.s"
-	@echo "... examples/widgets/roller/lv_example_roller_2.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_2.o"
 	@echo "... examples/widgets/roller/lv_example_roller_2.i"
 	@echo "... examples/widgets/roller/lv_example_roller_2.s"
-	@echo "... examples/widgets/roller/lv_example_roller_3.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_3.o"
 	@echo "... examples/widgets/roller/lv_example_roller_3.i"
 	@echo "... examples/widgets/roller/lv_example_roller_3.s"
-	@echo "... examples/widgets/slider/lv_example_slider_1.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_1.o"
 	@echo "... examples/widgets/slider/lv_example_slider_1.i"
 	@echo "... examples/widgets/slider/lv_example_slider_1.s"
-	@echo "... examples/widgets/slider/lv_example_slider_2.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_2.o"
 	@echo "... examples/widgets/slider/lv_example_slider_2.i"
 	@echo "... examples/widgets/slider/lv_example_slider_2.s"
-	@echo "... examples/widgets/slider/lv_example_slider_3.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_3.o"
 	@echo "... examples/widgets/slider/lv_example_slider_3.i"
 	@echo "... examples/widgets/slider/lv_example_slider_3.s"
-	@echo "... examples/widgets/span/lv_example_span_1.obj"
+	@echo "... examples/widgets/span/lv_example_span_1.o"
 	@echo "... examples/widgets/span/lv_example_span_1.i"
 	@echo "... examples/widgets/span/lv_example_span_1.s"
-	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.obj"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.o"
 	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.i"
 	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.s"
-	@echo "... examples/widgets/spinner/lv_example_spinner_1.obj"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.o"
 	@echo "... examples/widgets/spinner/lv_example_spinner_1.i"
 	@echo "... examples/widgets/spinner/lv_example_spinner_1.s"
-	@echo "... examples/widgets/switch/lv_example_switch_1.obj"
+	@echo "... examples/widgets/switch/lv_example_switch_1.o"
 	@echo "... examples/widgets/switch/lv_example_switch_1.i"
 	@echo "... examples/widgets/switch/lv_example_switch_1.s"
-	@echo "... examples/widgets/table/lv_example_table_1.obj"
+	@echo "... examples/widgets/table/lv_example_table_1.o"
 	@echo "... examples/widgets/table/lv_example_table_1.i"
 	@echo "... examples/widgets/table/lv_example_table_1.s"
-	@echo "... examples/widgets/table/lv_example_table_2.obj"
+	@echo "... examples/widgets/table/lv_example_table_2.o"
 	@echo "... examples/widgets/table/lv_example_table_2.i"
 	@echo "... examples/widgets/table/lv_example_table_2.s"
-	@echo "... examples/widgets/tabview/lv_example_tabview_1.obj"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.o"
 	@echo "... examples/widgets/tabview/lv_example_tabview_1.i"
 	@echo "... examples/widgets/tabview/lv_example_tabview_1.s"
-	@echo "... examples/widgets/tabview/lv_example_tabview_2.obj"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.o"
 	@echo "... examples/widgets/tabview/lv_example_tabview_2.i"
 	@echo "... examples/widgets/tabview/lv_example_tabview_2.s"
-	@echo "... examples/widgets/textarea/lv_example_textarea_1.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.o"
 	@echo "... examples/widgets/textarea/lv_example_textarea_1.i"
 	@echo "... examples/widgets/textarea/lv_example_textarea_1.s"
-	@echo "... examples/widgets/textarea/lv_example_textarea_2.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.o"
 	@echo "... examples/widgets/textarea/lv_example_textarea_2.i"
 	@echo "... examples/widgets/textarea/lv_example_textarea_2.s"
-	@echo "... examples/widgets/textarea/lv_example_textarea_3.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.o"
 	@echo "... examples/widgets/textarea/lv_example_textarea_3.i"
 	@echo "... examples/widgets/textarea/lv_example_textarea_3.s"
-	@echo "... examples/widgets/tileview/lv_example_tileview_1.obj"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.o"
 	@echo "... examples/widgets/tileview/lv_example_tileview_1.i"
 	@echo "... examples/widgets/tileview/lv_example_tileview_1.s"
-	@echo "... examples/widgets/win/lv_example_win_1.obj"
+	@echo "... examples/widgets/win/lv_example_win_1.o"
 	@echo "... examples/widgets/win/lv_example_win_1.i"
 	@echo "... examples/widgets/win/lv_example_win_1.s"
-	@echo "... src/core/lv_disp.obj"
+	@echo "... src/core/lv_disp.o"
 	@echo "... src/core/lv_disp.i"
 	@echo "... src/core/lv_disp.s"
-	@echo "... src/core/lv_event.obj"
+	@echo "... src/core/lv_event.o"
 	@echo "... src/core/lv_event.i"
 	@echo "... src/core/lv_event.s"
-	@echo "... src/core/lv_group.obj"
+	@echo "... src/core/lv_group.o"
 	@echo "... src/core/lv_group.i"
 	@echo "... src/core/lv_group.s"
-	@echo "... src/core/lv_indev.obj"
+	@echo "... src/core/lv_indev.o"
 	@echo "... src/core/lv_indev.i"
 	@echo "... src/core/lv_indev.s"
-	@echo "... src/core/lv_indev_scroll.obj"
+	@echo "... src/core/lv_indev_scroll.o"
 	@echo "... src/core/lv_indev_scroll.i"
 	@echo "... src/core/lv_indev_scroll.s"
-	@echo "... src/core/lv_obj.obj"
+	@echo "... src/core/lv_obj.o"
 	@echo "... src/core/lv_obj.i"
 	@echo "... src/core/lv_obj.s"
-	@echo "... src/core/lv_obj_class.obj"
+	@echo "... src/core/lv_obj_class.o"
 	@echo "... src/core/lv_obj_class.i"
 	@echo "... src/core/lv_obj_class.s"
-	@echo "... src/core/lv_obj_draw.obj"
+	@echo "... src/core/lv_obj_draw.o"
 	@echo "... src/core/lv_obj_draw.i"
 	@echo "... src/core/lv_obj_draw.s"
-	@echo "... src/core/lv_obj_pos.obj"
+	@echo "... src/core/lv_obj_pos.o"
 	@echo "... src/core/lv_obj_pos.i"
 	@echo "... src/core/lv_obj_pos.s"
-	@echo "... src/core/lv_obj_scroll.obj"
+	@echo "... src/core/lv_obj_scroll.o"
 	@echo "... src/core/lv_obj_scroll.i"
 	@echo "... src/core/lv_obj_scroll.s"
-	@echo "... src/core/lv_obj_style.obj"
+	@echo "... src/core/lv_obj_style.o"
 	@echo "... src/core/lv_obj_style.i"
 	@echo "... src/core/lv_obj_style.s"
-	@echo "... src/core/lv_obj_style_gen.obj"
+	@echo "... src/core/lv_obj_style_gen.o"
 	@echo "... src/core/lv_obj_style_gen.i"
 	@echo "... src/core/lv_obj_style_gen.s"
-	@echo "... src/core/lv_obj_tree.obj"
+	@echo "... src/core/lv_obj_tree.o"
 	@echo "... src/core/lv_obj_tree.i"
 	@echo "... src/core/lv_obj_tree.s"
-	@echo "... src/core/lv_refr.obj"
+	@echo "... src/core/lv_refr.o"
 	@echo "... src/core/lv_refr.i"
 	@echo "... src/core/lv_refr.s"
-	@echo "... src/core/lv_theme.obj"
+	@echo "... src/core/lv_theme.o"
 	@echo "... src/core/lv_theme.i"
 	@echo "... src/core/lv_theme.s"
-	@echo "... src/draw/arm2d/lv_gpu_arm2d.obj"
+	@echo "... src/draw/arm2d/lv_gpu_arm2d.o"
 	@echo "... src/draw/arm2d/lv_gpu_arm2d.i"
 	@echo "... src/draw/arm2d/lv_gpu_arm2d.s"
-	@echo "... src/draw/lv_draw.obj"
+	@echo "... src/draw/lv_draw.o"
 	@echo "... src/draw/lv_draw.i"
 	@echo "... src/draw/lv_draw.s"
-	@echo "... src/draw/lv_draw_arc.obj"
+	@echo "... src/draw/lv_draw_arc.o"
 	@echo "... src/draw/lv_draw_arc.i"
 	@echo "... src/draw/lv_draw_arc.s"
-	@echo "... src/draw/lv_draw_img.obj"
+	@echo "... src/draw/lv_draw_img.o"
 	@echo "... src/draw/lv_draw_img.i"
 	@echo "... src/draw/lv_draw_img.s"
-	@echo "... src/draw/lv_draw_label.obj"
+	@echo "... src/draw/lv_draw_label.o"
 	@echo "... src/draw/lv_draw_label.i"
 	@echo "... src/draw/lv_draw_label.s"
-	@echo "... src/draw/lv_draw_layer.obj"
+	@echo "... src/draw/lv_draw_layer.o"
 	@echo "... src/draw/lv_draw_layer.i"
 	@echo "... src/draw/lv_draw_layer.s"
-	@echo "... src/draw/lv_draw_line.obj"
+	@echo "... src/draw/lv_draw_line.o"
 	@echo "... src/draw/lv_draw_line.i"
 	@echo "... src/draw/lv_draw_line.s"
-	@echo "... src/draw/lv_draw_mask.obj"
+	@echo "... src/draw/lv_draw_mask.o"
 	@echo "... src/draw/lv_draw_mask.i"
 	@echo "... src/draw/lv_draw_mask.s"
-	@echo "... src/draw/lv_draw_rect.obj"
+	@echo "... src/draw/lv_draw_rect.o"
 	@echo "... src/draw/lv_draw_rect.i"
 	@echo "... src/draw/lv_draw_rect.s"
-	@echo "... src/draw/lv_draw_transform.obj"
+	@echo "... src/draw/lv_draw_transform.o"
 	@echo "... src/draw/lv_draw_transform.i"
 	@echo "... src/draw/lv_draw_transform.s"
-	@echo "... src/draw/lv_draw_triangle.obj"
+	@echo "... src/draw/lv_draw_triangle.o"
 	@echo "... src/draw/lv_draw_triangle.i"
 	@echo "... src/draw/lv_draw_triangle.s"
-	@echo "... src/draw/lv_img_buf.obj"
+	@echo "... src/draw/lv_img_buf.o"
 	@echo "... src/draw/lv_img_buf.i"
 	@echo "... src/draw/lv_img_buf.s"
-	@echo "... src/draw/lv_img_cache.obj"
+	@echo "... src/draw/lv_img_cache.o"
 	@echo "... src/draw/lv_img_cache.i"
 	@echo "... src/draw/lv_img_cache.s"
-	@echo "... src/draw/lv_img_decoder.obj"
+	@echo "... src/draw/lv_img_decoder.o"
 	@echo "... src/draw/lv_img_decoder.i"
 	@echo "... src/draw/lv_img_decoder.s"
-	@echo "... src/draw/nxp/pxp/lv_draw_pxp.obj"
+	@echo "... src/draw/nxp/pxp/lv_draw_pxp.o"
 	@echo "... src/draw/nxp/pxp/lv_draw_pxp.i"
 	@echo "... src/draw/nxp/pxp/lv_draw_pxp.s"
-	@echo "... src/draw/nxp/pxp/lv_draw_pxp_blend.obj"
+	@echo "... src/draw/nxp/pxp/lv_draw_pxp_blend.o"
 	@echo "... src/draw/nxp/pxp/lv_draw_pxp_blend.i"
 	@echo "... src/draw/nxp/pxp/lv_draw_pxp_blend.s"
-	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp.obj"
+	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp.o"
 	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp.i"
 	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp.s"
-	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.obj"
+	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.o"
 	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.i"
 	@echo "... src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.s"
-	@echo "... src/draw/nxp/vglite/lv_draw_vglite.obj"
+	@echo "... src/draw/nxp/vglite/lv_draw_vglite.o"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite.i"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite.s"
-	@echo "... src/draw/nxp/vglite/lv_draw_vglite_arc.obj"
+	@echo "... src/draw/nxp/vglite/lv_draw_vglite_arc.o"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_arc.i"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_arc.s"
-	@echo "... src/draw/nxp/vglite/lv_draw_vglite_blend.obj"
+	@echo "... src/draw/nxp/vglite/lv_draw_vglite_blend.o"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_blend.i"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_blend.s"
-	@echo "... src/draw/nxp/vglite/lv_draw_vglite_line.obj"
+	@echo "... src/draw/nxp/vglite/lv_draw_vglite_line.o"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_line.i"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_line.s"
-	@echo "... src/draw/nxp/vglite/lv_draw_vglite_rect.obj"
+	@echo "... src/draw/nxp/vglite/lv_draw_vglite_rect.o"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_rect.i"
 	@echo "... src/draw/nxp/vglite/lv_draw_vglite_rect.s"
-	@echo "... src/draw/nxp/vglite/lv_vglite_buf.obj"
+	@echo "... src/draw/nxp/vglite/lv_vglite_buf.o"
 	@echo "... src/draw/nxp/vglite/lv_vglite_buf.i"
 	@echo "... src/draw/nxp/vglite/lv_vglite_buf.s"
-	@echo "... src/draw/nxp/vglite/lv_vglite_utils.obj"
+	@echo "... src/draw/nxp/vglite/lv_vglite_utils.o"
 	@echo "... src/draw/nxp/vglite/lv_vglite_utils.i"
 	@echo "... src/draw/nxp/vglite/lv_vglite_utils.s"
-	@echo "... src/draw/renesas/lv_gpu_d2_draw_label.obj"
+	@echo "... src/draw/renesas/lv_gpu_d2_draw_label.o"
 	@echo "... src/draw/renesas/lv_gpu_d2_draw_label.i"
 	@echo "... src/draw/renesas/lv_gpu_d2_draw_label.s"
-	@echo "... src/draw/renesas/lv_gpu_d2_ra6m3.obj"
+	@echo "... src/draw/renesas/lv_gpu_d2_ra6m3.o"
 	@echo "... src/draw/renesas/lv_gpu_d2_ra6m3.i"
 	@echo "... src/draw/renesas/lv_gpu_d2_ra6m3.s"
-	@echo "... src/draw/sdl/lv_draw_sdl.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl.o"
 	@echo "... src/draw/sdl/lv_draw_sdl.i"
 	@echo "... src/draw/sdl/lv_draw_sdl.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_arc.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_arc.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_arc.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_arc.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_bg.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_bg.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_bg.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_bg.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_composite.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_composite.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_composite.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_composite.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_img.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_img.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_img.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_img.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_label.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_label.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_label.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_label.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_layer.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_layer.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_layer.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_layer.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_line.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_line.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_line.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_line.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_mask.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_mask.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_mask.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_mask.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_polygon.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_polygon.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_polygon.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_polygon.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_rect.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_rect.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_rect.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_rect.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_stack_blur.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_stack_blur.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_stack_blur.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_stack_blur.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_texture_cache.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_texture_cache.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_texture_cache.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_texture_cache.s"
-	@echo "... src/draw/sdl/lv_draw_sdl_utils.obj"
+	@echo "... src/draw/sdl/lv_draw_sdl_utils.o"
 	@echo "... src/draw/sdl/lv_draw_sdl_utils.i"
 	@echo "... src/draw/sdl/lv_draw_sdl_utils.s"
-	@echo "... src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.obj"
+	@echo "... src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.o"
 	@echo "... src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.i"
 	@echo "... src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.s"
-	@echo "... src/draw/sw/lv_draw_sw.obj"
+	@echo "... src/draw/sw/lv_draw_sw.o"
 	@echo "... src/draw/sw/lv_draw_sw.i"
 	@echo "... src/draw/sw/lv_draw_sw.s"
-	@echo "... src/draw/sw/lv_draw_sw_arc.obj"
+	@echo "... src/draw/sw/lv_draw_sw_arc.o"
 	@echo "... src/draw/sw/lv_draw_sw_arc.i"
 	@echo "... src/draw/sw/lv_draw_sw_arc.s"
-	@echo "... src/draw/sw/lv_draw_sw_blend.obj"
+	@echo "... src/draw/sw/lv_draw_sw_blend.o"
 	@echo "... src/draw/sw/lv_draw_sw_blend.i"
 	@echo "... src/draw/sw/lv_draw_sw_blend.s"
-	@echo "... src/draw/sw/lv_draw_sw_dither.obj"
+	@echo "... src/draw/sw/lv_draw_sw_dither.o"
 	@echo "... src/draw/sw/lv_draw_sw_dither.i"
 	@echo "... src/draw/sw/lv_draw_sw_dither.s"
-	@echo "... src/draw/sw/lv_draw_sw_gradient.obj"
+	@echo "... src/draw/sw/lv_draw_sw_gradient.o"
 	@echo "... src/draw/sw/lv_draw_sw_gradient.i"
 	@echo "... src/draw/sw/lv_draw_sw_gradient.s"
-	@echo "... src/draw/sw/lv_draw_sw_img.obj"
+	@echo "... src/draw/sw/lv_draw_sw_img.o"
 	@echo "... src/draw/sw/lv_draw_sw_img.i"
 	@echo "... src/draw/sw/lv_draw_sw_img.s"
-	@echo "... src/draw/sw/lv_draw_sw_layer.obj"
+	@echo "... src/draw/sw/lv_draw_sw_layer.o"
 	@echo "... src/draw/sw/lv_draw_sw_layer.i"
 	@echo "... src/draw/sw/lv_draw_sw_layer.s"
-	@echo "... src/draw/sw/lv_draw_sw_letter.obj"
+	@echo "... src/draw/sw/lv_draw_sw_letter.o"
 	@echo "... src/draw/sw/lv_draw_sw_letter.i"
 	@echo "... src/draw/sw/lv_draw_sw_letter.s"
-	@echo "... src/draw/sw/lv_draw_sw_line.obj"
+	@echo "... src/draw/sw/lv_draw_sw_line.o"
 	@echo "... src/draw/sw/lv_draw_sw_line.i"
 	@echo "... src/draw/sw/lv_draw_sw_line.s"
-	@echo "... src/draw/sw/lv_draw_sw_polygon.obj"
+	@echo "... src/draw/sw/lv_draw_sw_polygon.o"
 	@echo "... src/draw/sw/lv_draw_sw_polygon.i"
 	@echo "... src/draw/sw/lv_draw_sw_polygon.s"
-	@echo "... src/draw/sw/lv_draw_sw_rect.obj"
+	@echo "... src/draw/sw/lv_draw_sw_rect.o"
 	@echo "... src/draw/sw/lv_draw_sw_rect.i"
 	@echo "... src/draw/sw/lv_draw_sw_rect.s"
-	@echo "... src/draw/sw/lv_draw_sw_transform.obj"
+	@echo "... src/draw/sw/lv_draw_sw_transform.o"
 	@echo "... src/draw/sw/lv_draw_sw_transform.i"
 	@echo "... src/draw/sw/lv_draw_sw_transform.s"
-	@echo "... src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.obj"
+	@echo "... src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.o"
 	@echo "... src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.i"
 	@echo "... src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.s"
-	@echo "... src/extra/layouts/flex/lv_flex.obj"
+	@echo "... src/extra/layouts/flex/lv_flex.o"
 	@echo "... src/extra/layouts/flex/lv_flex.i"
 	@echo "... src/extra/layouts/flex/lv_flex.s"
-	@echo "... src/extra/layouts/grid/lv_grid.obj"
+	@echo "... src/extra/layouts/grid/lv_grid.o"
 	@echo "... src/extra/layouts/grid/lv_grid.i"
 	@echo "... src/extra/layouts/grid/lv_grid.s"
-	@echo "... src/extra/libs/bmp/lv_bmp.obj"
+	@echo "... src/extra/libs/bmp/lv_bmp.o"
 	@echo "... src/extra/libs/bmp/lv_bmp.i"
 	@echo "... src/extra/libs/bmp/lv_bmp.s"
-	@echo "... src/extra/libs/ffmpeg/lv_ffmpeg.obj"
+	@echo "... src/extra/libs/ffmpeg/lv_ffmpeg.o"
 	@echo "... src/extra/libs/ffmpeg/lv_ffmpeg.i"
 	@echo "... src/extra/libs/ffmpeg/lv_ffmpeg.s"
-	@echo "... src/extra/libs/freetype/lv_freetype.obj"
+	@echo "... src/extra/libs/freetype/lv_freetype.o"
 	@echo "... src/extra/libs/freetype/lv_freetype.i"
 	@echo "... src/extra/libs/freetype/lv_freetype.s"
-	@echo "... src/extra/libs/fsdrv/lv_fs_fatfs.obj"
+	@echo "... src/extra/libs/fsdrv/lv_fs_fatfs.o"
 	@echo "... src/extra/libs/fsdrv/lv_fs_fatfs.i"
 	@echo "... src/extra/libs/fsdrv/lv_fs_fatfs.s"
-	@echo "... src/extra/libs/fsdrv/lv_fs_littlefs.obj"
+	@echo "... src/extra/libs/fsdrv/lv_fs_littlefs.o"
 	@echo "... src/extra/libs/fsdrv/lv_fs_littlefs.i"
 	@echo "... src/extra/libs/fsdrv/lv_fs_littlefs.s"
-	@echo "... src/extra/libs/fsdrv/lv_fs_posix.obj"
+	@echo "... src/extra/libs/fsdrv/lv_fs_posix.o"
 	@echo "... src/extra/libs/fsdrv/lv_fs_posix.i"
 	@echo "... src/extra/libs/fsdrv/lv_fs_posix.s"
-	@echo "... src/extra/libs/fsdrv/lv_fs_stdio.obj"
+	@echo "... src/extra/libs/fsdrv/lv_fs_stdio.o"
 	@echo "... src/extra/libs/fsdrv/lv_fs_stdio.i"
 	@echo "... src/extra/libs/fsdrv/lv_fs_stdio.s"
-	@echo "... src/extra/libs/fsdrv/lv_fs_win32.obj"
+	@echo "... src/extra/libs/fsdrv/lv_fs_win32.o"
 	@echo "... src/extra/libs/fsdrv/lv_fs_win32.i"
 	@echo "... src/extra/libs/fsdrv/lv_fs_win32.s"
-	@echo "... src/extra/libs/gif/gifdec.obj"
+	@echo "... src/extra/libs/gif/gifdec.o"
 	@echo "... src/extra/libs/gif/gifdec.i"
 	@echo "... src/extra/libs/gif/gifdec.s"
-	@echo "... src/extra/libs/gif/lv_gif.obj"
+	@echo "... src/extra/libs/gif/lv_gif.o"
 	@echo "... src/extra/libs/gif/lv_gif.i"
 	@echo "... src/extra/libs/gif/lv_gif.s"
-	@echo "... src/extra/libs/png/lodepng.obj"
+	@echo "... src/extra/libs/png/lodepng.o"
 	@echo "... src/extra/libs/png/lodepng.i"
 	@echo "... src/extra/libs/png/lodepng.s"
-	@echo "... src/extra/libs/png/lv_png.obj"
+	@echo "... src/extra/libs/png/lv_png.o"
 	@echo "... src/extra/libs/png/lv_png.i"
 	@echo "... src/extra/libs/png/lv_png.s"
-	@echo "... src/extra/libs/qrcode/lv_qrcode.obj"
+	@echo "... src/extra/libs/qrcode/lv_qrcode.o"
 	@echo "... src/extra/libs/qrcode/lv_qrcode.i"
 	@echo "... src/extra/libs/qrcode/lv_qrcode.s"
-	@echo "... src/extra/libs/qrcode/qrcodegen.obj"
+	@echo "... src/extra/libs/qrcode/qrcodegen.o"
 	@echo "... src/extra/libs/qrcode/qrcodegen.i"
 	@echo "... src/extra/libs/qrcode/qrcodegen.s"
-	@echo "... src/extra/libs/rlottie/lv_rlottie.obj"
+	@echo "... src/extra/libs/rlottie/lv_rlottie.o"
 	@echo "... src/extra/libs/rlottie/lv_rlottie.i"
 	@echo "... src/extra/libs/rlottie/lv_rlottie.s"
-	@echo "... src/extra/libs/sjpg/lv_sjpg.obj"
+	@echo "... src/extra/libs/sjpg/lv_sjpg.o"
 	@echo "... src/extra/libs/sjpg/lv_sjpg.i"
 	@echo "... src/extra/libs/sjpg/lv_sjpg.s"
-	@echo "... src/extra/libs/sjpg/tjpgd.obj"
+	@echo "... src/extra/libs/sjpg/tjpgd.o"
 	@echo "... src/extra/libs/sjpg/tjpgd.i"
 	@echo "... src/extra/libs/sjpg/tjpgd.s"
-	@echo "... src/extra/libs/tiny_ttf/lv_tiny_ttf.obj"
+	@echo "... src/extra/libs/tiny_ttf/lv_tiny_ttf.o"
 	@echo "... src/extra/libs/tiny_ttf/lv_tiny_ttf.i"
 	@echo "... src/extra/libs/tiny_ttf/lv_tiny_ttf.s"
-	@echo "... src/extra/lv_extra.obj"
+	@echo "... src/extra/lv_extra.o"
 	@echo "... src/extra/lv_extra.i"
 	@echo "... src/extra/lv_extra.s"
-	@echo "... src/extra/others/fragment/lv_fragment.obj"
+	@echo "... src/extra/others/fragment/lv_fragment.o"
 	@echo "... src/extra/others/fragment/lv_fragment.i"
 	@echo "... src/extra/others/fragment/lv_fragment.s"
-	@echo "... src/extra/others/fragment/lv_fragment_manager.obj"
+	@echo "... src/extra/others/fragment/lv_fragment_manager.o"
 	@echo "... src/extra/others/fragment/lv_fragment_manager.i"
 	@echo "... src/extra/others/fragment/lv_fragment_manager.s"
-	@echo "... src/extra/others/gridnav/lv_gridnav.obj"
+	@echo "... src/extra/others/gridnav/lv_gridnav.o"
 	@echo "... src/extra/others/gridnav/lv_gridnav.i"
 	@echo "... src/extra/others/gridnav/lv_gridnav.s"
-	@echo "... src/extra/others/ime/lv_ime_pinyin.obj"
+	@echo "... src/extra/others/ime/lv_ime_pinyin.o"
 	@echo "... src/extra/others/ime/lv_ime_pinyin.i"
 	@echo "... src/extra/others/ime/lv_ime_pinyin.s"
-	@echo "... src/extra/others/imgfont/lv_imgfont.obj"
+	@echo "... src/extra/others/imgfont/lv_imgfont.o"
 	@echo "... src/extra/others/imgfont/lv_imgfont.i"
 	@echo "... src/extra/others/imgfont/lv_imgfont.s"
-	@echo "... src/extra/others/monkey/lv_monkey.obj"
+	@echo "... src/extra/others/monkey/lv_monkey.o"
 	@echo "... src/extra/others/monkey/lv_monkey.i"
 	@echo "... src/extra/others/monkey/lv_monkey.s"
-	@echo "... src/extra/others/msg/lv_msg.obj"
+	@echo "... src/extra/others/msg/lv_msg.o"
 	@echo "... src/extra/others/msg/lv_msg.i"
 	@echo "... src/extra/others/msg/lv_msg.s"
-	@echo "... src/extra/others/snapshot/lv_snapshot.obj"
+	@echo "... src/extra/others/snapshot/lv_snapshot.o"
 	@echo "... src/extra/others/snapshot/lv_snapshot.i"
 	@echo "... src/extra/others/snapshot/lv_snapshot.s"
-	@echo "... src/extra/themes/basic/lv_theme_basic.obj"
+	@echo "... src/extra/themes/basic/lv_theme_basic.o"
 	@echo "... src/extra/themes/basic/lv_theme_basic.i"
 	@echo "... src/extra/themes/basic/lv_theme_basic.s"
-	@echo "... src/extra/themes/default/lv_theme_default.obj"
+	@echo "... src/extra/themes/default/lv_theme_default.o"
 	@echo "... src/extra/themes/default/lv_theme_default.i"
 	@echo "... src/extra/themes/default/lv_theme_default.s"
-	@echo "... src/extra/themes/mono/lv_theme_mono.obj"
+	@echo "... src/extra/themes/mono/lv_theme_mono.o"
 	@echo "... src/extra/themes/mono/lv_theme_mono.i"
 	@echo "... src/extra/themes/mono/lv_theme_mono.s"
-	@echo "... src/extra/widgets/animimg/lv_animimg.obj"
+	@echo "... src/extra/widgets/animimg/lv_animimg.o"
 	@echo "... src/extra/widgets/animimg/lv_animimg.i"
 	@echo "... src/extra/widgets/animimg/lv_animimg.s"
-	@echo "... src/extra/widgets/calendar/lv_calendar.obj"
+	@echo "... src/extra/widgets/calendar/lv_calendar.o"
 	@echo "... src/extra/widgets/calendar/lv_calendar.i"
 	@echo "... src/extra/widgets/calendar/lv_calendar.s"
-	@echo "... src/extra/widgets/calendar/lv_calendar_header_arrow.obj"
+	@echo "... src/extra/widgets/calendar/lv_calendar_header_arrow.o"
 	@echo "... src/extra/widgets/calendar/lv_calendar_header_arrow.i"
 	@echo "... src/extra/widgets/calendar/lv_calendar_header_arrow.s"
-	@echo "... src/extra/widgets/calendar/lv_calendar_header_dropdown.obj"
+	@echo "... src/extra/widgets/calendar/lv_calendar_header_dropdown.o"
 	@echo "... src/extra/widgets/calendar/lv_calendar_header_dropdown.i"
 	@echo "... src/extra/widgets/calendar/lv_calendar_header_dropdown.s"
-	@echo "... src/extra/widgets/chart/lv_chart.obj"
+	@echo "... src/extra/widgets/chart/lv_chart.o"
 	@echo "... src/extra/widgets/chart/lv_chart.i"
 	@echo "... src/extra/widgets/chart/lv_chart.s"
-	@echo "... src/extra/widgets/colorwheel/lv_colorwheel.obj"
+	@echo "... src/extra/widgets/colorwheel/lv_colorwheel.o"
 	@echo "... src/extra/widgets/colorwheel/lv_colorwheel.i"
 	@echo "... src/extra/widgets/colorwheel/lv_colorwheel.s"
-	@echo "... src/extra/widgets/imgbtn/lv_imgbtn.obj"
+	@echo "... src/extra/widgets/imgbtn/lv_imgbtn.o"
 	@echo "... src/extra/widgets/imgbtn/lv_imgbtn.i"
 	@echo "... src/extra/widgets/imgbtn/lv_imgbtn.s"
-	@echo "... src/extra/widgets/keyboard/lv_keyboard.obj"
+	@echo "... src/extra/widgets/keyboard/lv_keyboard.o"
 	@echo "... src/extra/widgets/keyboard/lv_keyboard.i"
 	@echo "... src/extra/widgets/keyboard/lv_keyboard.s"
-	@echo "... src/extra/widgets/led/lv_led.obj"
+	@echo "... src/extra/widgets/led/lv_led.o"
 	@echo "... src/extra/widgets/led/lv_led.i"
 	@echo "... src/extra/widgets/led/lv_led.s"
-	@echo "... src/extra/widgets/list/lv_list.obj"
+	@echo "... src/extra/widgets/list/lv_list.o"
 	@echo "... src/extra/widgets/list/lv_list.i"
 	@echo "... src/extra/widgets/list/lv_list.s"
-	@echo "... src/extra/widgets/menu/lv_menu.obj"
+	@echo "... src/extra/widgets/menu/lv_menu.o"
 	@echo "... src/extra/widgets/menu/lv_menu.i"
 	@echo "... src/extra/widgets/menu/lv_menu.s"
-	@echo "... src/extra/widgets/meter/lv_meter.obj"
+	@echo "... src/extra/widgets/meter/lv_meter.o"
 	@echo "... src/extra/widgets/meter/lv_meter.i"
 	@echo "... src/extra/widgets/meter/lv_meter.s"
-	@echo "... src/extra/widgets/msgbox/lv_msgbox.obj"
+	@echo "... src/extra/widgets/msgbox/lv_msgbox.o"
 	@echo "... src/extra/widgets/msgbox/lv_msgbox.i"
 	@echo "... src/extra/widgets/msgbox/lv_msgbox.s"
-	@echo "... src/extra/widgets/span/lv_span.obj"
+	@echo "... src/extra/widgets/span/lv_span.o"
 	@echo "... src/extra/widgets/span/lv_span.i"
 	@echo "... src/extra/widgets/span/lv_span.s"
-	@echo "... src/extra/widgets/spinbox/lv_spinbox.obj"
+	@echo "... src/extra/widgets/spinbox/lv_spinbox.o"
 	@echo "... src/extra/widgets/spinbox/lv_spinbox.i"
 	@echo "... src/extra/widgets/spinbox/lv_spinbox.s"
-	@echo "... src/extra/widgets/spinner/lv_spinner.obj"
+	@echo "... src/extra/widgets/spinner/lv_spinner.o"
 	@echo "... src/extra/widgets/spinner/lv_spinner.i"
 	@echo "... src/extra/widgets/spinner/lv_spinner.s"
-	@echo "... src/extra/widgets/tabview/lv_tabview.obj"
+	@echo "... src/extra/widgets/tabview/lv_tabview.o"
 	@echo "... src/extra/widgets/tabview/lv_tabview.i"
 	@echo "... src/extra/widgets/tabview/lv_tabview.s"
-	@echo "... src/extra/widgets/tileview/lv_tileview.obj"
+	@echo "... src/extra/widgets/tileview/lv_tileview.o"
 	@echo "... src/extra/widgets/tileview/lv_tileview.i"
 	@echo "... src/extra/widgets/tileview/lv_tileview.s"
-	@echo "... src/extra/widgets/win/lv_win.obj"
+	@echo "... src/extra/widgets/win/lv_win.o"
 	@echo "... src/extra/widgets/win/lv_win.i"
 	@echo "... src/extra/widgets/win/lv_win.s"
-	@echo "... src/font/lv_font.obj"
+	@echo "... src/font/lv_font.o"
 	@echo "... src/font/lv_font.i"
 	@echo "... src/font/lv_font.s"
-	@echo "... src/font/lv_font_dejavu_16_persian_hebrew.obj"
+	@echo "... src/font/lv_font_dejavu_16_persian_hebrew.o"
 	@echo "... src/font/lv_font_dejavu_16_persian_hebrew.i"
 	@echo "... src/font/lv_font_dejavu_16_persian_hebrew.s"
-	@echo "... src/font/lv_font_fmt_txt.obj"
+	@echo "... src/font/lv_font_fmt_txt.o"
 	@echo "... src/font/lv_font_fmt_txt.i"
 	@echo "... src/font/lv_font_fmt_txt.s"
-	@echo "... src/font/lv_font_loader.obj"
+	@echo "... src/font/lv_font_loader.o"
 	@echo "... src/font/lv_font_loader.i"
 	@echo "... src/font/lv_font_loader.s"
-	@echo "... src/font/lv_font_montserrat_10.obj"
+	@echo "... src/font/lv_font_montserrat_10.o"
 	@echo "... src/font/lv_font_montserrat_10.i"
 	@echo "... src/font/lv_font_montserrat_10.s"
-	@echo "... src/font/lv_font_montserrat_12.obj"
+	@echo "... src/font/lv_font_montserrat_12.o"
 	@echo "... src/font/lv_font_montserrat_12.i"
 	@echo "... src/font/lv_font_montserrat_12.s"
-	@echo "... src/font/lv_font_montserrat_12_subpx.obj"
+	@echo "... src/font/lv_font_montserrat_12_subpx.o"
 	@echo "... src/font/lv_font_montserrat_12_subpx.i"
 	@echo "... src/font/lv_font_montserrat_12_subpx.s"
-	@echo "... src/font/lv_font_montserrat_14.obj"
+	@echo "... src/font/lv_font_montserrat_14.o"
 	@echo "... src/font/lv_font_montserrat_14.i"
 	@echo "... src/font/lv_font_montserrat_14.s"
-	@echo "... src/font/lv_font_montserrat_16.obj"
+	@echo "... src/font/lv_font_montserrat_16.o"
 	@echo "... src/font/lv_font_montserrat_16.i"
 	@echo "... src/font/lv_font_montserrat_16.s"
-	@echo "... src/font/lv_font_montserrat_18.obj"
+	@echo "... src/font/lv_font_montserrat_18.o"
 	@echo "... src/font/lv_font_montserrat_18.i"
 	@echo "... src/font/lv_font_montserrat_18.s"
-	@echo "... src/font/lv_font_montserrat_20.obj"
+	@echo "... src/font/lv_font_montserrat_20.o"
 	@echo "... src/font/lv_font_montserrat_20.i"
 	@echo "... src/font/lv_font_montserrat_20.s"
-	@echo "... src/font/lv_font_montserrat_22.obj"
+	@echo "... src/font/lv_font_montserrat_22.o"
 	@echo "... src/font/lv_font_montserrat_22.i"
 	@echo "... src/font/lv_font_montserrat_22.s"
-	@echo "... src/font/lv_font_montserrat_24.obj"
+	@echo "... src/font/lv_font_montserrat_24.o"
 	@echo "... src/font/lv_font_montserrat_24.i"
 	@echo "... src/font/lv_font_montserrat_24.s"
-	@echo "... src/font/lv_font_montserrat_26.obj"
+	@echo "... src/font/lv_font_montserrat_26.o"
 	@echo "... src/font/lv_font_montserrat_26.i"
 	@echo "... src/font/lv_font_montserrat_26.s"
-	@echo "... src/font/lv_font_montserrat_28.obj"
+	@echo "... src/font/lv_font_montserrat_28.o"
 	@echo "... src/font/lv_font_montserrat_28.i"
 	@echo "... src/font/lv_font_montserrat_28.s"
-	@echo "... src/font/lv_font_montserrat_28_compressed.obj"
+	@echo "... src/font/lv_font_montserrat_28_compressed.o"
 	@echo "... src/font/lv_font_montserrat_28_compressed.i"
 	@echo "... src/font/lv_font_montserrat_28_compressed.s"
-	@echo "... src/font/lv_font_montserrat_30.obj"
+	@echo "... src/font/lv_font_montserrat_30.o"
 	@echo "... src/font/lv_font_montserrat_30.i"
 	@echo "... src/font/lv_font_montserrat_30.s"
-	@echo "... src/font/lv_font_montserrat_32.obj"
+	@echo "... src/font/lv_font_montserrat_32.o"
 	@echo "... src/font/lv_font_montserrat_32.i"
 	@echo "... src/font/lv_font_montserrat_32.s"
-	@echo "... src/font/lv_font_montserrat_34.obj"
+	@echo "... src/font/lv_font_montserrat_34.o"
 	@echo "... src/font/lv_font_montserrat_34.i"
 	@echo "... src/font/lv_font_montserrat_34.s"
-	@echo "... src/font/lv_font_montserrat_36.obj"
+	@echo "... src/font/lv_font_montserrat_36.o"
 	@echo "... src/font/lv_font_montserrat_36.i"
 	@echo "... src/font/lv_font_montserrat_36.s"
-	@echo "... src/font/lv_font_montserrat_38.obj"
+	@echo "... src/font/lv_font_montserrat_38.o"
 	@echo "... src/font/lv_font_montserrat_38.i"
 	@echo "... src/font/lv_font_montserrat_38.s"
-	@echo "... src/font/lv_font_montserrat_40.obj"
+	@echo "... src/font/lv_font_montserrat_40.o"
 	@echo "... src/font/lv_font_montserrat_40.i"
 	@echo "... src/font/lv_font_montserrat_40.s"
-	@echo "... src/font/lv_font_montserrat_42.obj"
+	@echo "... src/font/lv_font_montserrat_42.o"
 	@echo "... src/font/lv_font_montserrat_42.i"
 	@echo "... src/font/lv_font_montserrat_42.s"
-	@echo "... src/font/lv_font_montserrat_44.obj"
+	@echo "... src/font/lv_font_montserrat_44.o"
 	@echo "... src/font/lv_font_montserrat_44.i"
 	@echo "... src/font/lv_font_montserrat_44.s"
-	@echo "... src/font/lv_font_montserrat_46.obj"
+	@echo "... src/font/lv_font_montserrat_46.o"
 	@echo "... src/font/lv_font_montserrat_46.i"
 	@echo "... src/font/lv_font_montserrat_46.s"
-	@echo "... src/font/lv_font_montserrat_48.obj"
+	@echo "... src/font/lv_font_montserrat_48.o"
 	@echo "... src/font/lv_font_montserrat_48.i"
 	@echo "... src/font/lv_font_montserrat_48.s"
-	@echo "... src/font/lv_font_montserrat_8.obj"
+	@echo "... src/font/lv_font_montserrat_8.o"
 	@echo "... src/font/lv_font_montserrat_8.i"
 	@echo "... src/font/lv_font_montserrat_8.s"
-	@echo "... src/font/lv_font_simsun_16_cjk.obj"
+	@echo "... src/font/lv_font_simsun_16_cjk.o"
 	@echo "... src/font/lv_font_simsun_16_cjk.i"
 	@echo "... src/font/lv_font_simsun_16_cjk.s"
-	@echo "... src/font/lv_font_unscii_16.obj"
+	@echo "... src/font/lv_font_unscii_16.o"
 	@echo "... src/font/lv_font_unscii_16.i"
 	@echo "... src/font/lv_font_unscii_16.s"
-	@echo "... src/font/lv_font_unscii_8.obj"
+	@echo "... src/font/lv_font_unscii_8.o"
 	@echo "... src/font/lv_font_unscii_8.i"
 	@echo "... src/font/lv_font_unscii_8.s"
-	@echo "... src/hal/lv_hal_disp.obj"
+	@echo "... src/hal/lv_hal_disp.o"
 	@echo "... src/hal/lv_hal_disp.i"
 	@echo "... src/hal/lv_hal_disp.s"
-	@echo "... src/hal/lv_hal_indev.obj"
+	@echo "... src/hal/lv_hal_indev.o"
 	@echo "... src/hal/lv_hal_indev.i"
 	@echo "... src/hal/lv_hal_indev.s"
-	@echo "... src/hal/lv_hal_tick.obj"
+	@echo "... src/hal/lv_hal_tick.o"
 	@echo "... src/hal/lv_hal_tick.i"
 	@echo "... src/hal/lv_hal_tick.s"
-	@echo "... src/misc/lv_anim.obj"
+	@echo "... src/misc/lv_anim.o"
 	@echo "... src/misc/lv_anim.i"
 	@echo "... src/misc/lv_anim.s"
-	@echo "... src/misc/lv_anim_timeline.obj"
+	@echo "... src/misc/lv_anim_timeline.o"
 	@echo "... src/misc/lv_anim_timeline.i"
 	@echo "... src/misc/lv_anim_timeline.s"
-	@echo "... src/misc/lv_area.obj"
+	@echo "... src/misc/lv_area.o"
 	@echo "... src/misc/lv_area.i"
 	@echo "... src/misc/lv_area.s"
-	@echo "... src/misc/lv_async.obj"
+	@echo "... src/misc/lv_async.o"
 	@echo "... src/misc/lv_async.i"
 	@echo "... src/misc/lv_async.s"
-	@echo "... src/misc/lv_bidi.obj"
+	@echo "... src/misc/lv_bidi.o"
 	@echo "... src/misc/lv_bidi.i"
 	@echo "... src/misc/lv_bidi.s"
-	@echo "... src/misc/lv_color.obj"
+	@echo "... src/misc/lv_color.o"
 	@echo "... src/misc/lv_color.i"
 	@echo "... src/misc/lv_color.s"
-	@echo "... src/misc/lv_fs.obj"
+	@echo "... src/misc/lv_fs.o"
 	@echo "... src/misc/lv_fs.i"
 	@echo "... src/misc/lv_fs.s"
-	@echo "... src/misc/lv_gc.obj"
+	@echo "... src/misc/lv_gc.o"
 	@echo "... src/misc/lv_gc.i"
 	@echo "... src/misc/lv_gc.s"
-	@echo "... src/misc/lv_ll.obj"
+	@echo "... src/misc/lv_ll.o"
 	@echo "... src/misc/lv_ll.i"
 	@echo "... src/misc/lv_ll.s"
-	@echo "... src/misc/lv_log.obj"
+	@echo "... src/misc/lv_log.o"
 	@echo "... src/misc/lv_log.i"
 	@echo "... src/misc/lv_log.s"
-	@echo "... src/misc/lv_lru.obj"
+	@echo "... src/misc/lv_lru.o"
 	@echo "... src/misc/lv_lru.i"
 	@echo "... src/misc/lv_lru.s"
-	@echo "... src/misc/lv_math.obj"
+	@echo "... src/misc/lv_math.o"
 	@echo "... src/misc/lv_math.i"
 	@echo "... src/misc/lv_math.s"
-	@echo "... src/misc/lv_mem.obj"
+	@echo "... src/misc/lv_mem.o"
 	@echo "... src/misc/lv_mem.i"
 	@echo "... src/misc/lv_mem.s"
-	@echo "... src/misc/lv_printf.obj"
+	@echo "... src/misc/lv_printf.o"
 	@echo "... src/misc/lv_printf.i"
 	@echo "... src/misc/lv_printf.s"
-	@echo "... src/misc/lv_style.obj"
+	@echo "... src/misc/lv_style.o"
 	@echo "... src/misc/lv_style.i"
 	@echo "... src/misc/lv_style.s"
-	@echo "... src/misc/lv_style_gen.obj"
+	@echo "... src/misc/lv_style_gen.o"
 	@echo "... src/misc/lv_style_gen.i"
 	@echo "... src/misc/lv_style_gen.s"
-	@echo "... src/misc/lv_templ.obj"
+	@echo "... src/misc/lv_templ.o"
 	@echo "... src/misc/lv_templ.i"
 	@echo "... src/misc/lv_templ.s"
-	@echo "... src/misc/lv_timer.obj"
+	@echo "... src/misc/lv_timer.o"
 	@echo "... src/misc/lv_timer.i"
 	@echo "... src/misc/lv_timer.s"
-	@echo "... src/misc/lv_tlsf.obj"
+	@echo "... src/misc/lv_tlsf.o"
 	@echo "... src/misc/lv_tlsf.i"
 	@echo "... src/misc/lv_tlsf.s"
-	@echo "... src/misc/lv_txt.obj"
+	@echo "... src/misc/lv_txt.o"
 	@echo "... src/misc/lv_txt.i"
 	@echo "... src/misc/lv_txt.s"
-	@echo "... src/misc/lv_txt_ap.obj"
+	@echo "... src/misc/lv_txt_ap.o"
 	@echo "... src/misc/lv_txt_ap.i"
 	@echo "... src/misc/lv_txt_ap.s"
-	@echo "... src/misc/lv_utils.obj"
+	@echo "... src/misc/lv_utils.o"
 	@echo "... src/misc/lv_utils.i"
 	@echo "... src/misc/lv_utils.s"
-	@echo "... src/widgets/lv_arc.obj"
+	@echo "... src/widgets/lv_arc.o"
 	@echo "... src/widgets/lv_arc.i"
 	@echo "... src/widgets/lv_arc.s"
-	@echo "... src/widgets/lv_bar.obj"
+	@echo "... src/widgets/lv_bar.o"
 	@echo "... src/widgets/lv_bar.i"
 	@echo "... src/widgets/lv_bar.s"
-	@echo "... src/widgets/lv_btn.obj"
+	@echo "... src/widgets/lv_btn.o"
 	@echo "... src/widgets/lv_btn.i"
 	@echo "... src/widgets/lv_btn.s"
-	@echo "... src/widgets/lv_btnmatrix.obj"
+	@echo "... src/widgets/lv_btnmatrix.o"
 	@echo "... src/widgets/lv_btnmatrix.i"
 	@echo "... src/widgets/lv_btnmatrix.s"
-	@echo "... src/widgets/lv_canvas.obj"
+	@echo "... src/widgets/lv_canvas.o"
 	@echo "... src/widgets/lv_canvas.i"
 	@echo "... src/widgets/lv_canvas.s"
-	@echo "... src/widgets/lv_checkbox.obj"
+	@echo "... src/widgets/lv_checkbox.o"
 	@echo "... src/widgets/lv_checkbox.i"
 	@echo "... src/widgets/lv_checkbox.s"
-	@echo "... src/widgets/lv_dropdown.obj"
+	@echo "... src/widgets/lv_dropdown.o"
 	@echo "... src/widgets/lv_dropdown.i"
 	@echo "... src/widgets/lv_dropdown.s"
-	@echo "... src/widgets/lv_img.obj"
+	@echo "... src/widgets/lv_img.o"
 	@echo "... src/widgets/lv_img.i"
 	@echo "... src/widgets/lv_img.s"
-	@echo "... src/widgets/lv_label.obj"
+	@echo "... src/widgets/lv_label.o"
 	@echo "... src/widgets/lv_label.i"
 	@echo "... src/widgets/lv_label.s"
-	@echo "... src/widgets/lv_line.obj"
+	@echo "... src/widgets/lv_line.o"
 	@echo "... src/widgets/lv_line.i"
 	@echo "... src/widgets/lv_line.s"
-	@echo "... src/widgets/lv_objx_templ.obj"
+	@echo "... src/widgets/lv_objx_templ.o"
 	@echo "... src/widgets/lv_objx_templ.i"
 	@echo "... src/widgets/lv_objx_templ.s"
-	@echo "... src/widgets/lv_roller.obj"
+	@echo "... src/widgets/lv_roller.o"
 	@echo "... src/widgets/lv_roller.i"
 	@echo "... src/widgets/lv_roller.s"
-	@echo "... src/widgets/lv_slider.obj"
+	@echo "... src/widgets/lv_slider.o"
 	@echo "... src/widgets/lv_slider.i"
 	@echo "... src/widgets/lv_slider.s"
-	@echo "... src/widgets/lv_switch.obj"
+	@echo "... src/widgets/lv_switch.o"
 	@echo "... src/widgets/lv_switch.i"
 	@echo "... src/widgets/lv_switch.s"
-	@echo "... src/widgets/lv_table.obj"
+	@echo "... src/widgets/lv_table.o"
 	@echo "... src/widgets/lv_table.i"
 	@echo "... src/widgets/lv_table.s"
-	@echo "... src/widgets/lv_textarea.obj"
+	@echo "... src/widgets/lv_textarea.o"
 	@echo "... src/widgets/lv_textarea.i"
 	@echo "... src/widgets/lv_textarea.s"
 .PHONY : help

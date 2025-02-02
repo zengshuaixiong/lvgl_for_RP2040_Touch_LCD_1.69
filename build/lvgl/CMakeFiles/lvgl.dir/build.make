@@ -69,11 +69,11 @@ include lvgl/CMakeFiles/lvgl.dir/progress.make
 # Include the compile flags for this target's objects.
 include lvgl/CMakeFiles/lvgl.dir/flags.make
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj: ../lvgl/src/core/lv_disp.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_disp.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o: ../lvgl/src/core/lv_disp.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_disp.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_disp.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_disp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_disp.c.i"
@@ -83,11 +83,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_disp.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_disp.c -o CMakeFiles/lvgl.dir/src/core/lv_disp.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj: ../lvgl/src/core/lv_event.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_event.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_event.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_event.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o: ../lvgl/src/core/lv_event.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_event.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_event.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_event.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_event.c.i"
@@ -97,11 +97,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_event.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_event.c -o CMakeFiles/lvgl.dir/src/core/lv_event.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj: ../lvgl/src/core/lv_group.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_group.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_group.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_group.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o: ../lvgl/src/core/lv_group.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_group.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_group.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_group.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_group.c.i"
@@ -111,11 +111,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_group.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_group.c -o CMakeFiles/lvgl.dir/src/core/lv_group.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj: ../lvgl/src/core/lv_indev.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o: ../lvgl/src/core/lv_indev.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_indev.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_indev.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_indev.c.i"
@@ -125,11 +125,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_indev.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev.c -o CMakeFiles/lvgl.dir/src/core/lv_indev.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj: ../lvgl/src/core/lv_indev_scroll.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev_scroll.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o: ../lvgl/src/core/lv_indev_scroll.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev_scroll.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.i"
@@ -139,11 +139,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_indev_scroll.c -o CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj: ../lvgl/src/core/lv_obj.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o: ../lvgl/src/core/lv_obj.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj.c.i"
@@ -153,11 +153,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj.c -o CMakeFiles/lvgl.dir/src/core/lv_obj.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj: ../lvgl/src/core/lv_obj_class.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_class.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o: ../lvgl/src/core/lv_obj_class.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_class.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.i"
@@ -167,11 +167,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_class.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj: ../lvgl/src/core/lv_obj_draw.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_draw.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o: ../lvgl/src/core/lv_obj_draw.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_draw.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.i"
@@ -181,11 +181,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_draw.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj: ../lvgl/src/core/lv_obj_pos.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_pos.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o: ../lvgl/src/core/lv_obj_pos.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_pos.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.i"
@@ -195,11 +195,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_pos.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj: ../lvgl/src/core/lv_obj_scroll.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_scroll.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o: ../lvgl/src/core/lv_obj_scroll.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_scroll.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.i"
@@ -209,11 +209,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_scroll.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj: ../lvgl/src/core/lv_obj_style.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o: ../lvgl/src/core/lv_obj_style.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.i"
@@ -223,11 +223,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj: ../lvgl/src/core/lv_obj_style_gen.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style_gen.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o: ../lvgl/src/core/lv_obj_style_gen.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style_gen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.i"
@@ -237,11 +237,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_style_gen.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj: ../lvgl/src/core/lv_obj_tree.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_tree.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o: ../lvgl/src/core/lv_obj_tree.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_tree.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.i"
@@ -251,11 +251,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_obj_tree.c -o CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj: ../lvgl/src/core/lv_refr.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_refr.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o: ../lvgl/src/core/lv_refr.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_refr.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_refr.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_refr.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_refr.c.i"
@@ -265,11 +265,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_refr.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_refr.c -o CMakeFiles/lvgl.dir/src/core/lv_refr.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj: ../lvgl/src/core/lv_theme.c
-lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj -MF CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj.d -o CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_theme.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o: ../lvgl/src/core/lv_theme.c
+lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o -MF CMakeFiles/lvgl.dir/src/core/lv_theme.c.o.d -o CMakeFiles/lvgl.dir/src/core/lv_theme.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_theme.c
 
 lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/core/lv_theme.c.i"
@@ -279,11 +279,11 @@ lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/core/lv_theme.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/core/lv_theme.c -o CMakeFiles/lvgl.dir/src/core/lv_theme.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj: ../lvgl/src/draw/arm2d/lv_gpu_arm2d.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o: ../lvgl/src/draw/arm2d/lv_gpu_arm2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o -MF CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o.d -o CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.i"
@@ -293,11 +293,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/arm2d/lv_gpu_arm2d.c -o CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj: ../lvgl/src/draw/lv_draw.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o: ../lvgl/src/draw/lv_draw.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw.c.i"
@@ -307,11 +307,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj: ../lvgl/src/draw/lv_draw_arc.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o: ../lvgl/src/draw/lv_draw_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.i"
@@ -321,11 +321,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_arc.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj: ../lvgl/src/draw/lv_draw_img.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o: ../lvgl/src/draw/lv_draw_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.i"
@@ -335,11 +335,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_img.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj: ../lvgl/src/draw/lv_draw_label.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o: ../lvgl/src/draw/lv_draw_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.i"
@@ -349,11 +349,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_label.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj: ../lvgl/src/draw/lv_draw_layer.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o: ../lvgl/src/draw/lv_draw_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.i"
@@ -363,11 +363,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_layer.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj: ../lvgl/src/draw/lv_draw_line.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o: ../lvgl/src/draw/lv_draw_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.i"
@@ -377,11 +377,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_line.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj: ../lvgl/src/draw/lv_draw_mask.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_mask.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o: ../lvgl/src/draw/lv_draw_mask.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_mask.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.i"
@@ -391,11 +391,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_mask.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj: ../lvgl/src/draw/lv_draw_rect.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o: ../lvgl/src/draw/lv_draw_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.i"
@@ -405,11 +405,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_rect.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj: ../lvgl/src/draw/lv_draw_transform.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_transform.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o: ../lvgl/src/draw/lv_draw_transform.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_transform.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.i"
@@ -419,11 +419,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_transform.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj: ../lvgl/src/draw/lv_draw_triangle.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_triangle.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o: ../lvgl/src/draw/lv_draw_triangle.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.i"
@@ -433,11 +433,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_draw_triangle.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj: ../lvgl/src/draw/lv_img_buf.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_buf.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o: ../lvgl/src/draw/lv_img_buf.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_buf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.i"
@@ -447,11 +447,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_buf.c -o CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj: ../lvgl/src/draw/lv_img_cache.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_cache.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o: ../lvgl/src/draw/lv_img_cache.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_cache.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.i"
@@ -461,11 +461,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_cache.c -o CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj: ../lvgl/src/draw/lv_img_decoder.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj -MF CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_decoder.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o: ../lvgl/src/draw/lv_img_decoder.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o -MF CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o.d -o CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_decoder.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.i"
@@ -475,11 +475,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/lv_img_decoder.c -o CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.i"
@@ -489,11 +489,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i"
@@ -503,11 +503,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: ../lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: ../lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i"
@@ -517,11 +517,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: ../lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: ../lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i"
@@ -531,11 +531,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.i"
@@ -545,11 +545,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i"
@@ -559,11 +559,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i"
@@ -573,11 +573,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.i"
@@ -587,11 +587,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i"
@@ -601,11 +601,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj: ../lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.i"
@@ -615,11 +615,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj: ../lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o -MF CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o.d -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.i"
@@ -629,11 +629,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: ../lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -MF CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o: ../lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o -MF CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o.d -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.i"
@@ -643,11 +643,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: ../lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -MF CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: ../lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -MF CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o.d -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.i"
@@ -657,11 +657,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c -o CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.i"
@@ -671,11 +671,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_arc.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.i"
@@ -685,11 +685,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_arc.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_bg.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_bg.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.i"
@@ -699,11 +699,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_bg.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_composite.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_composite.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.i"
@@ -713,11 +713,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_composite.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_img.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.i"
@@ -727,11 +727,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_img.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_label.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_label.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.i"
@@ -741,11 +741,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_label.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_layer.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.i"
@@ -755,11 +755,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_layer.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_line.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.i"
@@ -769,11 +769,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_line.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_mask.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_mask.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.i"
@@ -783,11 +783,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_mask.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.i"
@@ -797,11 +797,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_rect.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.i"
@@ -811,11 +811,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_rect.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.i"
@@ -825,11 +825,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.i"
@@ -839,11 +839,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj: ../lvgl/src/draw/sdl/lv_draw_sdl_utils.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o -MF CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.i"
@@ -853,11 +853,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sdl/lv_draw_sdl_utils.c -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: ../lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: ../lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -MF CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o.d -o CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i"
@@ -867,11 +867,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c -o CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj: ../lvgl/src/draw/sw/lv_draw_sw.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o: ../lvgl/src/draw/sw/lv_draw_sw.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.i"
@@ -881,11 +881,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_arc.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o: ../lvgl/src/draw/sw/lv_draw_sw_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.i"
@@ -895,11 +895,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_arc.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_blend.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o: ../lvgl/src/draw/sw/lv_draw_sw_blend.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_blend.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.i"
@@ -909,11 +909,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_blend.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_dither.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_dither.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o: ../lvgl/src/draw/sw/lv_draw_sw_dither.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_dither.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.i"
@@ -923,11 +923,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_dither.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_gradient.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_gradient.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.i"
@@ -937,11 +937,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_gradient.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_img.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o: ../lvgl/src/draw/sw/lv_draw_sw_img.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.i"
@@ -951,11 +951,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_img.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_layer.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o: ../lvgl/src/draw/sw/lv_draw_sw_layer.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.i"
@@ -965,11 +965,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_layer.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_letter.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_letter.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o: ../lvgl/src/draw/sw/lv_draw_sw_letter.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.i"
@@ -979,11 +979,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_letter.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_line.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o: ../lvgl/src/draw/sw/lv_draw_sw_line.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.i"
@@ -993,11 +993,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_line.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_polygon.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_polygon.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o: ../lvgl/src/draw/sw/lv_draw_sw_polygon.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.i"
@@ -1007,11 +1007,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_polygon.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_rect.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o: ../lvgl/src/draw/sw/lv_draw_sw_rect.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.i"
@@ -1021,11 +1021,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_rect.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj: ../lvgl/src/draw/sw/lv_draw_sw_transform.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_transform.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o: ../lvgl/src/draw/sw/lv_draw_sw_transform.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o -MF CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o.d -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_transform.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.i"
@@ -1035,11 +1035,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/sw/lv_draw_sw_transform.c -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: ../lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
-lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: ../lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
+lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -MF CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o.d -o CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i"
@@ -1049,11 +1049,11 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c -o CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj: ../lvgl/src/extra/layouts/flex/lv_flex.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/flex/lv_flex.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o: ../lvgl/src/extra/layouts/flex/lv_flex.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o -MF CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o.d -o CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/flex/lv_flex.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.i"
@@ -1063,11 +1063,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/flex/lv_flex.c -o CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj: ../lvgl/src/extra/layouts/grid/lv_grid.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/grid/lv_grid.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o: ../lvgl/src/extra/layouts/grid/lv_grid.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o -MF CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o.d -o CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/grid/lv_grid.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.i"
@@ -1077,11 +1077,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/layouts/grid/lv_grid.c -o CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj: ../lvgl/src/extra/libs/bmp/lv_bmp.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/bmp/lv_bmp.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o: ../lvgl/src/extra/libs/bmp/lv_bmp.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/bmp/lv_bmp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.i"
@@ -1091,11 +1091,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/bmp/lv_bmp.c -o CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: ../lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.i"
@@ -1105,11 +1105,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c -o CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj: ../lvgl/src/extra/libs/freetype/lv_freetype.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/freetype/lv_freetype.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o: ../lvgl/src/extra/libs/freetype/lv_freetype.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/freetype/lv_freetype.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.i"
@@ -1119,11 +1119,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/freetype/lv_freetype.c -o CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: ../lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.i"
@@ -1133,11 +1133,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: ../lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.i"
@@ -1147,11 +1147,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj: ../lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.i"
@@ -1161,11 +1161,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: ../lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.i"
@@ -1175,11 +1175,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj: ../lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o: ../lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.i"
@@ -1189,11 +1189,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c -o CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj: ../lvgl/src/extra/libs/gif/gifdec.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/gifdec.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o: ../lvgl/src/extra/libs/gif/gifdec.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/gifdec.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.i"
@@ -1203,11 +1203,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/gifdec.c -o CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj: ../lvgl/src/extra/libs/gif/lv_gif.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/lv_gif.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o: ../lvgl/src/extra/libs/gif/lv_gif.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/lv_gif.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.i"
@@ -1217,11 +1217,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/gif/lv_gif.c -o CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj: ../lvgl/src/extra/libs/png/lodepng.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lodepng.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o: ../lvgl/src/extra/libs/png/lodepng.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lodepng.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.i"
@@ -1231,11 +1231,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lodepng.c -o CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj: ../lvgl/src/extra/libs/png/lv_png.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lv_png.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o: ../lvgl/src/extra/libs/png/lv_png.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lv_png.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.i"
@@ -1245,11 +1245,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/png/lv_png.c -o CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj: ../lvgl/src/extra/libs/qrcode/lv_qrcode.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/lv_qrcode.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o: ../lvgl/src/extra/libs/qrcode/lv_qrcode.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.i"
@@ -1259,11 +1259,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/lv_qrcode.c -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj: ../lvgl/src/extra/libs/qrcode/qrcodegen.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/qrcodegen.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o: ../lvgl/src/extra/libs/qrcode/qrcodegen.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/qrcodegen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.i"
@@ -1273,11 +1273,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/qrcode/qrcodegen.c -o CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj: ../lvgl/src/extra/libs/rlottie/lv_rlottie.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/rlottie/lv_rlottie.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o: ../lvgl/src/extra/libs/rlottie/lv_rlottie.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.i"
@@ -1287,11 +1287,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/rlottie/lv_rlottie.c -o CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj: ../lvgl/src/extra/libs/sjpg/lv_sjpg.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/lv_sjpg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o: ../lvgl/src/extra/libs/sjpg/lv_sjpg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.i"
@@ -1301,11 +1301,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/lv_sjpg.c -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj: ../lvgl/src/extra/libs/sjpg/tjpgd.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/tjpgd.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o: ../lvgl/src/extra/libs/sjpg/tjpgd.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/tjpgd.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.i"
@@ -1315,11 +1315,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/sjpg/tjpgd.c -o CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: ../lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o -MF CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o.d -o CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i"
@@ -1329,11 +1329,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c -o CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj: ../lvgl/src/extra/lv_extra.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj -MF CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/lv_extra.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o: ../lvgl/src/extra/lv_extra.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o -MF CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o.d -o CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/lv_extra.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/lv_extra.c.i"
@@ -1343,11 +1343,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/lv_extra.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/lv_extra.c -o CMakeFiles/lvgl.dir/src/extra/lv_extra.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj: ../lvgl/src/extra/others/fragment/lv_fragment.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o: ../lvgl/src/extra/others/fragment/lv_fragment.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.i"
@@ -1357,11 +1357,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment.c -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj: ../lvgl/src/extra/others/fragment/lv_fragment_manager.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment_manager.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o: ../lvgl/src/extra/others/fragment/lv_fragment_manager.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.i"
@@ -1371,11 +1371,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/fragment/lv_fragment_manager.c -o CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj: ../lvgl/src/extra/others/gridnav/lv_gridnav.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/gridnav/lv_gridnav.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o: ../lvgl/src/extra/others/gridnav/lv_gridnav.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/gridnav/lv_gridnav.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.i"
@@ -1385,11 +1385,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/gridnav/lv_gridnav.c -o CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj: ../lvgl/src/extra/others/ime/lv_ime_pinyin.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/ime/lv_ime_pinyin.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o: ../lvgl/src/extra/others/ime/lv_ime_pinyin.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.i"
@@ -1399,11 +1399,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/ime/lv_ime_pinyin.c -o CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj: ../lvgl/src/extra/others/imgfont/lv_imgfont.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/imgfont/lv_imgfont.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o: ../lvgl/src/extra/others/imgfont/lv_imgfont.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/imgfont/lv_imgfont.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.i"
@@ -1413,11 +1413,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/imgfont/lv_imgfont.c -o CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj: ../lvgl/src/extra/others/monkey/lv_monkey.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/monkey/lv_monkey.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o: ../lvgl/src/extra/others/monkey/lv_monkey.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/monkey/lv_monkey.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.i"
@@ -1427,11 +1427,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/monkey/lv_monkey.c -o CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj: ../lvgl/src/extra/others/msg/lv_msg.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/msg/lv_msg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o: ../lvgl/src/extra/others/msg/lv_msg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/msg/lv_msg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.i"
@@ -1441,11 +1441,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/msg/lv_msg.c -o CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj: ../lvgl/src/extra/others/snapshot/lv_snapshot.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/snapshot/lv_snapshot.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o: ../lvgl/src/extra/others/snapshot/lv_snapshot.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o -MF CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o.d -o CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/snapshot/lv_snapshot.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.i"
@@ -1455,11 +1455,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/others/snapshot/lv_snapshot.c -o CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj: ../lvgl/src/extra/themes/basic/lv_theme_basic.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/basic/lv_theme_basic.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o: ../lvgl/src/extra/themes/basic/lv_theme_basic.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o -MF CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o.d -o CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/basic/lv_theme_basic.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.i"
@@ -1469,11 +1469,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/basic/lv_theme_basic.c -o CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj: ../lvgl/src/extra/themes/default/lv_theme_default.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/default/lv_theme_default.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o: ../lvgl/src/extra/themes/default/lv_theme_default.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o -MF CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o.d -o CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/default/lv_theme_default.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.i"
@@ -1483,11 +1483,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/default/lv_theme_default.c -o CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj: ../lvgl/src/extra/themes/mono/lv_theme_mono.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/mono/lv_theme_mono.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o: ../lvgl/src/extra/themes/mono/lv_theme_mono.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o -MF CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o.d -o CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/mono/lv_theme_mono.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.i"
@@ -1497,11 +1497,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/themes/mono/lv_theme_mono.c -o CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj: ../lvgl/src/extra/widgets/animimg/lv_animimg.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/animimg/lv_animimg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o: ../lvgl/src/extra/widgets/animimg/lv_animimg.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/animimg/lv_animimg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.i"
@@ -1511,11 +1511,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/animimg/lv_animimg.c -o CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj: ../lvgl/src/extra/widgets/calendar/lv_calendar.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.i"
@@ -1525,11 +1525,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar.c -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i"
@@ -1539,11 +1539,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: ../lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i"
@@ -1553,11 +1553,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c -o CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj: ../lvgl/src/extra/widgets/chart/lv_chart.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/chart/lv_chart.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o: ../lvgl/src/extra/widgets/chart/lv_chart.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/chart/lv_chart.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.i"
@@ -1567,11 +1567,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/chart/lv_chart.c -o CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o: ../lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.i"
@@ -1581,11 +1581,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c -o CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o: ../lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.i"
@@ -1595,11 +1595,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c -o CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj: ../lvgl/src/extra/widgets/keyboard/lv_keyboard.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o: ../lvgl/src/extra/widgets/keyboard/lv_keyboard.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.i"
@@ -1609,11 +1609,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/keyboard/lv_keyboard.c -o CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj: ../lvgl/src/extra/widgets/led/lv_led.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/led/lv_led.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o: ../lvgl/src/extra/widgets/led/lv_led.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/led/lv_led.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.i"
@@ -1623,11 +1623,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/led/lv_led.c -o CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj: ../lvgl/src/extra/widgets/list/lv_list.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/list/lv_list.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o: ../lvgl/src/extra/widgets/list/lv_list.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/list/lv_list.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.i"
@@ -1637,11 +1637,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/list/lv_list.c -o CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj: ../lvgl/src/extra/widgets/menu/lv_menu.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/menu/lv_menu.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o: ../lvgl/src/extra/widgets/menu/lv_menu.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/menu/lv_menu.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.i"
@@ -1651,11 +1651,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/menu/lv_menu.c -o CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj: ../lvgl/src/extra/widgets/meter/lv_meter.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/meter/lv_meter.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o: ../lvgl/src/extra/widgets/meter/lv_meter.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/meter/lv_meter.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.i"
@@ -1665,11 +1665,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/meter/lv_meter.c -o CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj: ../lvgl/src/extra/widgets/msgbox/lv_msgbox.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o: ../lvgl/src/extra/widgets/msgbox/lv_msgbox.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.i"
@@ -1679,11 +1679,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/msgbox/lv_msgbox.c -o CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj: ../lvgl/src/extra/widgets/span/lv_span.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/span/lv_span.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o: ../lvgl/src/extra/widgets/span/lv_span.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/span/lv_span.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.i"
@@ -1693,11 +1693,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/span/lv_span.c -o CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj: ../lvgl/src/extra/widgets/spinbox/lv_spinbox.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o: ../lvgl/src/extra/widgets/spinbox/lv_spinbox.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.i"
@@ -1707,11 +1707,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinbox/lv_spinbox.c -o CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj: ../lvgl/src/extra/widgets/spinner/lv_spinner.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinner/lv_spinner.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o: ../lvgl/src/extra/widgets/spinner/lv_spinner.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinner/lv_spinner.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.i"
@@ -1721,11 +1721,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/spinner/lv_spinner.c -o CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj: ../lvgl/src/extra/widgets/tabview/lv_tabview.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tabview/lv_tabview.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o: ../lvgl/src/extra/widgets/tabview/lv_tabview.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tabview/lv_tabview.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.i"
@@ -1735,11 +1735,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tabview/lv_tabview.c -o CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj: ../lvgl/src/extra/widgets/tileview/lv_tileview.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tileview/lv_tileview.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o: ../lvgl/src/extra/widgets/tileview/lv_tileview.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tileview/lv_tileview.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.i"
@@ -1749,11 +1749,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/tileview/lv_tileview.c -o CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj: ../lvgl/src/extra/widgets/win/lv_win.c
-lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj.d -o CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/win/lv_win.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o: ../lvgl/src/extra/widgets/win/lv_win.c
+lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o -MF CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o.d -o CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/win/lv_win.c
 
 lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.i"
@@ -1763,11 +1763,11 @@ lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/extra/widgets/win/lv_win.c -o CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj: ../lvgl/src/font/lv_font.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o: ../lvgl/src/font/lv_font.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font.c.i"
@@ -1777,11 +1777,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font.c -o CMakeFiles/lvgl.dir/src/font/lv_font.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: ../lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o: ../lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.i"
@@ -1791,11 +1791,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj: ../lvgl/src/font/lv_font_fmt_txt.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_fmt_txt.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o: ../lvgl/src/font/lv_font_fmt_txt.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_fmt_txt.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.i"
@@ -1805,11 +1805,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_fmt_txt.c -o CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj: ../lvgl/src/font/lv_font_loader.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_loader.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o: ../lvgl/src/font/lv_font_loader.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_loader.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.i"
@@ -1819,11 +1819,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_loader.c -o CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj: ../lvgl/src/font/lv_font_montserrat_10.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_10.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o: ../lvgl/src/font/lv_font_montserrat_10.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_10.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.i"
@@ -1833,11 +1833,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_10.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj: ../lvgl/src/font/lv_font_montserrat_12.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o: ../lvgl/src/font/lv_font_montserrat_12.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.i"
@@ -1847,11 +1847,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj: ../lvgl/src/font/lv_font_montserrat_12_subpx.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12_subpx.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o: ../lvgl/src/font/lv_font_montserrat_12_subpx.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12_subpx.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.i"
@@ -1861,11 +1861,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_12_subpx.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj: ../lvgl/src/font/lv_font_montserrat_14.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_14.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o: ../lvgl/src/font/lv_font_montserrat_14.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_14.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.i"
@@ -1875,11 +1875,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_14.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj: ../lvgl/src/font/lv_font_montserrat_16.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_16.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o: ../lvgl/src/font/lv_font_montserrat_16.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_16.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.i"
@@ -1889,11 +1889,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_16.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj: ../lvgl/src/font/lv_font_montserrat_18.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_18.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o: ../lvgl/src/font/lv_font_montserrat_18.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_18.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.i"
@@ -1903,11 +1903,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_18.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj: ../lvgl/src/font/lv_font_montserrat_20.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_20.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o: ../lvgl/src/font/lv_font_montserrat_20.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_20.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.i"
@@ -1917,11 +1917,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_20.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj: ../lvgl/src/font/lv_font_montserrat_22.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_22.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o: ../lvgl/src/font/lv_font_montserrat_22.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_22.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.i"
@@ -1931,11 +1931,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_22.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj: ../lvgl/src/font/lv_font_montserrat_24.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_24.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o: ../lvgl/src/font/lv_font_montserrat_24.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_24.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.i"
@@ -1945,11 +1945,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_24.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj: ../lvgl/src/font/lv_font_montserrat_26.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_26.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o: ../lvgl/src/font/lv_font_montserrat_26.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_26.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.i"
@@ -1959,11 +1959,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_26.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj: ../lvgl/src/font/lv_font_montserrat_28.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o: ../lvgl/src/font/lv_font_montserrat_28.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.i"
@@ -1973,11 +1973,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj: ../lvgl/src/font/lv_font_montserrat_28_compressed.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28_compressed.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o: ../lvgl/src/font/lv_font_montserrat_28_compressed.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.i"
@@ -1987,11 +1987,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_28_compressed.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj: ../lvgl/src/font/lv_font_montserrat_30.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_30.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o: ../lvgl/src/font/lv_font_montserrat_30.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_30.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.i"
@@ -2001,11 +2001,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_30.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj: ../lvgl/src/font/lv_font_montserrat_32.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_32.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o: ../lvgl/src/font/lv_font_montserrat_32.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_32.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.i"
@@ -2015,11 +2015,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_32.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj: ../lvgl/src/font/lv_font_montserrat_34.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_34.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o: ../lvgl/src/font/lv_font_montserrat_34.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_34.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.i"
@@ -2029,11 +2029,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_34.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj: ../lvgl/src/font/lv_font_montserrat_36.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_36.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o: ../lvgl/src/font/lv_font_montserrat_36.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_36.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.i"
@@ -2043,11 +2043,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_36.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj: ../lvgl/src/font/lv_font_montserrat_38.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_38.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o: ../lvgl/src/font/lv_font_montserrat_38.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_38.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.i"
@@ -2057,11 +2057,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_38.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj: ../lvgl/src/font/lv_font_montserrat_40.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_40.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o: ../lvgl/src/font/lv_font_montserrat_40.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_40.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.i"
@@ -2071,11 +2071,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_40.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj: ../lvgl/src/font/lv_font_montserrat_42.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_42.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o: ../lvgl/src/font/lv_font_montserrat_42.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_42.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.i"
@@ -2085,11 +2085,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_42.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj: ../lvgl/src/font/lv_font_montserrat_44.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_44.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o: ../lvgl/src/font/lv_font_montserrat_44.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_44.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.i"
@@ -2099,11 +2099,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_44.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj: ../lvgl/src/font/lv_font_montserrat_46.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_46.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o: ../lvgl/src/font/lv_font_montserrat_46.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_46.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.i"
@@ -2113,11 +2113,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_46.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj: ../lvgl/src/font/lv_font_montserrat_48.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_48.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o: ../lvgl/src/font/lv_font_montserrat_48.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_48.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.i"
@@ -2127,11 +2127,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_48.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj: ../lvgl/src/font/lv_font_montserrat_8.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_8.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o: ../lvgl/src/font/lv_font_montserrat_8.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_8.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.i"
@@ -2141,11 +2141,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_montserrat_8.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj: ../lvgl/src/font/lv_font_simsun_16_cjk.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_simsun_16_cjk.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o: ../lvgl/src/font/lv_font_simsun_16_cjk.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.i"
@@ -2155,11 +2155,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_simsun_16_cjk.c -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj: ../lvgl/src/font/lv_font_unscii_16.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_16.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o: ../lvgl/src/font/lv_font_unscii_16.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_16.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.i"
@@ -2169,11 +2169,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_16.c -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj: ../lvgl/src/font/lv_font_unscii_8.c
-lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj.d -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_8.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o: ../lvgl/src/font/lv_font_unscii_8.c
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o -MF CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o.d -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_8.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.i"
@@ -2183,11 +2183,11 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/font/lv_font_unscii_8.c -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj: ../lvgl/src/hal/lv_hal_disp.c
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_disp.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o: ../lvgl/src/hal/lv_hal_disp.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_disp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.i"
@@ -2197,11 +2197,11 @@ lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_disp.c -o CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj: ../lvgl/src/hal/lv_hal_indev.c
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_indev.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o: ../lvgl/src/hal/lv_hal_indev.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_indev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.i"
@@ -2211,11 +2211,11 @@ lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_indev.c -o CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj: ../lvgl/src/hal/lv_hal_tick.c
-lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_tick.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o: ../lvgl/src/hal/lv_hal_tick.c
+lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o -MF CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o.d -o CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_tick.c
 
 lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.i"
@@ -2225,11 +2225,11 @@ lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/hal/lv_hal_tick.c -o CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj: ../lvgl/src/misc/lv_anim.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o: ../lvgl/src/misc/lv_anim.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_anim.c.i"
@@ -2239,11 +2239,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_anim.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim.c -o CMakeFiles/lvgl.dir/src/misc/lv_anim.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj: ../lvgl/src/misc/lv_anim_timeline.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim_timeline.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o: ../lvgl/src/misc/lv_anim_timeline.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim_timeline.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.i"
@@ -2253,11 +2253,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_anim_timeline.c -o CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj: ../lvgl/src/misc/lv_area.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_area.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o: ../lvgl/src/misc/lv_area.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_area.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_area.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_area.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_area.c.i"
@@ -2267,11 +2267,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_area.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_area.c -o CMakeFiles/lvgl.dir/src/misc/lv_area.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj: ../lvgl/src/misc/lv_async.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_async.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o: ../lvgl/src/misc/lv_async.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_async.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_async.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_async.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_async.c.i"
@@ -2281,11 +2281,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_async.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_async.c -o CMakeFiles/lvgl.dir/src/misc/lv_async.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj: ../lvgl/src/misc/lv_bidi.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_bidi.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o: ../lvgl/src/misc/lv_bidi.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_bidi.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.i"
@@ -2295,11 +2295,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_bidi.c -o CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj: ../lvgl/src/misc/lv_color.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_color.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o: ../lvgl/src/misc/lv_color.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_color.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_color.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_color.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_color.c.i"
@@ -2309,11 +2309,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_color.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_color.c -o CMakeFiles/lvgl.dir/src/misc/lv_color.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj: ../lvgl/src/misc/lv_fs.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_fs.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o: ../lvgl/src/misc/lv_fs.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_fs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_fs.c.i"
@@ -2323,11 +2323,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_fs.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_fs.c -o CMakeFiles/lvgl.dir/src/misc/lv_fs.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj: ../lvgl/src/misc/lv_gc.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_gc.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o: ../lvgl/src/misc/lv_gc.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_gc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_gc.c.i"
@@ -2337,11 +2337,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_gc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_gc.c -o CMakeFiles/lvgl.dir/src/misc/lv_gc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj: ../lvgl/src/misc/lv_ll.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_ll.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: ../lvgl/src/misc/lv_ll.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_ll.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_ll.c.i"
@@ -2351,11 +2351,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_ll.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_ll.c -o CMakeFiles/lvgl.dir/src/misc/lv_ll.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj: ../lvgl/src/misc/lv_log.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_log.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o: ../lvgl/src/misc/lv_log.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_log.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_log.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_log.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_log.c.i"
@@ -2365,11 +2365,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_log.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_log.c -o CMakeFiles/lvgl.dir/src/misc/lv_log.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj: ../lvgl/src/misc/lv_lru.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_lru.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o: ../lvgl/src/misc/lv_lru.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_lru.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_lru.c.i"
@@ -2379,11 +2379,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_lru.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_lru.c -o CMakeFiles/lvgl.dir/src/misc/lv_lru.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj: ../lvgl/src/misc/lv_math.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_math.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o: ../lvgl/src/misc/lv_math.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_math.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_math.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_math.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_math.c.i"
@@ -2393,11 +2393,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_math.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_math.c -o CMakeFiles/lvgl.dir/src/misc/lv_math.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj: ../lvgl/src/misc/lv_mem.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_mem.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o: ../lvgl/src/misc/lv_mem.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_mem.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_mem.c.i"
@@ -2407,11 +2407,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_mem.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_mem.c -o CMakeFiles/lvgl.dir/src/misc/lv_mem.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj: ../lvgl/src/misc/lv_printf.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_printf.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o: ../lvgl/src/misc/lv_printf.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_printf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_printf.c.i"
@@ -2421,11 +2421,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_printf.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_printf.c -o CMakeFiles/lvgl.dir/src/misc/lv_printf.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj: ../lvgl/src/misc/lv_style.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o: ../lvgl/src/misc/lv_style.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_style.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_style.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_style.c.i"
@@ -2435,11 +2435,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_style.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style.c -o CMakeFiles/lvgl.dir/src/misc/lv_style.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj: ../lvgl/src/misc/lv_style_gen.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style_gen.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: ../lvgl/src/misc/lv_style_gen.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style_gen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.i"
@@ -2449,11 +2449,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_style_gen.c -o CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj: ../lvgl/src/misc/lv_templ.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_templ.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o: ../lvgl/src/misc/lv_templ.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_templ.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_templ.c.i"
@@ -2463,11 +2463,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_templ.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_templ.c -o CMakeFiles/lvgl.dir/src/misc/lv_templ.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj: ../lvgl/src/misc/lv_timer.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_timer.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o: ../lvgl/src/misc/lv_timer.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_timer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_timer.c.i"
@@ -2477,11 +2477,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_timer.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_timer.c -o CMakeFiles/lvgl.dir/src/misc/lv_timer.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj: ../lvgl/src/misc/lv_tlsf.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_tlsf.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o: ../lvgl/src/misc/lv_tlsf.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_tlsf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.i"
@@ -2491,11 +2491,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_tlsf.c -o CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj: ../lvgl/src/misc/lv_txt.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o: ../lvgl/src/misc/lv_txt.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_txt.c.i"
@@ -2505,11 +2505,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_txt.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt.c -o CMakeFiles/lvgl.dir/src/misc/lv_txt.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj: ../lvgl/src/misc/lv_txt_ap.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt_ap.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o: ../lvgl/src/misc/lv_txt_ap.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt_ap.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.i"
@@ -2519,11 +2519,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_txt_ap.c -o CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj: ../lvgl/src/misc/lv_utils.c
-lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj -MF CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj.d -o CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o: ../lvgl/src/misc/lv_utils.c
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o -MF CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o.d -o CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/lv_utils.c.i"
@@ -2533,11 +2533,11 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/lv_utils.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/misc/lv_utils.c -o CMakeFiles/lvgl.dir/src/misc/lv_utils.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj: ../lvgl/src/widgets/lv_arc.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o: ../lvgl/src/widgets/lv_arc.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.i"
@@ -2547,11 +2547,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_arc.c -o CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj: ../lvgl/src/widgets/lv_bar.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_bar.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o: ../lvgl/src/widgets/lv_bar.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_bar.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.i"
@@ -2561,11 +2561,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_bar.c -o CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj: ../lvgl/src/widgets/lv_btn.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btn.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o: ../lvgl/src/widgets/lv_btn.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btn.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.i"
@@ -2575,11 +2575,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btn.c -o CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj: ../lvgl/src/widgets/lv_btnmatrix.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btnmatrix.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o: ../lvgl/src/widgets/lv_btnmatrix.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btnmatrix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.i"
@@ -2589,11 +2589,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_btnmatrix.c -o CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj: ../lvgl/src/widgets/lv_canvas.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_canvas.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o: ../lvgl/src/widgets/lv_canvas.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_canvas.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.i"
@@ -2603,11 +2603,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_canvas.c -o CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj: ../lvgl/src/widgets/lv_checkbox.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_checkbox.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o: ../lvgl/src/widgets/lv_checkbox.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_checkbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.i"
@@ -2617,11 +2617,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_checkbox.c -o CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj: ../lvgl/src/widgets/lv_dropdown.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_dropdown.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o: ../lvgl/src/widgets/lv_dropdown.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_dropdown.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.i"
@@ -2631,11 +2631,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_dropdown.c -o CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj: ../lvgl/src/widgets/lv_img.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_img.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o: ../lvgl/src/widgets/lv_img.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_img.c.i"
@@ -2645,11 +2645,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_img.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_img.c -o CMakeFiles/lvgl.dir/src/widgets/lv_img.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj: ../lvgl/src/widgets/lv_label.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_label.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o: ../lvgl/src/widgets/lv_label.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_label.c.i"
@@ -2659,11 +2659,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_label.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_label.c -o CMakeFiles/lvgl.dir/src/widgets/lv_label.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj: ../lvgl/src/widgets/lv_line.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_line.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o: ../lvgl/src/widgets/lv_line.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_line.c.i"
@@ -2673,11 +2673,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_line.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_line.c -o CMakeFiles/lvgl.dir/src/widgets/lv_line.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj: ../lvgl/src/widgets/lv_objx_templ.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_objx_templ.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o: ../lvgl/src/widgets/lv_objx_templ.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_objx_templ.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.i"
@@ -2687,11 +2687,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_objx_templ.c -o CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj: ../lvgl/src/widgets/lv_roller.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_roller.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o: ../lvgl/src/widgets/lv_roller.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_roller.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.i"
@@ -2701,11 +2701,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_roller.c -o CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj: ../lvgl/src/widgets/lv_slider.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_slider.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o: ../lvgl/src/widgets/lv_slider.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_slider.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.i"
@@ -2715,11 +2715,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_slider.c -o CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj: ../lvgl/src/widgets/lv_switch.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_switch.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o: ../lvgl/src/widgets/lv_switch.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_switch.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.i"
@@ -2729,11 +2729,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_switch.c -o CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj: ../lvgl/src/widgets/lv_table.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_table.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o: ../lvgl/src/widgets/lv_table.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_table.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_table.c.i"
@@ -2743,11 +2743,11 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/lv_table.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_table.c -o CMakeFiles/lvgl.dir/src/widgets/lv_table.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj: ../lvgl/src/widgets/lv_textarea.c
-lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj -MF CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj.d -o CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_textarea.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o: ../lvgl/src/widgets/lv_textarea.c
+lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o: lvgl/CMakeFiles/lvgl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o -MF CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o.d -o CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/src/widgets/lv_textarea.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.i"
@@ -2759,394 +2759,394 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.s: cmake_force
 
 # Object files for target lvgl
 lvgl_OBJECTS = \
-"CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_event.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_group.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj" \
-"CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj" \
-"CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj" \
-"CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj" \
-"CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj" \
-"CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj" \
-"CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj" \
-"CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj" \
-"CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj" \
-"CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj"
+"CMakeFiles/lvgl.dir/src/core/lv_disp.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_event.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_group.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_indev.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_refr.c.o" \
+"CMakeFiles/lvgl.dir/src/core/lv_theme.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o" \
+"CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o" \
+"CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o" \
+"CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o" \
+"CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_area.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_async.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_color.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_log.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_math.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_style.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o"
 
 # External object files for target lvgl
 lvgl_EXTERNAL_OBJECTS =
 
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.obj
-lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.obj
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_disp.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_event.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_group.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_indev_scroll.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_class.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_draw.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_pos.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_scroll.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_style_gen.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_obj_tree.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_refr.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/core/lv_theme.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/arm2d/lv_gpu_arm2d.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_img.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_layer.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_transform.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_buf.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_cache.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_img_decoder.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_blend.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_blend.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_rect.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_draw_label.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/lv_gpu_d2_ra6m3.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_arc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_bg.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_composite.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_img.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_label.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_layer.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_line.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_mask.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_polygon.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_rect.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_stack_blur.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_texture_cache.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl_utils.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_blend.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_dither.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_gradient.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_layer.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_polygon.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_rect.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/flex/lv_flex.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/layouts/grid/lv_grid.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/bmp/lv_bmp.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/ffmpeg/lv_ffmpeg.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/freetype/lv_freetype.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_fatfs.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_littlefs.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_posix.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_stdio.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/fsdrv/lv_fs_win32.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/gifdec.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/gif/lv_gif.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lodepng.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/png/lv_png.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/lv_qrcode.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/qrcode/qrcodegen.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/rlottie/lv_rlottie.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/lv_sjpg.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/sjpg/tjpgd.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/lv_extra.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/fragment/lv_fragment_manager.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/gridnav/lv_gridnav.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/ime/lv_ime_pinyin.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/imgfont/lv_imgfont.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/monkey/lv_monkey.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/msg/lv_msg.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/others/snapshot/lv_snapshot.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/basic/lv_theme_basic.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/default/lv_theme_default.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/themes/mono/lv_theme_mono.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/animimg/lv_animimg.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_arrow.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/chart/lv_chart.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/colorwheel/lv_colorwheel.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/imgbtn/lv_imgbtn.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/keyboard/lv_keyboard.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/led/lv_led.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/list/lv_list.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/menu/lv_menu.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/meter/lv_meter.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/msgbox/lv_msgbox.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/span/lv_span.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinbox/lv_spinbox.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/spinner/lv_spinner.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tabview/lv_tabview.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/tileview/lv_tileview.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/extra/widgets/win/lv_win.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_loader.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12_subpx.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_disp.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_indev.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/hal/lv_hal_tick.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_gc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_mem.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_printf.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tlsf.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_txt_ap.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_arc.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_bar.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btn.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_btnmatrix.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_canvas.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_checkbox.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_dropdown.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_img.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_label.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_line.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_objx_templ.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_roller.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_slider.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_switch.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_table.c.o
+lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/lv_textarea.c.o
 lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/build.make
 lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Linking C static library ../lib/liblvgl.a"

@@ -16,6 +16,7 @@ add_subdirectory(./examples)
 add_subdirectory(./lvgl)
 add_subdirectory(./lib/out)
 
+
 # Add header file directory
 include_directories(./examples)
 include_directories(./lib/Config)
@@ -25,6 +26,7 @@ include_directories(./lib/LCD)
 include_directories(./lib/porting)
 include_directories(./lvgl)
 include_directories(./lib/out)
+
 
 # Generate executable file
 add_executable(main 
@@ -43,7 +45,7 @@ target_include_directories(main
 )
 
 
-target_link_libraries(main examples LCD GUI Fonts Config pico_stdlib hardware_spi hardware_i2c hardware_rtc hardware_pwm lvgl porting out)
+target_link_libraries(main examples LCD GUI Fonts Config pico_stdlib hardware_spi hardware_i2c hardware_rtc hardware_pwm hardware_dma lvgl porting out)
 target_include_directories(lvgl PUBLIC
     ./
 )

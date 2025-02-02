@@ -201,17 +201,17 @@ bs2_default_bin/fast:
 .PHONY : bs2_default_bin/fast
 
 #=============================================================================
-# Target rules for targets named bs2_default_padded_checksummed_asm
+# Target rules for targets named bs2_default_library
 
 # Build rule for target.
-bs2_default_padded_checksummed_asm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bs2_default_padded_checksummed_asm
-.PHONY : bs2_default_padded_checksummed_asm
+bs2_default_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bs2_default_library
+.PHONY : bs2_default_library
 
 # fast build rule for target.
-bs2_default_padded_checksummed_asm/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-.PHONY : bs2_default_padded_checksummed_asm/fast
+bs2_default_library/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+.PHONY : bs2_default_library/fast
 
 #=============================================================================
 # Target rules for targets named pioasmBuild
@@ -369,13 +369,13 @@ out/fast:
 	$(MAKE) $(MAKESILENT) -f lib/out/CMakeFiles/out.dir/build.make lib/out/CMakeFiles/out.dir/build
 .PHONY : out/fast
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
@@ -393,13 +393,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
@@ -417,13 +417,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
@@ -441,13 +441,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
@@ -465,13 +465,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
@@ -489,13 +489,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
@@ -513,13 +513,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
@@ -537,13 +537,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
@@ -561,13 +561,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
@@ -585,13 +585,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
@@ -609,13 +609,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
@@ -633,13 +633,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
@@ -657,13 +657,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
@@ -681,13 +681,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
@@ -705,13 +705,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
@@ -729,13 +729,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
@@ -753,13 +753,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
@@ -777,13 +777,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.o: home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.i
@@ -801,13 +801,13 @@ home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.obj: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.obj
+home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.o: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.obj
+home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 
 home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.i: home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.i
@@ -825,13 +825,13 @@ home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.o: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.i
@@ -849,13 +849,13 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.o: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.i
@@ -873,13 +873,13 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.o: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.i: home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.i
@@ -897,13 +897,13 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_sync/sem.obj: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/sem.o: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_sync/sem.i: home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.i
@@ -921,13 +921,13 @@ home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_time/time.obj: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.obj
+home/oscar/pico/pico-sdk/src/common/pico_time/time.o: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_time/time.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_time/time.i: home/oscar/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.i
@@ -945,13 +945,13 @@ home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/time.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.o: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.i
@@ -969,13 +969,13 @@ home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_util/datetime.obj: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/datetime.o: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_util/datetime.i: home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.i
@@ -993,13 +993,13 @@ home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_util/pheap.obj: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/pheap.o: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_util/pheap.i: home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.i
@@ -1017,13 +1017,13 @@ home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-home/oscar/pico/pico-sdk/src/common/pico_util/queue.obj: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/queue.o: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.obj
+home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.o
 
 home/oscar/pico/pico-sdk/src/common/pico_util/queue.i: home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.i
@@ -1041,13 +1041,13 @@ home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.obj: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.obj
+home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.o: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.obj
+home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
 
 home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.i: home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.i
@@ -1065,13 +1065,13 @@ home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
@@ -1089,13 +1089,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
@@ -1113,13 +1113,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
@@ -1137,21 +1137,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
@@ -1169,13 +1169,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
@@ -1193,13 +1193,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
@@ -1217,13 +1217,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
@@ -1241,13 +1241,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
@@ -1265,21 +1265,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
@@ -1297,13 +1297,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
@@ -1321,13 +1321,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
@@ -1345,13 +1345,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
@@ -1369,13 +1369,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
@@ -1393,13 +1393,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
@@ -1417,13 +1417,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
@@ -1441,13 +1441,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
@@ -1465,13 +1465,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
@@ -1489,13 +1489,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
@@ -1513,13 +1513,37 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+
+# target to build an object file
+home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
@@ -1537,13 +1561,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i
@@ -1561,21 +1585,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
@@ -1593,13 +1617,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
@@ -1617,13 +1641,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
@@ -1641,21 +1665,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
@@ -1673,29 +1697,29 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj
-
-# target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o
+
+# target to build an object file
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
@@ -1713,13 +1737,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
@@ -1737,21 +1761,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
@@ -1769,21 +1793,45 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/r
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.i
+
+# target to preprocess a source file
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.s
+
+# target to generate assembly for a file
+home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o
+
+# target to build an object file
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
@@ -1801,13 +1849,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
@@ -1825,29 +1873,29 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
-
-# target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-
-home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o
+
+# target to build an object file
+home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i
@@ -1865,21 +1913,21 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
@@ -1897,13 +1945,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
@@ -1921,13 +1969,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
@@ -1945,13 +1993,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
@@ -1969,13 +2017,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
@@ -1993,13 +2041,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
@@ -2017,13 +2065,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_gua
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
@@ -2041,13 +2089,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binar
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
@@ -2065,13 +2113,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
@@ -2089,13 +2137,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
@@ -2113,13 +2161,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
@@ -2137,13 +2185,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
@@ -2161,13 +2209,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
 
 # target to build an object file
-home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
@@ -2185,13 +2233,13 @@ home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+main.o: main.c.o
+.PHONY : main.o
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.obj
-.PHONY : main.c.obj
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
+.PHONY : main.c.o
 
 main.i: main.c.i
 .PHONY : main.i
@@ -2222,7 +2270,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... bs2_default_bin"
-	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pioasmBuild"
 	@echo "... Config"
@@ -2230,6 +2277,7 @@ help:
 	@echo "... GUI"
 	@echo "... LCD"
 	@echo "... bs2_default"
+	@echo "... bs2_default_library"
 	@echo "... examples"
 	@echo "... lvgl"
 	@echo "... lvgl_demos"
@@ -2237,234 +2285,240 @@ help:
 	@echo "... main"
 	@echo "... out"
 	@echo "... porting"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.o"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.i"
 	@echo "... home/oscar/pico/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/hardware_claim/claim.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/sem.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/sem.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/time.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/time.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/datetime.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/datetime.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/pheap.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/pheap.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/queue.o"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... home/oscar/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.i"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_flash/flash.s"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/oscar/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... main.obj"
+	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 .PHONY : help

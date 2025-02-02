@@ -69,11 +69,11 @@ include lvgl/CMakeFiles/lvgl_demos.dir/progress.make
 # Include the compile flags for this target's objects.
 include lvgl/CMakeFiles/lvgl_demos.dir/flags.make
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.i"
@@ -83,11 +83,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.i"
@@ -97,11 +97,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_arg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.i"
@@ -111,11 +111,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.i"
@@ -125,11 +125,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_ind
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.i"
@@ -139,11 +139,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o: ../lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.i"
@@ -153,11 +153,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.i"
@@ -167,11 +167,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserra
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.i"
@@ -181,11 +181,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserra
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o: ../lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.i"
@@ -195,11 +195,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserra
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj: ../lvgl/demos/benchmark/lv_demo_benchmark.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/lv_demo_benchmark.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o: ../lvgl/demos/benchmark/lv_demo_benchmark.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o -MF CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/lv_demo_benchmark.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.i"
@@ -209,11 +209,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/benchmark/lv_demo_benchmark.c -o CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: ../lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o: ../lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o -MF CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.i"
@@ -223,11 +223,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c -o CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.i"
@@ -237,11 +237,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_l
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.i"
@@ -251,11 +251,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pau
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i"
@@ -265,11 +265,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pau
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.i"
@@ -279,11 +279,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pla
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i"
@@ -293,11 +293,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pla
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.i"
@@ -307,11 +307,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.i"
@@ -321,11 +321,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_lar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.i"
@@ -335,11 +335,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.i"
@@ -349,11 +349,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_lar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.i"
@@ -363,11 +363,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.i"
@@ -377,11 +377,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_la
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.i"
@@ -391,11 +391,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.i"
@@ -405,11 +405,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_lar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.i"
@@ -419,11 +419,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.i"
@@ -433,11 +433,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_lar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.i"
@@ -447,11 +447,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i"
@@ -461,11 +461,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_larg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.i"
@@ -475,11 +475,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.i"
@@ -489,11 +489,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.i"
@@ -503,11 +503,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.i"
@@ -517,11 +517,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.i"
@@ -531,11 +531,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.i"
@@ -545,11 +545,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_larg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.i"
@@ -559,11 +559,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.i"
@@ -573,11 +573,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_larg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.i"
@@ -587,11 +587,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.i"
@@ -601,11 +601,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_larg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.i"
@@ -615,11 +615,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.i"
@@ -629,11 +629,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.i"
@@ -643,11 +643,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.i"
@@ -657,11 +657,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.i"
@@ -671,11 +671,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.i"
@@ -685,11 +685,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.i"
@@ -699,11 +699,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.i"
@@ -713,11 +713,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_list_border.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_list_border.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.i"
@@ -727,11 +727,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.i"
@@ -741,11 +741,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_logo.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_logo.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_logo.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_logo.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.i"
@@ -755,11 +755,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_logo.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.i"
@@ -769,11 +769,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.i"
@@ -783,11 +783,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.i"
@@ -797,11 +797,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i"
@@ -811,11 +811,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.i"
@@ -825,11 +825,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: ../lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o: ../lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.i"
@@ -839,11 +839,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_lar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c -o CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj: ../lvgl/demos/music/lv_demo_music.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o: ../lvgl/demos/music/lv_demo_music.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.i"
@@ -853,11 +853,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music.c -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj: ../lvgl/demos/music/lv_demo_music_list.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_list.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o: ../lvgl/demos/music/lv_demo_music_list.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_list.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.i"
@@ -867,11 +867,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_list.c -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj: ../lvgl/demos/music/lv_demo_music_main.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_main.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o: ../lvgl/demos/music/lv_demo_music_main.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o -MF CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_main.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.i"
@@ -881,11 +881,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/music/lv_demo_music_main.c -o CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj: ../lvgl/demos/stress/lv_demo_stress.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/stress/lv_demo_stress.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o: ../lvgl/demos/stress/lv_demo_stress.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o -MF CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/stress/lv_demo_stress.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.i"
@@ -895,11 +895,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/stress/lv_demo_stress.c -o CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj: ../lvgl/demos/widgets/assets/img_clothes.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_clothes.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o: ../lvgl/demos/widgets/assets/img_clothes.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_clothes.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.i"
@@ -909,11 +909,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_clothes.c -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: ../lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o: ../lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i"
@@ -923,11 +923,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj: ../lvgl/demos/widgets/assets/img_lvgl_logo.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_lvgl_logo.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o: ../lvgl/demos/widgets/assets/img_lvgl_logo.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o -MF CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_lvgl_logo.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.i"
@@ -937,11 +937,11 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/assets/img_lvgl_logo.c -o CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.s
 
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj: ../lvgl/demos/widgets/lv_demo_widgets.c
-lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj -MF CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/lv_demo_widgets.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o: lvgl/CMakeFiles/lvgl_demos.dir/flags.make
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o: ../lvgl/demos/widgets/lv_demo_widgets.c
+lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o: lvgl/CMakeFiles/lvgl_demos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lvgl && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o -MF CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o.d -o CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lvgl/demos/widgets/lv_demo_widgets.c
 
 lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.i"
@@ -953,136 +953,136 @@ lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.s: cmake_force
 
 # Object files for target lvgl_demos
 lvgl_demos_OBJECTS = \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj" \
-"CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj"
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o" \
+"CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o"
 
 # External object files for target lvgl_demos
 lvgl_demos_EXTERNAL_OBJECTS =
 
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.obj
-lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.obj
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o
+lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o
 lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/build.make
 lvgl/liblvgl_demos.a: lvgl/CMakeFiles/lvgl_demos.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking C static library liblvgl_demos.a"

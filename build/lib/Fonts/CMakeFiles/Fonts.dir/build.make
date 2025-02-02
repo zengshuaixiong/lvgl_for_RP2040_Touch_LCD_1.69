@@ -69,11 +69,11 @@ include lib/Fonts/CMakeFiles/Fonts.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/Fonts/CMakeFiles/Fonts.dir/flags.make
 
-lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj: ../lib/Fonts/font12.c
-lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj -MF CMakeFiles/Fonts.dir/font12.c.obj.d -o CMakeFiles/Fonts.dir/font12.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12.c
+lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o: ../lib/Fonts/font12.c
+lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o -MF CMakeFiles/Fonts.dir/font12.c.o.d -o CMakeFiles/Fonts.dir/font12.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font12.c.i"
@@ -83,11 +83,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font12.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12.c -o CMakeFiles/Fonts.dir/font12.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj: ../lib/Fonts/font12CN.c
-lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj -MF CMakeFiles/Fonts.dir/font12CN.c.obj.d -o CMakeFiles/Fonts.dir/font12CN.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12CN.c
+lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o: ../lib/Fonts/font12CN.c
+lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o -MF CMakeFiles/Fonts.dir/font12CN.c.o.d -o CMakeFiles/Fonts.dir/font12CN.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12CN.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font12CN.c.i"
@@ -97,11 +97,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font12CN.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font12CN.c -o CMakeFiles/Fonts.dir/font12CN.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj: ../lib/Fonts/font16.c
-lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj -MF CMakeFiles/Fonts.dir/font16.c.obj.d -o CMakeFiles/Fonts.dir/font16.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font16.c
+lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o: ../lib/Fonts/font16.c
+lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o -MF CMakeFiles/Fonts.dir/font16.c.o.d -o CMakeFiles/Fonts.dir/font16.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font16.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font16.c.i"
@@ -111,11 +111,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font16.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font16.c -o CMakeFiles/Fonts.dir/font16.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj: ../lib/Fonts/font20.c
-lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj -MF CMakeFiles/Fonts.dir/font20.c.obj.d -o CMakeFiles/Fonts.dir/font20.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font20.c
+lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o: ../lib/Fonts/font20.c
+lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o -MF CMakeFiles/Fonts.dir/font20.c.o.d -o CMakeFiles/Fonts.dir/font20.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font20.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font20.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font20.c.i"
@@ -125,11 +125,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font20.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font20.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font20.c -o CMakeFiles/Fonts.dir/font20.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj: ../lib/Fonts/font24.c
-lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj -MF CMakeFiles/Fonts.dir/font24.c.obj.d -o CMakeFiles/Fonts.dir/font24.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24.c
+lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o: ../lib/Fonts/font24.c
+lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o -MF CMakeFiles/Fonts.dir/font24.c.o.d -o CMakeFiles/Fonts.dir/font24.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font24.c.i"
@@ -139,11 +139,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font24.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font24.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24.c -o CMakeFiles/Fonts.dir/font24.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj: ../lib/Fonts/font24CN.c
-lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj -MF CMakeFiles/Fonts.dir/font24CN.c.obj.d -o CMakeFiles/Fonts.dir/font24CN.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24CN.c
+lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o: ../lib/Fonts/font24CN.c
+lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o -MF CMakeFiles/Fonts.dir/font24CN.c.o.d -o CMakeFiles/Fonts.dir/font24CN.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24CN.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font24CN.c.i"
@@ -153,11 +153,11 @@ lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Fonts.dir/font24CN.c.s"
 	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font24CN.c -o CMakeFiles/Fonts.dir/font24CN.c.s
 
-lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
-lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj: ../lib/Fonts/font8.c
-lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj"
-	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj -MF CMakeFiles/Fonts.dir/font8.c.obj.d -o CMakeFiles/Fonts.dir/font8.c.obj -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font8.c
+lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o: lib/Fonts/CMakeFiles/Fonts.dir/flags.make
+lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o: ../lib/Fonts/font8.c
+lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o: lib/Fonts/CMakeFiles/Fonts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o"
+	cd /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/lib/Fonts && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o -MF CMakeFiles/Fonts.dir/font8.c.o.d -o CMakeFiles/Fonts.dir/font8.c.o -c /home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/lib/Fonts/font8.c
 
 lib/Fonts/CMakeFiles/Fonts.dir/font8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Fonts.dir/font8.c.i"
@@ -169,24 +169,24 @@ lib/Fonts/CMakeFiles/Fonts.dir/font8.c.s: cmake_force
 
 # Object files for target Fonts
 Fonts_OBJECTS = \
-"CMakeFiles/Fonts.dir/font12.c.obj" \
-"CMakeFiles/Fonts.dir/font12CN.c.obj" \
-"CMakeFiles/Fonts.dir/font16.c.obj" \
-"CMakeFiles/Fonts.dir/font20.c.obj" \
-"CMakeFiles/Fonts.dir/font24.c.obj" \
-"CMakeFiles/Fonts.dir/font24CN.c.obj" \
-"CMakeFiles/Fonts.dir/font8.c.obj"
+"CMakeFiles/Fonts.dir/font12.c.o" \
+"CMakeFiles/Fonts.dir/font12CN.c.o" \
+"CMakeFiles/Fonts.dir/font16.c.o" \
+"CMakeFiles/Fonts.dir/font20.c.o" \
+"CMakeFiles/Fonts.dir/font24.c.o" \
+"CMakeFiles/Fonts.dir/font24CN.c.o" \
+"CMakeFiles/Fonts.dir/font8.c.o"
 
 # External object files for target Fonts
 Fonts_EXTERNAL_OBJECTS =
 
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font12.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font16.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font20.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font24.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.obj
-lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font12.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font12CN.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font16.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font20.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font24.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font24CN.c.o
+lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/font8.c.o
 lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/build.make
 lib/Fonts/libFonts.a: lib/Fonts/CMakeFiles/Fonts.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oscar/pico/lvgl_for_RP2040_Touch_LCD_1.69/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libFonts.a"
